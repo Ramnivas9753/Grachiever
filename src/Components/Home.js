@@ -1,3 +1,4 @@
+import homeimage01 from '../images/1/HOME page.png';
 function Home() {
     return(
         <>
@@ -6,7 +7,7 @@ function Home() {
  <section className="px-5 sm:px-5 md:px-10 lg:px-10 pt-10">
   <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
     <div className="pl-5 md:pl-10 lg:pl-10 mt-20">
-      <span className="type text-[30px] mt-5 lg:text-[50px] font-bold text-[#349fcf]"></span>
+      <span className="type text-[30px] mt-5 lg:text-[50px] font-bold text-[#349fcf]">Start Monetizing Off Your Skills With Passion </span>
       {/* <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
       <script>
           var typed = new Typed('.type', {
@@ -71,7 +72,7 @@ function Home() {
 
     </div>
     <div className="mt-20 pt-5">
-      <img src="images/1/HOME page.png" className="w-[80%] m-auto" />            
+      <img src={homeimage01} className="w-[80%] m-auto" />            
     </div>
   </div>
       {/* <!-- <a href="sign_up.html" className="bg-red-500"><img src="images/LOGOS/Resiter_now_button.png" className="fixed top-96 right-0 w-40 animate-bounce z-50"></a> 

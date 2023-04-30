@@ -1,14 +1,16 @@
 // import logo from './logo.svg';
 // import './App.css';
 
-import Navbar from './Components/Navbar';
-import Footer from './Components/Footer';
 import Home from './Components/Home';
 import Blog from './Components/Blog';
 import About from './Components/About';
 import Contact from './Components/Contact';
 import Login from './Components/Login';
 import Signup from './Components/Signup';
+
+import Layout from './Components/Layout';
+
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
@@ -32,17 +34,29 @@ function App() {
     // </div>
 
 
-    <>
-      <Navbar />
-      {/* <Home /> */}
-      <Blog />
-      <About />
-      <Contact />
-      <Login />
-      <p className='mt-10' ></p>
-      <Signup />
-      <Footer />
-    </>
+    // <>
+    //   <Navbar />
+    //   <Home />
+    //   <Blog />
+    //   <About />
+    //   <Contact />
+    //   <Login />
+    //   <p className='mt-10' ></p>
+    //   <Signup />
+    //   <Footer />
+    // </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={ <Layout />}>
+          <Route index element={ <Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="blog" element={<Blog />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="login" element={<Login />} />
+          <Route path="signup" element={<Signup />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
