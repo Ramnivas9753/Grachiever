@@ -1,4 +1,6 @@
 import homeimage01 from '../images/1/HOME page.png';
+//  this link for react icon 
+import { FaSearch } from "react-icons/fa";
 function Home() {
     return(
         <>
@@ -6,7 +8,7 @@ function Home() {
 {/* <!-- ........................ home section start ..................................... --> */}
  <section className="px-5 sm:px-5 md:px-10 lg:px-10 pt-10">
   <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
-    <div className="pl-5 md:pl-10 lg:pl-10 mt-20">
+    <div className="pl-5 md:pl-10 lg:pl-10">
       <span className="type text-[30px] mt-5 lg:text-[50px] font-bold text-[#349fcf]">Start Monetizing Off Your Skills With Passion </span>
       {/* <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
       <script>
@@ -32,9 +34,50 @@ function Home() {
           <option>freelancing</option>
           <option>tools</option>
         </select>
-        <span className="w-20 h-12 rounded-full text-center bg-[#349fcf] text-white"><i className="fa-solid fa-magnifying-glass p-2 text-lg"></i></span>
+        <span className="w-12 h-12 rounded-full bg-[#349fcf] text-white"><FaSearch className='text-xl mx-auto mt-3'/></span>
       </div>
-      <div className="flex flex-wrap">
+      <div className='flex flex-wrap mt-10'> 
+        <div className='bg-[#ededed] p-2 flex rounded-full shadow-xl'>
+          <img className='w-10' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Ficon-free-certificates.png?auto=format&h=50&ixlib=php-4.1.0&s=c25548f8b3bc8df8ae051dbe30a9a50a' />
+          <p className='mx-3 self-center'>Free Certificates</p>
+        </div>
+        <div className='bg-[#f9fafc] p-2 flex rounded-full shadow-xl ml-2'>
+          <img className='w-10' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Ficon-ivy-league.png?auto=format&h=50&ixlib=php-4.1.0&s=311a4304715b0a9d768eed1d0f8f2e79' />
+          <p className='mx-3 self-center'>ivy Leagues</p>
+        </div>
+        <div className='bg-[#f9fafc] p-2 flex rounded-full shadow-xl'>
+          <img className='w-10' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Finstitutions%2Fstanford-trn-sq.png?auto=format&h=50&ixlib=php-4.1.0&s=82be5cad71579bd3b69343036dfc77bf' />
+          <p className='mx-3 self-center'>Stanford</p>
+        </div>
+        <div className='bg-[#f9fafc] p-2 flex rounded-full shadow-xl'>
+          <img className='w-10' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Ficon-best-all-time.png?auto=format&h=50&ixlib=php-4.1.0&s=f4a6c58550edddda183d902c98a8ae89' />
+          <p className='mx-3 self-center'>Best Of All Time</p>
+        </div>
+        <div className='bg-[#f9fafc] p-2 flex rounded-full shadow-xl'>
+          <img className='w-10' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Ficon-cs.png?auto=format&h=50&ixlib=php-4.1.0&s=ca1b72eb12f2dfea042808d8709c73d8' />
+          <p className='mx-3 self-center'>Computer Science</p>
+        </div>
+        <div className='bg-[#f9fafc] p-2 flex rounded-full shadow-xl'>
+          <img className='w-10' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Ficon-data-science.png?auto=format&h=50&ixlib=php-4.1.0&s=a25f5a44fdf128f96448a57332226029' />
+          <p className='mx-3 self-center'>Data Science</p>
+        </div>
+        <div className='bg-[#f9fafc] p-2 flex rounded-full shadow-xl'>
+          <img className='w-10' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Finstitutions%2Fmit-trn-sq.png?auto=format&h=50&ixlib=php-4.1.0&s=1b47847319a2b8619dc6912cbc801f4f' />
+          <p className='mx-3 self-center'>MIT</p>
+        </div>
+        <div className='bg-[#f9fafc] p-2 flex rounded-full shadow-xl'>
+          <img className='w-10' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Finstitutions%2Fgoogle-trn-sq.png?auto=format&h=50&ixlib=php-4.1.0&s=c569365ef52e93e5d7a267230eabd784' />
+          <p className='mx-3 self-center'>Google</p>
+        </div>
+        <div className='bg-[#f9fafc] p-2 flex rounded-full shadow-xl'>
+          <img className='w-10 rounded-full' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Finstitutions%2Famazon-trn-sq.png?auto=format&h=50&ixlib=php-4.1.0&s=8cfd15253d459ddaf51523a64c66b858' />
+          <p className='mx-3 self-center'>Amazon</p>
+        </div>
+
+      </div>
+
+
+      {/* <div className="flex flex-wrap">
         <button className="px-5 py-3 bg-[#f7c200] rounded-md text-lg text-white font-bold mt-10">Book Your Free Trial Now<i className="fa-sharp fa-solid fa-arrow-right ml-3 animate-bounce"></i></button>
         <button className="px-5 py-3 bg-[#349fcf] rounded-md text-lg text-white font-bold ml-5 mt-10">Enquire Now<i className="fa-solid fa-bell ml-3 animate-bounce"></i> </button>
       </div>
@@ -48,7 +91,7 @@ function Home() {
         <img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" className="w-12 rounded-full bg-orange-100 p-2 hover:-translate-y-1 hover:scale-110 duration-300" /><p className="ml-2 mt-3">CSS</p> 
         <img src="https://camo.githubusercontent.com/2512b49c89512f2ff3718f7257f48ed5c46a4e331abbd890b6c5e8c0e458434f/68747470733a2f2f676574626f6f7473747261702e636f6d2f646f63732f352e322f6173736574732f6272616e642f626f6f7473747261702d6c6f676f2d736861646f772e706e67" className="w-12 rounded-full bg-gray-300 p-2 ml-5 hover:-translate-y-1 hover:scale-110 duration-300" /><p className="ml-2 mt-3">Bootstrap</p> 
         <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-2038874-1720087.png" className="w-12 rounded-full bg-green-100 p-2 ml-5 hover:-translate-y-1 hover:scale-110 duration-300" /><p className="ml-2 mt-3">JavaScript</p> 
-      </div>
+      </div> */}
 
       
       {/* <!-- <div className="flex flex-wrap mt-5"> 
