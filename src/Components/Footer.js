@@ -1,3 +1,4 @@
+import flogo from '../images/LOGOS/fev_icon.png';
 function Footer() {
     return (
         <section className="">
@@ -38,7 +39,7 @@ function Footer() {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
               
               <div className="p-5 lg:mt-10">
-                <img src="images/LOGOS/g.logo.white1.png" className="mt-0 sm:mt-0 md:-mt-10 lg:mt-[-120px] mb-3 sm:scale-50 md:scale-50" />
+                <img src={flogo} className="mt-0 sm:mt-0 md:-mt-10 lg:mt-[-120px] mb-3 w-16 mx-auto" />
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia nihil, nobis ratione in, molestias debitis reprehenderit, unde harum laborum.</p>
                 <p className="mt-5">Follow us social media...</p>
                 <div className="mb-6 flex justify-center mt-5">
