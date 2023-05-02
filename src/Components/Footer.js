@@ -114,7 +114,6 @@ function Footer() {
                     <p className="font-bold text-lg mb-5 ">About</p>
                     <p className="">Home Page</p>
                     <p className="">About Page</p>
-                    <p className="">ClassnclassName Section</p>
                     <p className="">Contact Us Page</p>
                 </div>
                 <div className="p-5 ">

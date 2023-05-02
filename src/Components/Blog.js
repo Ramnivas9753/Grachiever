@@ -4,7 +4,7 @@ function Blog() {
     return (
         <>
         <section className="p-1">
-    <p className="text-3xl font-bold text-center p-3 mt-28">
+    <p className="text-3xl font-bold text-center p-3 mt-5">
       Latest News
     </p>
     <p className="text-center md:w-[50%] lg:w-[50%] m-auto p-2">
@@ -27,21 +27,21 @@ function Blog() {
     <section>
     <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-10 mt-10 m-auto w-[85%] ">
         <div className=" rounded-xl">
-            <img src="https://img.freepik.com/free-photo/student-writing-notebook-desk_23-2148721245.jpg?size=626&ext=jpg&ga=GA1.2.701009246.1681326713&semt=ais" className="rounded-xl hover:scale-105 "/>
-            <p className="text-[#7a4af6] mt-5">EDUCATION</p>
-            <p className=" font-bold mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <img src="https://www.classcentral.com/report/wp-content/uploads/2022/03/Best-Courses-Copywriting-Banner.png" className="rounded-xl hover:scale-105 duration-300"/>
+            <p className="text-[#7a4af6] mt-5">Best Copywriting Courses to Take in 2023</p>
+            <p className=" font-bold mt-2">Transform your writing skills into profit: discover the best copywriting courses to launch your lucrative career or side hustle..</p>
             <p className="mt-2">April 15, 2023</p>
         </div>
         <div className=" rounded-xl">
-            <img src="https://img.freepik.com/free-photo/student-writing-notebook-desk_23-2148721245.jpg?size=626&ext=jpg&ga=GA1.2.701009246.1681326713&semt=ais" className="rounded-xl hover:scale-105 "/>
-            <p className="text-[#7a4af6] mt-5">EDUCATION</p>
-            <p className=" font-bold mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png" className="rounded-xl hover:scale-105 duration-300"/>
+            <p className="text-[#7a4af6] mt-5">Best pandas Courses to Take in 2023</p>
+            <p className=" font-bold mt-2">Unlock the power of data analysis with the top pandas courses. Pandas is a powerful, open-source Python library</p>
             <p className="mt-2">April 15, 2023</p>
         </div>
         <div className=" rounded-xl">
-            <img src="https://img.freepik.com/free-photo/student-writing-notebook-desk_23-2148721245.jpg?size=626&ext=jpg&ga=GA1.2.701009246.1681326713&semt=ais" className="rounded-xl hover:scale-105 "/>
-            <p className="text-[#7a4af6] mt-5">EDUCATION</p>
-            <p className=" font-bold mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/NumPy-BCG-Banner.png" className="rounded-xl hover:scale-105 duration-300"/>
+            <p className="text-[#7a4af6] mt-5">Best NumPy Courses to Take in 2023</p>
+            <p className=" font-bold mt-2">Whether you’re a data scientist, machine learning engineer, or just someone who needs to crunch a bunch of numbers in a short amount of time, NumPy is definitely for you.</p>
             <p className="mt-2">April 15, 2023</p>
         </div>
     </div>
@@ -70,8 +70,6 @@ function Blog() {
       </nav>
     </div>
 </section>
-
-<NavBar />
 </>
     );
 }

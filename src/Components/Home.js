@@ -54,51 +54,59 @@ function Home() {
       <p className="mt-5 text-2xl">The only easier, powerful and authoring platform designed for consistent learners to
         unlock the power of monetizing</p>
       {/* <!--Search--> */}
-      <div className="border-b-blue-700 border-r-blue-700 border-2 flex items-center mt-8 w-[100%] sm:w-[80%] md:w-[59.5%] lg:w-[59.5%] rounded-full outline-none">
-        <input type="text" className="py-2.5 px-4 outline-none  " placeholder="Search Anything..." />
+      <div className="border-b-[#349fcf] border-r-[#349fcf] border-2 flex items-center mt-8 w-[100%] sm:w-[80%] md:w-[80%] lg:w-[80%] rounded-full outline-none">
+        <input type="text" className="py-2.5 px-4 outline-none w-full " placeholder="Search Anything..." />
         <select className="mr-2 py-2 px-4 w-auto h-[44px]">
           <option>Courses</option>
           <option>freelancing</option>
           <option>tools</option>
         </select>
-        <span className="w-12 h-12 rounded-full bg-[#349fcf] text-white"><FaSearch className='text-xl mx-auto mt-3'/></span>
+        <span className="w-24 h-12 rounded-full bg-[#349fcf] text-white"><FaSearch className='text-xl mx-auto mt-3'/></span>
       </div>
       <div className='flex flex-wrap mt-10'> 
-        <div className='bg-[#ededed] p-2 flex rounded-full shadow-xl'>
-          <img className='w-10' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Ficon-free-certificates.png?auto=format&h=50&ixlib=php-4.1.0&s=c25548f8b3bc8df8ae051dbe30a9a50a' />
+        <div className='bg-[#ededed] p-1 h-10 m-1 flex rounded-full shadow-xl hover:scale-105 duration-300'>
+          <img className='w-auto' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Ficon-free-certificates.png?auto=format&h=50&ixlib=php-4.1.0&s=c25548f8b3bc8df8ae051dbe30a9a50a' />
           <p className='mx-3 self-center'>Free Certificates</p>
         </div>
-        <div className='bg-[#f9fafc] p-2 flex rounded-full shadow-xl ml-2'>
-          <img className='w-10' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Ficon-ivy-league.png?auto=format&h=50&ixlib=php-4.1.0&s=311a4304715b0a9d768eed1d0f8f2e79' />
-          <p className='mx-3 self-center'>ivy Leagues</p>
-        </div>
-        <div className='bg-[#f9fafc] p-2 flex rounded-full shadow-xl'>
-          <img className='w-10' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Finstitutions%2Fstanford-trn-sq.png?auto=format&h=50&ixlib=php-4.1.0&s=82be5cad71579bd3b69343036dfc77bf' />
-          <p className='mx-3 self-center'>Stanford</p>
-        </div>
-        <div className='bg-[#f9fafc] p-2 flex rounded-full shadow-xl'>
-          <img className='w-10' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Ficon-best-all-time.png?auto=format&h=50&ixlib=php-4.1.0&s=f4a6c58550edddda183d902c98a8ae89' />
-          <p className='mx-3 self-center'>Best Of All Time</p>
-        </div>
-        <div className='bg-[#f9fafc] p-2 flex rounded-full shadow-xl'>
-          <img className='w-10' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Ficon-cs.png?auto=format&h=50&ixlib=php-4.1.0&s=ca1b72eb12f2dfea042808d8709c73d8' />
-          <p className='mx-3 self-center'>Computer Science</p>
-        </div>
-        <div className='bg-[#f9fafc] p-2 flex rounded-full shadow-xl'>
-          <img className='w-10' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Ficon-data-science.png?auto=format&h=50&ixlib=php-4.1.0&s=a25f5a44fdf128f96448a57332226029' />
-          <p className='mx-3 self-center'>Data Science</p>
-        </div>
-        <div className='bg-[#f9fafc] p-2 flex rounded-full shadow-xl'>
-          <img className='w-10' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Finstitutions%2Fmit-trn-sq.png?auto=format&h=50&ixlib=php-4.1.0&s=1b47847319a2b8619dc6912cbc801f4f' />
+        <div className='bg-[#f9fafc] p-1 h-10 m-1 flex rounded-full shadow-xl hover:scale-105 duration-300'>
+          <img className='w-auto' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Finstitutions%2Fmit-trn-sq.png?auto=format&h=50&ixlib=php-4.1.0&s=1b47847319a2b8619dc6912cbc801f4f' />
           <p className='mx-3 self-center'>MIT</p>
         </div>
-        <div className='bg-[#f9fafc] p-2 flex rounded-full shadow-xl'>
-          <img className='w-10' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Finstitutions%2Fgoogle-trn-sq.png?auto=format&h=50&ixlib=php-4.1.0&s=c569365ef52e93e5d7a267230eabd784' />
+        <div className='bg-[#f9fafc] p-1 h-10 m-1 flex rounded-full shadow-xl hover:scale-105 duration-300'>
+          <img className='w-auto rounded-full' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Finstitutions%2Famazon-trn-sq.png?auto=format&h=50&ixlib=php-4.1.0&s=8cfd15253d459ddaf51523a64c66b858' />
+          <p className='mx-3 self-center'>Amazon</p>
+        </div>
+        <div className='bg-[#f9fafc] p-1 h-10 m-1 flex rounded-full shadow-xl hover:scale-105 duration-300'>
+          <img className='w-auto' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Finstitutions%2Fstanford-trn-sq.png?auto=format&h=50&ixlib=php-4.1.0&s=82be5cad71579bd3b69343036dfc77bf' />
+          <p className='mx-3 self-center'>Stanford</p>
+        </div>
+        <div className='bg-[#f9fafc] p-1 h-10 m-1 flex rounded-full shadow-xl hover:scale-105 duration-300 ml-2'>
+          <img className='w-auto' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Ficon-ivy-league.png?auto=format&h=50&ixlib=php-4.1.0&s=311a4304715b0a9d768eed1d0f8f2e79' />
+          <p className='mx-3 self-center'>ivy Leagues</p>
+        </div>
+        <div className='bg-[#f9fafc] p-1 h-10 m-1 flex rounded-full shadow-xl hover:scale-105 duration-300'>
+          <img className='w-auto rounded-full' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Ficon-business.png?auto=format&h=50&ixlib=php-4.1.0&s=6c89a012fda1b748c0da9d16eb51cac0' />
+          <p className='mx-3 self-center'>Business</p>
+        </div>
+        <div className='bg-[#f9fafc] p-1 h-10 m-1 flex rounded-full shadow-xl hover:scale-105 duration-300'>
+          <img className='w-auto' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Ficon-cs.png?auto=format&h=50&ixlib=php-4.1.0&s=ca1b72eb12f2dfea042808d8709c73d8' />
+          <p className='mx-3 self-center'>Computer</p>
+        </div>
+        <div className='bg-[#f9fafc] p-1 h-10 m-1 flex rounded-full shadow-xl hover:scale-105 duration-300'>
+          <img className='w-auto' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Ficon-data-science.png?auto=format&h=50&ixlib=php-4.1.0&s=a25f5a44fdf128f96448a57332226029' />
+          <p className='mx-3 self-center'>Data Science</p>
+        </div>
+        <div className='bg-[#f9fafc] p-1 h-10 m-1 flex rounded-full shadow-xl hover:scale-105 duration-300'>
+          <img className='w-auto' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Finstitutions%2Fgoogle-trn-sq.png?auto=format&h=50&ixlib=php-4.1.0&s=c569365ef52e93e5d7a267230eabd784' />
           <p className='mx-3 self-center'>Google</p>
         </div>
-        <div className='bg-[#f9fafc] p-2 flex rounded-full shadow-xl'>
-          <img className='w-10 rounded-full' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Finstitutions%2Famazon-trn-sq.png?auto=format&h=50&ixlib=php-4.1.0&s=8cfd15253d459ddaf51523a64c66b858' />
-          <p className='mx-3 self-center'>Amazon</p>
+        <div className='bg-[#f9fafc] p-1 h-10 m-1 flex rounded-full shadow-xl hover:scale-105 duration-300'>
+          <img className='w-auto rounded-full' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Ficon-engineering.png?auto=format&h=50&ixlib=php-4.1.0&s=719f1975b1e159a8cd83e2733fc78deb' />
+          <p className='mx-3 self-center'>Prompt Engineering</p>
+        </div>
+        <div className='bg-[#f9fafc] p-1 h-10 m-1 flex rounded-full shadow-xl hover:scale-105 duration-300'>
+          <img className='w-auto rounded-full' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Ficon-cs.png?auto=format&h=50&ixlib=php-4.1.0&s=ca1b72eb12f2dfea042808d8709c73d8' />
+          <p className='mx-3 self-center'>Computer Science</p>
         </div>
 
       </div>
@@ -157,7 +165,7 @@ function Home() {
     <div className="p-3 mt-5">
         <h1 className=" text-center text-3xl sm:text-3xl md:text-3xl lg:text-3xl font-bold">Trusted By World Best</h1>
 
-        <div className="owl-carousel owl-theme grid grid-cols-2 xs:grid-cols-1 md:grid-cols-6 lg:grid-cols-6 m-5 md:m-5 lg:m-5 h-72 md:h-24 lg:h-24 m-2 text-center">
+        <div className="owl-carousel owl-theme grid grid-cols-2 xs:grid-cols-1 md:grid-cols-6 lg:grid-cols-6 m-5 md:m-5 lg:m-5 h-72 md:h-24 lg:h-24  text-center">
           <div className=" w-24  mx-auto"><h1 className="mt-8">
           <img src={slidelogo1} />
             </h1></div>
@@ -202,7 +210,7 @@ function Home() {
 
     {/* <!-- ........... card slider for codepen --> */}
 <section className=" mt-10 bg-gray-50 p-0 sm:p-0 md:p-10 lg:p-10"  data-aos="zoom-in" data-aos-duration="2000">
-  <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-3xl font-bold text-center mx-3 p-5 sm:p-5 p-0 sm:p-0 md:p-10 lg:p-10">What Are You Searching For ?</h1>
+  <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-3xl font-bold text-center mx-3 p-5 sm:p-5  md:p-10 lg:p-10">What Are You Searching For ?</h1>
   <div className="flex float-right text-lg">
     <button className="p-3 sm:p-3 md:p-5 lg:p-5 text-sm sm:text-sm md:text-lg lg:text-lg px-3  mx-3 bg-blue-100 rounded-2xl hover:text-[#6c5fa1]">All</button>
     <button className="p-3 sm:p-3 md:p-5 lg:p-5 text-sm sm:text-sm md:text-lg lg:text-lg  ml-2 px-3 mx-3 hover:bg-blue-100 hover:rounded-2xl">Trending</button>
@@ -529,9 +537,9 @@ function Home() {
    {/* <!-- ........................ PHARA section end ................... --> */}
 
     {/* <!--Skill Consultancy--> */}
-    <section class="p-0 sm:p-0 md:p-10 lg:p-10" data-aos="zoom-in" data-aos-duration="2000">
-      <div class="m-2 h-auto p-2 mt-[]">
-          <h1 class="text-3xl sm:text-3xl md:text-3xl lg:text-5xl mx-20 font-bold my-10">Skill <span class="text-[#4eb0e1]">Consultancy</span></h1>
+    <section className="p-0 sm:p-0 md:p-10 lg:p-10" data-aos="zoom-in" data-aos-duration="2000">
+      <div className="m-2 h-auto p-2 mt-[]">
+          <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-5xl mx-0 sm:mx-0 md:mx-20 font-bold my-10">Skill <span class="text-[#4eb0e1]">Consultancy</span></h1>
 
     {/* <!--Skill Consultancy left section--> */}
 
@@ -565,7 +573,7 @@ function Home() {
   
     <div className="text-center m-10">
     
-        <select className=" border rounded p-2 m-2 font-semibold">
+        <select className=" w-32 h-14 border rounded p-2 m-2 font-semibold">
             <option>Category</option>
             <option>Option 1</option>
             <option>Option 2</option>
@@ -573,13 +581,13 @@ function Home() {
           </select>
     
    
-        <select className="border rounded p-2 m-2 font-semibold">
+        <select className=" w-32 h-14 border rounded p-2 m-2 font-semibold">
             <option>Select</option>
             <option>Option 1</option>
             <option>Option 2</option>
             <option>Option 3</option>
           </select>
-          <button className="bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-full p-2 px-5">Get Started Now</button>
+          <button className="bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-full p-3 px-5">Get Started Now</button>
         </div>
     </div>
 </section>
@@ -626,36 +634,27 @@ function Home() {
      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 m-2 h-auto  gap-10 sm:gap-10 md:gap-10 lg:gap-20 mx-5 lg:mx-10 md:mx-10 md:mt-10 lg:mt-10">
        {/* <!-- Card_1 --> */}
        <div className="shadow-lg hover:shadow-gray-500 w-auto overflow-hidden p-5 rounded-2xl">
-           <h1 className="text-center p-1 font-bold text-lg">In Demand Job</h1>
            <div className=" h-52">
-            <img src="https://img.freepik.com/free-vector/isometric-people-working-with-technology_52683-19078.jpg?w=900&t=st=1681155268~exp=1681155868~hmac=25aa8907aca742eadee509f6f432b5b673f2644d27ece00b2383cff5aab10349" width="100%" className="rounded-xl hover:scale-105 duration-300 h-52" />
+            <img src="https://www.classcentral.com/report/wp-content/uploads/2022/03/Best-Courses-Copywriting-Banner.png" width="100%" className="rounded-xl hover:scale-105 duration-300 h-52" />
            </div>
-           <h1 className="text-3xl font-bold mt-5">Heading 01</h1>
-           <p className=" w-auto mb-6 space-x-8 p-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                reprehenderit soluta harum, quia doloribus minima dolor,
-                nam similique nostrum ipsa nemo id fuga perferendis minus commodi.</p>
+           <h1 className="text-xl font-bold mt-5">Best Copywriting Courses to Take in 2023</h1>
+           <p className=" w-auto mb-6 space-x-8 p-2">Transform your writing skills into profit: discover the best copywriting courses to launch your lucrative career or side hustle..</p>
        </div>
        {/* <!-- Card_2 --> */}
        <div className="shadow-lg hover:shadow-gray-500 w-auto overflow-hidden p-5 rounded-2xl">
-          <h1 className="text-center p-1 font-bold text-lg">Popular Skill</h1>
           <div className=" h-52">
-          <img src="https://www.shutterstock.com/image-vector/people-configure-application-on-big-600w-1188424468.jpg" className="rounded-xl hover:scale-105 duration-300 h-52 w-full" />
+          <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png" className="rounded-xl hover:scale-105 duration-300 h-52 w-full" />
           </div>
-          <h1 className="text-3xl font-bold mt-5">Heading 02</h1>
-          <p className=" w-auto mb-6 space-x-8 p-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              reprehenderit soluta harum, quia doloribus minima dolor,
-              nam similique nostrum ipsa nemo id fuga perferendis minus commodi.</p>
+          <h1 className="text-xl font-bold mt-5">Best pandas Courses to Take in 2023</h1>
+          <p className=" w-auto mb-6 space-x-8 p-2">Unlock the power of data analysis with the top pandas courses. Pandas is a powerful, open-source Python library.</p>
        </div>
        {/* <!-- Card_3 --> */}
        <div className="shadow-lg hover:shadow-gray-500 w-auto overflow-hidden p-5 rounded-2xl">
-          <h1 className="text-center p-1 font-bold text-lg">AI Is Good</h1>
           <div className=" h-52">
-          <img src="https://www.shutterstock.com/image-vector/web-development-coding-programming-responsive-600w-1449924503.jpg" className="rounded-xl hover:scale-105 duration-300 h-52 w-full" />
+          <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/NumPy-BCG-Banner.png" className="rounded-xl hover:scale-105 duration-300 h-52 w-full" />
           </div>
-          <h1 className="text-3xl font-bold mt-5">Heading 03</h1>
-          <p className=" w-auto mb-6 space-x-8 p-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              reprehenderit soluta harum, quia doloribus minima dolor,
-              nam similique nostrum ipsa nemo id fuga perferendis minus commodi.</p>
+          <h1 className="text-xl font-bold mt-5">Best NumPy Courses to Take in 2023</h1>
+          <p className=" w-auto mb-6 space-x-8 p-2">Whether you’re a data scientist, machine learning engineer, or just someone who needs to crunch a bunch of numbers in a short amount of time, NumPy is definitely for you.</p>
         </div>
        </div>
    {/* </div> */}
