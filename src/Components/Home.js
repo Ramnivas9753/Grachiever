@@ -195,7 +195,7 @@ function Home() {
     <section className="p-0 sm:p-0 md:p-10 lg:p-10">
       <div className="h-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2"  data-aos="zoom-in" data-aos-duration="2000">
         <div className="lg:h-full md:h-full mx-5 sm:mx-5 md:mx-10 lg:mx-10">
-            <h1 className=" mt-5 text-3xl sm:text-3xl md:text-3xl lg:text-3xl font-bold">Track The Trending Skills Over Time</h1>
+            <h1 className=" mt-5 text-3xl sm:text-3xl md:text-3xl lg:text-5xl font-bold"><span class="text-[#4eb0e1]">Track</span> The Trending<br/> <span class="text-[#4eb0e1]">Skills</span> Over Time</h1>
             <p className="mt-10  text-lg">Our Skill Graph feature helps you stay up-to-date with the latest skills in demand. our Skill Graph displays the trending skills over time.</p>
             <p  className="mt-5 text-lg">allowing you to identify which skills are gaining popularity and which are losing relevance. With this powerful tool, you can make informed decisions about the skills you want to learn or develop, ensuring you stay ahead of the curve in your chosen field.</p>
         </div>
@@ -418,27 +418,26 @@ function Home() {
     <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
         <div >
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
-            <div className=" w-auto sm:w-auto md:w-auto lg:w-auto h-52 rounded-lg m-2 sm:m-2 md:m-5 lg:m-5">
-            {/* <img src={tc1} alt='this is img' width='100%'  className=''/> */}
-            <p className=""  style={{ backgroundImage: `url("https://picsum.photos/id/6/367/267")`  }}>okkk </p>
-            <p>Digital Marketing</p>
+            <div className=" w-auto sm:w-auto md:w-auto lg:w-auto h-52 rounded-lg m-2 sm:m-2 md:m-5 lg:m-5" style={{position: 'relative'}}>
+            <img src={tc1} alt='this is img' className='w-full h-full brightness-50 rounded-md hover:animate-bounce   ' />
+            <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>Digital Marketing</p>
             </div>
       
-            <div className="w-auto sm:w-auto md:w-auto lg:w-auto h-52 rounded-lg m-2 sm:m-2 md:m-5 lg:m-5 ">
-            <img src={tc2} alt='this is img' width='100%' className=''/>
-              <p >Data</p>
+            <div className="w-auto sm:w-auto md:w-auto lg:w-auto h-52 rounded-lg m-2 sm:m-2 md:m-5 lg:m-5 " style={{position: 'relative'}}>
+            <img src={tc2} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-md hover:animate-bounce  '/>
+              <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>Data</p>
             </div>
           </div>
       
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2">
-            <div className="w-auto sm:w-auto md:w-auto lg:w-auto h-52 rounded-lg m-2 sm:m-2 md:m-5 lg:m-5">
-            <img src={tc3} alt='this is img' width='100%' className=''/>
-              <p >Graphics and Design</p>
+            <div className="w-auto sm:w-auto md:w-auto lg:w-auto h-52 rounded-lg m-2 sm:m-2 md:m-5 lg:m-5" style={{position: 'relative'}}>
+            <img src={tc3} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-md hover:animate-bounce  '/>
+              <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>Graphics and Design</p>
             </div>
       
-            <div className="w-auto sm:w-auto md:w-auto lg:w-auto h-52 rounded-lg m-2 sm:m-2 md:m-5 lg:m-5 ">
-            <img src={tc4} alt='this is img' width='100%' className=''/>
-              <p>Technology</p>
+            <div className="w-auto sm:w-auto md:w-auto lg:w-auto h-52 rounded-lg m-2 sm:m-2 md:m-5 lg:m-5 " style={{position: 'relative'}}>
+            <img src={tc4} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-md hover:animate-bounce  '/>
+              <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>Technology</p>
             </div>
           </div>
           </div>
@@ -446,19 +445,19 @@ function Home() {
 
         {/* Right Side Section--> */}
           <div className="md:m-5 lg:m-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
-            <div className="rounded-lg h-96 sm:h-96 md:h-full lg:h-full w-full')] " >
-            <img src={tc5} alt='this is img' width='100%' className=''/>
-              <p >Still Confused?</p>
-              <p >explore our skill consultancy services to get clear answer of which skill is best for you.</p>
+            <div className="rounded-lg h-96 sm:h-96 md:h-full lg:h-full w-full " style={{position: 'relative'}}>
+            <img src={tc5} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-md hover:animate-bounce  '/>
+              <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>Still Confused?</p>
+              <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>explore our skill consultancy services to get clear answer of which skill is best for you.</p>
             </div>
             <div className="">
-              <div className="w-full sm:w-full md:w-full lg:w-full h-52 rounded-lg">
-              <img src={tc6} alt='this is img' width='100%' className=''/>
-                <p>Business</p>
+              <div className="w-full sm:w-full md:w-full lg:w-full h-52 rounded-lg" style={{position: 'relative'}}>
+              <img src={tc6} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-md hover:animate-bounce  '/>
+                <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>Business</p>
               </div>
-              <div className="w-full sm:w-full md:w-full lg:w-full h-52 rounded-lg mt-10">
-              <img src={tc7} alt='this is img' width='100%' className=''/>
-                <p>Video and Animation</p>
+              <div className="w-full sm:w-full md:w-full lg:w-full h-52 rounded-lg mt-10" style={{position: 'relative'}}>
+              <img src={tc7} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-md hover:animate-bounce  '/>
+                <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>Video and Animation</p>
               </div>
             </div>
           </div>

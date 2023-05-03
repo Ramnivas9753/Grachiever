@@ -90,7 +90,7 @@ function Layout() {
 
     <section>  
         <nav className="w-full bg-[#FAF9F6]">
-            <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+            <div className="justify-between  mx-auto lg:max-w-7xl md:items-center md:flex ">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
                         <Link to="/"><img src={grachieverlogo} className="h-12" alt="Grachiever Logo" /></Link>

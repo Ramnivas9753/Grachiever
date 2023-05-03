@@ -1,5 +1,6 @@
 
 import NavBar from "./nav01";
+import CardCarousel from "./CardCarousel";
 function Blog() {
     return (
         <>
@@ -70,6 +71,7 @@ function Blog() {
       </nav>
     </div>
 </section>
+{/* <CardCarousel /> */}
 </>
     );
 }

@@ -34,8 +34,8 @@ const CardCarousel = ({ cards }) => {
                   alt={card.title}
                 />
                 <div className="p-4">
-                  <h2 className="text-lg font-medium">{card.title}</h2>
-                  <p className="mt-2 text-gray-600">{card.description}</p>
+                  <h2 className="text-lg font-medium">{card.title}okkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk  </h2>
+                  <p className="mt-2 text-gray-600">{card.description}okkkkkkkkkkkkkkkkkk</p>
                 </div>
               </div>
             </div>
