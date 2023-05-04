@@ -27,7 +27,8 @@ import { FaGraduationCap } from "react-icons/fa";
 import { FaList } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
 import { FaUser } from "react-icons/fa";
-// fa-graduation-cap
+import Cards from "./Cards";
+
 function Home() {
     return(
         <>
@@ -209,207 +210,8 @@ function Home() {
     {/* <!-- .-================================================ --> */}
 
     {/* <!-- ........... card slider for codepen --> */}
-<section className=" mt-10 bg-gray-50 p-0 sm:p-0 md:p-10 lg:p-10"  data-aos="zoom-in" data-aos-duration="2000">
-  <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-3xl font-bold text-center mx-3 p-5 sm:p-5  md:p-10 lg:p-10">What Are You Searching For ?</h1>
-  <div className="flex float-right text-lg">
-    <button className="p-3 sm:p-3 md:p-5 lg:p-5 text-sm sm:text-sm md:text-lg lg:text-lg px-3  mx-3 bg-blue-100 rounded-2xl hover:text-[#6c5fa1]">All</button>
-    <button className="p-3 sm:p-3 md:p-5 lg:p-5 text-sm sm:text-sm md:text-lg lg:text-lg  ml-2 px-3 mx-3 hover:bg-blue-100 hover:rounded-2xl">Trending</button>
-    <button className=" p-3 sm:p-3 md:p-5 lg:p-3 text-sm sm:text-sm md:text-lg lg:text-lg ml-2 px-3 mx-3 hover:bg-blue-100 hover:rounded-2xl hover:text-[#6c5fa1]">Popular</button>
-  </div>
-  
-  <div className="container swiper">
-    <div className="slide-container mt-10 mx-5 sm:mx-5 md:mx-5 lg:mx-10 ">
-      <div className="card-wrapper swiper-wrapper">
-        <div className="card swiper-slide ">
-         
-           {/* <!--Card Number - 1 --> */}
-           <div className="w-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-[450px] hover:-translate-y-1 hover:scale-110 duration-500">
-                <img className="mx-auto w-full h-52" src="https://5.imimg.com/data5/SELLER/Default/2022/6/SD/NP/XP/113623010/web-development-training-program-1--500x500.jpg" alt="" />
-                <div className="p-5">
-                        <p className="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white">Pyhton Full Stack Development</p>
-                    <p className="mb-3 font-normal inline-flex text-lg">
-                        lession
-                        days
-                        leve
-                    </p><br />
-                    <a href="#" className="inline-flex  px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg">Compaire</a>
-                    <a href="#" className="inline-flex  px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg md:mt-5">Enroll Now</a>
-                </div>
-            </div>
-  
-        </div>
-        <div className="card swiper-slide">
-          {/* <!--Card Number - 2 --> */}
-          <div className="w-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-[450px] hover:-translate-y-1 hover:scale-110 duration-500">
-                <img className="mx-auto w-full h-52" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRel084aJaTNo9hFm8eLDzUGUK5TfBA_hQwMJhQN7ZYbE3QgmO9PWFzYH3B3p80krV1MwE&usqp=CAU" alt="" />
-            <div className="p-5">
-                    <h5 className="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white">Java Full Stack Development</h5>
-                <p className="mb-3 font-normal inline-flex text-lg">
-                    lession
-                    days
-                    level
-                    lession
-                    days
-                    level
 
-                </p><br />
-                <a href="#" className="inline-flex  px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg">Compaire</a>
-                <a href="#" className="inline-flex  px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg md:mt-5">Enroll Now</a>
-                </div>
-          </div>
-            
-        </div>
-        <div className="card swiper-slide">
-           {/* <!--Card Number - 3 --> */}
-           <div className="w-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-[450px] hover:-translate-y-1 hover:scale-110 duration-500">
-                <img className="mx-auto w-full h-52" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9tMIqCoU9bwPKyj8O1y4soyvbIUh2k3qq_Q&usqp=CAU" alt="" />
-            <div className="p-5">
-                    <h5 className="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white">Angular Development</h5>
-                <p className="mb-3 font-normal inline-flex text-lg">
-                    lession
-                    days
-                    level
-                </p><br />
-                <a href="#" className="inline-flex  px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg">Compaire</a>
-                <a href="#" className="inline-flex  px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg md:mt-5">Enroll Now</a>
-                </div>
-           </div>
-         
-        </div>
-        <div className="card swiper-slide">
-           {/* <!--Card Number - 4 --> */}
-           <div className="w-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-[450px] hover:-translate-y-1 hover:scale-110 duration-500">
-                <img className="mx-auto w-full h-52" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5uj_Aoh6g77m6XmA99aD6re4DkPXucU7BVOIQaf1O18m6vgpcQfbizGoH-yWQst5Vcbo&usqp=CAU" alt="" />
-            <div className="p-5">
-                    <h5 className="mb-2 text-3xl font-bold tracking-tight text-[#0A0878]">Dotnet Development</h5>
-                <p className="mb-3 font-normal inline-flex text-lg">
-                    lession
-                    days
-                    level
-                </p><br />
-                <a href="#" className="inline-flex  px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg">Compaire</a>
-                <a href="#" className="inline-flex  px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg md:mt-5">Enroll Now</a>
-                </div>
-            </div>
-  
-        </div>
-        <div className="card swiper-slide bg-yellow-500">
-           {/* <!--Card Number - 5 --> */}
-           <div className="w-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-[450px] hover:-translate-y-1 hover:scale-110 duration-500">
-                <img className="mx-auto w-full h-52" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSarDlD09LTHrMQKStJZ22-qRhSOqCyvl-3PA&usqp=CAU" alt="" />
-            <div className="p-5">
-                <h5 className="mb-2 text-3xl font-bold tracking-tight text-[#0A0878]">CLoud Computing</h5>
-                <p className="mb-3 font-normal inline-flex text-lg">
-                    lession
-                    days
-                    level
-                </p><br />
-                <a href="#" className="inline-flex  px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg">Compaire</a>
-                <a href="#" className="inline-flex  px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg md:mt-5">Enroll Now</a>
-                </div>
-            </div>
-          
-        </div>
-  
-        <div className="card swiper-slide bg-green-500">
-           {/* <!--Card Number - 6 --> */}
-           <div className="w-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-[450px] hover:-translate-y-1 hover:scale-110 duration-500">
-            <img className="mx-auto w-full h-52" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSnKHrLgdd7nzLozT8lIgmgNYbO-8mKGvzuzwiKY56_2svqfvbYoTzNL_8aXus6jmlaS4&usqp=CAU" alt="" />
-            <div className="p-5">
-                <h5 className="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white">Mern Stack Development</h5>
-                <p className="mb-3 font-normal inline-flex text-lg">
-                    lession
-                    days
-                    level
-                </p><br />
-                <a href="#" className="inline-flex  px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg">Compaire</a>
-                <a href="#" className="inline-flex  px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg md:mt-5">Enroll Now</a>
-                </div>
-            </div>
-         
-        </div>
-  
-        <div className="card swiper-slide bg-orange-500">
-           {/* <!--Card Number - 7 --> */}
-           <div className="w-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-[450px] hover:-translate-y-1 hover:scale-110 duration-500">
-            <img className="mx-auto w-full h-52" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvduvdn6-mzK0W5mzghulbKUvHZCoJM9CrWlijq5gs8Yoc6tHjmYY0oHtbq_hmMRFVh4s&usqp=CAU" alt="" />
-            <div className="p-5">
-                <h5 className="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white">Mean Stack Development</h5>
-                <p className="mb-3 font-normal inline-flex text-lg">
-                    lession
-                    days
-                    level
-                </p><br />
-                <a href="#" className="inline-flex  px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg">Compaire</a>
-                <a href="#" className="inline-flex  px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg md:mt-5">Enroll Now</a>
-                </div>
-           </div>
-          
-        </div>
-  
-        <div className="card swiper-slide bg-pink-500">
-           {/* <!--Card Number - 8 --> */}
-           <div className="w-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-[450px] hover:-translate-y-1 hover:scale-110 duration-500">
-                <img className="mx-auto w-full h-52" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf0pxILyMxy2nDMIOGfpRrAYHUkUj0F_nDKA&usqp=CAU" alt="" />
-            <div className="p-5">
-                <h5 className="mb-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white">Backend Development</h5>
-                <p className="mb-3 font-normal inline-flex text-lg">
-                    lession
-                    days
-                    level
-                </p><br />
-                <a href="#" className="inline-flex  px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg">Compaire</a>
-                <a href="#" className="inline-flex  px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg md:mt-5">Enroll Now</a>
-                </div>
-           </div>
-          
-        </div>
-      </div>
-    </div>
-    <div className="swiper-button-next swiper-navBtn scale-75"></div>
-    <div className="swiper-button-prev swiper-navBtn scale-75"></div>
-    {/* <!-- <div className="swiper-pagination"></div> --> */}
-  </div>
-  <center><button className=" w-60 h-10 rounded-lg justify-self-center mt-10 text-lg mb-10 bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf]">Browse All Card</button></center> 
-  
-</section>
-{/* <!-- ye vali javascript ko koi bhi yha se hataye nhi please  --> */}
-{/* <script> 
-  var swiper = new Swiper(".slide-container", {
-  slidesPerView: 4,
-  spaceBetween: 20,
-  sliderPerGroup: 4,
-  loop: false,
-  centerSlide: "true",
-  fade: "true",
-  grabCursor: "true",
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-    dynamicBullets: true,
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-
-  breakpoints: {
-    0: {
-      slidesPerView: 1,
-    },
-    520: {
-      slidesPerView: 2,
-    },
-    768: {
-      slidesPerView: 3,
-    },
-    1000: {
-      slidesPerView: 4,
-    },
-  },
-});
-</script> */}
-{/* <!-- ............................ card carousal section end...............................   --> */}
+    <Cards />
 
 {/* <!--Top Categories--> */}
 
@@ -446,9 +248,9 @@ function Home() {
         {/* Right Side Section--> */}
           <div className="md:m-5 lg:m-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
             <div className="rounded-lg h-96 sm:h-96 md:h-full lg:h-full w-full " style={{position: 'relative'}}>
-            <img src={tc5} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-md hover:animate-bounce  '/>
-              <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>Still Confused?</p>
-              <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>explore our skill consultancy services to get clear answer of which skill is best for you.</p>
+            <img src={tc5} alt='this is img' width='100%' className='bg-red-200 w-full h-full brightness  rounded-md hover:animate-bounce  '/>
+              <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}><span class="text-[#4eb0e1]">Still Confused?</span><br/>
+              explore our skill consultancy services to get clear answer of which skill is best for you.</p>
             </div>
             <div className="">
               <div className="w-full sm:w-full md:w-full lg:w-full h-52 rounded-lg" style={{position: 'relative'}}>
@@ -591,27 +393,27 @@ function Home() {
     </div>
 </section>
 
- {/* <!--Achivments Sections--> */}
+ {/* <!--Achievements Sections--> */}
 <section className="p-0 sm:p-0 md:p-10 lg:p-10"  data-aos="zoom-in" data-aos-duration="2000">
     <div className=" m-2">
-            <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-3xl font-bold text-center p-5">Achivments</h1>
+            <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-4xl font-bold text-center p-5 ">Achievements</h1>
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 lg:grid-cols-4 text-center ">
-            <div className="border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] h-52 m-5 rounded-lg">
+            <div className="border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] h-48 m-10 rounded-lg">
             <FaGraduationCap className='text-3xl text-black-400 mt-10 mx-auto m-2'/>
               <p className="text-2xl font-bold">350+</p>
               <p>Student worldwide</p>
             </div>
-            <div className="border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] h-52 m-5 rounded-lg">
+            <div className="border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] h-48 m-10 rounded-lg">
               <FaList className='text-3xl text-black-400 mt-10 mx-auto m-2'/>           
               <p className="text-2xl font-bold">450+</p>
               <p>Total Course Views</p>
             </div>
-            <div className="border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] h-52 m-5 rounded-lg">
+            <div className="border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] h-48 m-10 rounded-lg">
             <FaStar className='text-3xl text-black-400 mt-10 mx-auto m-2'/>
               <p className="text-2xl font-bold">550+</p>
               <p>Five-Star Course Reviews</p>
             </div>
-            <div className="border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] h-52 m-5 rounded-lg">
+            <div className="border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] h-48 m-10 rounded-lg">
               <FaUser className='text-3xl text-black-400 mt-10 mx-auto m-2'/>
               <p className="text-2xl font-bold">650+</p>
               <p>Student Community</p>

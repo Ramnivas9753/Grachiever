@@ -1,6 +1,7 @@
 
 import NavBar from "./nav01";
-import CardCarousel from "./CardCarousel";
+import Cards from "./Cards";
+import Trusted_section from "./Trusted_section";
 function Blog() {
     return (
         <>
@@ -71,7 +72,8 @@ function Blog() {
       </nav>
     </div>
 </section>
-{/* <CardCarousel /> */}
+
+{/* <Trusted_section/> */}
 </>
     );
 }
