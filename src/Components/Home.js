@@ -21,6 +21,7 @@ import wcg3 from '../images/Why_Choose_Grachiever/3.png';
 import wcg4 from '../images/Why_Choose_Grachiever/4.png';
 import sc1 from '../images/Skill_Consultancy/1.png';
 import slogo from '../images/Skill_Consultancy/1.png';
+import Trusted_section from "./Trusted_section";
 //  this link for react icon 
 import { FaSearch } from "react-icons/fa";
 import { FaGraduationCap } from "react-icons/fa";
@@ -161,8 +162,10 @@ function Home() {
 {/* <!-- ...................... home section end ................................... --> */}
 
     {/* <!--Trusted Section-->    */}
+
+    <Trusted_section/>
     
-  <section className="p-0 sm:p-0 md:p-10 lg:p-10" > 
+  {/* <section className="p-0 sm:p-0 md:p-10 lg:p-10" > 
     <div className="p-3 mt-5">
         <h1 className=" text-center text-3xl sm:text-3xl md:text-3xl lg:text-3xl font-bold">Trusted By World Best</h1>
 
@@ -189,7 +192,7 @@ function Home() {
         </div>
         </div>
         
-  </section>
+  </section> */}
 
     {/* <!--Skill Section--> */}
 
