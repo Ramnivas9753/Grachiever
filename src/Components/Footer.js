@@ -76,13 +76,13 @@ function Footer() {
                     </a>
               
                     <a
-                    //   href="https://instagram.com/grachiever?igshid=ZDdkNTZiNTM="
+                      href="https://instagram.com/grachiever?igshid=ZDdkNTZiNTM="
                       type="button"
                       className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-[#349fcf]"
                       data-te-ripple-init
                       data-te-ripple-color="light">
                       <svg
-                        // xmlns="http://www.w3.org/2000/svg"
+                        xmlns="http://www.w3.org/2000/svg"
                         className="mx-auto h-full w-4"
                         fill="currentColor"
                         viewBox="0 0 24 24">
@@ -91,13 +91,13 @@ function Footer() {
                       </svg>
                     </a>
                     <a
-                    //   href="https://www.linkedin.com/company/grachiever/"
+                      href="https://www.linkedin.com/company/grachiever/"
                       type="button"
                       className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-[#349fcf]"
                       data-te-ripple-init
                       data-te-ripple-color="light">
                       <svg
-                        // xmlns="http://www.w3.org/2000/svg"
+                        xmlns="http://www.w3.org/2000/svg"
                         className="mx-auto h-full w-4"
                         fill="currentColor"
                         viewBox="0 0 24 24">
