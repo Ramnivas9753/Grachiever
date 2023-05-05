@@ -38,13 +38,13 @@ function Trusted_section() {
 
   return (
     <>
-    <section className="p-10 mt-10">
+    <section className="p-10 mt-10 bg-[#f6f9ff]">
     
     <h1 className=" text-center text-3xl sm:text-3xl md:text-3xl lg:text-3xl font-bold">Trusted By World Best</h1>
     
 <Slider {...settings} className="m-5 ">
 <div className=" m-5 md:m-5 lg:m-5 h-72 md:h-24 lg:h-24 ">
-    <p className='font-bold text-xl mt-10'>Lalit isko Dekho Yrr Mere Se To Nhi Ho Raha</p>
+<img src={slidelogo1} />
 </div>
 
 
