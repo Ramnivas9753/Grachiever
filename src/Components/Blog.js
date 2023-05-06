@@ -1,7 +1,7 @@
 
 import NavBar from "./nav01";
 import Cards from "./Cards";
-// import Trusted_section from "./Trusted_section";
+import FlipCard from "./FlipCard";
 function Blog() {
     return (
         <>
@@ -73,7 +73,7 @@ function Blog() {
     </div>
 </section>
 
-{/* <Trusted_section/> */}
+<FlipCard/>
 </>
     );
 }
