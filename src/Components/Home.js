@@ -29,16 +29,17 @@ import { FaList } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
 import { FaUser } from "react-icons/fa";
 import Cards from "./Cards";
+import Z_index_card1 from './Z_index_card1';
 
 function Home() {
     return(
         <>
             
 {/* <!-- ........................ home section start ..................................... --> */}
- <section className="px-5 sm:px-5 md:px-10 lg:px-10 pt-10">
+ <section className="px-5 sm:px-5 md:px-10 lg:px-10 pt-10 mt-10">
   <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
     <div className="pl-5 md:pl-10 lg:pl-10">
-      <span className="type text-[30px] mt-5 lg:text-[50px] font-bold text-[#349fcf]">Start Monetizing Off Your Skills With Passion </span>
+      <span className="type text-[30px] mt-5 lg:text-[50px] font-medium "><span className='text-[#349fcf]'> Monetize</span> off yours Skills with passion </span>
       {/* <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
       <script>
           var typed = new Typed('.type', {
@@ -151,7 +152,7 @@ function Home() {
       </div> */}
 
     </div>
-    <div className="mt-20 pt-5">
+    <div className="">
       <img src={homeimage01} className="w-[80%] m-auto" />            
     </div>
   </div>
@@ -210,7 +211,9 @@ function Home() {
     </div>
     </section>
 
-    {/* <!-- .-================================================ --> */}
+    {/* .................. z-index section under trial.......... */}
+    <Z_index_card1 />
+
 
     {/* <!-- ........... card slider for codepen --> */}
 
