@@ -8,13 +8,13 @@ import slidelogo6 from '../images/2/oxford.png';
 import slidelogo7 from '../images/2/stanford.png';
 import slidelogo8 from '../images/2/University.png';
 import sgraph from '../images/graph/skillgraph.png';
-import tc1 from '../images/Top_Categories/digital_marketing.jpg';
-import tc2 from '../images/Top_Categories/data.jpg';
-import tc3 from '../images/Top_Categories/graphics_design.jpg';
-import tc4 from '../images/Top_Categories/data.jpg';
-import tc5 from '../images/Top_Categories/still_confused.png';
-import tc6 from '../images/Top_Categories/video_animation.jpg';
-import tc7 from '../images/Top_Categories/video_animation.jpg';
+import Digital_Marketing from '../images/Top_Categories/digital_marketing.jpg';
+// import tc2 from '../images/Top_Categories/data.jpg';
+import Graphics_Design from '../images/Top_Categories/graphics_design.jpg';
+import Data from '../images/Top_Categories/data.jpg';
+import Still_Confused from '../images/Top_Categories/still_confused.png';
+import Video_Animation from '../images/Top_Categories/video_animation.jpg';
+// import tc7 from '../images/Top_Categories/video_animation.jpg';
 import wcg1 from '../images/Why_Choose_Grachiever/1.png';
 import wcg2 from '../images/Why_Choose_Grachiever/2.png';
 import wcg3 from '../images/Why_Choose_Grachiever/3.png';
@@ -56,7 +56,7 @@ function Home() {
       <p className="mt-5 text-2xl">The only easier, powerful and authoring platform designed for consistent learners to
         unlock the power of monetizing</p>
       {/* <!--Search--> */}
-      <div className="border-b-[#349fcf] border-r-[#349fcf] border-2 flex items-center mt-8 w-[100%] w-auto rounded-full outline-none">
+      <div className="border-b-[#349fcf] border-r-[#349fcf] border-2 flex items-center mt-8 w-auto rounded-full outline-none">
         <input type="text" className="py-2.5 px-4 outline-none w-full " placeholder="Search Anything..." />
         <select className="mr-2 py-2 px-4 w-auto h-[44px]">
           <option>Courses</option>
@@ -218,7 +218,7 @@ function Home() {
 
 {/* <!--Top Categories--> */}
 
-<section className="m-5 p-0 sm:p-0 md:p-10 lg:p-10" >
+{/* <section className="m-5 p-0 sm:p-0 md:p-10 lg:p-10" >
     <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-3xl font-bold text-center m-10 ">Top Categories</h1>
     <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
         <div >
@@ -245,11 +245,11 @@ function Home() {
               <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>Technology</p>
             </div>
           </div>
-          </div>
+          </div> */}
        
 
         {/* Right Side Section--> */}
-          <div className="md:m-5 lg:m-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+          {/* <div className="md:m-5 lg:m-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
             <div className="rounded-lg h-96 sm:h-96 md:h-full lg:h-full w-full " style={{position: 'relative'}}>
             <img src={tc5} alt='this is img' width='100%' className='bg-red-200 w-full h-full brightness  rounded-md hover:animate-bounce  '/>
               <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}><span class="text-[#4eb0e1]">Still Confused?</span><br/>
@@ -265,6 +265,65 @@ function Home() {
                 <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>Video and Animation</p>
               </div>
             </div>
+          </div>
+    </div>
+  </section> */}
+
+
+  {/* =================================================================================================== */}
+
+  <section className="m-5 p-0 sm:p-0 md:p-10 lg:p-10" >
+  <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-3xl font-bold text-center m-10 ">Top Categories</h1>
+  <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-[90%] mx-auto">
+  {/* Left Side Section--> */}
+  <div className="md:m-5 lg:m-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10">
+  <div className="">
+  <div className="w-full sm:w-full md:w-full lg:w-full h-52 rounded-2xl" style={{position: 'relative'}}>
+              <img src={Data} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-2xl hover:animate-bounce  '/>
+                <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>Data</p>
+              </div>
+              <div className="w-full sm:w-full md:w-full lg:w-full h-52 rounded-2xl mt-10" style={{position: 'relative'}}>
+              <img src={Digital_Marketing} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-2xl hover:animate-bounce  '/>
+                <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>Digital Marketing</p>
+              </div>
+
+            </div>
+            <div className="bg-[#E0EBFF] rounded-2xl h-full sm:h-full md:h-full lg:h-full w-full overflow-hidden" style={{position: 'relative'}}>
+            <img src={Still_Confused} alt='this is img' width='100%' className=' w-full  brightness  rounded hover:animate-bounce  '/>
+              {/* <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}><span class="text-[#4eb0e1]">Still Confused?</span><br/> */}
+              {/* explore our skill consultancy services to get clear answer of which skill is best for you.</p> */}
+              <h1 className="text-center font-semibold text-4xl m-2">Still Confused?</h1>
+              <p className="font-semibold text-gray-800 m-2 text-md text-center">explore our skill consultancy services to get clear answer of which skill is best for you.</p>
+              <div className='text-center mt-3'>
+       <button className="border border-2 border-[#00C5FF] p-2 rounded-xl hover:bg-[#00C5FF]  text-[#00C5FF] bg-white hover:text-white px-8 text-lg  font-bold">Browse All</button>
+       </div>
+            </div>
+          </div>
+          <div>
+          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-[95%]">
+            <div className=" w-auto sm:w-auto md:w-auto lg:w-auto h-52 rounded-2xl m-2 sm:m-2 md:m-5 lg:m-5" style={{position: 'relative'}}>
+            <img src={Data} alt='this is img' className='w-full h-full brightness-50 rounded-2xl hover:animate-bounce' />
+              <p className='flex font-bold text-md text-center' style={{position: 'absolute', top: '8%', left: '20%', transform: 'translate(-50%, -50%)', color:'white'}}>
+              <span className="m-auto"><FaStar className="ml-5 md:-ml-1 text-yellow-300"/></span>POPULAR</p>
+              <p className='font-bold text-xl text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>A.I.M.L.</p>
+            </div>
+            <div className="w-auto sm:w-auto md:w-auto lg:w-auto h-52 rounded-2xl m-2 sm:m-2 md:m-5 lg:m-5 " style={{position: 'relative'}}>
+            <img src={Video_Animation} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-2xl hover:animate-bounce  '/>
+              <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>Video Animation</p>
+            </div>
+          </div>
+      
+          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2 w-[95%]">
+            <div className="w-auto sm:w-auto md:w-auto lg:w-auto h-52 rounded-2xl m-2 sm:m-2 md:m-5 lg:m-5 col-span-2" style={{position: 'relative'}}>
+            <img src={Graphics_Design} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-2xl hover:animate-bounce  '/>
+              <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>Graphics and Design</p>
+            </div>
+      
+            {/* <div className="w-auto sm:w-auto md:w-auto lg:w-auto h-52 rounded-lg m-2 sm:m-2 md:m-5 lg:m-5 " style={{position: 'relative'}}>
+            <img src={tc4} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-2xl hover:animate-bounce  '/>
+              <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>Technology</p>
+            </div> */}
+          </div>
           </div>
     </div>
   </section>
@@ -326,7 +385,7 @@ function Home() {
         </div>
         <div className='bg-red-500 w-[50%] rounded-xl p-1  -ml-[200%] hover:-ml-[100%] duration-300'>
           <h1 className='font-bold m-5 flex items-center'>HOW IT WORKs? </h1>
-          <img src={tc1} className=''/>
+          <img src={Data} className=''/>
         </div>
 
         <div className='bg-red-500 w-[50%] rounded-xl p-1  '>
@@ -335,7 +394,7 @@ function Home() {
         </div>
         <div className='bg-red-500 w-[50%] rounded-xl p-1  -ml-[200%] hover:-ml-[100%] duration-300'>
           <h1 className='font-bold m-5 flex items-center'>HOW IT WORKs? </h1>
-          <img src={tc1} className=''/>
+          <img src={Data} className=''/>
         </div>
 
         <div className='bg-red-500 w-[50%] rounded-xl p-1  '>
@@ -344,7 +403,7 @@ function Home() {
         </div>
         <div className='bg-red-500 w-[50%] rounded-xl p-1  -ml-[200%] hover:-ml-[100%] duration-300'>
           <h1 className='font-bold m-5 flex items-center'>HOW IT WORKs? </h1>
-          <img src={tc1} className=''/>
+          <img src={Data} className=''/>
         </div>
         </div>
       </section>
