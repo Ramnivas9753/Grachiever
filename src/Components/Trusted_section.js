@@ -44,26 +44,20 @@ function Trusted_section() {
     
 <Slider {...settings} className="m-5 ">
 <div className=" m-5 md:m-5 lg:m-5 h-72 md:h-24 lg:h-24 ">
-<img src={slidelogo1} />
+    <p className='font-bold text-xl mt-10'>Lalit isko Dekho Yrr Mere Se To Nhi Ho Raha</p>
 </div>
 
-
     {/* Card 1 */}
-
-    
-
     <div className=" w-24 h-5  "><h1 className="mt-2 p-10">
           <img src={slidelogo1} />
             </h1></div>
 
     {/* Card 2 */}
-
     <div className=" w-24 h-5 "><h1 className="mt-2 p-10">
           <img src={slidelogo2} />
             </h1></div>
 
     {/* Card 3 */}
-
     <div className=" w-24 h-5 "><h1 className="mt-8 p-10">
           <img src={slidelogo3} />
             </h1></div>

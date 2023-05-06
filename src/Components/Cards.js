@@ -34,12 +34,12 @@ function Cards() {
 
   return (
     <>
-    <section className="bg-[#1b1a3a] p-10 ">
+    <section className="bg-[#1b1a3a] p-10 gap-8">
     <h1 className="text-center font-bold text-3xl text-white">What Are You Seaching For?</h1>
 <Slider {...settings} className="m-10 ">
 
     {/* Card 1 */}
-    <div className=" p-10 bg-white  rounded-lg ">
+    <div className="p-10 bg-yellow-200 rounded-3xl">
       <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
       <div className="grid grid-cols-2 gap-20  mt-5">
       <div className="flex items-center  mx-3">
@@ -58,15 +58,15 @@ function Cards() {
       <FaCalendarMinus className="m-2"/> <h1 className="font-semibold">Courses Timing</h1>
       </div>
       </div>
-    <div className="grid grid-cols-2 mt-5 gap-4 ">
-      <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg">Enroll Now</a>
-    <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg">Compaire</a>
-    </div>
+      <div className="grid grid-cols-2 mt-5 gap-4 ">
+        <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg">Enroll Now</a>
+      <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg">Compaire</a>
+      </div>
     </div>
 
     {/* Card 2 */}
 
-    <div className=" p-10 bg-white  rounded-lg">
+    <div className="p-10 bg-white rounded-3xl">
       <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
       <div className="grid grid-cols-2 gap-20  mt-5">
       <div className="flex items-center  mx-3">
@@ -93,7 +93,7 @@ function Cards() {
 
     {/* Card 3 */}
 
-    <div className=" p-10 bg-white  rounded-lg">
+    <div className=" p-10 bg-red-500 rounded-lg">
       <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
       <div className="grid grid-cols-2 gap-20  mt-5">
       <div className="flex items-center  mx-3">
@@ -199,7 +199,7 @@ function Cards() {
     </div>
 
 
-    {/* Card 6 */}
+    {/* Card 7 */}
 
     <div className=" p-10 bg-white  rounded-lg">
       <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />

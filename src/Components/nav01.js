@@ -6,7 +6,8 @@ export default function NavBar() {
 
     return (
     
-        <nav className="w-full bg-[#FAF9F6] shadow">
+        <nav className="w-full bg-[#1b1d38] shadow">
+            {/* #FAF9F6 */}
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
