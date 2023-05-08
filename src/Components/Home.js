@@ -299,7 +299,7 @@ function Home() {
               <h1 className="text-center font-semibold text-4xl m-2">Still Confused?</h1>
               <p className="font-semibold text-gray-800 m-2 text-md text-center">explore our skill consultancy services to get clear answer of which skill is best for you.</p>
               <div className='text-center mt-3'>
-       <button className="border border-2 border-[#00C5FF] p-2 rounded-xl hover:bg-[#00C5FF]  text-[#00C5FF] bg-white hover:text-white px-8 text-lg  font-bold">Browse All</button>
+       <button className="border border-2 border-gray-300 p-2 rounded-xl   text-gray-500 bg-white hover:text-gray-600 px-8 text-lg  font-bold">Learn More</button>
        </div>
             </div>
           </div>
