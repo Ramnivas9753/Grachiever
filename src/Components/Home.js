@@ -30,6 +30,7 @@ import { FaStar } from "react-icons/fa";
 import { FaUser } from "react-icons/fa";
 import Cards from "./Cards";
 import Z_index_card1 from './Z_index_card1';
+import FlipCard from './FlipCard';
 
 function Home() {
     return(
@@ -116,8 +117,8 @@ function Home() {
 
 
       {/* <div className="flex flex-wrap">
-        <button className="px-5 py-3 bg-[#f7c200] rounded-md text-lg text-white font-bold mt-10">Book Your Free Trial Now<i className="fa-sharp fa-solid fa-arrow-right ml-3 animate-bounce"></i></button>
-        <button className="px-5 py-3 bg-[#349fcf] rounded-md text-lg text-white font-bold ml-5 mt-10">Enquire Now<i className="fa-solid fa-bell ml-3 animate-bounce"></i> </button>
+        <button className="px-5 py-3 bg-[#f7c200] rounded-md text-lg text-white font-bold mt-10">Book Your Free Trial Now<i className="fa-sharp fa-solid fa-arrow-right ml-3 scale-110 duration-300"></i></button>
+        <button className="px-5 py-3 bg-[#349fcf] rounded-md text-lg text-white font-bold ml-5 mt-10">Enquire Now<i className="fa-solid fa-bell ml-3 scale-110 duration-300"></i> </button>
       </div>
 
       <div className=" flex flex-wrap mt-7">
@@ -156,7 +157,7 @@ function Home() {
       <img src={homeimage01} className="w-[80%] m-auto" />            
     </div>
   </div>
-      {/* <!-- <a href="sign_up.html" className="bg-red-500"><img src="images/LOGOS/Resiter_now_button.png" className="fixed top-96 right-0 w-40 animate-bounce z-50"></a> 
+      {/* <!-- <a href="sign_up.html" className="bg-red-500"><img src="images/LOGOS/Resiter_now_button.png" className="fixed top-96 right-0 w-40 scale-110 duration-300 z-50"></a> 
         <a href="#"><img src="images/LOGOS/whatsapp-icon-unscreen.gif" className="float-right fixed right-0 w-40 z-50"></a> */}
 
 </section>
@@ -227,24 +228,24 @@ function Home() {
         <div >
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
             <div className=" w-auto sm:w-auto md:w-auto lg:w-auto h-52 rounded-lg m-2 sm:m-2 md:m-5 lg:m-5" style={{position: 'relative'}}>
-            <img src={tc1} alt='this is img' className='w-full h-full brightness-50 rounded-md hover:animate-bounce   ' />
+            <img src={tc1} alt='this is img' className='w-full h-full brightness-50 rounded-md hover:scale-110 duration-300   ' />
             <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>Digital Marketing</p>
             </div>
       
             <div className="w-auto sm:w-auto md:w-auto lg:w-auto h-52 rounded-lg m-2 sm:m-2 md:m-5 lg:m-5 " style={{position: 'relative'}}>
-            <img src={tc2} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-md hover:animate-bounce  '/>
+            <img src={tc2} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-md hover:scale-110 duration-300  '/>
               <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>Data</p>
             </div>
           </div>
       
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2">
             <div className="w-auto sm:w-auto md:w-auto lg:w-auto h-52 rounded-lg m-2 sm:m-2 md:m-5 lg:m-5" style={{position: 'relative'}}>
-            <img src={tc3} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-md hover:animate-bounce  '/>
+            <img src={tc3} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-md hover:scale-110 duration-300  '/>
               <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>Graphics and Design</p>
             </div>
       
             <div className="w-auto sm:w-auto md:w-auto lg:w-auto h-52 rounded-lg m-2 sm:m-2 md:m-5 lg:m-5 " style={{position: 'relative'}}>
-            <img src={tc4} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-md hover:animate-bounce  '/>
+            <img src={tc4} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-md hover:scale-110 duration-300  '/>
               <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>Technology</p>
             </div>
           </div>
@@ -254,17 +255,17 @@ function Home() {
         {/* Right Side Section--> */}
           {/* <div className="md:m-5 lg:m-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
             <div className="rounded-lg h-96 sm:h-96 md:h-full lg:h-full w-full " style={{position: 'relative'}}>
-            <img src={tc5} alt='this is img' width='100%' className='bg-red-200 w-full h-full brightness  rounded-md hover:animate-bounce  '/>
+            <img src={tc5} alt='this is img' width='100%' className='bg-red-200 w-full h-full brightness  rounded-md hover:scale-110 duration-300  '/>
               <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}><span class="text-[#4eb0e1]">Still Confused?</span><br/>
               explore our skill consultancy services to get clear answer of which skill is best for you.</p>
             </div>
             <div className="">
               <div className="w-full sm:w-full md:w-full lg:w-full h-52 rounded-lg" style={{position: 'relative'}}>
-              <img src={tc6} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-md hover:animate-bounce  '/>
+              <img src={tc6} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-md hover:scale-110 duration-300  '/>
                 <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>Business</p>
               </div>
               <div className="w-full sm:w-full md:w-full lg:w-full h-52 rounded-lg mt-10" style={{position: 'relative'}}>
-              <img src={tc7} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-md hover:animate-bounce  '/>
+              <img src={tc7} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-md hover:scale-110 duration-300  '/>
                 <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>Video and Animation</p>
               </div>
             </div>
@@ -282,17 +283,17 @@ function Home() {
   <div className="md:m-5 lg:m-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10">
   <div className="">
   <div className="w-full sm:w-full md:w-full lg:w-full h-52 rounded-2xl" style={{position: 'relative'}}>
-              <img src={Data} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-2xl hover:animate-bounce  '/>
+              <img src={Data} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-2xl hover:scale-110 duration-300  '/>
                 <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>Data</p>
               </div>
               <div className="w-full sm:w-full md:w-full lg:w-full h-52 rounded-2xl mt-10" style={{position: 'relative'}}>
-              <img src={Digital_Marketing} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-2xl hover:animate-bounce  '/>
+              <img src={Digital_Marketing} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-2xl hover:scale-110 duration-300  '/>
                 <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>Digital Marketing</p>
               </div>
 
             </div>
             <div className="bg-[#E0EBFF] rounded-2xl h-full sm:h-full md:h-full lg:h-full w-full overflow-hidden" style={{position: 'relative'}}>
-            <img src={Still_Confused} alt='this is img' width='100%' className=' w-full  brightness  rounded hover:animate-bounce  '/>
+            <img src={Still_Confused} alt='this is img' width='100%' className=' w-full  brightness  rounded hover:scale-110 duration-300  '/>
               {/* <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}><span class="text-[#4eb0e1]">Still Confused?</span><br/> */}
               {/* explore our skill consultancy services to get clear answer of which skill is best for you.</p> */}
               <h1 className="text-center font-semibold text-4xl m-2">Still Confused?</h1>
@@ -305,25 +306,25 @@ function Home() {
           <div>
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-[95%]">
             <div className=" w-auto sm:w-auto md:w-auto lg:w-auto h-52 rounded-2xl m-2 sm:m-2 md:m-5 lg:m-5" style={{position: 'relative'}}>
-            <img src={Data} alt='this is img' className='w-full h-full brightness-50 rounded-2xl hover:animate-bounce' />
+            <img src={Data} alt='this is img' className='w-full h-full brightness-50 rounded-2xl hover:scale-110 duration-300' />
               <p className='flex font-bold text-md text-center' style={{position: 'absolute', top: '8%', left: '20%', transform: 'translate(-50%, -50%)', color:'white'}}>
               <span className="m-auto"><FaStar className="ml-5 md:-ml-1 text-yellow-300"/></span>POPULAR</p>
               <p className='font-bold text-xl text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>A.I.M.L.</p>
             </div>
             <div className="w-auto sm:w-auto md:w-auto lg:w-auto h-52 rounded-2xl m-2 sm:m-2 md:m-5 lg:m-5 " style={{position: 'relative'}}>
-            <img src={Video_Animation} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-2xl hover:animate-bounce  '/>
+            <img src={Video_Animation} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-2xl hover:scale-110 duration-300  '/>
               <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>Video Animation</p>
             </div>
           </div>
       
           <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2 w-[95%]">
             <div className="w-auto sm:w-auto md:w-auto lg:w-auto h-52 rounded-2xl m-2 sm:m-2 md:m-5 lg:m-5 col-span-2" style={{position: 'relative'}}>
-            <img src={Graphics_Design} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-2xl hover:animate-bounce  '/>
+            <img src={Graphics_Design} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-2xl hover:scale-110 duration-300  '/>
               <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>Graphics and Design</p>
             </div>
       
             {/* <div className="w-auto sm:w-auto md:w-auto lg:w-auto h-52 rounded-lg m-2 sm:m-2 md:m-5 lg:m-5 " style={{position: 'relative'}}>
-            <img src={tc4} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-2xl hover:animate-bounce  '/>
+            <img src={tc4} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-2xl hover:scale-110 duration-300  '/>
               <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>Technology</p>
             </div> */}
           </div>
@@ -379,9 +380,9 @@ function Home() {
 
       {/* BOOST YOUR PRODUCTIVITY WITH GRACHIEVER`S TOOLS SERVICE */}
 
-      <section className='m-5 bg-[#1b1d38]'>
+      <section className='m-5 p-3 bg-[#1b1d38]'>
         <h1 className='text-center font-bold text-white text-3xl p-10'>BOOST YOUR PRODUCTIVITY WITH GRACHIEVER`S TOOLS SERVICE</h1>
-        <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-6 lg:grid-cols-6 justify-items-center '>
+        {/* <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-6 lg:grid-cols-6 justify-items-center '>
         <div className='bg-red-500 w-[50%] rounded-xl p-1  '>
           <h1 className='font-bold m-5 flex items-center'>HOW IT WORKs? </h1>
           <img src={sc1} className=''/>
@@ -408,7 +409,9 @@ function Home() {
           <h1 className='font-bold m-5 flex items-center'>HOW IT WORKs? </h1>
           <img src={Data} className=''/>
         </div>
-        </div>
+        </div> */}
+
+        <FlipCard  />
       </section>
 
 {/* <!-- ............... PHARA Section (3 card z-index )............ --> */}
@@ -420,21 +423,21 @@ function Home() {
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaXoOzCO6xDenUzyta0if2353uScOROh7FJUj1AwdEVkdAfB0C0pAZUJVEZNg3qdIQArg&usqp=CAU" className=" rounded-2xl h-52 sm:h-52 md:h-72 sm:h-72 w-full" />
         <div >
           <p className="absolute top-0 left-0 text-white lg:text-lg font-bold rounded-2xl lg:p-10 h-52 sm:h-52 md:h-72 lg:h-72 w-full" >welcome to Our Website . You Can Get Job From Here....</p>
-          <button className="absolute top-52 left-5 text-white lg:text-lg font-bold bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-3 rounded-md">Learn More <i className="fa-solid fa-arrow-right ml-3 animate-bounce"></i></button>
+          <button className="absolute top-52 left-5 text-white lg:text-lg font-bold bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-3 rounded-md">Learn More <i className="fa-solid fa-arrow-right ml-3 scale-110 duration-300"></i></button>
         </div>
     </div>
     <div className="stacked top-0 left-[30%] w-[40%]">
       <img src="https://st.depositphotos.com/1658644/4186/v/950/depositphotos_41863297-stock-illustration-female-software-engineer.jpg" className=" rounded-2xl h-52 sm:h-52 md:h-72 sm:h-72 w-full" />
         <div >
           <p className="absolute top-0 left-0 text-white lg:text-lg font-bold rounded-2xl lg:p-10 w-full h-52 sm:h-52 md:h-72 sm:h-72" >You Can Leran Here Web Development...</p>
-          <button className="absolute top-52 left-5 text-white lg:text-lg font-bold bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-3 rounded-md">Learn More <i className="fa-solid fa-arrow-right ml-3 animate-bounce"></i></button>
+          <button className="absolute top-52 left-5 text-white lg:text-lg font-bold bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-3 rounded-md">Learn More <i className="fa-solid fa-arrow-right ml-3 scale-110 duration-300"></i></button>
         </div>
     </div>
     <div className="stacked top-0 left-[60%] w-[40%]">
       <img src="https://cdn.computercareers.org/wp-content/uploads/computers-and-technology.jpg" className=" rounded-2xl w-full h-52 sm:h-52 md:h-72 sm:h-72" />
         <div >
           <p className="absolute top-0 left-0 text-white lg:text-lg font-bold rounded-2xl lg:p-10 w-full h-52 sm:h-52 md:h-72 sm:h-72" >we Are Providing Course And Releted Job here....</p>
-          <button className="absolute top-52 left-5 text-white lg:text-lg font-bold bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-3 rounded-md">Learn More <i className="fa-solid fa-arrow-right ml-3 animate-bounce"></i></button>
+          <button className="absolute top-52 left-5 text-white lg:text-lg font-bold bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-3 rounded-md">Learn More <i className="fa-solid fa-arrow-right ml-3 scale-110 duration-300"></i></button>
         </div>
     </div>
    
