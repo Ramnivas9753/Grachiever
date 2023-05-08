@@ -4,12 +4,12 @@ import grachieverlogo from "../images/LOGOS/g.logo.white1.png"
 
 
 function Navbar() {
-  const [navbar, setNavbar] = useState(false);
+  const [navbar, setNavbar] = useState(false); 
   const [open, setOpen] = useState(false);
 
     return (
-      <section>  
-      <nav className="w-full bg-[#1b1d38]">   
+      <section className="relative">  
+      <nav className="w-full bg-[#1b1d38] fixed top-0 z-50">   
       {/* bg-[#FAF9F6] */}
           <div className="justify-between  mx-auto lg:max-w-7xl md:items-center md:flex ">
               <div>
