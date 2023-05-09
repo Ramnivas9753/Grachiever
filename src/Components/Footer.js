@@ -1,4 +1,7 @@
 import grachieverlogo from "../images/LOGOS/g.logo.white1.png"
+import footer_logo1 from "../images/LOGOS/footer_logo1.png"
+import { FaAngleRight } from "react-icons/fa";
+
 function Footer() {
     return (
       <>
@@ -142,36 +145,22 @@ function Footer() {
 
 
 
-          <section className='bg-[#1c1e39] mt-10 pt-5'>
+          <section className='bg-[#1c1e39]'>
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3'> 
-            <div className='p-5'>
-            <img src={grachieverlogo} className="w-52 mx-auto" />
+            <div className=''>
+            <img src={footer_logo1} className="w-52 mx-auto" />
             </div>
             <div className='p-5'>
-              <p className="text-white text-3xl">Subscribe to Our Newsletter</p>
+              <p className="text-white text-2xl text-center">Subscribe to Our Newsletter</p>
               <form action="">
-                      <div className="relative md:mb-6 text-black mt-5" data-te-input-wrapper-init>
-                        <input
-                          type="text"
-                          className="peer block min-h-[auto] w-full rounded py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear border-white border-2 rounded-full"
-                          id="exampleFormControlInput1"
-                          placeholder="Email address" />
-                      </div>
-            
-                      <div className="mb-6 md:mr-auto mx-auto">
-                        <button
-                          type="submit"
-                          className="inline-block rounded-full border-2 border-neutral-50 px-6 pt-2 pb-[6px] font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:bg-white hover:text-black mx-auto"
-                          data-te-ripple-init
-                          data-te-ripple-color="light">
-                          Subscribe
-                        </button>
-                      </div>
-                  
+                  <div className="bg-white flex items-center mt-5 rounded-full outline-none">
+                    <input type="text" className="py-2.5 px-4 outline-none w-full rounded-full" placeholder="Search Anything..." />
+                    <span className="w-14 m-1 h-12 rounded-full bg-[#349fcf] text-white"><FaAngleRight className='text-3xl mx-auto mt-1 h-10 animate-pulse'/></span>
+                  </div>
               </form>
             </div>
             <div className='p-5'>
-            <p className="text-white text-3xl text-center">Follow Us On</p>
+            <p className="text-white text-2xl text-center">Follow Us On</p>
                 <div className="mb-6 flex justify-center mt-5">
                     <a
                       href="#!"
@@ -240,33 +229,33 @@ function Footer() {
 
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 text-white mx-10">
-              <div className="p-5">
-                <p className='text-center text-xl font-bold'>What is Grachiever ?</p>
-                <p className='mt-3'> Grachiever is a comprehensive platform designed to help individuals achieve success in their careers. Our goal is to provide high-quality courses, freelance opportunities, and the latest tools and resources to help you enhance your productivity and stay ahead in today's competitive job market.</p>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 text-white mx-10 -mt-10">
+              <div className="text-sm">
+                <p className='text-center text-xl font-bold p-5'>What is Grachiever ?</p>
+                <p className=''> Grachiever is a comprehensive platform designed to help individuals achieve success in their careers. Our goal is to provide high-quality courses, freelance opportunities, and the latest tools and resources to help you enhance your productivity and stay ahead in today's competitive job market.</p>
               </div>
-                <div className="p-5">
+                <div className="p-5  lg:pl-20">
                     <p className="font-bold text-lg mb-5">About</p>
                     <p className="">About Us</p>
                     <p className="">What We offer?</p>
                     <p className="">Our services</p>
                     <p className="">Contact Us</p>
                 </div>
-                <div className="p-5 ">
+                <div className="p-5  lg:pl-20">
                     <p className="font-bold text-lg mb-5">Special</p> 
                     <p className="">Grachiever plus</p> 
                     <p className="">Grachiever for business</p> 
                     <p className="">Skill graph</p> 
                     <p className="">Skill Consultancy</p> 
                 </div>
-                <div className="p-5">
+                <div className="p-5 lg:pl-20">
                     <p className="font-bold text-lg mb-5">Popular</p>
                     <p className="">Course</p>
                     <p className="">Skill </p>
                     <p className="">Services</p>
                     <p className="">Tools</p>
                 </div>
-                <div className="p-5">
+                <div className="p-5 lg:pl-20">
                     <p className="font-bold text-lg mb-5">More</p>
                     <p className="">Blog</p>
                     <p className="">Careers </p>
@@ -277,7 +266,7 @@ function Footer() {
                 </div>               
             </div>
             <div
-              className="p-4 text-center text-white">Copyright © 2023 <a className="" href="https://tailwind-elements.com/"> Grachiever.</a> All rights reserved.
+              className="p-4 text-center text-white">Copyright © 2023 <a className="underline" href="https://tailwind-elements.com/"> Grachiever.</a> All rights reserved.
             </div>
           </section>
       </>

@@ -213,8 +213,9 @@ function Home() {
     </section>
 
     {/* .................. z-index section under trial.......... */}
-    <Z_index_card1 />
-
+    <div className='w-[100%] h-96'>
+       <Z_index_card1/>
+    </div>
 
     {/* <!-- ........... card slider for codepen --> */}
 
