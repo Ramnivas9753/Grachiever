@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+.basedOn {
+  text-align: center;
+  font-size: 1.2em;
+  color: #fff;
+}
+.basedOn a,
+.basedOn a:visited,
+.basedOn a:hover,
+.basedOn a:active {
+  color: #693bff;
+}
+
+#carousel {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top:0;
+  bottom: 0;
+  position: relative;
+
+}
+
+.arrow {
+  position: absolute;
+  width: 60px;
+  height: 10%;
+  background-color: #b73a3e;
+  text-align: center;
+  font-size: 2em;
+  cursor: pointer;
+  line-height: 30px;
+  z-index: 1000;
+  top: 50%;
+  transform: translate(0, -50%);
+  transition: all 500ms;
+  color:black;
+}
+.arrow i {
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  
+}
+.arrow-right {
+  right: 0;
+}
+.arrow-left {
+  left: 0;
+}
+.arrow:hover {
+  background-color: #512da8;
+  color: #ffeb3b;
+}
+
+.item {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: box-shadow 1s, height 250ms, width 250ms, left 1s, margin-top 1s, line-height 250ms, background-color 1s;
+}
+
+.level-2 {
+  box-shadow: -0.1em 0.1em 0.2em #212121;
+  height: 72%;
+  width: 17%;
+  line-height: 72%;
+  background-color: #228291;
+  left: 15%;
+}
+
+.level-1 {
+  box-shadow: -0.2em 0.2em 0.4em #212121;
+  height: 78%;
+  width: 23%;
+  line-height: 78%;
+  background-color: #6796e5;
+  left: 30%;
+}
+
+.level0 {
+  box-shadow: 0 0.4em 0.8em #212121;
+  height: 85%;
+  width: 30%;
+  line-height: 85%;
+  background-color: #4ec9e1;
+  left: 50%;
+}
+
+.level1 {
+  box-shadow: 0.2em 0.2em 0.4em #212121;
+  height: 78%;
+  width: 23%;
+  line-height: 78%;
+  background-color: #6796e5;
+  left: 70%;
+}
+
+.level2 {
+  box-shadow: 0.1em 0.1em 0.2em #212121;
+  height: 72%;
+  width: 17%;
+  line-height: 72%;
+  background-color: #228291;
+  left: 85%;
+}
+
+.level-2,
+.level2 {
+  z-index: 0;
+}
+
+.level-1,
+.level1 {
+  z-index: 1;
+}
+
+.level0 {
+  z-index: 2;
+}
+
+.left-enter {
+  opacity: 0;
+  left: 85%;
+  height: -8%;
+  width: -8%;
+  line-height: 42%;
+}
+.left-enter.left-enter-active {
+  opacity: 1;
+  left: 85%;
+  height: 72%;
+  width: 17%;
+  line-height: 72%;
+  transition: box-shadow 1s, left 1s, opacity 1s, height 250ms, width 250ms, margin-top 1s, line-height 1s;
+}
+
+.left-leave {
+  opacity: 1;
+  left: 15%;
+  height: 72%;
+  width: 17%;
+  line-height: 72%;
+  z-index: -1;
+}
+.left-leave.left-leave-active {
+  z-index: -1;
+  left: 15%;
+  opacity: 0;
+  height: -8%;
+  width: -8%;
+  line-height: 120px;
+  transition: box-shadow 1s, left 1s, opacity 1s, height 250ms, width 250ms, margin-top 1s, line-height 1s;
+}
+
+.right-enter {
+  opacity: 0;
+  left: 15%;
+  height: -8%;
+  width: -8%;
+  line-height: 42%;
+}
+.right-enter.right-enter-active {
+  left: 15%;
+  opacity: 1;
+  height: 72%;
+  line-height: 72%;
+  width: 17%;
+  transition: box-shadow 1s, left 1s, opacity 1s, height 250ms, width 250ms, margin-top 1s, line-height 1s;
+}
+
+.right-leave {
+  left: 85%;
+  height: 72%;
+  opacity: 1;
+  line-height: 72%;
+  width: 17%;
+}
+.right-leave.right-leave-active {
+  left: 85%;
+  opacity: 0;
+  height: -8%;
+  width: -8%;
+  line-height: 42%;
+  transition: box-shadow 1s, left 1s, opacity 1s, height 250ms, width 250ms, margin-top 1s, line-height 1s;
+}
+
+.noselect {
+  -webkit-user-select: none;
+  -html-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
