@@ -8,10 +8,13 @@ function Cards() {
   const settings = {
     infinite: true,
     autoplay:true,
+    
     // autoplayTimeout:1000,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    // centerMode: true,
+    // centerPadding: "150px",
     responsive: [
       {
         breakpoint: 1024,
@@ -34,12 +37,24 @@ function Cards() {
 
   return (
     <>
-    <section className="bg-[#1b1a3a] p-10 gap-8">
-    <h1 className="text-center font-bold text-3xl text-white">What Are You Seaching For?</h1>
-<Slider {...settings} className="m-10 ">
+    <section className="bg-[#1b1a3a] p-1 sm:p-1 md:p-10 lg:p-10 ">
+    <div className=" justify-items-end grid grid-cols-1 sm:grid grid-cols-1 md:grid lg:grid-cols-3 ">
+    <div className="w-full font-bold md:text-4xl text-white  col-span-2">
+    <p className="text-center md:float-right">What Are You Seaching For?</p>
+    </div>
+    <div className="w-auto sm:w-96 md:w-96 mt-1 flex  font-semibold text-lg">
+      <button className="p-1 md:px-5 text-xl mx-1 sm:mx-3 md:mx-3 border-[#00c5ff] border-2 rounded-full text-[#00c5ff] hover:text-white">All</button>
+      <button className="p-1 md:px-5 text-xl mx-1 sm:mx-3 md:mx-3 hover:border-[#00c5ff] border-[#1b1a3a] border-2  rounded-full text-white">Trending</button>
+      <button className="p-1 md:px-5 text-xl mx-1 sm:mx-3 md:mx-3 hover:border-[#00c5ff] border-[#1b1a3a] border-2  rounded-full text-white">Popular</button>
+    
+    </div>
+    </div>
+    
+<Slider {...settings} className="m-5 sm:m-5 md:m-10 lg:m-10 ">
 
     {/* Card 1 */}
-    <div className="p-10 bg-yellow-200 rounded-3xl">
+    <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full">
+    <div className="p-2  rounded-xl bg-white rounded-3xl h-full  pb-5 ">
       <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
       <div className="grid grid-cols-2 gap-20  mt-5">
       <div className="flex items-center  mx-3">
@@ -59,20 +74,21 @@ function Cards() {
       </div>
       </div>
       <div className="grid grid-cols-2 mt-5 gap-4 ">
-        <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg">Enroll Now</a>
-      <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg">Compaire</a>
+        <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] rounded-lg ">Enroll Now</a>
+      <a href="#" className="px-3 py-2 text-sm font-medium text-center hover:bg-[#00c5ff] bg-white hover:text-white text-black border-2 border-[#00c5ff] rounded-lg ">Compaire</a>
       </div>
     </div>
+    </div>
 
-    {/* Card 2 */}
-
-    <div className="p-10 bg-white rounded-3xl">
-      <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
+    {/* Card 1 */}
+    <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full">
+    <div className="p-2  rounded-xl bg-white rounded-3xl h-full  pb-5 ">
+      <img src="https://www.classcentral.com/report/wp-content/uploads/2022/03/Best-Courses-Copywriting-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
       <div className="grid grid-cols-2 gap-20  mt-5">
       <div className="flex items-center  mx-3">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
       </div>
-      <div className="flex items-center mx-3 ">
+      <div className="flex items-center mx-3  ">
       <FaDollarSign className="" /> <h1 className="font-bold">Paid Courses</h1>
       </div>
       </div>
@@ -85,21 +101,21 @@ function Cards() {
       <FaCalendarMinus className="m-2"/> <h1 className="font-semibold">Courses Timing</h1>
       </div>
       </div>
-    <div className="grid grid-cols-2 mt-5 gap-4 ">
-      <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg">Enroll Now</a>
-    <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg">Compaire</a>
+      <div className="grid grid-cols-2 mt-5 gap-4 ">
+        <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] rounded-lg ">Enroll Now</a>
+      <a href="#" className="px-3 py-2 text-sm font-medium text-center hover:bg-[#00c5ff] bg-white hover:text-white text-black border-2 border-[#00c5ff] rounded-lg ">Compaire</a>
+      </div>
     </div>
     </div>
-
-    {/* Card 3 */}
-
-    <div className=" p-10 bg-red-500 rounded-lg">
-      <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
+    {/* Card 1 */}
+    <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full">
+    <div className="p-2  rounded-xl bg-white rounded-3xl h-full  pb-5 ">
+      <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/NumPy-BCG-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
       <div className="grid grid-cols-2 gap-20  mt-5">
       <div className="flex items-center  mx-3">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
       </div>
-      <div className="flex items-center mx-3 ">
+      <div className="flex items-center mx-3  ">
       <FaDollarSign className="" /> <h1 className="font-bold">Paid Courses</h1>
       </div>
       </div>
@@ -112,21 +128,22 @@ function Cards() {
       <FaCalendarMinus className="m-2"/> <h1 className="font-semibold">Courses Timing</h1>
       </div>
       </div>
-    <div className="grid grid-cols-2 mt-5 gap-4 ">
-      <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg">Enroll Now</a>
-    <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg">Compaire</a>
+      <div className="grid grid-cols-2 mt-5 gap-4 ">
+        <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] rounded-lg ">Enroll Now</a>
+      <a href="#" className="px-3 py-2 text-sm font-medium text-center hover:bg-[#00c5ff] bg-white hover:text-white text-black border-2 border-[#00c5ff] rounded-lg ">Compaire</a>
+      </div>
     </div>
     </div>
 
-    {/* Card 4 */}
-
-    <div className=" p-10 bg-white  rounded-lg">
-      <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
+    {/* Card 1 */}
+    <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full">
+    <div className="p-2  rounded-xl bg-white rounded-3xl h-full  pb-5 ">
+      <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/79/40d8a60bae487c8b4c862f52e0f13d/dj4e_thumbnail_specialization.jpg?auto=format%2Ccompress&dpr=1&w=330&h=330&q=25&fit=fill" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
       <div className="grid grid-cols-2 gap-20  mt-5">
       <div className="flex items-center  mx-3">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
       </div>
-      <div className="flex items-center mx-3 ">
+      <div className="flex items-center mx-3  ">
       <FaDollarSign className="" /> <h1 className="font-bold">Paid Courses</h1>
       </div>
       </div>
@@ -139,20 +156,22 @@ function Cards() {
       <FaCalendarMinus className="m-2"/> <h1 className="font-semibold">Courses Timing</h1>
       </div>
       </div>
-    <div className="grid grid-cols-2 mt-5 gap-4 ">
-      <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg">Enroll Now</a>
-    <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg">Compaire</a>
+      <div className="grid grid-cols-2 mt-5 gap-4 ">
+        <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] rounded-lg ">Enroll Now</a>
+      <a href="#" className="px-3 py-2 text-sm font-medium text-center hover:bg-[#00c5ff] bg-white hover:text-white text-black border-2 border-[#00c5ff] rounded-lg ">Compaire</a>
+      </div>
     </div>
     </div>
 
-    {/* Card 5 */}
-    <div className=" p-10 bg-white  rounded-lg">
-      <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
+    {/* Card 1 */}
+    <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full">
+    <div className="p-2  rounded-xl bg-white rounded-3xl h-full  pb-5 ">
+      <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/ff/4584404c7511e7a18adb2a6ad3c009/GettyImages-185239648.jpg?auto=format%2Ccompress&dpr=1&w=330&h=330&fit=fill&q=25" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
       <div className="grid grid-cols-2 gap-20  mt-5">
       <div className="flex items-center  mx-3">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
       </div>
-      <div className="flex items-center mx-3 ">
+      <div className="flex items-center mx-3  ">
       <FaDollarSign className="" /> <h1 className="font-bold">Paid Courses</h1>
       </div>
       </div>
@@ -165,72 +184,21 @@ function Cards() {
       <FaCalendarMinus className="m-2"/> <h1 className="font-semibold">Courses Timing</h1>
       </div>
       </div>
-    <div className="grid grid-cols-2 mt-5 gap-4 ">
-      <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg">Enroll Now</a>
-    <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg">Compaire</a>
+      <div className="grid grid-cols-2 mt-5 gap-4 ">
+        <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] rounded-lg ">Enroll Now</a>
+      <a href="#" className="px-3 py-2 text-sm font-medium text-center hover:bg-[#00c5ff] bg-white hover:text-white text-black border-2 border-[#00c5ff] rounded-lg ">Compaire</a>
+      </div>
     </div>
     </div>
-
-    {/* Card 6 */}
-
-    <div className=" p-10 bg-white  rounded-lg">
-      <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
-      <div className="grid grid-cols-2 gap-20  mt-5">
-      <div className="flex items-center  mx-3">
-      <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
-      </div>
-      <div className="flex items-center mx-3 ">
-      <FaDollarSign className="" /> <h1 className="font-bold">Paid Courses</h1>
-      </div>
-      </div>
-      <h1 className="mt-5 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pyhton Full Stack Development</h1>
-      <div className="grid grid-cols-2 gap-10 mt-5">
-      <div className="flex items-center">
-      <FaBook className="m-2"/> <h1 className="font-bold">Grachiever</h1>
-      </div>
-      <div className="flex items-center ">
-      <FaCalendarMinus className="m-2"/> <h1 className="font-semibold">Courses Timing</h1>
-      </div>
-      </div>
-    <div className="grid grid-cols-2 mt-5 gap-4 ">
-      <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg">Enroll Now</a>
-    <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg">Compaire</a>
-    </div>
-    </div>
-
-
-    {/* Card 7 */}
-
-    <div className=" p-10 bg-white  rounded-lg">
-      <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
-      <div className="grid grid-cols-2 gap-20  mt-5">
-      <div className="flex items-center  mx-3">
-      <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
-      </div>
-      <div className="flex items-center mx-3 ">
-      <FaDollarSign className="" /> <h1 className="font-bold">Paid Courses</h1>
-      </div>
-      </div>
-      <h1 className="mt-5 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pyhton Full Stack Development</h1>
-      <div className="grid grid-cols-2 gap-10 mt-5">
-      <div className="flex items-center">
-      <FaBook className="m-2"/> <h1 className="font-bold">Grachiever</h1>
-      </div>
-      <div className="flex items-center ">
-      <FaCalendarMinus className="m-2"/> <h1 className="font-semibold">Courses Timing</h1>
-      </div>
-      </div>
-    <div className="grid grid-cols-2 mt-5 gap-4 ">
-      <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg">Enroll Now</a>
-    <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg">Compaire</a>
-    </div>
-    </div>
+    
 
   </Slider>
+  <div className='text-center mt-3'>
+       <button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2 rounded-xl   px-8 text-lg  font-bold">Browse All</button>
+       </div>
     </section>
   </>
   );
 }
 
 export default Cards;
-
