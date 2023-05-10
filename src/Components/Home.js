@@ -221,12 +221,7 @@ function Home() {
         </div>
     </div>
     </section>
-
-    {/* .................. z-index section under trial.......... */}
-    <div className='w-[100%] h-96'>
-       <Z_index_card1/>
-    </div>
-
+   
     {/* <!-- ........... card slider for codepen --> */}
 
     <Cards />
@@ -344,6 +339,7 @@ function Home() {
   </section>
 
 {/* <!-- ....... why choose Grachiever .............--> */}
+
 <section className="p-0 sm:p-0 md:p-10 lg:p-10"  data-aos="zoom-in" data-aos-duration="2000">
           <h1 className=" text-center text-3xl sm:text-3xl md:text-3xl lg:text-3xl font-bold ">Why Choose Grachiever</h1>
           <div className="grid grid-flow-cols-1 md:grid-cols-4 lg:grid-cols-4  mt-24">
@@ -396,51 +392,8 @@ function Home() {
         <FlipCard  />
       </section>
 
-{/* <!-- ............... PHARA Section (3 card z-index )............ --> */}
 
-{/* <!-- .................. z-index section 1 start............ --> */}
-{/* <section className="p-0 sm:p-0 md:p-10 lg:p-10" data-aos="zoom-in" data-aos-duration="2000">
-  <div className="relative mt-[100px] flex mx-5 md:mx-10 lg:mx-10">
-    <div className="stacked w-[40%]">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaXoOzCO6xDenUzyta0if2353uScOROh7FJUj1AwdEVkdAfB0C0pAZUJVEZNg3qdIQArg&usqp=CAU" className=" rounded-2xl h-52 sm:h-52 md:h-72 sm:h-72 w-full" />
-        <div >
-          <p className="absolute top-0 left-0 text-white lg:text-lg font-bold rounded-2xl lg:p-10 h-52 sm:h-52 md:h-72 lg:h-72 w-full" >welcome to Our Website . You Can Get Job From Here....</p>
-          <button className="absolute top-52 left-5 text-white lg:text-lg font-bold bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-3 rounded-md">Learn More <i className="fa-solid fa-arrow-right ml-3 scale-110 duration-300"></i></button>
-        </div>
-    </div>
-    <div className="stacked top-0 left-[30%] w-[40%]">
-      <img src="https://st.depositphotos.com/1658644/4186/v/950/depositphotos_41863297-stock-illustration-female-software-engineer.jpg" className=" rounded-2xl h-52 sm:h-52 md:h-72 sm:h-72 w-full" />
-        <div >
-          <p className="absolute top-0 left-0 text-white lg:text-lg font-bold rounded-2xl lg:p-10 w-full h-52 sm:h-52 md:h-72 sm:h-72" >You Can Leran Here Web Development...</p>
-          <button className="absolute top-52 left-5 text-white lg:text-lg font-bold bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-3 rounded-md">Learn More <i className="fa-solid fa-arrow-right ml-3 scale-110 duration-300"></i></button>
-        </div>
-    </div>
-    <div className="stacked top-0 left-[60%] w-[40%]">
-      <img src="https://cdn.computercareers.org/wp-content/uploads/computers-and-technology.jpg" className=" rounded-2xl w-full h-52 sm:h-52 md:h-72 sm:h-72" />
-        <div >
-          <p className="absolute top-0 left-0 text-white lg:text-lg font-bold rounded-2xl lg:p-10 w-full h-52 sm:h-52 md:h-72 sm:h-72" >we Are Providing Course And Releted Job here....</p>
-          <button className="absolute top-52 left-5 text-white lg:text-lg font-bold bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-3 rounded-md">Learn More <i className="fa-solid fa-arrow-right ml-3 scale-110 duration-300"></i></button>
-        </div>
-    </div>
-   
-  </div>
-  </section> */}
-  
-  {/* <script>
-    document.querySelectorAll('.stacked').forEach(el => {
-    el.addEventListener('click', () => {
-      // el.style.zIndex++
-      el.classNameList.add("border-2")
-    })
-  })
-  </script> */}
-  
-  {/* <!-- w-24 sm:w-28 md:w-52 lg:w-96 --> */}
-  {/* <!-- .................. z-index section 1 end............ --> */}
-  
-   {/* <!-- ........................ PHARA section end ................... --> */}
-
-    {/* <!--Skill Consultancy--> */}
+   {/* <!--Skill Consultancy--> */}
     <section className="p-0 sm:p-0 md:p-10 lg:p-10" data-aos="zoom-in" data-aos-duration="2000">
       <div className="m-2 h-auto p-2 mt-[]">
           {/* <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-5xl mx-0 sm:mx-0 md:mx-20 font-bold my-10">Skill <span class="text-[#4eb0e1]">Consultancy</span></h1> */}
@@ -476,7 +429,6 @@ function Home() {
         <h2 className="text-3xl text-gray-300">Enhance Your Skill With Grachiever</h2>
   
     <div className="text-center m-2 mt-10">
-    
         <select className=" w-auto md:w-64 lg:w-64  h-14 border rounded-xl text-xl p-2 m-2 font-semibold">
             <option>Category</option>
             <option>Option 1</option>
@@ -496,23 +448,24 @@ function Home() {
     </div>
 </section>
 
+
  {/* <!--Achievements Sections--> */}
 <section className="p-0 sm:p-0 md:p-10 lg:p-10"  data-aos="zoom-in" data-aos-duration="2000">
     <div className=" m-2">
-            <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-4xl font-bold text-center p-5 ">Achievements</h1>
+        <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-4xl font-bold text-center p-5 ">Achievements</h1>
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 lg:grid-cols-4 text-center ">
-            <div className="border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] h-48 m-10 rounded-lg">
-            <FaGraduationCap className='text-3xl text-black-400 mt-10 mx-auto m-2'/>
+            <div className="border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-48 w-48 m-10 rounded-full">
+              <FaGraduationCap className='text-3xl text-black-400 mt-10 mx-auto m-2'/>
               <p className="text-2xl font-bold">350+</p>
               <p>Student worldwide</p>
             </div>
-            <div className="border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] h-48 m-10 rounded-lg">
+            <div className="border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] h-48 m-10 rounded-full">
               <FaList className='text-3xl text-black-400 mt-10 mx-auto m-2'/>           
               <p className="text-2xl font-bold">450+</p>
               <p>Total Course Views</p>
             </div>
             <div className="border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] h-48 m-10 rounded-lg">
-            <FaStar className='text-3xl text-black-400 mt-10 mx-auto m-2'/>
+              <FaStar className='text-3xl text-black-400 mt-10 mx-auto m-2'/>
               <p className="text-2xl font-bold">550+</p>
               <p>Five-Star Course Reviews</p>
             </div>
@@ -522,7 +475,7 @@ function Home() {
               <p>Student Community</p>
             </div>
         </div>
-        </div>
+    </div>
 </section>
  
    {/* <!-- Blog Section --> */}
@@ -561,106 +514,20 @@ function Home() {
           <p className=" w-auto mb-6 space-x-8 p-2">Whether you’re a data scientist, machine learning engineer, or just someone who needs to crunch a bunch of numbers in a short amount of time, NumPy is definitely for you.</p>
         </div>
        </div>
-       {/* <div className='text-center mt-10'>
-       <button className="p-2 rounded-xl hover:bg-[#2d96b7]  text-[#6fdeff]  border-4  border-[#6fdeff] px-14 text-lg mt-5 font-bold">See More...</button>
-       </div> */}
-   {/* </div> */}
+      
 </section>
 
 
 {/* <!-- ....... popular and demand start  ...... --> */}
-{/* 
-<section className="mt-0 sm:mt-0 md:mt-20 lg:mt-20 scale-50 sm:scale-100 md:scale-100 lg:scale-100 w-auto p-0 sm:p-0 md:p-10 lg:p-10">
-  <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-3xl font-bold text-center m-5 p-5 mt-10">Popular In Demand Services</h1>
-  <div className="container1 w-auto">
-    <div className="icon-image">
-          <div className="icon">
-            <img src="images/z_index_images/img1.jpg" alt="" />
-          </div>
-        <div className="hover-image one">
-          <div className="img">
-            <img src="images/z_index_images/img2.jpg" alt="" />
-          </div>
-        <div className="content">
-          <div className="details">
-            <div className="name">Lilly Carls</div>
-            <div className="job">Blogger || Designer </div>
-          </div>
-        </div>
-        </div>
+<div className='h-96'>
+    <p className="text-center text-5xl">Popular <span className='text-[#00c5ff]'>In-Demand </span> Services</p>
+       <Z_index_card1/>
     </div>
-    <div className="icon-image">
-          <div className="icon">
-            <img src="images/z_index_images/img3.jpg" alt="" />
-          </div>
-        <div className="hover-image one">
-          <div className="img">
-            <img src="images/z_index_images/img4.jpg" alt="" />
-          </div>
-        <div className="content">
-          <div className="details">
-            <div className="name">Stephen Bald</div>
-            <div className="job"> Designer || Developer</div>
-          </div>
-        </div>
-        </div>
-    </div>
-    <div className="icon-image">
-          <div className="icon">
-            <img src="images/z_index_images/img5.jpg" alt="" />
-          </div>
-        <div className="hover-image one">
-          <div className="img">
-            <img src="images/z_index_images/img6.jpeg" alt="" />
-          </div>
-        <div className="content">
-          <div className="details">
-            <div className="name">Mike Tyson</div>
-            <div className="job">Photographer || Youtuber</div>
 
-          </div>
-        </div>
-        </div>
-    </div>
-    <div className="icon-image">
-          <div className="icon">
-            <img src="images/z_index_images/img1.jpg" alt="" />
-          </div>
-        <div className="hover-image one">
-          <div className="img">
-            <img src="images/z_index_images/img2.jpg" alt="" />
-          </div>
-        <div className="content">
-          <div className="details">
-            <div className="name">Emma Oliva</div>
-            <div className="job">Developer || Designer</div>
-          </div>
-        </div>
-        </div>
-    </div>
-    <div className="icon-image last">
-          <div className="icon">
-            <img src="images/z_index_images/img3.jpg" alt="" />
-          </div>
-        <div className="hover-image one">
-          <div className="img">
-            <img src="images/z_index_images/img1.jpg" alt="" />
-          </div>
-        <div className="content">
-          <div className="details">
-            <div className="name">David Marloo</div>
-            <div className="job">Blogger || Youtuber</div>
-          </div>
-        </div>
-        </div>
-    </div>
-  </div>
-
-</section> */}
 {/* <!-- ....... popular and demand end ...... --> */}
     
       {/* <!--Finding Your Right Course--> */}
-<section className="p-0 sm:p-0 md:p-10 lg:p-10 bg-[#e0ebff]">
+<section className="p-0 sm:p-0 md:p-10 lg:p-10 bg-[#e0ebff] mt-10">
       <div className=" m-2 mx-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 mt-5">
         <div className="m-auto md:col-span-2">
           <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-3xl font-bold p-2">Finding Your Right Course</h1>
