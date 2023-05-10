@@ -391,8 +391,8 @@ function Home() {
 
       {/* BOOST YOUR PRODUCTIVITY WITH GRACHIEVER`S TOOLS SERVICE */}
 
-      <section className='m-5 p-3 bg-[#1b1d]'>
-        <h1 className='text-center font-bold text-white md:text-3xl p-10'>BOOST YOUR PRODUCTIVITY WITH GRACHIEVER`S TOOLS SERVICE</h1>
+      <section className=' p-10 bg-[#1b1d38]'>
+        <h1 className='text-center font-bold text-white md:text-3xl p-10'><span class="text-[#4eb0e1]">BOOST</span> YOUR PRODUCTIVITY WITH GRACHIEVER`S TOOLS SERVICE</h1>
         <FlipCard  />
       </section>
 
