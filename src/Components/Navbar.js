@@ -14,9 +14,9 @@ function Navbar() {
           <div className="justify-between  mx-auto lg:max-w-7xl md:items-center md:flex ">
               <div>
                   <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                      <Link to="/"><img src={grachieverlogo} className="w-20 sm:w-28 md:w-40 -py-3 -mt-10" alt="Grachiever Logo" /></Link>
+                      <Link to="/"><img src={grachieverlogo} className="w-28 md:w-40 -mt-5 md:-mt-10" alt="Grachiever Logo" /></Link>
                       <div className="flex text-white text-sm hidden max-md:block">
-                              <Link to="/login" className="px-2 py-1 text-center rounded-full shadow hover:text-blue-500 hover:border">  Log-in</Link>
+                              <Link to="/login" className="px-2 py-1 text-center rounded-full shadow hover:text-blue-500 border border-white">Log-in</Link>
                               <Link to="/signup" className="px-2 py-1 text-center text-gray-800 bg-[#349fcf] text-white rounded-full shadow hover:text-black">Sign up</Link>
                       </div>
                           
@@ -123,7 +123,7 @@ function Navbar() {
                           </li>
                           <li className=" lg:pl-10">
                           <div className="flex">
-                              <Link to="/login" className="px-4 py-2 text-center rounded-full shadow hover:text-blue-500 hover:border">  Log-in</Link>
+                              <Link to="/login" className="px-4 py-2 text-center rounded-full shadow hover:text-blue-500 border border-[#1b1d38] hover:border-white">  Log-in</Link>
                               <Link to="/signup" className="px-4 py-2 text-center text-gray-800 bg-[#00c5ff] text-white rounded-full shadow hover:text-black">Sign up</Link>
                           </div>
                           </li>

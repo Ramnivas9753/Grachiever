@@ -9,7 +9,7 @@ function Footer() {
             {/* <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3'>  */}
           <div className="flex flex-wrap">
             <div className='w-[100%] md:w-[25%] lg:w-[25%]'>
-            <img src={footer_logo1} className="w-52 mx-14" />
+            <img src={footer_logo1} className="w-52 mx-auto" />
             </div>
             <div className='p-5 w-[100%] md:w-[50%] lg:w-[50%]'>
               <p className="text-white text-2xl text-center">Subscribe to Our Newsletter</p>
@@ -91,7 +91,7 @@ function Footer() {
           </div>
             {/* </div> */}
 
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-5 text-white mx-10 -mt-10 text-center">
+            <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 text-white mx-10 -mt-10 text-center">
               <div className="text-sm">
                 <p className='text-center text-xl font-bold p-5'>What is Grachiever ?</p>
                 <p className=''> Grachiever is a comprehensive platform designed to help individuals achieve success in their careers. Our goal is to provide high-quality courses, freelance opportunities, and the latest tools and resources to help you enhance your productivity and stay ahead in today's competitive job market.</p>

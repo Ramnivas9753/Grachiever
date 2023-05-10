@@ -125,98 +125,29 @@ function Home() {
 
       </div>
 
-
-      {/* <div className="flex flex-wrap">
-        <button className="px-5 py-3 bg-[#f7c200] rounded-md text-lg text-white font-bold mt-10">Book Your Free Trial Now<i className="fa-sharp fa-solid fa-arrow-right ml-3 scale-110 duration-300"></i></button>
-        <button className="px-5 py-3 bg-[#349fcf] rounded-md text-lg text-white font-bold ml-5 mt-10">Enquire Now<i className="fa-solid fa-bell ml-3 scale-110 duration-300"></i> </button>
-      </div>
-
-      <div className=" flex flex-wrap mt-7">
-        <img src="https://cdn-icons-png.flaticon.com/512/1532/1532556.png" className="w-12 rounded-full bg-yellow-100 p-2 hover:-translate-y-1 hover:scale-110 duration-300" /><p className="ml-2 mt-3">HTML</p> 
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" className="w-12 ml-5 bg-blue-100 rounded-full p-2 hover:-translate-y-1 hover:scale-110 duration-300" /><p className="ml-2 mt-3">Python</p> 
-        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968282.png" className="w-12  rounded-full p-2 ml-5 hover:-translate-y-1 hover:scale-110 duration-300" /><p className="ml-2 mt-3">Java</p> 
-      </div>
-      <div className=" flex flex-wrap mt-7">
-        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png" className="w-12 rounded-full bg-orange-100 p-2 hover:-translate-y-1 hover:scale-110 duration-300" /><p className="ml-2 mt-3">CSS</p> 
-        <img src="https://camo.githubusercontent.com/2512b49c89512f2ff3718f7257f48ed5c46a4e331abbd890b6c5e8c0e458434f/68747470733a2f2f676574626f6f7473747261702e636f6d2f646f63732f352e322f6173736574732f6272616e642f626f6f7473747261702d6c6f676f2d736861646f772e706e67" className="w-12 rounded-full bg-gray-300 p-2 ml-5 hover:-translate-y-1 hover:scale-110 duration-300" /><p className="ml-2 mt-3">Bootstrap</p> 
-        <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-2038874-1720087.png" className="w-12 rounded-full bg-green-100 p-2 ml-5 hover:-translate-y-1 hover:scale-110 duration-300" /><p className="ml-2 mt-3">JavaScript</p> 
-      </div> */}
-
-      
-      {/* <!-- <div className="flex flex-wrap mt-5"> 
-        <div className="p-5 w-52">
-          <p className="font-bold text-3xl text-[#f7c200]">95%</p>
-          <p className="mt-3">placed within 8 months of graduation</p>
-        </div>
-        <div className="p-5 w-52">
-          <p className="font-bold text-3xl text-[#349fcf]">11 LPA</p>
-          <p className="mt-3">average dream job CTC</p>
-        </div>
-        <div className="p-5 w-52">
-          <p className="font-bold text-3xl text-[#f7c200]">240+</p>
-          <p className="mt-3">Our Hiring Partners</p>
-        </div>
-        <div className="p-5 w-52">
-          <p className="font-bold text-3xl text-[#349fcf]">1:1</p>
-          <p className="mt-3">Dedicated Mentorship</p>
-        </div>
-      </div> */}
-
     </div>
-    <div className="">
-      <img src={homeimage01} className="w-[80%] m-auto" />            
+    <div className="mt-8 md:mt-0">
+      <img src={homeimage01} className="md:w-[80%] m-auto" />            
     </div>
   </div>
-      {/* <!-- <a href="sign_up.html" className="bg-red-500"><img src="images/LOGOS/Resiter_now_button.png" className="fixed top-96 right-0 w-40 scale-110 duration-300 z-50"></a> 
-        <a href="#"><img src="images/LOGOS/whatsapp-icon-unscreen.gif" className="float-right fixed right-0 w-40 z-50"></a> */}
-
 </section>
 {/* <!-- ...................... home section end ................................... --> */}
 
     {/* <!--Trusted Section-->    */}
 
     <Trusted_section/>
-    
-  {/* <section className="p-0 sm:p-0 md:p-10 lg:p-10" > 
-    <div className="p-3 mt-5">
-        <h1 className=" text-center text-3xl sm:text-3xl md:text-3xl lg:text-3xl font-bold">Trusted By World Best</h1>
-
-        <div className="owl-carousel owl-theme grid grid-cols-2 xs:grid-cols-1 md:grid-cols-6 lg:grid-cols-6 m-5 md:m-5 lg:m-5 h-72 md:h-24 lg:h-24  text-center">
-          <div className=" w-24  mx-auto"><h1 className="mt-8">
-          <img src={slidelogo1} />
-            </h1></div>
-            <div className=" w-24  mx-auto"><h1 className="mt-8">
-            <img src={slidelogo2} />
-
-            </h1></div>
-            <div className=" w-24  mx-auto"><h1 className="mt-8">
-            <img src={slidelogo3} />
-            </h1></div>
-            <div className=" w-24  mx-auto"><h1 className="mt-8">
-            <img src={slidelogo4} />
-            </h1></div>
-            <div className="w-24  mx-auto"><h1 className="mt-8">
-            <img src={slidelogo5} />
-            </h1></div>
-            <div className="w-24 mx-auto"><h1 className="mt-8">
-            <img src={slidelogo6} />
-            </h1></div>
-        </div>
-        </div>
-        
-  </section> */}
 
     {/* <!--Skill Section--> */}
 
-    <section className="p-0 sm:p-0 md:p-10 lg:p-10">
+    <section className="p-0 sm:p-0 md:p-10 lg:p-10 mt-5">
       <div className="h-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2"  data-aos="zoom-in" data-aos-duration="2000">
         <div className="lg:h-full md:h-full mx-5 sm:mx-5 md:mx-10 lg:mx-10">
-            <h1 className=" mt-5 text-3xl sm:text-3xl md:text-3xl lg:text-5xl font-bold"><span class="text-[#4eb0e1]">Track</span> The Trending<br/> <span class="text-[#4eb0e1]">Skills</span> Over Time</h1>
-            <p className="mt-10  text-lg">Our Skill Graph feature helps you stay up-to-date with the latest skills in demand. our Skill Graph displays the trending skills over time.</p>
+            <h1 className=" mt-5 text-2xl sm:text-2xl md:text-3xl lg:text-5xl font-bold"><span class="text-[#4eb0e1]">Track</span> The Trending<br/> <span class="text-[#4eb0e1]">Skills</span> Over Time</h1>
+            <p className="mt-5  text-lg">Our Skill Graph feature helps you stay up-to-date with the latest skills in demand. our Skill Graph displays the trending skills over time.</p>
             <p  className="mt-5 text-lg">allowing you to identify which skills are gaining popularity and which are losing relevance. With this powerful tool, you can make informed decisions about the skills you want to learn or develop, ensuring you stay ahead of the curve in your chosen field.</p>
         </div>
     {/* <!--Graph Section--> */}
-        <div className="">
+        <div className="mt-5 md:mt-0">
           <img src={sgraph} className='mx-auto' />
         </div>
     </div>
@@ -226,67 +157,13 @@ function Home() {
 
     <Cards />
 
-{/* <!--Top Categories--> */}
-
-{/* <section className="m-5 p-0 sm:p-0 md:p-10 lg:p-10" >
-    <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-3xl font-bold text-center m-10 ">Top Categories</h1>
-    <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
-        <div >
-          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
-            <div className=" w-auto sm:w-auto md:w-auto lg:w-auto h-52 rounded-lg m-2 sm:m-2 md:m-5 lg:m-5" style={{position: 'relative'}}>
-            <img src={tc1} alt='this is img' className='w-full h-full brightness-50 rounded-md hover:scale-110 duration-300   ' />
-            <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>Digital Marketing</p>
-            </div>
-      
-            <div className="w-auto sm:w-auto md:w-auto lg:w-auto h-52 rounded-lg m-2 sm:m-2 md:m-5 lg:m-5 " style={{position: 'relative'}}>
-            <img src={tc2} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-md hover:scale-110 duration-300  '/>
-              <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>Data</p>
-            </div>
-          </div>
-      
-          <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2">
-            <div className="w-auto sm:w-auto md:w-auto lg:w-auto h-52 rounded-lg m-2 sm:m-2 md:m-5 lg:m-5" style={{position: 'relative'}}>
-            <img src={tc3} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-md hover:scale-110 duration-300  '/>
-              <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>Graphics and Design</p>
-            </div>
-      
-            <div className="w-auto sm:w-auto md:w-auto lg:w-auto h-52 rounded-lg m-2 sm:m-2 md:m-5 lg:m-5 " style={{position: 'relative'}}>
-            <img src={tc4} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-md hover:scale-110 duration-300  '/>
-              <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>Technology</p>
-            </div>
-          </div>
-          </div> */}
-       
-
-        {/* Right Side Section--> */}
-          {/* <div className="md:m-5 lg:m-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
-            <div className="rounded-lg h-96 sm:h-96 md:h-full lg:h-full w-full " style={{position: 'relative'}}>
-            <img src={tc5} alt='this is img' width='100%' className='bg-red-200 w-full h-full brightness  rounded-md hover:scale-110 duration-300  '/>
-              <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}><span class="text-[#4eb0e1]">Still Confused?</span><br/>
-              explore our skill consultancy services to get clear answer of which skill is best for you.</p>
-            </div>
-            <div className="">
-              <div className="w-full sm:w-full md:w-full lg:w-full h-52 rounded-lg" style={{position: 'relative'}}>
-              <img src={tc6} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-md hover:scale-110 duration-300  '/>
-                <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>Business</p>
-              </div>
-              <div className="w-full sm:w-full md:w-full lg:w-full h-52 rounded-lg mt-10" style={{position: 'relative'}}>
-              <img src={tc7} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-md hover:scale-110 duration-300  '/>
-                <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}>Video and Animation</p>
-              </div>
-            </div>
-          </div>
-    </div>
-  </section> */}
-
-
-  {/* =================================================================================================== */}
+  {/* Top Categories Section */}
 
   <section className="m-5 p-0 sm:p-0 md:p-10 lg:p-10" >
-  <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-3xl font-bold text-center m-10 ">Top Categories</h1>
-  <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-[90%] mx-auto">
+  <h1 className="text-2xl md:text-4xl font-bold text-center  p-5 ">Top Categories</h1>
+  <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-[90%] mx-auto mt-5">
   {/* Left Side Section--> */}
-  <div className="md:m-5 lg:m-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10">
+  <div className="md:m-5 lg:m-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 mb-5">
   <div className="">
   <div className="shadow-md shadow-gray-500  w-full sm:w-full md:w-full lg:w-full h-52 rounded-2xl" style={{position: 'relative'}}>
               <img src={Data} alt='this is img' width='100%' className='w-full h-full brightness-50 rounded-2xl hover:scale-110 duration-300  '/>
@@ -298,14 +175,12 @@ function Home() {
               </div>
 
             </div>
-            <div className="shadow-md shadow-gray-500  bg-gray-300 border-2 border-black rounded-2xl h-full sm:h-full md:h-full lg:h-full w-full overflow-hidden" style={{position: 'relative'}}>
+            <div className="shadow-md shadow-gray-500  brightness-100 bg-[#a6a6a6] border-2 border-black rounded-2xl h-full sm:h-full md:h-full lg:h-full w-full  overflow-hidden" >
             <img src={Still_Confused} alt='this is img' width='100%' className=' w-full  brightness  rounded hover:scale-110 duration-300  '/>
-              {/* <p className='font-bold text-xl w-full text-center' style={{position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', color:'white'}}><span class="text-[#4eb0e1]">Still Confused?</span><br/> */}
-              {/* explore our skill consultancy services to get clear answer of which skill is best for you.</p> */}
-              <h1 className="text-center text-white font-semibold text-4xl m-2">Still Confused?</h1>
+              <h1 className="text-center text-white font-semibold text-4xl m-2" >Still Confused?</h1>
               <p className="font-semibold text-white  m-2 text-md text-center">explore our skill consultancy services to get clear answer of which skill is best for you.</p>
               <div className='text-center mt-3 mb-3'>
-       <button className="border border-2 border-white p-2 rounded-xl   text-white bg-gray-300 px-8 text-lg  font-bold">Learn More</button>
+       <button className="border border-2 border-white p-2 rounded-xl   text-white bg-[#a6a6a6] px-8 text-lg  font-bold">Learn More</button>
        </div>
             </div>
           </div>
@@ -339,14 +214,14 @@ function Home() {
 
 {/* <!-- ....... why choose Grachiever .............--> */}
 
-<section className="p-0 sm:p-0 md:p-10 lg:p-10"  data-aos="zoom-in" data-aos-duration="2000">
-          <h1 className=" text-center text-3xl sm:text-3xl md:text-3xl lg:text-3xl font-bold ">Why Choose Grachiever</h1>
-          <div className="grid grid-flow-cols-1 md:grid-cols-4 lg:grid-cols-4  mt-24">
+<section className="p-0 sm:p-0 md:p-10 lg:p-10 mt-10"  data-aos="zoom-in" data-aos-duration="2000">
+          <h1 className=" text-center text-xl sm:text-xl md:text-3xl lg:text-4xl font-bold mb-2">Why Choose Grachiever?</h1>
+          <div className="grid grid-flow-cols-1 md:grid-cols-4 lg:grid-cols-4  md:mt-12">
           <div className='justify-item-center hover:-translate-y-5 duration-500' >
           <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-5'>
           <img src={wcg1} className="rounded-xl p-2 w-[80%] h-auto md:h-72 m-auto" />
           </div>
-          <div className='shadow-xl hover:shadow-gray-500 m-5 rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto md:h-72 '>
+          <div className='shadow-xl hover:shadow-gray-500 m-5 rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto pb-10'>
           <p className="font-semibold text-2xl mt-20">Diverse Offerings</p>
                   <p>Grachiever provides a variety of services, including online courses, freelancing opportunities, and expert consultancy, to help you develop the skills necessary for a successful career.</p>
           </div>
@@ -356,7 +231,7 @@ function Home() {
           <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-5'>
           <img src={wcg2} className="w-[60%] m-auto" />
           </div>
-          <div className='shadow-xl hover:shadow-gray-500 m-5 rounded-xl bg-[#e0ebff] p-2 w-[80%] h-auto md:h-72'>
+          <div className='shadow-xl hover:shadow-gray-500 m-5 rounded-xl bg-[#e0ebff] p-2 w-[80%] h-auto pb-10'>
           <p className="font-semibold text-2xl mt-20">Unique Tools & Features </p>
                   <p>Grachiever's Skill Graph feature and other innovative tools provide a personalized learning and work experience, tailored to your unique needs and goals.</p>
           </div>
@@ -366,7 +241,7 @@ function Home() {
           <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-5'>
           <img src={wcg3} className="w-[70%] m-auto" />
           </div>
-          <div className='shadow-xl hover:shadow-gray-500 m-5 rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto md:h-72'>
+          <div className='shadow-xl hover:shadow-gray-500 m-5 rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto pb-10'>
           <p className="font-semibold text-2xl mt-20">Supportive Community</p>
                 <p>Grachiever's supportive community fosters networking, collaboration, and mutual support among learners and professionals, enhancing learning and work experiences.</p>
           </div>
@@ -376,7 +251,7 @@ function Home() {
           <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-5'>
           <img src={wcg4} className="rounded-xl p-2 w-[80%] h-auto md:h-72 m-auto" />
           </div>
-          <div className='shadow-xl hover:shadow-gray-500 m-5 rounded-xl bg-[#e0ebff] p-2 w-[80%] h-auto md:h-72'>
+          <div className='shadow-xl hover:shadow-gray-500 m-5 rounded-xl bg-[#e0ebff] p-2 w-[80%] h-auto pb-10'>
           <p className="font-semibold text-2xl mt-20">Affordable And Flexible</p>
                   <p>Grachiever's budget-friendly and adaptable pricing options provide access to excellent educational resources and opportunities for skill development.</p>
           </div>
@@ -387,7 +262,7 @@ function Home() {
       {/* BOOST YOUR PRODUCTIVITY WITH GRACHIEVER`S TOOLS SERVICE */}
 
       <section className=' p-10 bg-[#1b1d38]'>
-        <h1 className='text-center font-bold text-white md:text-3xl p-10'><span class="text-[#4eb0e1]">BOOST</span> YOUR PRODUCTIVITY WITH GRACHIEVER`S TOOLS SERVICE</h1>
+        <h1 className='text-center font-bold text-white md:text-3xl md:p-10 mb-10'><span class="text-[#4eb0e1]">BOOST</span> YOUR PRODUCTIVITY WITH GRACHIEVER`S TOOLS SERVICE</h1>
         <FlipCard  />
       </section>
 
@@ -427,8 +302,8 @@ function Home() {
         <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-5xl font-bold my-10  text-white">Get Persional Feature Ready Skill Recommented</h1>
         <h2 className="text-3xl text-gray-300">Enhance Your Skill With Grachiever</h2>
   
-    <div className="text-center m-2 mt-10">
-        <select className=" w-auto md:w-64 lg:w-64  h-14 border rounded-xl text-xl p-2 m-2 font-semibold">
+    <div className="text-center m-2 mt-5">
+        <select className="mt-5 w-full md:w-64 lg:w-64  h-14 border rounded-xl text-xl p-2  md:m-2 font-semibold">
             <option>Category</option>
             <option>Option 1</option>
             <option>Option 2</option>
@@ -436,13 +311,13 @@ function Home() {
           </select>
     
    
-        <select className=" w-auto md:w-60 lg:w-60 h-14 border rounded-xl text-xl p-2 m-2 font-semibold">
+        <select className="mt-5 w-full md:w-60 lg:w-60 h-14 border rounded-xl text-xl p-2  md:m-2 font-semibold">
             <option>Select</option>
             <option>Option 1</option>
             <option>Option 2</option>
             <option>Option 3</option>
           </select>
-          <button className="bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] text-xl rounded-full p-3 md:px-10">Get Started Now</button>
+          <button className="mt-5 w-full md:w-auto m-auto bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] text-xl rounded-full p-3 md:px-10">Get Started Now</button>
         </div>
     </div>
 </section>
@@ -478,12 +353,13 @@ function Home() {
 </section>
  
    {/* <!-- Blog Section --> */}
-<section className="p-0 sm:p-0 md:p-10 lg:p-10"  data-aos="zoom-in" data-aos-duration="2000">
-     <div className=" ">
-      <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-3xl font-bold pl-10">Blog</h1>
+<section className="p-0 sm:p-0 md:p-10 lg:p-5"  data-aos="zoom-in" data-aos-duration="2000">
+     <div className="m-10">
+      <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-5xl font-bold ">Blog</h1>
+      <h1 className="mt-2 mb-2 text-2xl font-semibold">Most Recent</h1>
+      <hr />
         <div className="flex flex-wrap justify-between">
-          <h1 className="mt-2 text-lg mx-10 p-1">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h1>
-          <button className="p-2 rounded-lg bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-8 text-lg float-right mx-10 mt-10 sm:mt-10 md:mt-10 lg:mt-0">Browse Blog</button>
+          {/* <button className="p-2 rounded-lg bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-8 text-lg float-right mx-10 mt-10 sm:mt-10 md:mt-10 lg:mt-0">Browse Blog</button> */}
         </div>
     </div>
      {/* <!--3 Card--> */}
@@ -518,21 +394,23 @@ function Home() {
 
 
 {/* <!-- ....... popular and demand start  ...... --> */}
+<section className='mt-10 mb-36'>
 <div className='h-96'>
     <p className="text-center text-5xl">Popular <span className='text-[#00c5ff]'>In-Demand </span> Services</p>
-       <Z_index_card1/>
+       <Z_index_card1 />
     </div>
+</section>
 
 {/* <!-- ....... popular and demand end ...... --> */}
     
       {/* <!--Finding Your Right Course--> */}
-<section className="p-0 sm:p-0 md:p-10 lg:p-10 bg-[#e0ebff] mt-10">
+<section className="p-0 sm:p-0 md:p-10 lg:p-10 bg-[#e0ebff] mb-5">
       <div className=" m-2 mx-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 mt-5">
         <div className="m-auto md:col-span-2">
           <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-3xl font-bold p-2">Finding Your Right Course</h1>
-          <h1 className="p-2 mt-5 text-lg w-[75%] font-bold text-gray-600">From in-demand skills to future-ready courses, Grachiever makes it simple to discover and enroll in the courses you need to achieve your career goals.</h1>
+          <h1 className="p-2 mt-5 text-lg md:w-[75%] font-bold text-gray-600">From in-demand skills to future-ready courses, Grachiever makes it simple to discover and enroll in the courses you need to achieve your career goals.</h1>
          </div>
-        <div className=" m-auto  ">
+        <div className=" m-auto mb-5">
             <button className="p-2 rounded-lg bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-8 text-lg mt-5">Start Learning For Free</button>
         </div>
       </div>

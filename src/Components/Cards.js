@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 function Cards() {
   const settings = {
     infinite: true,
-    autoplay:true,
+    // autoplay:true,
     
     // autoplayTimeout:1000,
     speed: 500,
@@ -37,15 +37,15 @@ function Cards() {
 
   return (
     <>
-    <section className="bg-[#1b1a3a] p-1 sm:p-1 md:p-10 lg:p-10 ">
+    <section className="bg-[#1b1a3a] p-1 md:p-10 pb-8 mt-10">
     <div className=" justify-items-end grid grid-cols-1 sm:grid grid-cols-1 md:grid lg:grid-cols-3 ">
-    <div className="w-full font-bold md:text-4xl text-white  col-span-2">
+    <div className="w-full font-bold text-lg md:text-4xl text-white  col-span-2 mt-8">
     <p className="text-center md:float-right">What Are You Seaching For?</p>
     </div>
-    <div className="w-auto sm:w-96 md:w-96 mt-1 flex  font-semibold text-lg">
-      <button className="p-1 md:px-5 text-xl mx-1 sm:mx-3 md:mx-3 border-[#00c5ff] border-2 rounded-full text-[#00c5ff] hover:text-white">All</button>
-      <button className="p-1 md:px-5 text-xl mx-1 sm:mx-3 md:mx-3 hover:border-[#00c5ff] border-[#1b1a3a] border-2  rounded-full text-white">Trending</button>
-      <button className="p-1 md:px-5 text-xl mx-1 sm:mx-3 md:mx-3 hover:border-[#00c5ff] border-[#1b1a3a] border-2  rounded-full text-white">Popular</button>
+    <div className="w-auto sm:w-96 md:w-96 h-10 mt-10 flex font-semibold items-center">
+      <button className="p-1 md:px-5 text-md md:text-xl mx-1 sm:mx-3 md:mx-3 border-[#00c5ff] border-2 rounded-full text-[#00c5ff] hover:text-white">All</button>
+      <button className="p-1 md:px-5 text-md md:text-xl mx-1 sm:mx-3 md:mx-3 hover:border-[#00c5ff] border-[#1b1a3a] border-2  rounded-full text-white">Trending</button>
+      <button className="p-1 md:px-5 text-md md:text-xl mx-1 sm:mx-3 md:mx-3 hover:border-[#00c5ff] border-[#1b1a3a] border-2  rounded-full text-white">Popular</button>
     
     </div>
     </div>
@@ -56,20 +56,20 @@ function Cards() {
     <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full">
     <div className="p-2  rounded-xl bg-white rounded-3xl h-full  pb-5 ">
       <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
-      <div className="grid grid-cols-2 gap-2 md:gap-20  mt-5">
-      <div className="flex items-center   mx-3">
+      <div className="grid grid-cols-2 gap-0 md:gap-20  mt-5">
+      <div className=" flex items-center   mx-3">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
       </div>
-      <div className="flex items-center  mx-3  ">
+      <div className=" flex items-center  mx-3  ">
       <FaDollarSign className="" /> <h1 className="font-bold">Paid Courses</h1>
       </div>
       </div>
       <h1 className="mt-5 text-sm md:text-2xl font-bold  text-gray-900 dark:text-white">Pyhton Full Stack Development</h1>
-      <div className="grid grid-cols-2 gap-2 md:gap-10 mt-5">
-      <div className="flex items-center ">
+      <div className="grid grid-cols-2  md:gap-10 mt-5">
+      <div className=" flex items-center ">
       <FaBook className="m-2"/> <h1 className="font-bold">Grachiever</h1>
       </div>
-      <div className="flex items-center  ">
+      <div className=" flex items-center  ">
       <FaCalendarMinus className="m-2"/> <h1 className="font-semibold">Courses Timing</h1>
       </div>
       </div>
@@ -84,20 +84,20 @@ function Cards() {
     <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full">
     <div className="p-2  rounded-xl bg-white rounded-3xl h-full  pb-5 ">
       <img src="https://www.classcentral.com/report/wp-content/uploads/2022/03/Best-Courses-Copywriting-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
-      <div className="grid grid-cols-2 gap-2 md:gap-20  mt-5">
-      <div className="flex items-center   mx-3">
+      <div className="grid grid-cols-2  md:gap-20  mt-5">
+      <div className=" flex items-center   mx-3">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
       </div>
-      <div className="flex items-center  mx-3  ">
+      <div className=" flex items-center  mx-3  ">
       <FaDollarSign className="" /> <h1 className="font-bold">Paid Courses</h1>
       </div>
       </div>
       <h1 className="mt-5 text-sm md:text-2xl font-bold  text-gray-900 dark:text-white">Pyhton Full Stack Development</h1>
-      <div className="grid grid-cols-2 gap-2 md:gap-10 mt-5">
-      <div className="flex items-center ">
+      <div className="grid grid-cols-2  md:gap-10 mt-5">
+      <div className=" flex items-center ">
       <FaBook className="m-2"/> <h1 className="font-bold">Grachiever</h1>
       </div>
-      <div className="flex items-center  ">
+      <div className=" flex items-center  ">
       <FaCalendarMinus className="m-2"/> <h1 className="font-semibold">Courses Timing</h1>
       </div>
       </div>
@@ -111,20 +111,20 @@ function Cards() {
     <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full">
     <div className="p-2  rounded-xl bg-white rounded-3xl h-full  pb-5 ">
       <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/NumPy-BCG-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
-      <div className="grid grid-cols-2 gap-2 md:gap-20  mt-5">
-      <div className="flex items-center   mx-3">
+      <div className="grid grid-cols-2  md:gap-20  mt-5">
+      <div className=" flex items-center   mx-3">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
       </div>
-      <div className="flex items-center  mx-3  ">
+      <div className=" flex items-center  mx-3  ">
       <FaDollarSign className="" /> <h1 className="font-bold">Paid Courses</h1>
       </div>
       </div>
       <h1 className="mt-5 text-sm md:text-2xl font-bold  text-gray-900 dark:text-white">Pyhton Full Stack Development</h1>
-      <div className="grid grid-cols-2 gap-2 md:gap-10 mt-5">
-      <div className="flex items-center ">
+      <div className="grid grid-cols-2  md:gap-10 mt-5">
+      <div className=" flex items-center ">
       <FaBook className="m-2"/> <h1 className="font-bold">Grachiever</h1>
       </div>
-      <div className="flex items-center  ">
+      <div className=" flex items-center  ">
       <FaCalendarMinus className="m-2"/> <h1 className="font-semibold">Courses Timing</h1>
       </div>
       </div>
@@ -139,20 +139,20 @@ function Cards() {
     <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full">
     <div className="p-2  rounded-xl bg-white rounded-3xl h-full  pb-5 ">
       <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/79/40d8a60bae487c8b4c862f52e0f13d/dj4e_thumbnail_specialization.jpg?auto=format%2Ccompress&dpr=1&w=330&h=330&q=25&fit=fill" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
-      <div className="grid grid-cols-2 gap-2 md:gap-20  mt-5">
-      <div className="flex items-center   mx-3">
+      <div className="grid grid-cols-2  md:gap-20  mt-5">
+      <div className=" flex items-center   mx-3">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
       </div>
-      <div className="flex items-center  mx-3  ">
+      <div className=" flex items-center  mx-3  ">
       <FaDollarSign className="" /> <h1 className="font-bold">Paid Courses</h1>
       </div>
       </div>
       <h1 className="mt-5 text-sm md:text-2xl font-bold  text-gray-900 dark:text-white">Pyhton Full Stack Development</h1>
-      <div className="grid grid-cols-2 gap-2 md:gap-10 mt-5">
-      <div className="flex items-center ">
+      <div className="grid grid-cols-2  md:gap-10 mt-5">
+      <div className=" flex items-center ">
       <FaBook className="m-2"/> <h1 className="font-bold">Grachiever</h1>
       </div>
-      <div className="flex items-center  ">
+      <div className=" flex items-center  ">
       <FaCalendarMinus className="m-2"/> <h1 className="font-semibold">Courses Timing</h1>
       </div>
       </div>
@@ -167,20 +167,20 @@ function Cards() {
     <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full">
     <div className="p-2  rounded-xl bg-white rounded-3xl h-full  pb-5 ">
       <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/ff/4584404c7511e7a18adb2a6ad3c009/GettyImages-185239648.jpg?auto=format%2Ccompress&dpr=1&w=330&h=330&fit=fill&q=25" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
-      <div className="grid grid-cols-2 gap-2 md:gap-20  mt-5">
-      <div className="flex items-center   mx-3">
+      <div className="grid grid-cols-2  md:gap-20  mt-5">
+      <div className=" flex items-center  mx-3">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
       </div>
-      <div className="flex items-center  mx-3  ">
+      <div className=" flex items-center  mx-3  ">
       <FaDollarSign className="" /> <h1 className="font-bold">Paid Courses</h1>
       </div>
       </div>
       <h1 className="mt-5 text-sm md:text-2xl font-bold  text-gray-900 dark:text-white">Pyhton Full Stack Development</h1>
-      <div className="grid grid-cols-2 gap-2 md:gap-10 mt-5">
-      <div className="flex items-center ">
+      <div className="grid grid-cols-2  md:gap-10 mt-5">
+      <div className=" flex items-center ">
       <FaBook className="m-2"/> <h1 className="font-bold">Grachiever</h1>
       </div>
-      <div className="flex items-center  ">
+      <div className=" flex items-center  ">
       <FaCalendarMinus className="m-2"/> <h1 className="font-semibold">Courses Timing</h1>
       </div>
       </div>
