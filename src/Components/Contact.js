@@ -3,7 +3,7 @@ import { FaEnvelope } from "react-icons/fa";
 
 function Contact() {
     return(
-        <section className=" p-1 bg-[#1b1a3a] text-gray-300">
+        <section className=" p-1 bg-[#1b1a3a] text-gray-300 mt-20">
 
     <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-[90%] m-auto">
       <div className="m-2 mt-4 md:p-10 lg:p-10 w-[75%]">
@@ -60,7 +60,7 @@ function Contact() {
      <div className="md:p-10 lg:p-10">
         <div className="m-2 ">
             <p className="font-bold text-white text-2xl ">Send a message</p>
-            <p className="mt-5 w-96 overflow-hidden">We`d love to hear from you! Reach out to us with any questions or feedback.</p>
+            <p className="mt-5 w-auto md:w-96 overflow-hidden">We`d love to hear from you! Reach out to us with any questions or feedback.</p>
             <form action="#" className="space-y-8 mt-20">
                 <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
                     <div className="w-full">

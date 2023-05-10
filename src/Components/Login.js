@@ -6,7 +6,7 @@ import { FaGooglePlus } from "react-icons/fa";
 function Login() {
     return(
         <>
-            <div id="id01" className="modal" >
+            <div id="id01" className="modal mt-20 mb-5" >
   <form className="animate p-5 max-w-sm mx-auto bg-[#EBF5FB]" action="#" method="post">
     <div className="imgcontainer"> 
       <a href="index.html"><span onclick="document.getElementById('id01').style.display='none'" className="close" title="Close Modal">&times;</span></a>

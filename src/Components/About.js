@@ -1,6 +1,6 @@
 function About() {
     return (
-        <section className="md:p-10 lg:p-10">
+        <section className="md:p-10 lg:p-10 mt-20">
     <p className="text-3xl font-bold text-center p-3 mt-2">
       About Us
     </p>

@@ -4,7 +4,7 @@ import NavBar from "./nav01";
 function Blog() {
     return (
         <>
-        <section className="p-1">
+        <section className="p-1 mt-20">
     <p className="text-3xl font-bold text-center p-3 mt-5">
       Latest News
     </p>
