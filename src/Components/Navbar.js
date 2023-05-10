@@ -8,13 +8,18 @@ function Navbar() {
   const [open, setOpen] = useState(false);
 
     return (
-      <section className="relative">  
+    <section className="relative">
       <nav className="w-full bg-[#1b1d38] fixed top-0 z-50">   
       {/* bg-[#FAF9F6] */}
           <div className="justify-between  mx-auto lg:max-w-7xl md:items-center md:flex ">
               <div>
                   <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                      <Link to="/"><img src={grachieverlogo} className="w-40 -py-3 -mt-10" alt="Grachiever Logo" /></Link>
+                      <Link to="/"><img src={grachieverlogo} className="w-20 sm:w-28 md:w-40 -py-3 -mt-10" alt="Grachiever Logo" /></Link>
+                      <div className="flex text-white text-sm hidden max-md:block">
+                              <Link to="/login" className="px-2 py-1 text-center rounded-full shadow hover:text-blue-500 hover:border">  Log-in</Link>
+                              <Link to="/signup" className="px-2 py-1 text-center text-gray-800 bg-[#349fcf] text-white rounded-full shadow hover:text-black">Sign up</Link>
+                      </div>
+                          
                       <div className="md:hidden">
                           <button
                               className="p-2 text-white rounded-md outline-none focus:border-gray-400 focus:border"
@@ -52,10 +57,11 @@ function Navbar() {
                           </button>
                       </div>
                   </div>
+
               </div>
               <div>
                   <div className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden" }`}>
-                      <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 font-medium text-white">
+                      <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 font-medium text-white ml-10">
                           <li className="hover:text-blue-500">
                               <Link to="/">Home</Link>
                           </li>
@@ -118,7 +124,7 @@ function Navbar() {
                           <li className=" lg:pl-10">
                           <div className="flex">
                               <Link to="/login" className="px-4 py-2 text-center rounded-full shadow hover:text-blue-500 hover:border">  Log-in</Link>
-                              <Link to="/signup" className="px-4 py-2 text-center text-gray-800 bg-[#349fcf] text-white rounded-full shadow hover:text-black">Sign up</Link>
+                              <Link to="/signup" className="px-4 py-2 text-center text-gray-800 bg-[#00c5ff] text-white rounded-full shadow hover:text-black">Sign up</Link>
                           </div>
                           </li>
                       </ul>
@@ -127,7 +133,7 @@ function Navbar() {
 
           </div>
       </nav>
-  </section>
+    </section>
     );
   }
   

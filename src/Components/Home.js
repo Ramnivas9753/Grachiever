@@ -32,46 +32,56 @@ import Cards from "./Cards";
 import Z_index_card1 from './Z_index_card1';
 import FlipCard from './FlipCard';
 
+
+// ........... text animation in home page ........
+import React, { useEffect, useRef } from 'react';
+import Typed from 'typed.js';
+
 function Home() {
+  const typedRef = useRef(null);
+  useEffect(() => {
+    const options = {
+      strings: ['Monetize off', 'Yours Skills', ' With passion'],
+      typeSpeed: 60,
+      backSpeed: 60,
+      loop: true,
+    };
+
+    // Initialize Typed.js
+    const typedInstance = new Typed(typedRef.current, options);
+
+    // Cleanup function to destroy Typed.js instance when component unmounts
+    return () => {
+      typedInstance.destroy();
+    };
+  }, []);
+
     return(
         <>
             
 {/* <!-- ........................ home section start ..................................... --> */}
- <section className="px-5 sm:px-5 md:px-10 lg:px-10 pt-10 mt-10">
+ <section className="px-5 sm:px-5 md:px-10 lg:px-10 pt-10 mt-28">
   <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
     <div className="pl-5 md:pl-10 lg:pl-10">
-      <span className="type text-[30px] mt-5 lg:text-[60px] font-medium "><span className='text-[#349fcf]'> Monetize</span> off yours Skills with passion </span>
-      {/* <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-      <script>
-          var typed = new Typed('.type', {
-              strings: [
-                  'Start Monetizing',
-                  'Off Your Skills ',
-                  'With Passion',
-              ],
-              typeSpeed: 60,
-              backSpeed: 60,
-              loop: true,
-          });
-      </script> */}
-      {/* <!-- <p className="font-bold text-3xl sm:text-3xl md:text-3xl lg:text-3xl">Start monetizing off your skills with passion</p> --> */}
+      <span className="type text-[30px] mt-5 lg:text-[60px] font-medium text-[#00c5ff]" ref={typedRef}></span>
       <p className="mt-5 text-2xl">The only easier, powerful and authoring platform designed for consistent learners to
         unlock the power of monetizing</p>
       {/* <!--Search--> */}
-      <div className="border-b-[#349fcf] border-r-[#349fcf] border-2 flex items-center mt-8 w-auto rounded-full outline-none">
-        <input type="text" className="py-2.5 px-4 outline-none w-full " placeholder="Search Anything..." />
-        <select className="mr-2 py-2 px-4 w-auto h-[44px]">
+      <div className="border-b-[#349fcf] border-r-[#349fcf] border-2 flex items-center mt-8 w-auto rounded-full outline-none text-xl">
+        <input type="text" className="py-2.5 px-4 outline-none w-full" placeholder="Search Anything..." />
+        <select className="mr-2 py-2 px-0 h-[44px] focus:outline-none ">
           <option>Courses</option>
-          <option>freelancing</option>
-          <option>tools</option>
+          <option>Freelancing</option>
+          <option>Tools</option>
         </select>
-        <span className="w-20 m-1 h-12 rounded-full bg-[#349fcf] text-white"><FaSearch className='text-xl mx-auto mt-3'/></span>
+        <span className="w-20 m-1 h-12 rounded-full bg-[#00c5ff] text-white"><FaSearch className='text-2xl mx-auto mt-3'/></span>
+        {/* bg-[#349fcf] */}
       </div>
       <div className='flex flex-wrap mt-10'> 
-        <div className='bg-[#ededed] p-1 h-10 m-1 flex rounded-full shadow-xl hover:scale-105 duration-300'>
+        <a href='https://tailwindcss.com/'><div className='bg-[#ededed] p-1 h-10 m-1 flex rounded-full shadow-xl hover:scale-105 duration-300'>
           <img className='w-auto' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Ficon-free-certificates.png?auto=format&h=50&ixlib=php-4.1.0&s=c25548f8b3bc8df8ae051dbe30a9a50a' />
           <p className='mx-3 self-center'>Free Certificates</p>
-        </div>
+        </div></a>
         <div className='bg-[#f9fafc] p-1 h-10 m-1 flex rounded-full shadow-xl hover:scale-105 duration-300'>
           <img className='w-auto' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Flogos%2Finstitutions%2Fmit-trn-sq.png?auto=format&h=50&ixlib=php-4.1.0&s=1b47847319a2b8619dc6912cbc801f4f' />
           <p className='mx-3 self-center'>MIT</p>
@@ -361,9 +371,9 @@ function Home() {
           <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-5'>
           <img src={wcg3} className="w-[70%] m-auto" />
           </div>
-          <div className='shadow-xl hover:shadow-gray-500 m-5 rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto md:h-72'>
+          <div className='shadow-xl hover:shadow-gray-500 m-5 rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto'>
           <p className="font-semibold text-2xl mt-20">Supportive Community</p>
-                  <p>Grachiever's supportive community fosters networking, collaboration, and mutual support among learners and professionals, enhancing learning and work experiences.</p>
+                <p>Grachiever's supportive community fosters networking, collaboration, and mutual support among learners and professionals, enhancing learning and work experiences.</p>
           </div>
           </div>
 

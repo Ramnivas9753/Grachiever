@@ -13,8 +13,8 @@ function Trusted_section() {
   const settings = {
     infinite: true,
     autoplay:true,
-    // autoplayTimeout:1000,
-    speed: 500,
+    autoplayTimeout:1000,
+    speed: 200,
     slidesToShow: 6,
     slidesToScroll: 1,
     responsive: [
