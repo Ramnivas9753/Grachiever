@@ -391,37 +391,8 @@ function Home() {
 
       {/* BOOST YOUR PRODUCTIVITY WITH GRACHIEVER`S TOOLS SERVICE */}
 
-      <section className='m-5 p-3 bg-[#1b1d38]'>
-        <h1 className='text-center font-bold text-white text-3xl p-10'>BOOST YOUR PRODUCTIVITY WITH GRACHIEVER`S TOOLS SERVICE</h1>
-        {/* <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-6 lg:grid-cols-6 justify-items-center '>
-        <div className='bg-red-500 w-[50%] rounded-xl p-1  '>
-          <h1 className='font-bold m-5 flex items-center'>HOW IT WORKs? </h1>
-          <img src={sc1} className=''/>
-        </div>
-        <div className='bg-red-500 w-[50%] rounded-xl p-1  -ml-[200%] hover:-ml-[100%] duration-300'>
-          <h1 className='font-bold m-5 flex items-center'>HOW IT WORKs? </h1>
-          <img src={Data} className=''/>
-        </div>
-
-        <div className='bg-red-500 w-[50%] rounded-xl p-1  '>
-          <h1 className='font-bold m-5 flex items-center'>HOW IT WORKs? </h1>
-          <img src={sc1} className=''/>
-        </div>
-        <div className='bg-red-500 w-[50%] rounded-xl p-1  -ml-[200%] hover:-ml-[100%] duration-300'>
-          <h1 className='font-bold m-5 flex items-center'>HOW IT WORKs? </h1>
-          <img src={Data} className=''/>
-        </div>
-
-        <div className='bg-red-500 w-[50%] rounded-xl p-1  '>
-          <h1 className='font-bold m-5 flex items-center'>HOW IT WORKs? </h1>
-          <img src={sc1} className=''/>
-        </div>
-        <div className='bg-red-500 w-[50%] rounded-xl p-1  -ml-[200%] hover:-ml-[100%] duration-300'>
-          <h1 className='font-bold m-5 flex items-center'>HOW IT WORKs? </h1>
-          <img src={Data} className=''/>
-        </div>
-        </div> */}
-
+      <section className='m-5 p-3 bg-[#1b1d]'>
+        <h1 className='text-center font-bold text-white md:text-3xl p-10'>BOOST YOUR PRODUCTIVITY WITH GRACHIEVER`S TOOLS SERVICE</h1>
         <FlipCard  />
       </section>
 
@@ -504,9 +475,9 @@ function Home() {
         <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-5xl font-bold my-10  text-white">Get Persional Feature Ready Skill Recommented</h1>
         <h2 className="text-3xl text-gray-300">Enhance Your Skill With Grachiever</h2>
   
-    <div className="text-center m-10">
+    <div className="text-center m-2 mt-10">
     
-        <select className=" w-64 h-14 border rounded-xl text-xl p-2 m-2 font-semibold">
+        <select className=" w-auto md:w-64 lg:w-64  h-14 border rounded-xl text-xl p-2 m-2 font-semibold">
             <option>Category</option>
             <option>Option 1</option>
             <option>Option 2</option>
@@ -514,13 +485,13 @@ function Home() {
           </select>
     
    
-        <select className=" w-60 h-14 border rounded-xl text-xl p-2 m-2 font-semibold">
+        <select className=" w-auto md:w-60 lg:w-60 h-14 border rounded-xl text-xl p-2 m-2 font-semibold">
             <option>Select</option>
             <option>Option 1</option>
             <option>Option 2</option>
             <option>Option 3</option>
           </select>
-          <button className="bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] text-xl rounded-full p-3 px-10">Get Started Now</button>
+          <button className="bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] text-xl rounded-full p-3 md:px-10">Get Started Now</button>
         </div>
     </div>
 </section>

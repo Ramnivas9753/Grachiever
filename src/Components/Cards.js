@@ -56,24 +56,24 @@ function Cards() {
     <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full">
     <div className="p-2  rounded-xl bg-white rounded-3xl h-full  pb-5 ">
       <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
-      <div className="grid grid-cols-2 gap-20  mt-5">
-      <div className="flex items-center  mx-3">
+      <div className="grid grid-cols-2 gap-2 md:gap-20  mt-5">
+      <div className="flex items-center   mx-3">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
       </div>
-      <div className="flex items-center mx-3  ">
+      <div className="flex items-center  mx-3  ">
       <FaDollarSign className="" /> <h1 className="font-bold">Paid Courses</h1>
       </div>
       </div>
-      <h1 className="mt-5 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pyhton Full Stack Development</h1>
-      <div className="grid grid-cols-2 gap-10 mt-5">
-      <div className="flex items-center">
+      <h1 className="mt-5 text-sm md:text-2xl font-bold  text-gray-900 dark:text-white">Pyhton Full Stack Development</h1>
+      <div className="grid grid-cols-2 gap-2 md:gap-10 mt-5">
+      <div className="flex items-center ">
       <FaBook className="m-2"/> <h1 className="font-bold">Grachiever</h1>
       </div>
-      <div className="flex items-center ">
+      <div className="flex items-center  ">
       <FaCalendarMinus className="m-2"/> <h1 className="font-semibold">Courses Timing</h1>
       </div>
       </div>
-      <div className="grid grid-cols-2 mt-5 gap-4 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-5 gap-4 ">
         <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] rounded-lg ">Enroll Now</a>
       <a href="#" className="px-3 py-2 text-sm font-medium text-center hover:bg-[#00c5ff] bg-white hover:text-white text-black border-2 border-[#00c5ff] rounded-lg ">Compaire</a>
       </div>
@@ -84,24 +84,24 @@ function Cards() {
     <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full">
     <div className="p-2  rounded-xl bg-white rounded-3xl h-full  pb-5 ">
       <img src="https://www.classcentral.com/report/wp-content/uploads/2022/03/Best-Courses-Copywriting-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
-      <div className="grid grid-cols-2 gap-20  mt-5">
-      <div className="flex items-center  mx-3">
+      <div className="grid grid-cols-2 gap-2 md:gap-20  mt-5">
+      <div className="flex items-center   mx-3">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
       </div>
-      <div className="flex items-center mx-3  ">
+      <div className="flex items-center  mx-3  ">
       <FaDollarSign className="" /> <h1 className="font-bold">Paid Courses</h1>
       </div>
       </div>
-      <h1 className="mt-5 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pyhton Full Stack Development</h1>
-      <div className="grid grid-cols-2 gap-10 mt-5">
-      <div className="flex items-center">
+      <h1 className="mt-5 text-sm md:text-2xl font-bold  text-gray-900 dark:text-white">Pyhton Full Stack Development</h1>
+      <div className="grid grid-cols-2 gap-2 md:gap-10 mt-5">
+      <div className="flex items-center ">
       <FaBook className="m-2"/> <h1 className="font-bold">Grachiever</h1>
       </div>
-      <div className="flex items-center ">
+      <div className="flex items-center  ">
       <FaCalendarMinus className="m-2"/> <h1 className="font-semibold">Courses Timing</h1>
       </div>
       </div>
-      <div className="grid grid-cols-2 mt-5 gap-4 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-5 gap-4 ">
         <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] rounded-lg ">Enroll Now</a>
       <a href="#" className="px-3 py-2 text-sm font-medium text-center hover:bg-[#00c5ff] bg-white hover:text-white text-black border-2 border-[#00c5ff] rounded-lg ">Compaire</a>
       </div>
@@ -111,24 +111,24 @@ function Cards() {
     <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full">
     <div className="p-2  rounded-xl bg-white rounded-3xl h-full  pb-5 ">
       <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/NumPy-BCG-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
-      <div className="grid grid-cols-2 gap-20  mt-5">
-      <div className="flex items-center  mx-3">
+      <div className="grid grid-cols-2 gap-2 md:gap-20  mt-5">
+      <div className="flex items-center   mx-3">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
       </div>
-      <div className="flex items-center mx-3  ">
+      <div className="flex items-center  mx-3  ">
       <FaDollarSign className="" /> <h1 className="font-bold">Paid Courses</h1>
       </div>
       </div>
-      <h1 className="mt-5 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pyhton Full Stack Development</h1>
-      <div className="grid grid-cols-2 gap-10 mt-5">
-      <div className="flex items-center">
+      <h1 className="mt-5 text-sm md:text-2xl font-bold  text-gray-900 dark:text-white">Pyhton Full Stack Development</h1>
+      <div className="grid grid-cols-2 gap-2 md:gap-10 mt-5">
+      <div className="flex items-center ">
       <FaBook className="m-2"/> <h1 className="font-bold">Grachiever</h1>
       </div>
-      <div className="flex items-center ">
+      <div className="flex items-center  ">
       <FaCalendarMinus className="m-2"/> <h1 className="font-semibold">Courses Timing</h1>
       </div>
       </div>
-      <div className="grid grid-cols-2 mt-5 gap-4 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-5 gap-4 ">
         <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] rounded-lg ">Enroll Now</a>
       <a href="#" className="px-3 py-2 text-sm font-medium text-center hover:bg-[#00c5ff] bg-white hover:text-white text-black border-2 border-[#00c5ff] rounded-lg ">Compaire</a>
       </div>
@@ -139,24 +139,24 @@ function Cards() {
     <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full">
     <div className="p-2  rounded-xl bg-white rounded-3xl h-full  pb-5 ">
       <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/79/40d8a60bae487c8b4c862f52e0f13d/dj4e_thumbnail_specialization.jpg?auto=format%2Ccompress&dpr=1&w=330&h=330&q=25&fit=fill" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
-      <div className="grid grid-cols-2 gap-20  mt-5">
-      <div className="flex items-center  mx-3">
+      <div className="grid grid-cols-2 gap-2 md:gap-20  mt-5">
+      <div className="flex items-center   mx-3">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
       </div>
-      <div className="flex items-center mx-3  ">
+      <div className="flex items-center  mx-3  ">
       <FaDollarSign className="" /> <h1 className="font-bold">Paid Courses</h1>
       </div>
       </div>
-      <h1 className="mt-5 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pyhton Full Stack Development</h1>
-      <div className="grid grid-cols-2 gap-10 mt-5">
-      <div className="flex items-center">
+      <h1 className="mt-5 text-sm md:text-2xl font-bold  text-gray-900 dark:text-white">Pyhton Full Stack Development</h1>
+      <div className="grid grid-cols-2 gap-2 md:gap-10 mt-5">
+      <div className="flex items-center ">
       <FaBook className="m-2"/> <h1 className="font-bold">Grachiever</h1>
       </div>
-      <div className="flex items-center ">
+      <div className="flex items-center  ">
       <FaCalendarMinus className="m-2"/> <h1 className="font-semibold">Courses Timing</h1>
       </div>
       </div>
-      <div className="grid grid-cols-2 mt-5 gap-4 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-5 gap-4 ">
         <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] rounded-lg ">Enroll Now</a>
       <a href="#" className="px-3 py-2 text-sm font-medium text-center hover:bg-[#00c5ff] bg-white hover:text-white text-black border-2 border-[#00c5ff] rounded-lg ">Compaire</a>
       </div>
@@ -167,24 +167,24 @@ function Cards() {
     <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full">
     <div className="p-2  rounded-xl bg-white rounded-3xl h-full  pb-5 ">
       <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/ff/4584404c7511e7a18adb2a6ad3c009/GettyImages-185239648.jpg?auto=format%2Ccompress&dpr=1&w=330&h=330&fit=fill&q=25" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
-      <div className="grid grid-cols-2 gap-20  mt-5">
-      <div className="flex items-center  mx-3">
+      <div className="grid grid-cols-2 gap-2 md:gap-20  mt-5">
+      <div className="flex items-center   mx-3">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
       </div>
-      <div className="flex items-center mx-3  ">
+      <div className="flex items-center  mx-3  ">
       <FaDollarSign className="" /> <h1 className="font-bold">Paid Courses</h1>
       </div>
       </div>
-      <h1 className="mt-5 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Pyhton Full Stack Development</h1>
-      <div className="grid grid-cols-2 gap-10 mt-5">
-      <div className="flex items-center">
+      <h1 className="mt-5 text-sm md:text-2xl font-bold  text-gray-900 dark:text-white">Pyhton Full Stack Development</h1>
+      <div className="grid grid-cols-2 gap-2 md:gap-10 mt-5">
+      <div className="flex items-center ">
       <FaBook className="m-2"/> <h1 className="font-bold">Grachiever</h1>
       </div>
-      <div className="flex items-center ">
+      <div className="flex items-center  ">
       <FaCalendarMinus className="m-2"/> <h1 className="font-semibold">Courses Timing</h1>
       </div>
       </div>
-      <div className="grid grid-cols-2 mt-5 gap-4 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-5 gap-4 ">
         <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] rounded-lg ">Enroll Now</a>
       <a href="#" className="px-3 py-2 text-sm font-medium text-center hover:bg-[#00c5ff] bg-white hover:text-white text-black border-2 border-[#00c5ff] rounded-lg ">Compaire</a>
       </div>
