@@ -28,7 +28,6 @@
   position: absolute;
   width: 60px;
   height: 10%;
-  background-color: #b73a3e;
   text-align: center;
   font-size: 2em;
   cursor: pointer;
@@ -52,10 +51,10 @@
 .arrow-left {
   left: 0;
 }
-.arrow:hover {
+/* .arrow:hover {
   background-color: #512da8;
   color: #ffeb3b;
-}
+} */
 
 .item {
   text-align: center;
