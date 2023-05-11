@@ -78,7 +78,7 @@ function Home() {
         {/* bg-[#349fcf] */}
       </div>
       <div className='flex flex-wrap mt-10'> 
-        <a href='https://tailwindcss.com/'><div className='bg-[#ededed] p-1 h-10 m-1 flex rounded-full shadow-xl hover:scale-105 duration-300'>
+        <a href='https://tailwindcss.com/'><div className='bg-[#f9fafc] p-1 h-10 m-1 flex rounded-full shadow-xl hover:scale-105 duration-300'>
           <img className='w-auto' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Ficon-free-certificates.png?auto=format&h=50&ixlib=php-4.1.0&s=c25548f8b3bc8df8ae051dbe30a9a50a' />
           <p className='mx-3 self-center'>Free Certificates</p>
         </div></a>
@@ -336,7 +336,7 @@ function Home() {
               <p className="text-2xl font-bold">350+</p>
               <p>Student worldwide</p>
             </div>
-            <div className="border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] h-48 m-10 rounded-full">
+            <div className="border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] h-48 w-48 m-10 rounded-full">
               <FaList className='text-3xl text-black-400 mt-10 mx-auto m-2'/>           
               <p className="text-2xl font-bold">450+</p>
               <p>Total Course Views</p>
