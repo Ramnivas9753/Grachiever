@@ -225,7 +225,7 @@ function Home() {
           <img src={wcg1} className="rounded-xl p-2 w-[80%] h-auto md:h-72 m-auto" />
           </div>
           <div className='shadow-xl hover:shadow-gray-500 m-5 rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto pb-10'>
-          <p className="font-semibold text-2xl mt-20">Diverse Offerings</p>
+          <h2 className="font-semibold text-2xl mt-20">Diverse Offerings</h2>
                   <p>Grachiever provides a variety of services, including online courses, freelancing opportunities, and expert consultancy, to help you develop the skills necessary for a successful career.</p>
           </div>
           </div>
@@ -235,7 +235,7 @@ function Home() {
           <img src={wcg2} className="w-[60%] m-auto" />
           </div>
           <div className='shadow-xl hover:shadow-gray-500 m-5 rounded-xl bg-[#e0ebff] p-2 w-[80%] h-auto pb-10'>
-          <p className="font-semibold text-2xl mt-20">Unique Tools & Features </p>
+          <h2 className="font-semibold text-2xl mt-20">Unique Tools & Features </h2>
                   <p>Grachiever's Skill Graph feature and other innovative tools provide a personalized learning and work experience, tailored to your unique needs and goals.</p>
           </div>
           </div>
@@ -245,7 +245,7 @@ function Home() {
           <img src={wcg3} className="w-[70%] m-auto" />
           </div>
           <div className='shadow-xl hover:shadow-gray-500 m-5 rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto pb-10'>
-          <p className="font-semibold text-2xl mt-20">Supportive Community</p>
+          <h2 className="font-semibold text-2xl mt-20">Supportive Community</h2>
                 <p>Grachiever's supportive community fosters networking, collaboration, and mutual support among learners and professionals, enhancing learning and work experiences.</p>
           </div>
           </div>
@@ -255,7 +255,7 @@ function Home() {
           <img src={wcg4} className="rounded-xl p-2 w-[80%] h-auto md:h-72 m-auto" />
           </div>
           <div className='shadow-xl hover:shadow-gray-500 m-5 rounded-xl bg-[#e0ebff] p-2 w-[80%] h-auto pb-10'>
-          <p className="font-semibold text-2xl mt-20">Affordable And Flexible</p>
+          <h2 className="font-semibold text-2xl mt-20">Affordable And Flexible</h2>
                   <p>Grachiever's budget-friendly and adaptable pricing options provide access to excellent educational resources and opportunities for skill development.</p>
           </div>
           </div>
@@ -359,7 +359,7 @@ function Home() {
 <section className="p-0 sm:p-0 md:p-10 lg:p-5"  data-aos="zoom-in" data-aos-duration="2000">
      <div className="m-10">
       <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-5xl font-bold ">Blog</h1>
-      <h1 className="mt-2 mb-2 text-2xl font-semibold">Most Recent</h1>
+      <p className="mt-2 mb-2 text-2xl font-semibold">Most Recent</p>
       <hr />
         <div className="flex flex-wrap justify-between">
           {/* <button className="p-2 rounded-lg bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-8 text-lg float-right mx-10 mt-10 sm:mt-10 md:mt-10 lg:mt-0">Browse Blog</button> */}
@@ -372,7 +372,7 @@ function Home() {
            <div className=" h-52">
             <img src="https://www.classcentral.com/report/wp-content/uploads/2022/03/Best-Courses-Copywriting-Banner.png" width="100%" className="rounded-xl hover:scale-105 duration-300 h-52" />
            </div>
-           <h1 className="text-xl font-bold mt-5">Best Copywriting Courses to Take in 2023</h1>
+           <h2 className="text-xl font-bold mt-5">Best Copywriting Courses to Take in 2023</h2>
            <p className=" w-auto mb-6 space-x-8 p-2">Transform your writing skills into profit: discover the best copywriting courses to launch your lucrative career or side hustle..</p>
        </div>
        {/* <!-- Card_2 --> */}
@@ -380,7 +380,7 @@ function Home() {
           <div className=" h-52">
           <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png" className="rounded-xl hover:scale-105 duration-300 h-52 w-full" />
           </div>
-          <h1 className="text-xl font-bold mt-5">Best pandas Courses to Take in 2023</h1>
+          <h2 className="text-xl font-bold mt-5">Best pandas Courses to Take in 2023</h2>
           <p className=" w-auto mb-6 space-x-8 p-2">Unlock the power of data analysis with the top pandas courses. Pandas is a powerful, open-source Python library.</p>
        </div>
        {/* <!-- Card_3 --> */}
@@ -388,7 +388,7 @@ function Home() {
           <div className=" h-52">
           <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/NumPy-BCG-Banner.png" className="rounded-xl hover:scale-105 duration-300 h-52 w-full" />
           </div>
-          <h1 className="text-xl font-bold mt-5">Best NumPy Courses to Take in 2023</h1>
+          <h2 className="text-xl font-bold mt-5">Best NumPy Courses to Take in 2023</h2>
           <p className=" w-auto mb-6 space-x-8 p-2">Whether you’re a data scientist, machine learning engineer, or just someone who needs to crunch a bunch of numbers in a short amount of time, NumPy is definitely for you.</p>
         </div>
        </div>
@@ -399,7 +399,7 @@ function Home() {
 {/* <!-- ....... popular and demand start  ...... --> */}
 <section className='mt-10 mb-36'>
 <div className='h-96'>
-    <p className="text-center text-5xl">Popular <span className='text-[#00c5ff]'>In-Demand </span> Services</p>
+    <h1 className="text-center text-5xl">Popular <span className='text-[#00c5ff]'>In-Demand </span> Services</h1>
        <Z_index_card1 />
     </div>
 </section>
@@ -411,7 +411,7 @@ function Home() {
       <div className=" m-2 mx-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 mt-5">
         <div className="m-auto md:col-span-2">
           <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-3xl font-bold p-2">Finding Your Right Course</h1>
-          <h1 className="p-2 mt-5 text-lg md:w-[75%] font-bold text-gray-600">From in-demand skills to future-ready courses, Grachiever makes it simple to discover and enroll in the courses you need to achieve your career goals.</h1>
+          <p className="p-2 mt-5 text-lg md:w-[75%] font-bold text-gray-600">From in-demand skills to future-ready courses, Grachiever makes it simple to discover and enroll in the courses you need to achieve your career goals.</p>
          </div>
         <div className=" m-auto mb-5">
             <button className="p-2 rounded-lg bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-8 text-lg mt-5">Start Learning For Free</button>

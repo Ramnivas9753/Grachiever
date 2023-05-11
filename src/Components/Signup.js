@@ -10,7 +10,7 @@ function Signup() {
       <img src={logo1} alt="Grachiever Logo" className=" w-20 h-20 mx-auto rounded-full" />
     </div>
     <div className="w-full max-w-lg">
-        <p className="font-bold text-center">Registration Form</p>
+        <h1 className="font-bold text-center">Registration Form</h1>
         <div className="mb-4">
           <label className="block text-gray-700 text-sm font-bold mb-2" for="name">
             Name

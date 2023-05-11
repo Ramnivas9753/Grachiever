@@ -93,32 +93,32 @@ function Footer() {
 
             <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-5 text-white mx-10 -mt-10 text-center">
               <div className="text-sm">
-                <p className='text-center text-xl font-bold p-5'>What is Grachiever ?</p>
+                <h1 className='text-center text-xl font-bold p-5'>What is Grachiever ?</h1>
                 <p className=''> Grachiever is a comprehensive platform designed to help individuals achieve success in their careers. Our goal is to provide high-quality courses, freelance opportunities, and the latest tools and resources to help you enhance your productivity and stay ahead in today's competitive job market.</p>
               </div>
                 <div className="p-5  lg:pl-20">
-                    <p className="font-bold text-lg mb-5">About</p>
+                    <h1 className="font-bold text-lg mb-5">About</h1>
                     <p className="">About Us</p>
                     <p className="">What We offer?</p>
                     <p className="">Our services</p>
                     <p className="">Contact Us</p>
                 </div>
                 <div className="p-5  lg:pl-20">
-                    <p className="font-bold text-lg mb-5">Special</p> 
+                    <h1 className="font-bold text-lg mb-5">Special</h1> 
                     <p className="">Grachiever plus</p> 
                     <p className="">Grachiever for business</p> 
                     <p className="">Skill graph</p> 
                     <p className="">Skill Consultancy</p> 
                 </div>
                 <div className="p-5 lg:pl-20">
-                    <p className="font-bold text-lg mb-5">Popular</p>
+                    <h1 className="font-bold text-lg mb-5">Popular</h1>
                     <p className="">Course</p>
                     <p className="">Skill </p>
                     <p className="">Services</p>
                     <p className="">Tools</p>
                 </div>
                 <div className="p-5 lg:pl-20">
-                    <p className="font-bold text-lg mb-5">More</p>
+                    <h1 className="font-bold text-lg mb-5">More</h1>
                     <p className="">Blog</p>
                     <p className="">Careers </p>
                     <p className="">Help</p>

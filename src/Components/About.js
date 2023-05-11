@@ -1,9 +1,9 @@
 function About() {
     return (
         <section className="md:p-10 lg:p-10 mt-20">
-    <p className="text-3xl font-bold text-center p-3 mt-2">
+    <h1 className="text-3xl font-bold text-center p-3 mt-2">
       About Us
-    </p>
+    </h1>
     <p className="font-semibold text-center   m-auto p-2">
       Explore your potential with Grachiever: diverse courses, personalized recommendations, and exceptional support.
     </p>
@@ -22,7 +22,7 @@ function About() {
         </div>
       </div>
      <div className="md:p-5 lg:p-5">
-      <p className="font-bold text-2xl w-auto p-1 sm:p-1 md:p-3 lg:p-3 mt-10 sm:mt-10 md:mt-0 lg:mt-0">Welcome to Grachiever Enhance your skills with best services</p>
+      <h1 className="font-bold text-2xl w-auto p-1 sm:p-1 md:p-3 lg:p-3 mt-10 sm:mt-10 md:mt-0 lg:mt-0">Welcome to Grachiever Enhance your skills with best services</h1>
         <p className=" w-auto p-1 sm:p-1 md:p-3 lg:p-3 ">
           At Grachiever, we're committed to providing our learners with a range of services and benefits that go beyond just offering courses. Our personalized recommendations help learners find the courses that best match their interests and goals, while our course ratings and reviews allow learners to make informed decisions about their learning journeys.</p>
           <p className=" w-auto p-1 sm:p-1 md:p-3 lg:p-3 ">We also offer the ability to track progress and earn certifications, providing learners with tangible evidence of their newly acquired skills. And with our exceptional customer service and support, learners can rest assured that they'll have the assistance they need every step of the way. Join our community of learners today and experience the Grachiever difference.</p>

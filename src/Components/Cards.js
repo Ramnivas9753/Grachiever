@@ -40,7 +40,7 @@ function Cards() {
     <section className="bg-[#1b1a3a] p-1 md:p-10 pb-8 mt-10">
     <div className=" justify-items-end grid grid-cols-1 sm:grid grid-cols-1 md:grid lg:grid-cols-3 ">
     <div className="w-full font-bold text-lg md:text-4xl text-white  col-span-2 mt-8">
-    <p className="text-center md:float-right">What Are You Seaching For?</p>
+    <h1 className="text-center md:float-right">What Are You Seaching For?</h1>
     </div>
     <div className="w-auto sm:w-96 md:w-96 h-10 mt-10 flex font-semibold items-center">
       <button className="p-1 md:px-5 text-md md:text-xl mx-1 sm:mx-3 md:mx-3 border-[#00c5ff] border-2 rounded-full text-[#00c5ff] hover:text-white">All</button>
@@ -64,13 +64,13 @@ function Cards() {
       <FaDollarSign className="" /> <h1 className="font-bold">Paid Courses</h1>
       </div>
       </div>
-      <h1 className="mt-5 text-sm md:text-2xl font-bold  text-gray-900 dark:text-white">Pyhton Full Stack Development</h1>
+      <h2 className="mt-5 text-sm md:text-2xl font-bold  text-gray-900 dark:text-white">Pyhton Full Stack Development</h2>
       <div className="grid grid-cols-2  md:gap-10 mt-5">
       <div className=" flex items-center ">
-      <FaBook className="m-2"/> <h1 className="font-bold">Grachiever</h1>
+      <FaBook className="m-2"/> <h2 className="font-bold">Grachiever</h2>
       </div>
       <div className=" flex items-center  ">
-      <FaCalendarMinus className="m-2"/> <h1 className="font-semibold">Courses Timing</h1>
+      <FaCalendarMinus className="m-2"/> <h2 className="font-semibold">Courses Timing</h2>
       </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-5 gap-4 ">
@@ -92,13 +92,13 @@ function Cards() {
       <FaDollarSign className="" /> <h1 className="font-bold">Paid Courses</h1>
       </div>
       </div>
-      <h1 className="mt-5 text-sm md:text-2xl font-bold  text-gray-900 dark:text-white">Pyhton Full Stack Development</h1>
+      <h2 className="mt-5 text-sm md:text-2xl font-bold  text-gray-900 dark:text-white">Pyhton Full Stack Development</h2>
       <div className="grid grid-cols-2  md:gap-10 mt-5">
       <div className=" flex items-center ">
-      <FaBook className="m-2"/> <h1 className="font-bold">Grachiever</h1>
+      <FaBook className="m-2"/> <h2 className="font-bold">Grachiever</h2>
       </div>
       <div className=" flex items-center  ">
-      <FaCalendarMinus className="m-2"/> <h1 className="font-semibold">Courses Timing</h1>
+      <FaCalendarMinus className="m-2"/> <h2 className="font-semibold">Courses Timing</h2>
       </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-5 gap-4 ">
@@ -119,13 +119,13 @@ function Cards() {
       <FaDollarSign className="" /> <h1 className="font-bold">Paid Courses</h1>
       </div>
       </div>
-      <h1 className="mt-5 text-sm md:text-2xl font-bold  text-gray-900 dark:text-white">Pyhton Full Stack Development</h1>
+      <h2 className="mt-5 text-sm md:text-2xl font-bold  text-gray-900 dark:text-white">Pyhton Full Stack Development</h2>
       <div className="grid grid-cols-2  md:gap-10 mt-5">
       <div className=" flex items-center ">
-      <FaBook className="m-2"/> <h1 className="font-bold">Grachiever</h1>
+      <FaBook className="m-2"/> <h2 className="font-bold">Grachiever</h2>
       </div>
       <div className=" flex items-center  ">
-      <FaCalendarMinus className="m-2"/> <h1 className="font-semibold">Courses Timing</h1>
+      <FaCalendarMinus className="m-2"/> <h2 className="font-semibold">Courses Timing</h2>
       </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-5 gap-4 ">
@@ -147,13 +147,13 @@ function Cards() {
       <FaDollarSign className="" /> <h1 className="font-bold">Paid Courses</h1>
       </div>
       </div>
-      <h1 className="mt-5 text-sm md:text-2xl font-bold  text-gray-900 dark:text-white">Pyhton Full Stack Development</h1>
+      <h2 className="mt-5 text-sm md:text-2xl font-bold  text-gray-900 dark:text-white">Pyhton Full Stack Development</h2>
       <div className="grid grid-cols-2  md:gap-10 mt-5">
       <div className=" flex items-center ">
-      <FaBook className="m-2"/> <h1 className="font-bold">Grachiever</h1>
+      <FaBook className="m-2"/> <h2 className="font-bold">Grachiever</h2>
       </div>
       <div className=" flex items-center  ">
-      <FaCalendarMinus className="m-2"/> <h1 className="font-semibold">Courses Timing</h1>
+      <FaCalendarMinus className="m-2"/> <h2 className="font-semibold">Courses Timing</h2>
       </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-5 gap-4 ">
@@ -175,13 +175,13 @@ function Cards() {
       <FaDollarSign className="" /> <h1 className="font-bold">Paid Courses</h1>
       </div>
       </div>
-      <h1 className="mt-5 text-sm md:text-2xl font-bold  text-gray-900 dark:text-white">Pyhton Full Stack Development</h1>
+      <h2 className="mt-5 text-sm md:text-2xl font-bold  text-gray-900 dark:text-white">Pyhton Full Stack Development</h2>
       <div className="grid grid-cols-2  md:gap-10 mt-5">
       <div className=" flex items-center ">
-      <FaBook className="m-2"/> <h1 className="font-bold">Grachiever</h1>
+      <FaBook className="m-2"/> <h2 className="font-bold">Grachiever</h2>
       </div>
       <div className=" flex items-center  ">
-      <FaCalendarMinus className="m-2"/> <h1 className="font-semibold">Courses Timing</h1>
+      <FaCalendarMinus className="m-2"/> <h2 className="font-semibold">Courses Timing</h2>
       </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-5 gap-4 ">
