@@ -29,6 +29,8 @@ function About() {
             <button className="bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded px-5 py-2 ml-3 mt-5">Start Learning For Free</button>
     </div>
   </div>
+  <p>under trial saloni</p>
+  <p>ok done...</p>
     
 </section>
     );

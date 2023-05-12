@@ -69,8 +69,8 @@ function Home() {
       <p className="mt-5 text-2xl">The only easier, powerful and authoring platform designed for consistent learners to
         unlock the power of monetizing</p>
       {/* <!--Search--> */}
-      <div className="border-b-[#349fcf] border-r-[#349fcf] border-2 flex items-center mt-8 w-auto rounded-full outline-none text-xl">
-        <input type="text" className="py-2.5 px-4 outline-none w-full" placeholder="Search Anything..." />
+      <div className="border-b-[#349fcf] border-[#349fcf] border-2 flex items-center mt-8 w-auto rounded-full outline-none text-xl">
+        <input type="text" className="py-2.5 px-4 outline-none w-full rounded-full" placeholder="Search Anything..." />
         <select className="mr-2 py-2 px-0 h-[44px] focus:outline-none ">
           <option>Courses</option>
           <option>Freelancing</option>
@@ -142,7 +142,7 @@ function Home() {
     {/* <!--Skill Section--> */}
 
     <section className="p-0 sm:p-0 md:p-10 lg:p-10 mt-5">
-      <div className="h-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2"  data-aos="zoom-in" data-aos-duration="2000">
+      <div className="h-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2" >
         <div className="lg:h-full md:h-full mx-5 sm:mx-5 md:mx-10 lg:mx-10">
             <h1 className=" mt-5 text-2xl sm:text-2xl md:text-3xl lg:text-5xl font-bold"><span class="text-[#4eb0e1]">Track</span> The Trending<br/> <span class="text-[#4eb0e1]">Skills</span> Over Time</h1>
             <p className="mt-5  text-lg">Our Skill Graph feature helps you stay up-to-date with the latest skills in demand. our Skill Graph displays the trending skills over time.</p>
@@ -180,12 +180,12 @@ function Home() {
               </div>
 
             </div>
-            <div className="shadow-md shadow-gray-500  brightness-100 bg-[#a6a6a6] border-2 border-black rounded-2xl h-full sm:h-full md:h-full lg:h-full w-full  overflow-hidden" >
+            <div className="shadow-md shadow-gray-500  brightness-100 bg-[#a6a6a6] rounded-2xl h-full sm:h-full md:h-full lg:h-full w-full  overflow-hidden" >
             <img src={Still_Confused} alt='this is img' width='100%' className=' w-full  brightness  rounded hover:scale-110 duration-300  '/>
               <h1 className="text-center text-white font-semibold text-4xl m-2" >Still Confused?</h1>
               <p className="font-semibold text-white  m-2 text-md text-center">explore our skill consultancy services to get clear answer of which skill is best for you.</p>
               <div className='text-center mt-3 mb-3'>
-       <button className="border border-2 border-white p-2 rounded-xl   text-white bg-[#a6a6a6] px-8 text-lg  font-bold">Learn More</button>
+       <button className="border border-2 border-white p-2 rounded-xl   text-white hover:text-black bg-[#a6a6a6] hover:bg-gray-400 px-8 text-lg  font-bold">Learn More</button>
        </div>
             </div>
           </div>
@@ -219,12 +219,12 @@ function Home() {
 
 {/* <!-- ....... why choose Grachiever .............--> */}
 
-<section className="p-0 sm:p-0 md:p-10 lg:p-10 mt-10"  data-aos="zoom-in" data-aos-duration="2000">
+<section className="p-0 sm:p-0 md:p-10 lg:p-10 mt-10" >
           <h1 className=" text-center text-xl sm:text-xl md:text-3xl lg:text-4xl font-bold mb-2">Why Choose Grachiever?</h1>
           <div className="grid grid-flow-cols-1 md:grid-cols-4 lg:grid-cols-4  md:mt-12">
           <div className='justify-item-center hover:-translate-y-5 duration-500' >
           <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-5'>
-          <img src={wcg1} className="rounded-xl p-2 w-[80%] h-auto md:h-72 m-auto" />
+          <img src={wcg1} className="rounded-xl p-2 w-[100%] h-auto md:h-72 m-auto" />
           </div>
           <div className='shadow-xl hover:shadow-gray-500 m-5 rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto pb-10'>
           <h2 className="font-semibold text-2xl mt-20">Diverse Offerings</h2>
@@ -273,7 +273,7 @@ function Home() {
 
 
    {/* <!--Skill Consultancy--> */}
-    <section className="p-0 sm:p-0 md:p-10 lg:p-10" data-aos="zoom-in" data-aos-duration="2000">
+    <section className="p-0 sm:p-0 md:p-10 lg:p-10">
       <div className="m-2 h-auto p-2 mt-[]">
           {/* <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-5xl mx-0 sm:mx-0 md:mx-20 font-bold my-10">Skill <span class="text-[#4eb0e1]">Consultancy</span></h1> */}
 
@@ -302,7 +302,7 @@ function Home() {
     </section>
 
     {/* <!--Feature Ready Skills sections--> */}
-    <section className="p-0 sm:p-0 md:p-10 lg:p-10 bg-[#1b1d38]" data-aos="zoom-in" data-aos-duration="2000">
+    <section className="p-0 sm:p-0 md:p-10 lg:p-10 bg-[#1b1d38]">
     <div className="p-3 text-center m-2 h-auto">
         <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-5xl font-bold my-10  text-white">Get Persional Feature Ready Skill Recommented</h1>
         <h2 className="text-3xl text-gray-300">Enhance Your Skill With Grachiever</h2>
@@ -329,26 +329,26 @@ function Home() {
 
 
  {/* <!--Achievements Sections--> */}
-<section className="p-0 sm:p-0 md:p-10 lg:p-10"  data-aos="zoom-in" data-aos-duration="2000">
-    <div className=" m-2">
-        <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-4xl font-bold text-center p-5 ">Achievements</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 lg:grid-cols-4 text-center ">
-            <div className="group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-48 w-48 m-10 rounded-full">
+<section className="p-0 sm:p-0 md:p-10 lg:p-10 " >
+    <div className="mt-5">
+        <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-4xl font-bold text-center p-5 mb-10">Achievements</h1>
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 text-center ">
+            <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-48 w-48 mb-10 rounded-full">
               <FaGraduationCap className='text-3xl text-black-400 mt-10 mx-auto m-2 '/>
               <p className="text-2xl font-bold group-hover:text-[#349fcf]">350+</p>
               <p>Student worldwide</p>
             </div>
-            <div className="group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-48 w-48 m-10 rounded-full">
+            <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-48 w-48 mb-10 rounded-full">
               <FaList className='text-3xl text-black-400 mt-10 mx-auto m-2 '/>           
               <p className="text-2xl font-bold group-hover:text-[#349fcf]">450+</p>
               <p>Total Course Views</p>
             </div>
-            <div className="group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-48 w-48 m-10 rounded-full">
+            <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-48 w-48 mb-10 rounded-full">
               <FaStar className='text-3xl text-black-400 mt-10 mx-auto m-2 '/>
               <p className="text-2xl font-bold group-hover:text-[#349fcf]">550+</p>
               <p>Course Reviews</p>
             </div>
-            <div className="group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-48 w-48 m-10 rounded-full">
+            <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-48 w-48 mb-10 rounded-full">
               <FaUser className='text-3xl text-black-400 mt-10 mx-auto m-2 '/>
               <p className="text-2xl font-bold group-hover:text-[#349fcf]">650+</p>
               <p>Student Community</p>
@@ -358,7 +358,7 @@ function Home() {
 </section>
  
    {/* <!-- Blog Section --> */}
-<section className="p-0 sm:p-0 md:p-10 lg:p-5"  data-aos="zoom-in" data-aos-duration="2000">
+<section className="p-0 sm:p-0 md:p-10 lg:p-5" >
      <div className="m-10">
       <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-5xl font-bold ">Blog</h1>
       <p className="mt-2 mb-2 text-2xl font-semibold">Most Recent</p>
