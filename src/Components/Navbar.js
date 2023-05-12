@@ -5,7 +5,7 @@ import grachieverlogo from "../images/LOGOS/g.logo.white1.png"
 
 function Navbar() {
   const [navbar, setNavbar] = useState(false); 
-  const [open, setOpen] = useState(false);
+//   const [open, setOpen] = useState(false);
 
     return (
     <section className="relative">
@@ -65,7 +65,7 @@ function Navbar() {
                           <li className="hover:text-blue-500">
                               <Link to="/">Home</Link>
                           </li>
-                          <li className="">
+                          {/* <li className="">
                           <div className="flex ">
                               <div onMouseLeave={() => setOpen(false)} className="relative">
                                   <button
@@ -84,34 +84,108 @@ function Navbar() {
                                   }`}
                                   >
                                   <li className="flex w-full items-center px-3 py-2 text-sm hover:bg-gray-100">
-                                     <Link to="/">Python Development Course</Link>
+                                     <Link to="/">Data</Link>
                                   </li><hr/>
                                   <li className="flex w-full items-center px-3 py-2 text-sm hover:bg-gray-100">
-                                      <Link to="/">Java Development Course</Link>
+                                      <Link to="/">Digital Marketing</Link>
                                   </li><hr/>
                                   <li className="flex w-full items-center px-3 py-2 text-sm hover:bg-gray-100">
-                                      <Link to="/">Angular Development Course</Link>
+                                      <Link to="/">Still Confused</Link>
                                   </li><hr/>
                                   <li className="flex w-full items-center px-3 py-2 text-sm hover:bg-gray-100">
-                                      <Link to="/">Dotnet Development Course</Link>
+                                      <Link to="/">A.I.M.L.</Link>
                                   </li><hr/>
                                   <li className="flex w-full items-center px-3 py-2 text-sm hover:bg-gray-100">
-                                      <Link to="/">Frontend Development Course</Link>
+                                      <Link to="/">Video Animation</Link>
                                   </li><hr/>
                                   <li className="flex w-full items-center px-3 py-2 text-sm hover:bg-gray-100">
-                                      <Link to="/">Backend Development Course</Link>
+                                      <Link to="/">Graphics And Design</Link>
                                   </li><hr/>
-                                  <li className="flex w-full items-center px-3 py-2 text-sm hover:bg-gray-100">
-                                      <Link to="/">Data Analyst</Link>
-                                  </li><hr/>
-                                  <li className="flex w-full items-center px-3 py-2 text-sm hover:bg-gray-100">
-                                      <Link to="/">Marketing..</Link>
-                                  </li>
                                   </ul>
                               </div>
                           </div>
+                          </li> */}
 
+                          <li>
+                            <div className="group inline-block">
+                            <button
+                                className="outline-none focus:outline-none px-3 py-1 rounded-sm flex items-center min-w-32"
+                            >
+                                <span className="pr-1 font-semibold flex-1">Courses</span>
+                                <span>
+                                <svg
+                                    className="fill-current h-4 w-4 transform group-hover:-rotate-180
+                                    transition duration-150 ease-in-out"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 20 20"
+                                >
+                                    <path
+                                    d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                                    />
+                                </svg>
+                                </span>
+                            </button>
+                            <ul className="bg-white p-2 text-black border rounded-md transform scale-0 group-hover:scale-100 absolute 
+                            transition duration-150 ease-in-out origin-top min-w-32">
+                                <li className="rounded-sm px-3 py-1 hover:bg-gray-100">
+                                    <Link to=''>Data</Link></li><hr/>
+                                <li className="rounded-sm px-3 py-1 hover:bg-gray-100">
+                                    <Link to=''>Digital Marketing</Link></li><hr/>
+                                <li className="rounded-sm px-3 py-1 hover:bg-gray-100">
+                                <Link to=''>Still Confused</Link></li><hr/>
+                                <li className="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+                                <button className="w-full text-left flex items-center outline-none focus:outline-none">
+                                    <span className="pr-1 flex-1">A.I.M.L.</span>
+                                    <span className="mr-auto">
+                                    <svg className="fill-current h-4 w-4
+                                        transition duration-150 ease-in-out"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 20 20" >
+                                        <path
+                                        d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+                                    </svg>
+                                    </span>
+                                </button>
+                                <ul className="bg-white border rounded-sm absolute top-0 right-0 
+                                    transition duration-150 ease-in-out origin-top-left
+                                    min-w-32">
+                                    <li className="px-3 py-1 hover:bg-gray-100">
+                                    <Link to=''>Javascript</Link></li><hr/>
+                                    <li className="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+                                    <button className="w-full text-left flex items-center outline-none focus:outline-none">
+                                        <span className="pr-1 flex-1">Python</span>
+                                        <span className="mr-auto">
+                                        <svg className="fill-current h-4 w-4
+                                                transition duration-150 ease-in-out"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 20 20">
+                                            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+                                        </svg>
+                                        </span>
+                                    </button>
+                                    <ul className="bg-white border rounded-sm absolute top-0 right-0 
+                                        transition duration-150 ease-in-out origin-top-left
+                                        min-w-32">
+                                        <li className="px-3 py-1 hover:bg-gray-100">
+                                        <Link to=''>Python 2.7</Link></li><hr/>
+                                        <li className="px-3 py-1 hover:bg-gray-100">
+                                        <Link to=''>Python 3+</Link></li><hr/>
+                                    </ul>
+                                    </li><hr/>
+                                    <li className="px-3 py-1 hover:bg-gray-100">
+                                    <Link to=''>Go</Link></li><hr/>
+                                    <li className="px-3 py-1 hover:bg-gray-100">
+                                    <Link to=''>Rust</Link></li><hr/>
+                                </ul>
+                                </li><hr/>
+                                <li className="rounded-sm px-3 py-1 hover:bg-gray-100">
+                                <Link to=''>Video Animation</Link></li><hr/>
+                                <li className="rounded-sm px-3 py-1 hover:bg-gray-100">
+                                <Link to=''>Graphics And Design</Link></li><hr/>
+                            </ul>
+                            </div>
                           </li>
+
                           <li className="hover:text-blue-500">
                               <Link to="/blog">Blog</Link>
                           </li>
@@ -138,3 +212,4 @@ function Navbar() {
   }
   
   export default Navbar;
+  
