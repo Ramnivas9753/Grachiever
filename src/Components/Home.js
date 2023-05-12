@@ -32,6 +32,8 @@ import Cards from "./Cards";
 import Z_index_card1 from './Z_index_card1';
 import FlipCard from './FlipCard';
 
+import { Link } from 'react-router-dom'
+
 
 // ........... text animation in home page ........
 import React, { useEffect, useRef } from 'react';
@@ -211,7 +213,7 @@ function Home() {
           </div>
     </div>
     <div className='text-center mt-10'>
-       <button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2 rounded-xl   px-8 text-lg  font-bold">Browse All</button>
+      <Link to="Signup"><button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2 rounded-xl   px-8 text-lg  font-bold">Browse All</button></Link> 
        </div>
   </section>
 

@@ -1,7 +1,7 @@
 import "./Home.css"
 import React, { useState } from 'react';
-import { FaChevronCircleRight } from "react-icons/fa";
-import { FaChevronCircleLeft } from "react-icons/fa";
+import { FaChevronCircleRight, FaChevronCircleLeft, FaCircle } from "react-icons/fa";
+
 
 const Carousel = ({ items, active }) => {
   const [state, setState] = useState({
@@ -51,18 +51,37 @@ const Carousel = ({ items, active }) => {
     });
   };
 
+  // ......... Pagination code ........
+  const generatePagination = () => {
+    return state.items.map((item, index) => (
+      <FaCircle
+        key={item.id}
+        className={`pagination-circle ${state.active === index ? 'active' : ''}`}
+        onClick={() => setActive(index)}
+      />
+    ));
+  };
+  // .........................
+
+  const setActive = (index) => {
+    setState({ ...state, active: index });
+  };
+
   return (
-    <div id="carousel" className="noselect">
-      <div className="arrow arrow-left" onClick={leftClick}>
-        <FaChevronCircleLeft className="text-4xl" />
+  <>
+      <div id="carousel" className="noselect">
+        <div className="arrow arrow-left" onClick={leftClick}>
+          <FaChevronCircleLeft className="text-4xl" />
+        </div>
+        <div transitionName={state.direction}>
+          {generateItems()} 
+        </div>
+        <div className="arrow arrow-right" onClick={rightClick}>
+          <FaChevronCircleRight className="text-4xl"/>
+        </div>
       </div>
-      <div transitionName={state.direction}>
-         {generateItems()} 
-      </div>
-      <div className="arrow arrow-right" onClick={rightClick}>
-        <FaChevronCircleRight className="text-4xl"/>
-      </div>
-    </div>
+      <div className="pagination">{generatePagination()}</div>
+  </>
   );
 };
 
@@ -92,10 +111,10 @@ const Z_index_card1 = () => {
     { id: 5, image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3SpylBD-urNhm-aqN8qhEBeYRTsumoiskqog30B70xxi-ZmaznwHr_OGdyv2_Pvizfng&usqp=CAU' },
     { id: 6, image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWUaOAxJ0Uk3fXVcyxhxnm7npX9JWj-VeXZ4ObZD6IeCs7OII5cQBNXd0JLSfjBvEBSj8&usqp=CAU' },
     { id: 7, image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-KayUwR1S_-_hiscHtIpgJKx1UufcZz3H7A&usqp=CAU' },
-    { id: 8, image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0gc7kIIgoAEaOxrsQ7HIeBJy4iifEvD00jMhkWPrZwuRTn_csges6JdFCxpdZ-gVIPj8&usqp=CAU' },
-    { id: 9, image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxdm4lafZWh_B6XuZ3POFadUW9ZVs5X2fB-w&usqp=CAU' },
-    { id: 10, image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN0brOvbY723vLFj6R0hXhalg8C0LurN9smjJS46pYBjP7I8aGpN7Ixys_begBM6YjZCo&usqp=CAU' },
-    { id: 12, image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN0brOvbY723vLFj6R0hXhalg8C0LurN9smjJS46pYBjP7I8aGpN7Ixys_begBM6YjZCo&usqp=CAU' },
+    // { id: 8, image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0gc7kIIgoAEaOxrsQ7HIeBJy4iifEvD00jMhkWPrZwuRTn_csges6JdFCxpdZ-gVIPj8&usqp=CAU' },
+    // { id: 9, image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxdm4lafZWh_B6XuZ3POFadUW9ZVs5X2fB-w&usqp=CAU' },
+    // { id: 10, image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN0brOvbY723vLFj6R0hXhalg8C0LurN9smjJS46pYBjP7I8aGpN7Ixys_begBM6YjZCo&usqp=CAU' },
+    // { id: 12, image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN0brOvbY723vLFj6R0hXhalg8C0LurN9smjJS46pYBjP7I8aGpN7Ixys_begBM6YjZCo&usqp=CAU' },
     // Add more items with their respective images
   ];
   return <Carousel items={items} active={0} />;
