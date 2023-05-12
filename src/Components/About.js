@@ -30,6 +30,7 @@ function About() {
     </div>
   </div>
   <p>under trial saloni</p>
+  <p>ok done...</p>
     
 </section>
     );
