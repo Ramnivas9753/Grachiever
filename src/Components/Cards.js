@@ -1,14 +1,14 @@
-import { FaBook, FaBookDead, FaCalendarMinus, FaCircle, FaDollarSign, FaFileInvoiceDollar, FaFunnelDollar, FaHeadSideCoughSlash, FaSearchDollar, FaStar, FaStopwatch, FaTimes, FaTimesCircle, FaUserTimes } from "react-icons/fa";
+import { FaBookDead, FaCalendarMinus, FaCircle, FaDollarSign, FaFileInvoiceDollar, FaFunnelDollar, FaHeadSideCoughSlash, FaSearchDollar, FaStar, FaStopwatch, FaTimes, FaTimesCircle, FaUserTimes } from "react-icons/fa";
 
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import logo1 from "../images/LOGOS/fev_icon.png"
 
 function Cards() {
   const settings = {
     infinite: true,
-    // autoplay:true,
-    
+    // autoplay:tm-auto    
     // autoplayTimeout:1000,
     speed: 500,
     slidesToShow: 3,
@@ -57,20 +57,20 @@ function Cards() {
     <div className="p-2  rounded-xl bg-white rounded-3xl h-full  pb-5 ">
       <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
       <div className="grid grid-cols-2 gap-0 md:gap-20  mt-5">
-      <div className=" flex items-center   mx-3">
+      <div className=" flex items-center m-auto text-[#00c5ff]">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
       </div>
-      <div className=" flex items-center  mx-3  ">
-      <FaDollarSign className="" /> <h1 className="font-bold">Paid Courses</h1>
+      <div className=" flex items-center m-auto  ">
+      <FaDollarSign className="" /> <h1 className="font-bold">1000</h1>
       </div>
       </div>
-      <h2 className="mt-5 text-sm md:text-2xl font-bold  text-gray-900 dark:text-white">Pyhton Full Stack Development</h2>
+      <h2 className="mt-5 text-sm md:text-2xl font-bold  text-gray-900 text-center">Python Full Stack Development</h2>
       <div className="grid grid-cols-2  md:gap-10 mt-5">
-      <div className=" flex items-center ">
-      <FaBook className="m-2"/> <h2 className="font-bold">Grachiever</h2>
+      <div className=" flex items-center m-auto">
+      <img src={logo1} className="m-2 w-6"/> <h2 className="font-bold">Grachiever</h2>
       </div>
-      <div className=" flex items-center  ">
-      <FaCalendarMinus className="m-2"/> <h2 className="font-semibold">Courses Timing</h2>
+      <div className=" flex items-center m-auto">
+      <FaCalendarMinus className="m-2"/> <h2 className="font-semibold">3 Hrs</h2>
       </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-5 gap-4 ">
@@ -85,20 +85,20 @@ function Cards() {
     <div className="p-2  rounded-xl bg-white rounded-3xl h-full  pb-5 ">
       <img src="https://www.classcentral.com/report/wp-content/uploads/2022/03/Best-Courses-Copywriting-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
       <div className="grid grid-cols-2  md:gap-20  mt-5">
-      <div className=" flex items-center   mx-3">
+      <div className=" flex items-center m-auto text-[#00c5ff]">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
       </div>
-      <div className=" flex items-center  mx-3  ">
-      <FaDollarSign className="" /> <h1 className="font-bold">Paid Courses</h1>
+      <div className=" flex items-center m-auto  ">
+      <FaDollarSign className="" /> <h1 className="font-bold">1000</h1>
       </div>
       </div>
-      <h2 className="mt-5 text-sm md:text-2xl font-bold  text-gray-900 dark:text-white">Pyhton Full Stack Development</h2>
+      <h2 className="mt-5 text-sm md:text-2xl font-bold  text-gray-900 text-center">Python Full Stack Development</h2>
       <div className="grid grid-cols-2  md:gap-10 mt-5">
-      <div className=" flex items-center ">
-      <FaBook className="m-2"/> <h2 className="font-bold">Grachiever</h2>
+      <div className=" flex items-center m-auto">
+      <img src={logo1} className="m-2 w-6"/> <h2 className="font-bold">Grachiever</h2>
       </div>
-      <div className=" flex items-center  ">
-      <FaCalendarMinus className="m-2"/> <h2 className="font-semibold">Courses Timing</h2>
+      <div className=" flex items-center m-auto ">
+      <FaCalendarMinus className="m-2"/> <h2 className="font-semibold">3 Hrs</h2>
       </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-5 gap-4 ">
@@ -112,20 +112,20 @@ function Cards() {
     <div className="p-2  rounded-xl bg-white rounded-3xl h-full  pb-5 ">
       <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/NumPy-BCG-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
       <div className="grid grid-cols-2  md:gap-20  mt-5">
-      <div className=" flex items-center   mx-3">
+      <div className=" flex items-center m-auto text-[#00c5ff]">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
       </div>
-      <div className=" flex items-center  mx-3  ">
-      <FaDollarSign className="" /> <h1 className="font-bold">Paid Courses</h1>
+      <div className=" flex items-center m-auto  ">
+      <FaDollarSign className="" /> <h1 className="font-bold">1000</h1>
       </div>
       </div>
-      <h2 className="mt-5 text-sm md:text-2xl font-bold  text-gray-900 dark:text-white">Pyhton Full Stack Development</h2>
+      <h2 className="mt-5 text-sm md:text-2xl font-bold  text-gray-900 text-center">Python Full Stack Development</h2>
       <div className="grid grid-cols-2  md:gap-10 mt-5">
-      <div className=" flex items-center ">
-      <FaBook className="m-2"/> <h2 className="font-bold">Grachiever</h2>
+      <div className=" flex items-center m-auto">
+      <img src={logo1} className="m-2 w-6"/> <h2 className="font-bold">Grachiever</h2>
       </div>
-      <div className=" flex items-center  ">
-      <FaCalendarMinus className="m-2"/> <h2 className="font-semibold">Courses Timing</h2>
+      <div className=" flex items-center  m-auto">
+      <FaCalendarMinus className="m-2"/> <h2 className="font-semibold">3 Hrs</h2>
       </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-5 gap-4 ">
@@ -140,20 +140,20 @@ function Cards() {
     <div className="p-2  rounded-xl bg-white rounded-3xl h-full  pb-5 ">
       <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/79/40d8a60bae487c8b4c862f52e0f13d/dj4e_thumbnail_specialization.jpg?auto=format%2Ccompress&dpr=1&w=330&h=330&q=25&fit=fill" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
       <div className="grid grid-cols-2  md:gap-20  mt-5">
-      <div className=" flex items-center   mx-3">
+      <div className=" flex items-center m-auto text-[#00c5ff]">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
       </div>
-      <div className=" flex items-center  mx-3  ">
-      <FaDollarSign className="" /> <h1 className="font-bold">Paid Courses</h1>
+      <div className=" flex items-center m-auto  ">
+      <FaDollarSign className="" /> <h1 className="font-bold">1000</h1>
       </div>
       </div>
-      <h2 className="mt-5 text-sm md:text-2xl font-bold  text-gray-900 dark:text-white">Pyhton Full Stack Development</h2>
+      <h2 className="mt-5 text-sm md:text-2xl font-bold  text-gray-900 text-center">Python Full Stack Development</h2>
       <div className="grid grid-cols-2  md:gap-10 mt-5">
-      <div className=" flex items-center ">
-      <FaBook className="m-2"/> <h2 className="font-bold">Grachiever</h2>
+      <div className=" flex items-center m-auto">
+      <img src={logo1} className="m-2 w-6"/> <h2 className="font-bold">Grachiever</h2>
       </div>
-      <div className=" flex items-center  ">
-      <FaCalendarMinus className="m-2"/> <h2 className="font-semibold">Courses Timing</h2>
+      <div className=" flex items-center m-auto">
+      <FaCalendarMinus className="m-2"/> <h2 className="font-semibold">3 Hrs</h2>
       </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-5 gap-4 ">
@@ -171,17 +171,17 @@ function Cards() {
       <div className=" flex items-center  mx-3">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
       </div>
-      <div className=" flex items-center  mx-3  ">
-      <FaDollarSign className="" /> <h1 className="font-bold">Paid Courses</h1>
+      <div className=" flex items-center  m-auto  ">
+      <FaDollarSign className="" /> <h1 className="font-bold">1000</h1>
       </div>
       </div>
-      <h2 className="mt-5 text-sm md:text-2xl font-bold  text-gray-900 dark:text-white">Pyhton Full Stack Development</h2>
+      <h2 className="mt-5 text-sm md:text-2xl font-bold  text-gray-900 text-center">Python Full Stack Development</h2>
       <div className="grid grid-cols-2  md:gap-10 mt-5">
-      <div className=" flex items-center ">
-      <FaBook className="m-2"/> <h2 className="font-bold">Grachiever</h2>
+      <div className=" flex items-center m-auto">
+      <img src={logo1} className="m-2 w-6"/> <h2 className="font-bold">Grachiever</h2>
       </div>
-      <div className=" flex items-center  ">
-      <FaCalendarMinus className="m-2"/> <h2 className="font-semibold">Courses Timing</h2>
+      <div className=" flex items-center  m-auto">
+      <FaCalendarMinus className="m-2"/> <h2 className="font-semibold">3 Hrs</h2>
       </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-5 gap-4 ">
