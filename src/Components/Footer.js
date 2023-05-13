@@ -16,8 +16,8 @@ function Footer() {
             <p className="text-white text-2xl text-center">Subscribe to Our Newsletter</p>
             <form action="">
               <div className="bg-white flex items-center mt-5 rounded-full outline-none">
-                <input type="text" className="py-2.5 px-4 outline-none w-full rounded-full" placeholder="enter your email" />
-                <span className="w-14 m-1 h-12 rounded-full bg-[#349fcf] text-white"><FaAngleRight className='text-3xl mx-auto mt-1 h-10 animate-pulse' /></span>
+                <input type="text" className="py-2.5 px-4 outline-none w-full rounded-full" placeholder="Enter your email" />
+                <buuton type="submit" className="w-14 m-1 h-12 rounded-full bg-[#349fcf] text-white"><FaAngleRight className='text-3xl mx-auto mt-1 h-10 animate-pulse' /></buuton>
               </div>
             </form>
           </div>
@@ -99,33 +99,33 @@ function Footer() {
           </div>
           <div className="p-5  lg:pl-20">
             <h1 className="font-bold text-lg mb-5">About</h1>
-            <p className="hover:text-cyan-500"><Link to="/">About Us</Link></p>
-            <p className="hover:text-cyan-500"><Link to="/">What We offer?</Link></p>
-            <p className="hover:text-cyan-500"><Link to="/">Our services</Link></p>
-            <p className="hover:text-cyan-500"><Link to="/">Contact Us</Link></p>
+            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">About Us</Link></p>
+            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">What We offer?</Link></p>
+            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Our services</Link></p>
+            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Contact Us</Link></p>
           </div>
           <div className="p-5  lg:pl-20">
             <h1 className="font-bold text-lg mb-5">Special</h1>
-            <p className="hover:text-cyan-500"><Link to="/">Grachiever plus</Link></p>
-            <p className="hover:text-cyan-500"><Link to="/">Grachiever for business</Link></p>
-            <p className="hover:text-cyan-500"><Link to="/">Skill graph</Link></p>
-            <p className="hover:text-cyan-500"><Link to="/">Skill Consultancy</Link></p>
+            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Grachiever plus</Link></p>
+            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Grachiever for business</Link></p>
+            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Skill graph</Link></p>
+            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Skill Consultancy</Link></p>
           </div>
           <div className="p-5 lg:pl-20">
             <h1 className="font-bold text-lg mb-5">Popular</h1>
-            <p className="hover:text-cyan-500"><Link to="/">Course</Link></p>
-            <p className="hover:text-cyan-500"><Link to="/">Skill</Link></p>
-            <p className="hover:text-cyan-500"><Link to="/">Services</Link></p>
-            <p className="hover:text-cyan-500"><Link to="/">Tools</Link></p>
+            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Course</Link></p>
+            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Skill</Link></p>
+            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Services</Link></p>
+            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Tools</Link></p>
           </div>
           <div className="p-5 lg:pl-20">
             <h1 className="font-bold text-lg mb-5">More</h1>
-            <p className="hover:text-cyan-500"><Link to="/">Blog</Link></p>
-            <p className="hover:text-cyan-500"><Link to="/">Careers</Link> </p>
-            <p className="hover:text-cyan-500"><Link to="/">Help</Link></p>
-            <p className="hover:text-cyan-500"><Link to="/">Terms</Link></p>
-            <p className="hover:text-cyan-500"><Link to="/">Privacy Policy</Link></p>
-            <p className="hover:text-cyan-500"><Link to="/">Cookies Policy</Link></p>
+            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Blog</Link></p>
+            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Careers</Link> </p>
+            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Help</Link></p>
+            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Terms</Link></p>
+            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Privacy Policy</Link></p>
+            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Cookies Policy</Link></p>
           </div>
         </div>
         <div

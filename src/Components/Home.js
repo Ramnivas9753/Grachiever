@@ -33,6 +33,8 @@ import Z_index_card1 from './Z_index_card1';
 import FlipCard from './FlipCard';
 
 import { Link } from 'react-router-dom'
+import { useState } from "react";
+
 
 
 // ........... text animation in home page ........
@@ -57,6 +59,15 @@ function Home() {
       typedInstance.destroy();
     };
   }, []);
+ 
+  // const [searchitem , setSearchitem] = useState('hidden');
+  const [searchItem, setSearchItem] = useState('hidden');
+  const showSearchItem = () => {
+    setSearchItem('visible');
+  };
+  const hideSearchItem = () => {
+    setSearchItem('hidden');
+  };
 
     return(
         <>
@@ -69,7 +80,9 @@ function Home() {
       <p className="mt-5 text-2xl">The only easier, powerful and authoring platform designed for consistent learners to
         unlock the power of monetizing</p>
       {/* <!--Search--> */}
-      <div className="border-b-[#349fcf] border-[#349fcf] border-2 flex items-center mt-8 w-auto rounded-full outline-none text-xl">
+      <div className="border-b-[#349fcf] border-[#349fcf] border-2 flex items-center mt-8 w-auto rounded-full outline-none text-xl" 
+        onMouseEnter={showSearchItem}
+        onMouseLeave={hideSearchItem}>
         <input type="text" className="py-2.5 px-4 outline-none w-full rounded-full" placeholder="Search Anything..." />
         <select className="mr-2 py-2 px-0 h-[44px] focus:outline-none ">
           <option>Courses</option>
@@ -78,6 +91,18 @@ function Home() {
         </select>
         <span className="w-20 m-1 h-12 rounded-full bg-[#00c5ff] text-white"><FaSearch className='text-2xl mx-auto mt-3'/></span>
         {/* bg-[#349fcf] */}
+      </div>
+
+      <div id='z1' className='bg-red-100 p-10' style={{ visibility: searchItem }}>
+        <p className='font-bold text-center'>Letest Search</p>
+        <p>Python</p>
+        <p>Java</p>
+        <p>.NET</p>
+        <p>Angular</p><hr/>
+        <p className='font-bold text-center'>Popular Search</p>
+        <p>welcome to search bar </p>
+        <p>welcome to search bar </p>
+        <p>welcome to search bar </p>
       </div>
       <div className='flex flex-wrap mt-10'> 
         <a href='https://tailwindcss.com/'><div className='bg-[#f9fafc] p-1 h-10 m-1 flex rounded-full shadow-xl hover:scale-105 duration-300'>
@@ -304,23 +329,24 @@ function Home() {
     {/* <!--Feature Ready Skills sections--> */}
     <section className="p-0 sm:p-0 md:p-10 lg:p-10 bg-[#1b1d38]">
     <div className="p-3 text-center m-2 h-auto">
-        <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-5xl font-bold my-10  text-white">Get Persional Feature Ready Skill Recommented</h1>
+        <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-5xl font-bold my-10  text-white">Get Personal Future Ready Skill Recommandations</h1>
         <h2 className="text-3xl text-gray-300">Enhance Your Skill With Grachiever</h2>
   
     <div className="text-center m-2 mt-5">
         <select className="mt-5 w-full md:w-64 lg:w-64  h-14 border rounded-xl text-xl p-2  md:m-2 font-semibold">
             <option>Category</option>
-            <option>Option 1</option>
-            <option>Option 2</option>
-            <option>Option 3</option>
-          </select>
+            <option>Data</option>
+            <option>Digital Marketing</option>
+            <option>A.I.M.L.</option>
+            <option>Video Animation</option>
+            <option>Graphics and Design</option>
+        </select>
     
    
         <select className="mt-5 w-full md:w-60 lg:w-60 h-14 border rounded-xl text-xl p-2  md:m-2 font-semibold">
-            <option>Select</option>
-            <option>Option 1</option>
-            <option>Option 2</option>
-            <option>Option 3</option>
+            <option>Demo Plane</option>
+            <option>Basic Plane</option>
+            <option>Advance Plan</option>
           </select>
           <button className="mt-5 w-full md:w-auto m-auto bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] text-xl rounded-full p-3 md:px-10">Get Started Now</button>
         </div>
