@@ -9,6 +9,7 @@ function Blog() {
       Latest News
     </h1>
     <p>check</p>
+    <p>check Done under trial</p>
     <p className="text-center md:w-[50%] lg:w-[50%] m-auto p-2">
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, delectus ad.
     </p>
