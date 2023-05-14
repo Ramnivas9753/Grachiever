@@ -5,6 +5,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import logo1 from "../images/LOGOS/fev_icon.png"
 
+import "./Home.css"
+
 function Cards() {
   const settings = {
     infinite: true,
@@ -50,7 +52,7 @@ function Cards() {
     </div>
     </div>
     
-<Slider {...settings} className="m-5 sm:m-5 md:m-10 lg:m-10 ">
+<Slider {...settings} className="m-10 sm:m-5 md:m-10 lg:m-5 bg-red-500 ">
 
     {/* Card 1 */}
     <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full">
@@ -194,7 +196,7 @@ function Cards() {
 
   </Slider>
   <div className='text-center mt-3'>
-       <button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2 rounded-xl   px-8 text-lg  font-bold">Browse All</button>
+       <button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2 rounded-xl   px-20 text-lg  font-bold">Browse All</button>
        </div>
     </section>
   </>
