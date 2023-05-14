@@ -14,7 +14,7 @@ function Navbar() {
           <div className="justify-between  mx-auto lg:max-w-7xl md:items-center md:flex ">
               <div>
                   <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                      <Link to="/"><img src={grachieverlogo} className="w-28 md:w-40 -mt-5 md:-mt-10" alt="Grachiever Logo" /></Link>
+                      <Link to="/"><img src={grachieverlogo} className="w-20 md:w-40 -mt-5 md:-mt-10" alt="Grachiever Logo" /></Link>
                       <div className="flex text-white text-sm hidden max-md:block">
                               <Link to="/login" className="px-2 py-1 text-center rounded-full shadow hover:text-blue-500 border border-white">Log-in</Link>
                               <Link to="/signup" className="px-2 py-1 text-center text-gray-800 bg-[#349fcf] text-white rounded-full shadow hover:text-black">Sign up</Link>
@@ -108,10 +108,8 @@ function Navbar() {
 
                           <li>
                             <div className="group inline-block">
-                            <button
-                                className="outline-none focus:outline-none px-3 py-1 rounded-sm flex items-center min-w-32"
-                            >
-                                <span className="pr-1 font-semibold flex-1">Courses</span>
+                            <button className="outline-none focus:outline-none px-0 rounded-sm flex items-center">
+                                <span className="flex-1">Courses</span>
                                 <span>
                                 <svg
                                     className="fill-current h-4 w-4 transform group-hover:-rotate-180
@@ -125,15 +123,131 @@ function Navbar() {
                                 </svg>
                                 </span>
                             </button>
-                            <ul className="bg-white p-2 text-black border rounded-md transform scale-0 group-hover:scale-100 absolute 
-                            transition duration-150 ease-in-out origin-top min-w-32">
-                                <li className="rounded-sm px-3 py-1 hover:bg-gray-100">
-                                    <Link to=''>Data</Link></li><hr/>
-                                <li className="rounded-sm px-3 py-1 hover:bg-gray-100">
-                                    <Link to=''>Digital Marketing</Link></li><hr/>
-                                <li className="rounded-sm px-3 py-1 hover:bg-gray-100">
-                                <Link to=''>Still Confused</Link></li><hr/>
-                                <li className="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+                            <ul className="bg-white text-black border rounded-md transform scale-0 group-hover:scale-100 absolute 
+                            transition duration-150 ease-in-out origin-top min-w-32 w-20 text-sm">
+                                <li className="rounded-sm relative px-1 py-1 hover:bg-gray-100">
+                                <button className="w-full text-left flex items-center outline-none focus:outline-none">
+                                    <span className="pr-1 flex-1">Data</span>
+                                    <span className="mr-auto">
+                                    <svg className="fill-current h-4 w-4
+                                        transition duration-150 ease-in-out"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 20 20" >
+                                        <path
+                                        d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+                                    </svg>
+                                    </span>
+                                </button>
+                                <ul className="bg-white border rounded-sm absolute top-0 right-0 
+                                    transition duration-150 ease-in-out origin-top-left
+                                    min-w-24">
+                                    <li className="px-2 py-1 hover:bg-gray-100">
+                                    <Link to=''>Python 1</Link></li><hr/>
+                                    <li className="px-2 py-1 hover:bg-gray-100">
+                                    <Link to=''>Go</Link></li><hr/>
+                                    <li className="px-2 py-1 hover:bg-gray-100">
+                                    <Link to=''>Rust</Link></li><hr/>
+                                    <li className="px-2 py-1 hover:bg-gray-100">
+                                    <Link to=''>Rust</Link></li><hr/>
+                                    <li className="px-2 py-1 hover:bg-gray-100">
+                                    <Link to=''>Rust</Link></li><hr/>
+                                    <li className="px-2 py-1 hover:bg-gray-100">
+                                    <Link to=''>Rust</Link></li><hr/>
+                                </ul>
+                                </li><hr/>
+                                <li className="rounded-sm relative px-1 py-1 hover:bg-gray-100">
+                                <button className="w-full text-left flex items-center outline-none focus:outline-none">
+                                    <span className="pr-1 flex-1">Digital Marketing</span>
+                                    <span className="mr-auto">
+                                    <svg className="fill-current h-4 w-4
+                                        transition duration-150 ease-in-out"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 20 20" >
+                                        <path
+                                        d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+                                    </svg>
+                                    </span>
+                                </button>
+                                <ul className="bg-white border rounded-sm absolute top-0 right-0 
+                                    transition duration-150 ease-in-out origin-top-left
+                                    min-w-32">
+                                    <li className="px-3 py-1 hover:bg-gray-100">
+                                    <Link to=''>Javascript</Link></li><hr/>
+                                    <li className="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+                                    <button className="w-full text-left flex items-center outline-none focus:outline-none">
+                                        <span className="pr-1 flex-1">Python</span>
+                                        <span className="mr-auto">
+                                        <svg className="fill-current h-4 w-4
+                                                transition duration-150 ease-in-out"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 20 20">
+                                            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+                                        </svg>
+                                        </span>
+                                    </button>
+                                    <ul className="bg-white border rounded-sm absolute top-0 right-0 
+                                        transition duration-150 ease-in-out origin-top-left
+                                        min-w-32">
+                                        <li className="px-3 py-1 hover:bg-gray-100">
+                                        <Link to=''>Python 2.7</Link></li><hr/>
+                                        <li className="px-3 py-1 hover:bg-gray-100">
+                                        <Link to=''>Python 3+</Link></li><hr/>
+                                    </ul>
+                                    </li><hr/>
+                                    <li className="px-3 py-1 hover:bg-gray-100">
+                                    <Link to=''>Go</Link></li><hr/>
+                                    <li className="px-3 py-1 hover:bg-gray-100">
+                                    <Link to=''>Rust</Link></li><hr/>
+                                </ul>
+                                </li><hr/>
+                                
+                                <li className="rounded-sm relative px-1 py-1 hover:bg-gray-100">
+                                <button className="w-full text-left flex items-center outline-none focus:outline-none">
+                                    <span className="pr-1 flex-1">Still Confused</span>
+                                    <span className="mr-auto">
+                                    <svg className="fill-current h-4 w-4
+                                        transition duration-150 ease-in-out"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 20 20" >
+                                        <path
+                                        d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+                                    </svg>
+                                    </span>
+                                </button>
+                                <ul className="bg-white border rounded-sm absolute top-0 right-0 
+                                    transition duration-150 ease-in-out origin-top-left
+                                    min-w-32">
+                                    <li className="px-3 py-1 hover:bg-gray-100">
+                                    <Link to=''>Javascript</Link></li><hr/>
+                                    <li className="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+                                    <button className="w-full text-left flex items-center outline-none focus:outline-none">
+                                        <span className="pr-1 flex-1">Python</span>
+                                        <span className="mr-auto">
+                                        <svg className="fill-current h-4 w-4
+                                                transition duration-150 ease-in-out"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 20 20">
+                                            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+                                        </svg>
+                                        </span>
+                                    </button>
+                                    <ul className="bg-white border rounded-sm absolute top-0 right-0 
+                                        transition duration-150 ease-in-out origin-top-left
+                                        min-w-32">
+                                        <li className="px-3 py-1 hover:bg-gray-100">
+                                        <Link to=''>Python 2.7</Link></li><hr/>
+                                        <li className="px-3 py-1 hover:bg-gray-100">
+                                        <Link to=''>Python 3+</Link></li><hr/>
+                                    </ul>
+                                    </li><hr/>
+                                    <li className="px-3 py-1 hover:bg-gray-100">
+                                    <Link to=''>Go</Link></li><hr/>
+                                    <li className="px-3 py-1 hover:bg-gray-100">
+                                    <Link to=''>Rust</Link></li><hr/>
+                                </ul>
+                                </li><hr/>
+
+                                <li className="rounded-sm relative px-1 py-1 hover:bg-gray-100">
                                 <button className="w-full text-left flex items-center outline-none focus:outline-none">
                                     <span className="pr-1 flex-1">A.I.M.L.</span>
                                     <span className="mr-auto">
@@ -178,14 +292,101 @@ function Navbar() {
                                     <Link to=''>Rust</Link></li><hr/>
                                 </ul>
                                 </li><hr/>
-                                <li className="rounded-sm px-3 py-1 hover:bg-gray-100">
-                                <Link to=''>Video Animation</Link></li><hr/>
-                                <li className="rounded-sm px-3 py-1 hover:bg-gray-100">
-                                <Link to=''>Graphics And Design</Link></li><hr/>
+
+                                <li className="rounded-sm relative px-1 py-1 hover:bg-gray-100">
+                                <button className="w-full text-left flex items-center outline-none focus:outline-none">
+                                    <span className="pr-1 flex-1">Video Animation</span>
+                                    <span className="mr-auto">
+                                    <svg className="fill-current h-4 w-4
+                                        transition duration-150 ease-in-out"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 20 20" >
+                                        <path
+                                        d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+                                    </svg>
+                                    </span>
+                                </button>
+                                <ul className="bg-white border rounded-sm absolute top-0 right-0 
+                                    transition duration-150 ease-in-out origin-top-left
+                                    min-w-32">
+                                    <li className="px-3 py-1 hover:bg-gray-100">
+                                    <Link to=''>Javascript</Link></li><hr/>
+                                    <li className="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+                                    <button className="w-full text-left flex items-center outline-none focus:outline-none">
+                                        <span className="pr-1 flex-1">Python</span>
+                                        <span className="mr-auto">
+                                        <svg className="fill-current h-4 w-4
+                                                transition duration-150 ease-in-out"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 20 20">
+                                            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+                                        </svg>
+                                        </span>
+                                    </button>
+                                    <ul className="bg-white border rounded-sm absolute top-0 right-0 
+                                        transition duration-150 ease-in-out origin-top-left
+                                        min-w-32">
+                                        <li className="px-3 py-1 hover:bg-gray-100">
+                                        <Link to=''>Python 2.7</Link></li><hr/>
+                                        <li className="px-3 py-1 hover:bg-gray-100">
+                                        <Link to=''>Python 3+</Link></li><hr/>
+                                    </ul>
+                                    </li><hr/>
+                                    <li className="px-3 py-1 hover:bg-gray-100">
+                                    <Link to=''>Go</Link></li><hr/>
+                                    <li className="px-3 py-1 hover:bg-gray-100">
+                                    <Link to=''>Rust</Link></li><hr/>
+                                </ul>
+                                </li><hr/>
+
+                                <li className="rounded-sm relative px-1 py-1 hover:bg-gray-100">
+                                <button className="w-full text-left flex items-center outline-none focus:outline-none">
+                                    <span className="pr-1 flex-1">Graphics And Design</span>
+                                    <span className="mr-auto">
+                                    <svg className="fill-current h-4 w-4
+                                        transition duration-150 ease-in-out"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 20 20" >
+                                        <path
+                                        d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+                                    </svg>
+                                    </span>
+                                </button>
+                                <ul className="bg-white border rounded-sm absolute top-0 right-0 
+                                    transition duration-150 ease-in-out origin-top-left
+                                    min-w-32">
+                                    <li className="px-3 py-1 hover:bg-gray-100">
+                                    <Link to=''>Javascript</Link></li><hr/>
+                                    <li className="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+                                    <button className="w-full text-left flex items-center outline-none focus:outline-none">
+                                        <span className="pr-1 flex-1">Python</span>
+                                        <span className="mr-auto">
+                                        <svg className="fill-current h-4 w-4
+                                                transition duration-150 ease-in-out"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 20 20">
+                                            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+                                        </svg>
+                                        </span>
+                                    </button>
+                                    <ul className="bg-white border rounded-sm absolute top-0 right-0 
+                                        transition duration-150 ease-in-out origin-top-left
+                                        min-w-32">
+                                        <li className="px-3 py-1 hover:bg-gray-100">
+                                        <Link to=''>Python 2.7</Link></li><hr/>
+                                        <li className="px-3 py-1 hover:bg-gray-100">
+                                        <Link to=''>Python 3+</Link></li><hr/>
+                                    </ul>
+                                    </li><hr/>
+                                    <li className="px-3 py-1 hover:bg-gray-100">
+                                    <Link to=''>Go</Link></li><hr/>
+                                    <li className="px-3 py-1 hover:bg-gray-100">
+                                    <Link to=''>Rust</Link></li><hr/>
+                                </ul>
+                                </li><hr/>
                             </ul>
                             </div>
                           </li>
-
                           <li className="hover:text-blue-500">
                               <Link to="/blog">Blog</Link>
                           </li>
@@ -196,7 +397,7 @@ function Navbar() {
                               <Link to="/contact">Contact</Link>
                           </li>
                           <li className=" lg:pl-10">
-                          <div className="flex">
+                          <div className="flex max-md:hidden">
                               <Link to="/login" className="px-4 py-2 text-center rounded-full shadow hover:text-blue-500 border border-[#1b1d38] hover:border-white">  Log-in</Link>
                               <Link to="/signup" className="px-4 py-2 text-center text-gray-800 bg-[#00c5ff] text-white rounded-full shadow hover:text-black">Sign up</Link>
                           </div>

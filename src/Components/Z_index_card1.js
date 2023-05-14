@@ -73,7 +73,7 @@ const Carousel = ({ items, active }) => {
         <div className="arrow arrow-left" onClick={leftClick}>
           <FaChevronCircleLeft className="text-4xl" />
         </div>
-        <div transitionName={state.direction}>
+        <div transitionname={state.direction}>
           {generateItems()} 
         </div>
         <div className="arrow arrow-right" onClick={rightClick}>
