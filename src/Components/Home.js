@@ -41,7 +41,7 @@ import { useState } from "react";
 import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
 
-function Home() {
+function Home () {
   const typedRef = useRef(null);
   useEffect(() => {
     const options = {
@@ -59,16 +59,25 @@ function Home() {
       typedInstance.destroy();
     };
   }, []);
- 
-  // const [searchitem , setSearchitem] = useState('hidden');
-  const [searchItem, setSearchItem] = useState('hidden');
-  const showSearchItem = () => {
-    setSearchItem('visible');
-  };
-  const hideSearchItem = () => {
-    setSearchItem('hidden');
+
+  // const [searchText, setSearchText] = useState('');
+  // const [showContent, setShowContent] = useState(false);
+  // const handleSearchClick = () => {
+  //   setShowContent(true);
+  // };
+
+  const [isDivVisible, setDivVisibility] = useState(false);
+
+  const handleInputClick = () => {
+    setDivVisibility(true);
+    document.getElementById('homepageicons').style.marginTop="200px";
   };
 
+  const handleMouseLeave = () => {
+    setDivVisibility(false);
+    document.getElementById('homepageicons').style.marginTop="10px";
+  };
+ 
     return(
         <>
             
@@ -80,20 +89,72 @@ function Home() {
       <p className="mt-5 text-2xl">The only easier, powerful and authoring platform designed for consistent learners to
         unlock the power of monetizing</p>
       {/* <!--Search--> */}
-      <div className="border-b-[#349fcf] border-[#349fcf] border-2 flex items-center mt-8 w-auto rounded-full outline-none text-xl" 
-        onMouseEnter={showSearchItem}
-        onMouseLeave={hideSearchItem}>
-        <input type="text" className="py-2.5 px-4 outline-none w-full rounded-full" placeholder="Search Anything..." />
-        <select className="mr-2 py-2 px-0 h-[44px] focus:outline-none ">
+      <div className="relative border-b-[#349fcf] border-[#349fcf] border-2 flex items-center mt-8 w-auto rounded-full outline-none text-xl">
+        <input type="text" className="py-2.5 px-4 outline-none w-full rounded-full" placeholder="Search Anything..."  onClick={handleInputClick}/>
+        <select className="focus:outline-none cursor-pointer w-24 text-md">
           <option>Courses</option>
           <option>Freelancing</option>
           <option>Tools</option>
         </select>
         <span className="w-20 m-1 h-12 rounded-full bg-[#00c5ff] text-white"><FaSearch className='text-2xl mx-auto mt-3'/></span>
-        {/* bg-[#349fcf] */}
+        {isDivVisible && (
+            <div
+              id="z2"
+              className="absolute top-12 p-5 mt-1 w-[100%] shadow-lg rounded-bl rounded-br max-h-36 overflow-y-auto"
+              onMouseLeave={handleMouseLeave} >
+              <p className="font-bold text-center">Recent Search</p>
+              <Link to=''>Python Full Stack Development</Link><hr/>
+              <Link to=''>Java Full Stack Developmentt</Link><hr/>
+              <Link to=''>Angular Development</Link><hr/>
+              <Link to=''>.Net Developer</Link><hr/>
+              <Link to=''>Frontend Developer</Link><hr/>
+              <Link to=''>Backend Developer</Link><hr/>
+
+              <p className="font-bold text-center">Letest Search</p>
+              <Link to=''>Python Full Stack Development</Link><hr/>
+              <Link to=''>Java Full Stack Developmentt</Link><hr/>
+              <Link to=''>Angular Development</Link><hr/>
+              <Link to=''>.Net Developer</Link><hr/>
+              <Link to=''>Frontend Developer</Link><hr/>
+              <Link to=''>Backend Developer</Link><hr/>
+
+              <p className="font-bold text-center">Popular Search</p>
+              <Link to=''>Python Full Stack Development</Link><hr/>
+              <Link to=''>Java Full Stack Developmentt</Link><hr/>
+              <Link to=''>Angular Development</Link><hr/>
+              <Link to=''>.Net Developer</Link><hr/>
+              <Link to=''>Frontend Developer</Link><hr/>
+              <Link to=''>Backend Developer</Link><hr/>
+            </div>
+          )}
       </div>
 
-      <div id='z1' className='bg-red-100 p-10' style={{ visibility: searchItem }}>
+      {/* <div className="relative">
+          <input
+            type="text"
+            className="py-2.5 px-4 outline-none w-full rounded-full"
+            placeholder="Search Anything..."
+            onClick={handleInputClick}
+          />
+          {isDivVisible && (
+            <div
+              id="z2"
+              className="absolute bg-green-100 p-5 mt-1 w-auto shadow-lg rounded-bl rounded-br max-h-36 overflow-y-scroll"
+              onMouseLeave={handleMouseLeave}
+            >
+              <p className="font-bold text-center">Popular Search</p>
+              <p>Python Full Stack Development</p>
+              <p>Java Full Stack Development</p>
+              <p>Angular Development</p>
+              <p>.Net Developer</p>
+              <p>Frontend Developer</p>
+              <p>Backend Developer</p>
+            </div>
+          )}
+       </div> */}
+
+
+      {/* <div id='z1' className='bg-red-100 p-10 h-32 overflow-y-scroll' style={{ visibility: searchItem }}>
         <p className='font-bold text-center'>Letest Search</p>
         <p>Python</p>
         <p>Java</p>
@@ -103,8 +164,10 @@ function Home() {
         <p>welcome to search bar </p>
         <p>welcome to search bar </p>
         <p>welcome to search bar </p>
-      </div>
-      <div className='flex flex-wrap mt-10'> 
+      </div> */}
+
+      
+      <div id='homepageicons' className='flex flex-wrap mt-10'> 
         <a href='https://tailwindcss.com/'><div className='bg-[#f9fafc] p-1 h-10 m-1 flex rounded-full shadow-xl hover:scale-105 duration-300'>
           <img className='w-auto' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Ficon-free-certificates.png?auto=format&h=50&ixlib=php-4.1.0&s=c25548f8b3bc8df8ae051dbe30a9a50a' />
           <p className='mx-3 self-center'>Free Certificates</p>
@@ -238,7 +301,7 @@ function Home() {
           </div>
     </div>
     <div className='text-center mt-10'>
-      <Link to="Signup"><button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2 rounded-xl   px-8 text-lg  font-bold">Browse All</button></Link> 
+      <Link to="Signup"><button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2 rounded-xl   px-20 text-lg  font-bold">Browse All</button></Link> 
        </div>
   </section>
 
@@ -333,7 +396,7 @@ function Home() {
         <h2 className="text-3xl text-gray-300">Enhance Your Skill With Grachiever</h2>
   
     <div className="text-center m-2 mt-5">
-        <select className="mt-5 w-full md:w-64 lg:w-64  h-14 border rounded-xl text-xl p-2  md:m-2 font-semibold">
+        <select className="mt-5 w-full md:w-64 lg:w-64  h-14 border rounded-xl text-xl p-2  md:m-2 font-semibold outline-none">
             <option>Category</option>
             <option>Data</option>
             <option>Digital Marketing</option>
@@ -343,7 +406,7 @@ function Home() {
         </select>
     
    
-        <select className="mt-5 w-full md:w-60 lg:w-60 h-14 border rounded-xl text-xl p-2  md:m-2 font-semibold">
+        <select className="mt-5 w-full md:w-60 lg:w-60 h-14 border rounded-xl text-xl p-2  md:m-2 font-semibold outline-none">
             <option>Demo Plane</option>
             <option>Basic Plane</option>
             <option>Advance Plan</option>
@@ -358,26 +421,26 @@ function Home() {
 <section className="p-0 sm:p-0 md:p-10 lg:p-10 " >
     <div className="mt-5">
         <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-4xl font-bold text-center p-5 mb-10">Achievements</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 text-center ">
-            <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-48 w-48 mb-10 rounded-full">
-              <FaGraduationCap className='text-3xl group-hover:text-red-500 text-black-400 mt-10 mx-auto m-2 '/>
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 text-center">
+            <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-44 w-44 lg:h-48 lg:w-48 mb-10 rounded-full">
+              <FaGraduationCap className='text-5xl text-black-400 mt-10 mx-auto m-2 group-hover:text-blue-500'/>
               <p className="text-2xl font-bold group-hover:text-[#349fcf]">350+</p>
-              <p>Student worldwide</p>
+              <p className='group-hover:text-green-500'>Student worldwide</p>
             </div>
-            <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-48 w-48 mb-10 rounded-full">
-              <FaList className='text-3xl  group-hover:text-green-500 text-black-400 mt-10 mx-auto m-2 '/>           
+            <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-44 w-44 lg:h-48 lg:w-48 mb-10 rounded-full">
+              <FaList className='text-3xl text-black-400 mt-10 mx-auto m-2 group-hover:text-green-500'/>           
               <p className="text-2xl font-bold group-hover:text-[#349fcf]">450+</p>
-              <p>Total Course Views</p>
+              <p className='group-hover:text-blue-500'>Total Course Views</p>
             </div>
-            <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-48 w-48 mb-10 rounded-full">
-              <FaStar className='text-3xl  group-hover:text-yellow-500 text-black-400 mt-10 mx-auto m-2 '/>
+            <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-44 w-44 lg:h-48 lg:w-48 mb-10 rounded-full">
+              <FaStar className='text-3xl text-black-400 mt-10 mx-auto m-2 group-hover:text-yellow-500'/>
               <p className="text-2xl font-bold group-hover:text-[#349fcf]">550+</p>
-              <p>Course Reviews</p>
+              <p className='group-hover:text-orange-500'>Course Reviews</p>
             </div>
-            <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-48 w-48 mb-10 rounded-full">
-              <FaUser className='text-3xl  group-hover:text-blue-900 text-black-400 mt-10 mx-auto m-2 '/>
+            <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-44 w-44 lg:h-48 lg:w-48 mb-10 rounded-full">
+              <FaUser className='text-3xl text-black-400 mt-10 mx-auto m-2 group-hover:text-orange-500'/>
               <p className="text-2xl font-bold group-hover:text-[#349fcf]">650+</p>
-              <p>Student Community</p>
+              <p className='group-hover:text-yellow-500'>Student Community</p>
             </div>
         </div>
     </div>

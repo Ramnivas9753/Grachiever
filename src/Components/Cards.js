@@ -52,7 +52,7 @@ function Cards() {
     </div>
     </div>
     
-<Slider {...settings} className="m-10 sm:m-5 md:m-10 lg:m-5 md:p-10">
+<Slider {...settings} className="m-10 sm:m-5 md:m-10 lg:m-5">
 
     {/* Card 1 */}
     <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full">
