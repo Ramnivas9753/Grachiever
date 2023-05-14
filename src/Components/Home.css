@@ -240,3 +240,15 @@
   .min-w-32 { min-width: 8rem }
 
 /* ................ navbar dropdown code end ........... */
+
+.slick-prev, .slick-next {
+  width: 70px;
+  height: 70px;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size:60px;
+  /* background-color:#1b1a3a; */
+  color:#00c5ff;
+  
+}

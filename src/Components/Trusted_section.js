@@ -14,8 +14,9 @@ function Trusted_section() {
   const settings = {
     infinite: true,
     autoplay:true,
-    autoplayTimeout:1000,
-    speed: 200,
+    // autoplayTimeout:1000,
+    autoplaySpeed: 1000,
+    speed: 1000,
     slidesToShow: 6,
     slidesToScroll: 1,
     responsive: [
@@ -73,8 +74,7 @@ function Trusted_section() {
     <div className=" w-24 h-5 "><h1 className="mt-8 p-5  md:p-10">
           <img src={slidelogo6} />
             </h1></div>
-
-
+            
     {/* Card 6 */}
 
     <div className=" w-24 h-5 "><h1 className="mt-3 p-5  md:p-10">
