@@ -32,7 +32,7 @@ function LoginAndRegister({ onLogin, onRegister }) {
         <div className="lg:h-full md:h-full mx-5 sm:mx-5 md:mx-10 lg:mx-10 mt-10 p-10 bg-white rounded-md shadow-md">
           {/* <h2 className="text-xl font-medium mb-4">{isLogin ? 'Login' : 'Register'}</h2> */}
           <img src={grachieverlogo} className="w-20 md:w-40 -mt-5 md:-mt-10" alt="Grachiever Logo" />
-          <p className="mt-4 text-left">
+          <p className="mt-4 text-left ml-5">
             {isLogin ? (
               <>
                 <button className="text-black-500  font-bold hover:text-[#00c5ff] hover:underline " onClick={() => setIsLogin(true)} >Login</button>
