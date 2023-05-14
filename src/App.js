@@ -8,8 +8,10 @@ import Contact from './Components/Contact';
 import Login from './Components/Login';
 import Signup from './Components/Signup';
 
-import Layout from './Components/Layout';
 
+
+import Layout from './Components/Layout';
+import Skillgraph from './Components/Skillgraph';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
