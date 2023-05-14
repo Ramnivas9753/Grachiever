@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import logo1 from "../images/LOGOS/fev_icon.png"
 
 import "./Home.css"
+import { Link } from 'react-router-dom'
 
 function Cards() {
   const settings = {
@@ -196,7 +197,7 @@ function Cards() {
 
   </Slider>
   <div className='text-center mt-3'>
-       <button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2  rounded-xl  px-20 text-lg  font-bold">Browse All</button>
+      <Link to='BrowseAll'><button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2  rounded-xl  px-20 text-lg  font-bold">Browse All</button></Link> 
        </div>
     </section>
   </>
