@@ -10,7 +10,7 @@ function About() {
         Trust Grachiever to empower your career journey towards a brighter future. Gain skills, access freelance work, receive
         <br /> personalized guidance, and join a supportive community.
       </p>
-      <div className="w-auto grid grid-rows-3 grid-flow-col gap-7 mt-10 ml-10">
+      <div className=" w-auto md:h-full grid grid-rows-3 grid-flow-col gap-7 mt-10 ml-10">
         <div className=" md:h-full row-span-3 ...">
           <img src={image1} alt="" />
         </div>
@@ -30,6 +30,17 @@ function About() {
       At Grachiever, we offer a globally scalable solution to address the widespread digital talent shortages impacting growth, productivity, and innovation. Through collaboration with enterprises and highly motivated individuals, we design customized talent transformation journeys using our advanced Digital Competency Platform.
       </p>
         </div>
+      </div>
+
+      <h1 className="text-3xl font-bold text-center p-3 mt-5">
+      Unlock Your Potential with Grachiever:<br /> 
+      Comprehensive Services for 
+     <span class="text-[#4eb0e1]"> Career Advancement</span>
+      </h1>
+      <div className="flex flex-col gap-8 mb-5 p-5">
+      <div className=" w-[9rem] bg-[#1b1d38] rounded-tl-3xl rounded-br-3xl p-4 text-white">At Grachiever, we offer a comprehensive suite of services designed to empower you on your career journey. Our trusted platform provides a wide range of opportunities and resources to help you unlock your full potential and achieve professional success.</div>
+      <div className="bg-[#1b1d38] rounded-tr-3xl rounded-bl-3xl p-4 text-white">At Grachiever, we offer a comprehensive suite of services designed to empower you on your career journey. Our trusted platform provides a wide range of opportunities and resources to help you unlock your full potential and achieve professional success.</div>
+      <div className="bg-[#1b1d38] rounded-tl-3xl rounded-br-3xl p-4 text-white">At Grachiever, we offer a comprehensive suite of services designed to empower you on your career journey. Our trusted platform provides a wide range of opportunities and resources to help you unlock your full potential and achieve professional success.</div>
       </div>
 
       {/* <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 p-1 sm:p-1 md:p-5 lg:p-5 mt-5">
