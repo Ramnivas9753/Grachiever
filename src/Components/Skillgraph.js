@@ -1,6 +1,5 @@
-import sgraph from '../images/graph/skillgraph.png';
+// import sgraph from '../images/graph/skillgraph.png';
 import React from 'react'
-import ReactDOM from 'react-dom';
 function Skill() {
     return (
         <>
@@ -18,7 +17,7 @@ function Skill() {
                     </div>
                     {/* <!--Graph Section--> */}
                     <div className="mt-5 md:mt-0">
-                        <img src={sgraph} className='mx-auto' />
+                        {/* <img src={sgraph} className='mx-auto' /> */}
                     </div>
                 </div>
             </section>
