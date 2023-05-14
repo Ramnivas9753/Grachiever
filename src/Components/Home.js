@@ -246,7 +246,7 @@ function Home() {
 
 <section className="p-0 sm:p-0 md:p-10 lg:p-10 mt-10 mb-10" >
           <h1 className=" text-center text-xl sm:text-xl md:text-3xl lg:text-4xl font-bold mb-2">Why Choose Grachiever?</h1>
-          <div className="grid grid-flow-cols-1 md:grid-cols-4 lg:grid-cols-4  md:mt-12">
+          <div className="grid grid-flow-cols-1 md:grid-cols-2 lg:grid-cols-4  md:mt-12">
           <div className='hover:-translate-y-5 duration-500 mt-10' >
           <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-auto'>
           <img src={wcg1} className="rounded-xl p-2 w-[100%] h-auto md:h-72 m-auto" />
@@ -358,23 +358,23 @@ function Home() {
 <section className="p-0 sm:p-0 md:p-10 lg:p-10 " >
     <div className="mt-5">
         <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-4xl font-bold text-center p-5 mb-10">Achievements</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 text-center ">
-            <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-48 w-48 mb-10 rounded-full">
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 text-center">
+            <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-44 w-44 lg:h-48 lg:w-48 mb-10 rounded-full">
               <FaGraduationCap className='text-3xl text-black-400 mt-10 mx-auto m-2 '/>
               <p className="text-2xl font-bold group-hover:text-[#349fcf]">350+</p>
               <p>Student worldwide</p>
             </div>
-            <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-48 w-48 mb-10 rounded-full">
+            <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-44 w-44 lg:h-48 lg:w-48 mb-10 rounded-full">
               <FaList className='text-3xl text-black-400 mt-10 mx-auto m-2 '/>           
               <p className="text-2xl font-bold group-hover:text-[#349fcf]">450+</p>
               <p>Total Course Views</p>
             </div>
-            <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-48 w-48 mb-10 rounded-full">
+            <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-44 w-44 lg:h-48 lg:w-48 mb-10 rounded-full">
               <FaStar className='text-3xl text-black-400 mt-10 mx-auto m-2 '/>
               <p className="text-2xl font-bold group-hover:text-[#349fcf]">550+</p>
               <p>Course Reviews</p>
             </div>
-            <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-48 w-48 mb-10 rounded-full">
+            <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-44 w-44 lg:h-48 lg:w-48 mb-10 rounded-full">
               <FaUser className='text-3xl text-black-400 mt-10 mx-auto m-2 '/>
               <p className="text-2xl font-bold group-hover:text-[#349fcf]">650+</p>
               <p>Student Community</p>
