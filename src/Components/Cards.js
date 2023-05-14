@@ -8,9 +8,9 @@ import logo1 from "../images/LOGOS/fev_icon.png"
 function Cards() {
   const settings = {
     infinite: true,
-    // autoplay:tm-auto    
-    // autoplayTimeout:1000,
-    speed: 500,
+    autoplay:true,
+    autoplaySpeed: 3000,
+    speed: 1000,
     slidesToShow: 3,
     slidesToScroll: 1,
     // centerMode: true,
