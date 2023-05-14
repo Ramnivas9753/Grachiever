@@ -1,6 +1,9 @@
 import React from 'react';
 import { FaAngleRight } from "react-icons/fa";
 import grachieverlogo from "../images/LOGOS/grachiever-02.png"
+// import login from '../images/Skill_graph/login.jpg';
+
+
 
 function LoginAndRegister({ onLogin, onRegister }) {
   const emailRef = React.createRef();
@@ -21,46 +24,64 @@ function LoginAndRegister({ onLogin, onRegister }) {
   }
 
   return (
-    <div className="max-w-md mx-auto mt-20 p-6 bg-white rounded-md shadow-md">
-      {/* <h2 className="text-xl font-medium mb-4">{isLogin ? 'Login' : 'Register'}</h2> */}
-      <img src={grachieverlogo} className="w-20 md:w-40 -mt-5 md:-mt-10" alt="Grachiever Logo" />
-      <p className="mt-4 text-center">
-        {isLogin ? (
-          <>
-            <button className="text-blue-500 font-medium" onClick={() => setIsLogin(true)}>Login</button>
-            <button className="text-blue-500 font-medium ml-5" onClick={() => setIsLogin(false)}>Register</button>
-          </>
-        ) : (
-          <>
-            <button className="text-blue-500 font-medium" onClick={() => setIsLogin(true)}>Login </button>
-            <button className="text-blue-500 font-medium ml-5" onClick={() => setIsLogin(false)}>Register</button>
-          </>
-        )}
-      </p>
-      <form onSubmit={isLogin ? handleLogin : handleRegister}>
-        <div className="mb-4">
-          {/* <label htmlFor="email" className="block text-gray-700 font-medium mb-2">Email</label> */}
-          <input type="email" id="email" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder="Enter your email" ref={emailRef} />
-          <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email address</label>
+    <section className="p-0 sm:p-0 md:p-10 lg:p-10 mt-5">
+      <div className="h-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2" >
+        <div className=" md:mt-0">
+          {/* <img src={login} className='max-w-md ml-10' /> */}
         </div>
-        <div className="mb-4">
-          {/* <label htmlFor="password" className="block text-gray-700 font-medium mb-2">Password</label> */}
-          <input type="password" id="password" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder="Password" ref={passwordRef} />
-          <label for="floating_password" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Password</label>
-        </div>
-        {!isLogin && (
-          <div className="mb-4">
-            {/* <label htmlFor="confirmPassword" className="block text-gray-700 font-medium mb-2">Confirm Password</label> */}
-            <input type="password" id="confirmPassword" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder="Confirm password" ref={confirmPasswordRef} />
-            <label for="floating_password" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">confirmPassword</label>
-          </div>
-        )}
-        <button type="submit" className="bg-blue-500 hover:bg-blue-600 text-white rounded-md w-full px-4 py-2">{isLogin ? 'Login' : 'Register'}</button>
-       
-        {/* -------------logo--------------- */}
-        <div className='mx-auto mt-5 '>
-        <p>or register with</p>
-        <a
+        <div className="lg:h-full md:h-full mx-5 sm:mx-5 md:mx-10 lg:mx-10 mt-10 p-10 bg-white rounded-md shadow-md">
+          {/* <h2 className="text-xl font-medium mb-4">{isLogin ? 'Login' : 'Register'}</h2> */}
+          <img src={grachieverlogo} className="w-20 md:w-40 -mt-5 md:-mt-10" alt="Grachiever Logo" />
+          <p className="mt-4 text-left">
+            {isLogin ? (
+              <>
+                <button className="text-black-500  font-bold hover:text-[#00c5ff] hover:underline " onClick={() => setIsLogin(true)} >Login</button>
+                <button className="text-black-500  ml-5 font-bold hover:text-[#00c5ff] hover:underline" onClick={() => setIsLogin(false)}>Register</button>
+              </>
+            ) : (
+              <>
+                <button className="text-black-500  font-bold hover:text-[#00c5ff] hover:underline" onClick={() => setIsLogin(true)}>Login </button>
+                <button className="text-black-500  ml-5 font-bold hover:text-[#00c5ff] hover:underline" onClick={() => setIsLogin(false)}>Register</button>
+              </>
+            )}
+          </p>
+          {/* <p className='mt-2'>Enter your information to setup a new account </p> */}
+          <form onSubmit={isLogin ? handleLogin : handleRegister}>
+            <div className="mb-4 mt-5">
+              {/* <label htmlFor="email" className="block text-gray-700 font-medium mb-2">Email</label> */}
+
+              <input type="email" id="email" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder="Enter your email" ref={emailRef} />
+              <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email address</label>
+            </div>
+            <div className="mb-4">
+              {/* <label htmlFor="password" className="block text-gray-700 font-medium mb-2">Password</label> */}
+
+              <input type="password" id="password" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder="Password" ref={passwordRef} />
+              <svg
+                className="absolute top-0 left-0 w-8 h-full text-gray-400 fill-current"
+                viewBox="0 0 24 24"
+              >
+                <path d="M0 0h24v24H0z" fill="none" />
+                <path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm-8 10.59L5.41 8H19v8H5.41l6.59-6.59z" />
+              </svg>
+              <label for="floating_password" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Password
+
+
+              </label>
+            </div>
+            {!isLogin && (
+              <div className="mb-4">
+                {/* <label htmlFor="confirmPassword" className="block text-gray-700 font-medium mb-2">Confirm Password</label> */}
+                <input type="password" id="confirmPassword" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder="Confirm password" ref={confirmPasswordRef} />
+                <label for="floating_password" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">confirmPassword</label>
+              </div>
+            )}
+            <button type="submit" className="bg-[#00c5ff] hover:bg-cyan-600 text-white rounded-md w-full px-4 py-2">{isLogin ? 'Login' : 'Register'}</button>
+
+            {/* -------------logo--------------- */}
+            <div className='mx-auto mt-5 '>
+              <p>or register with</p>
+              <a
                 href="#!"
                 type="button"
                 className="m-1 h-9 w-9 rounded-full border-2 border-[#1877f2] uppercase leading-normal text-[#1877f2] transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-[#349fcf]"
@@ -107,12 +128,14 @@ function LoginAndRegister({ onLogin, onRegister }) {
                     d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
                 </svg>
               </a>
-              </div>
- 
+            </div>
 
-      </form>
 
-    </div>
+          </form>
+
+        </div>
+      </div>
+    </section>
   );
 }
 
