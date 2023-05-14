@@ -34,12 +34,10 @@ import FlipCard from './FlipCard';
 
 import { Link } from 'react-router-dom'
 import { useState } from "react";
-
-
-
 // ........... text animation in home page ........
 import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
+
 
 function Home () {
   const typedRef = useRef(null);
@@ -82,7 +80,7 @@ function Home () {
         <>
             
 {/* <!-- ........................ home section start ..................................... --> */}
- <section className="px-5 sm:px-5 md:px-10 lg:px-10 pt-10 mt-28">
+ <section className="px-5 sm:px-5 md:px-10 lg:px-10 pt-10 mt-12 md:mt-28">
   <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
     <div className="pl-5 md:pl-10 lg:pl-10">
       <span className="type text-[30px] mt-5 lg:text-[60px] font-medium text-[#00c5ff]" ref={typedRef}></span>
@@ -90,13 +88,13 @@ function Home () {
         unlock the power of monetizing</p>
       {/* <!--Search--> */}
       <div className="relative border-b-[#349fcf] border-[#349fcf] border-2 flex items-center mt-8 w-auto rounded-full outline-none text-xl">
-        <input type="text" className="py-2.5 px-4 outline-none w-full rounded-full" placeholder="Search Anything..."  onClick={handleInputClick}/>
-        <select className="focus:outline-none cursor-pointer w-24 text-md">
+        <input type="text" className="py-3 px-4 outline-none w-full rounded-full" placeholder="Search Anything..."  onClick={handleInputClick}/>
+        <select className="focus:outline-none cursor-pointer w-24 text-md sm:text">
           <option>Courses</option>
           <option>Freelancing</option>
           <option>Tools</option>
         </select>
-        <span className="w-20 m-1 h-12 rounded-full bg-[#00c5ff] text-white"><FaSearch className='text-2xl mx-auto mt-3'/></span>
+        <span className="w-16 sm:w-16 md:w-16 lg:w-14 m-1 h-10 rounded-full bg-[#00c5ff] text-white"><FaSearch className='text-2xl mx-auto mt-2'/></span>
         {isDivVisible && (
             <div
               id="z2"
