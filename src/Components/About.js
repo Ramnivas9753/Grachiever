@@ -39,8 +39,8 @@ function About() {
       </h1>
       <div className="flex flex-col gap-8 mb-5 p-5">
       <div className=" bg-[#1b1d38] rounded-tl-3xl rounded-br-3xl p-4 text-white">At Grachiever, we offer a comprehensive suite of services designed to empower you on your career journey. Our trusted platform provides a wide range of opportunities and resources to help you unlock your full potential and achieve professional success.</div>
-      <div className="bg-[#1b1d38] rounded-tr-3xl rounded-bl-3xl p-4 text-white">At Grachiever, we offer a comprehensive suite of services designed to empower you on your career journey. Our trusted platform provides a wide range of opportunities and resources to help you unlock your full potential and achieve professional success.</div>
-      <div className="bg-[#1b1d38] rounded-tl-3xl rounded-br-3xl p-4 text-white">At Grachiever, we offer a comprehensive suite of services designed to empower you on your career journey. Our trusted platform provides a wide range of opportunities and resources to help you unlock your full potential and achieve professional success.</div>
+      <div className="bg-[#1b1d38] rounded-tr-3xl rounded-bl-3xl p-4 text-white">From our extensive collection of online courses sourced from top institutions, to our curated freelance work opportunities and skilled consultancy services, we have everything you need to build the skills necessary for a thriving career.</div>
+      <div className="bg-[#1b1d38] rounded-tl-3xl rounded-br-3xl p-4 text-white">With our unique Skill Graph feature, personalized recommendations, and cutting-edge tools, we provide a highly tailored learning and work experience that ensures you stay ahead of the curve. Our supportive community of like-minded learners and professionals is always ready to network, collaborate, and offer mutual support, making your journey even more enjoyable and fulfilling.</div>
       </div>
 
       {/* <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 p-1 sm:p-1 md:p-5 lg:p-5 mt-5">
