@@ -74,8 +74,7 @@ function Trusted_section() {
     <div className=" w-24 h-5 "><h1 className="mt-8 p-5  md:p-10">
           <img src={slidelogo6} />
             </h1></div>
-
-
+            
     {/* Card 6 */}
 
     <div className=" w-24 h-5 "><h1 className="mt-3 p-5  md:p-10">
