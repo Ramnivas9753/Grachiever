@@ -10,9 +10,9 @@ import "./Home.css"
 function Cards() {
   const settings = {
     infinite: true,
-    // autoplay:tm-auto    
-    // autoplayTimeout:1000,
-    speed: 500,
+    // autoplay:true,
+    autoplaySpeed: 3000,
+    speed: 1000,
     slidesToShow: 3,
     slidesToScroll: 1,
     // centerMode: true,
@@ -40,7 +40,7 @@ function Cards() {
   return (
     <>
     <section className="bg-[#1b1a3a] p-1 md:p-10 pb-8 mt-10">
-    <div className=" justify-items-end grid grid-cols-1 sm:grid grid-cols-1 md:grid lg:grid-cols-3 ">
+    <div className=" justify-items-end grid grid-cols-1 sm:grid md:grid lg:grid-cols-3 ">
     <div className="w-full font-bold text-lg md:text-4xl text-white  col-span-2 mt-8">
     <h1 className="text-center md:float-right">What Are You Seaching For?</h1>
     </div>
@@ -56,7 +56,7 @@ function Cards() {
 
     {/* Card 1 */}
     <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full">
-    <div className="p-2  rounded-xl bg-white rounded-3xl h-full  pb-5 ">
+    <div className="p-2   bg-white rounded-3xl h-full  pb-5 ">
       <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
       <div className="grid grid-cols-2 gap-0 md:gap-20  mt-5">
       <div className=" flex items-center m-auto text-[#00c5ff]">
@@ -84,7 +84,7 @@ function Cards() {
 
     {/* Card 1 */}
     <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full">
-    <div className="p-2  rounded-xl bg-white rounded-3xl h-full  pb-5 ">
+    <div className="p-2   bg-white rounded-3xl h-full  pb-5 ">
       <img src="https://www.classcentral.com/report/wp-content/uploads/2022/03/Best-Courses-Copywriting-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
       <div className="grid grid-cols-2  md:gap-20  mt-5">
       <div className=" flex items-center m-auto text-[#00c5ff]">
@@ -111,7 +111,7 @@ function Cards() {
     </div>
     {/* Card 1 */}
     <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full">
-    <div className="p-2  rounded-xl bg-white rounded-3xl h-full  pb-5 ">
+    <div className="p-2   bg-white rounded-3xl h-full  pb-5 ">
       <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/NumPy-BCG-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
       <div className="grid grid-cols-2  md:gap-20  mt-5">
       <div className=" flex items-center m-auto text-[#00c5ff]">
@@ -139,7 +139,7 @@ function Cards() {
 
     {/* Card 1 */}
     <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full">
-    <div className="p-2  rounded-xl bg-white rounded-3xl h-full  pb-5 ">
+    <div className="p-2   bg-white rounded-3xl h-full  pb-5 ">
       <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/79/40d8a60bae487c8b4c862f52e0f13d/dj4e_thumbnail_specialization.jpg?auto=format%2Ccompress&dpr=1&w=330&h=330&q=25&fit=fill" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
       <div className="grid grid-cols-2  md:gap-20  mt-5">
       <div className=" flex items-center m-auto text-[#00c5ff]">
@@ -196,7 +196,7 @@ function Cards() {
 
   </Slider>
   <div className='text-center mt-3'>
-       <button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2 rounded-xl   px-20 text-lg  font-bold">Browse All</button>
+       <button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2  rounded-xl  px-20 text-lg  font-bold">Browse All</button>
        </div>
     </section>
   </>

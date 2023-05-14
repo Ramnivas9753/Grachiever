@@ -82,7 +82,7 @@ function Home () {
         <>
             
 {/* <!-- ........................ home section start ..................................... --> */}
- <section className="md:px-10 pt-10 mt-28">
+ <section className="px-5 sm:px-5 md:px-10 lg:px-10 pt-10 mt-28">
   <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
     <div className="pl-5 md:pl-10 lg:pl-10">
       <span className="type text-[30px] mt-5 lg:text-[60px] font-medium text-[#00c5ff]" ref={typedRef}></span>
@@ -232,11 +232,11 @@ function Home () {
     <section className="p-0 sm:p-0 md:p-10 lg:p-10 mt-5">
       <div className="h-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2" >
         <div className="lg:h-full md:h-full mx-5 sm:mx-5 md:mx-10 lg:mx-10">
-            <h1 className=" mt-5 text-2xl sm:text-2xl md:text-3xl lg:text-5xl font-bold"><span className="text-[#4eb0e1]">Track</span> The Trending<br/> <span className="text-[#4eb0e1]">Skills</span> Over Time</h1>
+            <h1 className=" mt-5 text-2xl sm:text-2xl md:text-3xl lg:text-5xl font-bold"><span class="text-[#4eb0e1]">Track</span> The Trending<br/> <span class="text-[#4eb0e1]">Skills</span> Over Time</h1>
             <p className="mt-5  text-lg">Our Skill Graph feature helps you stay up-to-date with the latest skills in demand. our Skill Graph displays the trending skills over time.</p>
             <p  className="mt-5 text-lg">allowing you to identify which skills are gaining popularity and which are losing relevance. With this powerful tool, you can make informed decisions about the skills you want to learn or develop, ensuring you stay ahead of the curve in your chosen field.</p>
             <div className=' mt-10'>
-       <button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2 rounded-xl   px-8 text-lg  font-bold"><Link to="/Skillgraph">Learn More</Link></button>
+       <button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2 rounded-xl   px-8 text-lg  font-bold">Learn More</button>
        </div>
         </div>
     {/* <!--Graph Section--> */}
@@ -273,7 +273,7 @@ function Home () {
               <h1 className="text-center text-white font-semibold text-4xl m-2" >Still Confused?</h1>
               <p className="font-semibold text-white  m-2 text-md text-center">explore our skill consultancy services to get clear answer of which skill is best for you.</p>
               <div className='text-center mt-3 mb-3'>
-       <button className="border-2 border-white p-2 rounded-xl   text-white hover:text-black bg-[#a6a6a6] hover:bg-gray-400 px-8 text-lg  font-bold">Learn More</button>
+       <button className="border border-2 border-white p-2 rounded-xl   text-white hover:text-black bg-[#a6a6a6] hover:bg-gray-400 px-8 text-lg  font-bold">Learn More</button>
        </div>
             </div>
           </div>
@@ -307,44 +307,44 @@ function Home () {
 
 {/* <!-- ....... why choose Grachiever .............--> */}
 
-<section className="p-0 sm:p-0 md:p-10 lg:p-10 mt-10 mb-10" >
+<section className="p-0 sm:p-0 md:p-10 lg:p-10 mt-10" >
           <h1 className=" text-center text-xl sm:text-xl md:text-3xl lg:text-4xl font-bold mb-2">Why Choose Grachiever?</h1>
-          <div className="grid grid-flow-cols-1 md:grid-cols-2 lg:grid-cols-4  md:mt-12">
-          <div className='hover:-translate-y-5 duration-500 mt-10' >
-          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-auto'>
+          <div className="grid grid-flow-cols-1 md:grid-cols-4 lg:grid-cols-4  md:mt-12">
+          <div className='justify-item-center hover:-translate-y-5 duration-500' >
+          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-5'>
           <img src={wcg1} className="rounded-xl p-2 w-[100%] h-auto md:h-72 m-auto" />
           </div>
-          <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto pb-10 m-auto'>
+          <div className='shadow-xl hover:shadow-gray-500 m-5 rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto pb-10'>
           <h2 className="font-semibold text-2xl mt-20">Diverse Offerings</h2>
                   <p>Grachiever provides a variety of services, including online courses, freelancing opportunities, and expert consultancy, to help you develop the skills necessary for a successful career.</p>
           </div>
           </div>
 
-          <div className='justify-item-center hover:-translate-y-5 duration-500 mt-10' >
-          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-auto'>
+          <div className='justify-item-center hover:-translate-y-5 duration-500' >
+          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-5'>
           <img src={wcg2} className="w-[60%] m-auto" />
           </div>
-          <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#e0ebff] p-2 w-[80%] h-auto pb-8 m-auto'>
+          <div className='shadow-xl hover:shadow-gray-500 m-5 rounded-xl bg-[#e0ebff] p-2 w-[80%] h-auto pb-10'>
           <h2 className="font-semibold text-2xl mt-20">Unique Tools & Features </h2>
                   <p>Grachiever's Skill Graph feature and other innovative tools provide a personalized learning and work experience, tailored to your unique needs and goals.</p>
           </div>
           </div>
 
-          <div className='justify-item-center hover:-translate-y-5 duration-500 mt-10 ' >
-          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-auto'>
+          <div className='justify-item-center hover:-translate-y-5 duration-500 ' >
+          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-5'>
           <img src={wcg3} className="w-[70%] m-auto" />
           </div>
-          <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto pb-16 m-auto'>
+          <div className='shadow-xl hover:shadow-gray-500 m-5 rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto pb-10'>
           <h2 className="font-semibold text-2xl mt-20">Supportive Community</h2>
                 <p>Grachiever's supportive community fosters networking, collaboration, and mutual support among learners and professionals, enhancing learning and work experiences.</p>
           </div>
           </div>
 
-          <div className='justify-item-center hover:-translate-y-5 duration-500 mt-10' >
-          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-auto'>
+          <div className='justify-item-center hover:-translate-y-5 duration-500' >
+          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-5'>
           <img src={wcg4} className="rounded-xl p-2 w-[80%] h-auto md:h-72 m-auto" />
           </div>
-          <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#e0ebff] p-2 w-[80%] h-auto pb-16 m-auto'>
+          <div className='shadow-xl hover:shadow-gray-500 m-5 rounded-xl bg-[#e0ebff] p-2 w-[80%] h-auto pb-10'>
           <h2 className="font-semibold text-2xl mt-20">Affordable And Flexible</h2>
                   <p>Grachiever's budget-friendly and adaptable pricing options provide access to excellent educational resources and opportunities for skill development.</p>
           </div>
@@ -355,7 +355,7 @@ function Home () {
       {/* BOOST YOUR PRODUCTIVITY WITH GRACHIEVER`S TOOLS SERVICE */}
 
       <section className=' p-10 bg-[#1b1d38]'>
-        <h1 className='text-center font-bold text-white md:text-3xl md:p-10 mb-10'><span className="text-[#4eb0e1]">BOOST</span> YOUR PRODUCTIVITY WITH GRACHIEVER`S TOOLS SERVICE</h1>
+        <h1 className='text-center font-bold text-white md:text-3xl md:p-10 mb-10'><span class="text-[#4eb0e1]">BOOST</span> YOUR PRODUCTIVITY WITH GRACHIEVER`S TOOLS SERVICE</h1>
         <FlipCard  />
       </section>
 
@@ -363,13 +363,13 @@ function Home () {
    {/* <!--Skill Consultancy--> */}
     <section className="p-0 sm:p-0 md:p-10 lg:p-10">
       <div className="m-2 h-auto p-2 mt-[]">
-          {/* <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-5xl mx-0 sm:mx-0 md:mx-20 font-bold my-10">Skill <span className="text-[#4eb0e1]">Consultancy</span></h1> */}
+          {/* <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-5xl mx-0 sm:mx-0 md:mx-20 font-bold my-10">Skill <span class="text-[#4eb0e1]">Consultancy</span></h1> */}
 
     {/* <!--Skill Consultancy left section--> */}
 
     <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
           <div className="mx-0 sm:mx-5 md:mx-20 lg:mx-20 mb-10">
-              <h1 className="font-bold text-4xl">Find Your <span className="text-[#4eb0e1]">Dream Career</span> With Grachiever's Skill Consultancy</h1>
+              <h1 className="font-bold text-4xl">Find Your <span class="text-[#4eb0e1]">Dream Career</span> With Grachiever's Skill Consultancy</h1>
               <p className="text-lg mt-5">Our skilled consultancy service provides various offerings to guide you in selecting the most suitable skills. We help you identify in-demand skills, suggest the best courses to develop those skills, and advise you on future-ready skills that AI cannot replace."</p>
 
                   <li className="mx-5 mt-5"><strong>Personalized Guidance:</strong> Tailored advice for your unique path.</li>
