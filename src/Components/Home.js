@@ -73,7 +73,7 @@ function Home() {
         <>
             
 {/* <!-- ........................ home section start ..................................... --> */}
- <section className="px-5 sm:px-5 md:px-10 lg:px-10 pt-10 mt-28">
+ <section className="md:px-10 pt-10 mt-28">
   <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
     <div className="pl-5 md:pl-10 lg:pl-10">
       <span className="type text-[30px] mt-5 lg:text-[60px] font-medium text-[#00c5ff]" ref={typedRef}></span>
@@ -84,6 +84,7 @@ function Home() {
         onMouseEnter={showSearchItem}
         onMouseLeave={hideSearchItem}>
         <input type="text" className="py-2.5 px-4 outline-none w-full rounded-full" placeholder="Search Anything..." />
+          
         <select className="mr-2 py-2 px-0 h-[44px] focus:outline-none ">
           <option>Courses</option>
           <option>Freelancing</option>
@@ -104,6 +105,8 @@ function Home() {
         <p>welcome to search bar </p>
         <p>welcome to search bar </p>
       </div>
+
+      
       <div className='flex flex-wrap mt-10'> 
         <a href='https://tailwindcss.com/'><div className='bg-[#f9fafc] p-1 h-10 m-1 flex rounded-full shadow-xl hover:scale-105 duration-300'>
           <img className='w-auto' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Ficon-free-certificates.png?auto=format&h=50&ixlib=php-4.1.0&s=c25548f8b3bc8df8ae051dbe30a9a50a' />
