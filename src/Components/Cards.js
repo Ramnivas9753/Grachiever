@@ -165,7 +165,7 @@ function Cards() {
 
     {/* Card 1 */}
     <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full">
-    <div className="p-2  rounded-xl bg-white rounded-3xl h-full  pb-5 ">
+    <div className="p-2 bg-white rounded-3xl h-full  pb-5 ">
       <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/ff/4584404c7511e7a18adb2a6ad3c009/GettyImages-185239648.jpg?auto=format%2Ccompress&dpr=1&w=330&h=330&fit=fill&q=25" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
       <div className="grid grid-cols-2  md:gap-20  mt-5">
       <div className=" flex items-center  mx-3">
