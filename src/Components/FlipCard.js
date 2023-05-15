@@ -6,7 +6,8 @@ import { FaLessThan } from "react-icons/fa";
 
 const FlipCard = () => {
   return (
-    <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3'>
+    <div>
+      <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3'>
       <div className="group relative w-full md:w-64 h-72 bg-red-100  rounded-2xl ">
       <div className="absolute inset-0 bg-white  p-2 rounded-2xl z-10 ">
             <h2 className="text-gray-700 ml-3 font-bold  items-center ">Tools<span className='float-right text-x m-2 border-2 border-black rounded-full p-1'><FaGreaterThan /></span></h2>
@@ -48,8 +49,12 @@ const FlipCard = () => {
       </p>
       </div>
     </div>
-
     </div>
+    <div className='text-center mt-10'>
+      <button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2  rounded-xl  px-20 text-lg  font-bold">See More</button>
+       </div>
+    </div>
+
   );
 };
 
