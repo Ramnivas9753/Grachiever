@@ -11,13 +11,13 @@ import { Link } from 'react-router-dom'
 function Cards() {
   const settings = {
     infinite: true,
-    // autoplay:true,
+    autoplay:true,
     autoplaySpeed: 3000,
     speed: 1000,
     slidesToShow: 3,
     slidesToScroll: 1,
     // centerMode: true,
-    // centerPadding: "150px",
+    // centerPadding: "30px",
     responsive: [
       {
         breakpoint: 1024,
@@ -53,10 +53,10 @@ function Cards() {
     </div>
     </div>
     
-<Slider {...settings} className="m-10 sm:m-5 md:m-10 lg:m-5">
+<Slider {...settings} className="m-5 md:p-10">
 
     {/* Card 1 */}
-    <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full">
+    <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full ">
     <div className="p-2   bg-white rounded-3xl h-full  pb-5 ">
       <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
       <div className="grid grid-cols-2 gap-0 md:gap-20  mt-5">
@@ -84,7 +84,7 @@ function Cards() {
     </div>
 
     {/* Card 1 */}
-    <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full">
+    <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full ">
     <div className="p-2   bg-white rounded-3xl h-full  pb-5 ">
       <img src="https://www.classcentral.com/report/wp-content/uploads/2022/03/Best-Courses-Copywriting-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
       <div className="grid grid-cols-2  md:gap-20  mt-5">
@@ -111,7 +111,7 @@ function Cards() {
     </div>
     </div>
     {/* Card 1 */}
-    <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full">
+    <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full ">
     <div className="p-2   bg-white rounded-3xl h-full  pb-5 ">
       <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/NumPy-BCG-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
       <div className="grid grid-cols-2  md:gap-20  mt-5">
@@ -139,7 +139,7 @@ function Cards() {
     </div>
 
     {/* Card 1 */}
-    <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full">
+    <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full ">
     <div className="p-2   bg-white rounded-3xl h-full  pb-5 ">
       <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/79/40d8a60bae487c8b4c862f52e0f13d/dj4e_thumbnail_specialization.jpg?auto=format%2Ccompress&dpr=1&w=330&h=330&q=25&fit=fill" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
       <div className="grid grid-cols-2  md:gap-20  mt-5">
@@ -167,7 +167,7 @@ function Cards() {
     </div>
 
     {/* Card 1 */}
-    <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full">
+    <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full ">
     <div className="p-2 bg-white rounded-3xl h-full  pb-5 ">
       <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/ff/4584404c7511e7a18adb2a6ad3c009/GettyImages-185239648.jpg?auto=format%2Ccompress&dpr=1&w=330&h=330&fit=fill&q=25" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
       <div className="grid grid-cols-2  md:gap-20  mt-5">
