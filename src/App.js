@@ -8,12 +8,13 @@ import Contact from './Components/Contact';
 import Login from './Components/Login';
 import Signup from './Components/Signup';
 
-
-
 import Layout from './Components/Layout';
 import Skillgraph from './Components/Skillgraph';
 import Skillconsultancy from './Components/Skillconsultancy';
 import BrowseAll from './Components/BrowseAll';
+
+import Dashboard_Index from './Dashboard/Dashboard_Index';
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -61,6 +62,7 @@ function App() {
           <Route path="skillgraph" element={<Skillgraph />} />
           <Route path="skillconsultancy" element={<Skillconsultancy />} />
           <Route path="BrowseAll" element={<BrowseAll />} />
+          <Route path="Dashboard_Index" element={<Dashboard_Index />} />
         </Route>
       </Routes>
     </BrowserRouter>
