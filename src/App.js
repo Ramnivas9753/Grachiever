@@ -12,6 +12,7 @@ import Signup from './Components/Signup';
 
 import Layout from './Components/Layout';
 import Skillgraph from './Components/Skillgraph';
+import BrowseAll from './Components/BrowseAll';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -57,6 +58,7 @@ function App() {
           <Route path="login" element={<Login />} />
           <Route path="signup" element={<Signup />} />
           <Route path="skillgraph" element={<Skillgraph />} />
+          <Route path="BrowseAll" element={<BrowseAll />} />
         </Route>
       </Routes>
     </BrowserRouter>

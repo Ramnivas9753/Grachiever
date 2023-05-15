@@ -92,34 +92,34 @@ function Footer() {
         </div>
         {/* </div> */}
 
-        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-5 lg:grid-cols-5 text-white mx-10 -mt-10 text-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 lg:grid-cols-5 text-white mx-10 -mt-10 text-center">
           <div className="text-sm">
-            <h1 className='text-center text-xl font-bold p-5'>What is Grachiever ?</h1>
+            <h1 className='text-center text-xl font-bold p-3'>What is Grachiever ?</h1>
             <p className=''> Grachiever is a comprehensive platform designed to help individuals achieve success in their careers. Our goal is to provide high-quality courses, freelance opportunities, and the latest tools and resources to help you enhance your productivity and stay ahead in today's competitive job market.</p>
           </div>
           <div className="p-5  lg:pl-20">
-            <h1 className="font-bold text-lg mb-5">About</h1>
+            <h1 className="font-bold text-lg mb-3">About</h1>
             <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">About Us</Link></p>
             <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">What We offer?</Link></p>
             <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Our services</Link></p>
             <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Contact Us</Link></p>
           </div>
           <div className="p-5  lg:pl-20">
-            <h1 className="font-bold text-lg mb-5">Special</h1>
+            <h1 className="font-bold text-lg mb-3">Special</h1>
             <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Grachiever plus</Link></p>
             <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Grachiever for business</Link></p>
             <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Skill graph</Link></p>
             <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Skill Consultancy</Link></p>
           </div>
           <div className="p-5 lg:pl-20">
-            <h1 className="font-bold text-lg mb-5">Popular</h1>
+            <h1 className="font-bold text-lg mb-3">Popular</h1>
             <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Course</Link></p>
             <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Skill</Link></p>
             <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Services</Link></p>
             <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Tools</Link></p>
           </div>
           <div className="p-5 lg:pl-20">
-            <h1 className="font-bold text-lg mb-5">More</h1>
+            <h1 className="font-bold text-lg mb-3">More</h1>
             <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Blog</Link></p>
             <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Careers</Link> </p>
             <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Help</Link></p>
