@@ -35,7 +35,9 @@ function Trusted_section() {
           slidesToScroll: 1
         }
       }
-    ]
+    ],
+    // prevArrow: null, // Remove the left arrow
+    // nextArrow: null // Remove the right arrow
   };
 
   return (

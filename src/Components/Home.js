@@ -303,46 +303,46 @@ function Home () {
        </div>
   </section>
 
-{/* <!-- ....... why choose Grachiever .............--> */}
+      {/* <!-- ....... why choose Grachiever .............--> */}
 
-<section className="p-0 sm:p-0 md:p-10 lg:p-10 mt-10" >
+<section className="p-0 sm:p-0 md:p-10 lg:p-10 mt-10 mb-10 " >
           <h1 className=" text-center text-xl sm:text-xl md:text-3xl lg:text-4xl font-bold mb-2">Why Choose Grachiever?</h1>
-          <div className="grid grid-flow-cols-1 md:grid-cols-4 lg:grid-cols-4  md:mt-12">
-          <div className='justify-item-center hover:-translate-y-5 duration-500' >
-          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-5'>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  md:mt-12 pb-5">
+          <div className='hover:-translate-y-5 duration-500 mt-10 pb-5' >
+          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-auto'>
           <img src={wcg1} className="rounded-xl p-2 w-[100%] h-auto md:h-72 m-auto" />
           </div>
-          <div className='shadow-xl hover:shadow-gray-500 m-5 rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto pb-10'>
+          <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto pb-10 m-auto'>
           <h2 className="font-semibold text-2xl mt-20">Diverse Offerings</h2>
                   <p>Grachiever provides a variety of services, including online courses, freelancing opportunities, and expert consultancy, to help you develop the skills necessary for a successful career.</p>
           </div>
           </div>
 
-          <div className='justify-item-center hover:-translate-y-5 duration-500' >
-          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-5'>
-          <img src={wcg2} className="w-[60%] m-auto" />
+          <div className='justify-item-center hover:-translate-y-5 duration-500 mt-10 pb-5' >
+          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-auto'>
+          <img src={wcg2} className="w-[60%] md:w-[50%] lg:w-[60%] m-auto" />
           </div>
-          <div className='shadow-xl hover:shadow-gray-500 m-5 rounded-xl bg-[#e0ebff] p-2 w-[80%] h-auto pb-10'>
+          <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#e0ebff] p-2 w-[80%] h-auto pb-8 m-auto'>
           <h2 className="font-semibold text-2xl mt-20">Unique Tools & Features </h2>
                   <p>Grachiever's Skill Graph feature and other innovative tools provide a personalized learning and work experience, tailored to your unique needs and goals.</p>
           </div>
           </div>
 
-          <div className='justify-item-center hover:-translate-y-5 duration-500 ' >
-          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-5'>
-          <img src={wcg3} className="w-[70%] m-auto" />
+          <div className='justify-item-center hover:-translate-y-5 duration-500 mt-10 ' >
+          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-auto'>
+          <img src={wcg3} className="w-[70%] md:w-[60%] lg:w-[70%] m-auto" />
           </div>
-          <div className='shadow-xl hover:shadow-gray-500 m-5 rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto pb-10'>
+          <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto pb-16 m-auto'>
           <h2 className="font-semibold text-2xl mt-20">Supportive Community</h2>
                 <p>Grachiever's supportive community fosters networking, collaboration, and mutual support among learners and professionals, enhancing learning and work experiences.</p>
           </div>
           </div>
 
-          <div className='justify-item-center hover:-translate-y-5 duration-500' >
-          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-5'>
+          <div className='justify-item-center hover:-translate-y-5 duration-500 mt-10 pb-5' >
+          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-auto'>
           <img src={wcg4} className="rounded-xl p-2 w-[80%] h-auto md:h-72 m-auto" />
           </div>
-          <div className='shadow-xl hover:shadow-gray-500 m-5 rounded-xl bg-[#e0ebff] p-2 w-[80%] h-auto pb-10'>
+          <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#e0ebff] p-2 w-[80%] h-auto pb-16 m-auto'>
           <h2 className="font-semibold text-2xl mt-20">Affordable And Flexible</h2>
                   <p>Grachiever's budget-friendly and adaptable pricing options provide access to excellent educational resources and opportunities for skill development.</p>
           </div>
