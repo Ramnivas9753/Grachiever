@@ -225,6 +225,8 @@ function Home () {
 
     <Trusted_section/>
 
+    
+
     {/* <!--Skill Section--> */}
 
     <section className="p-0 sm:p-0 md:p-10 lg:p-10 mt-5">
@@ -252,7 +254,7 @@ function Home () {
 
   <section className="m-5 p-0 sm:p-0 md:p-10 lg:p-10" >
   <h1 className="text-2xl md:text-4xl font-bold text-center  p-5 ">Top Categories</h1>
-  <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-[90%] mx-auto mt-5">
+  <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 w-[90%] mx-auto mt-5">
   {/* Left Side Section--> */}
   <div className="md:m-5 lg:m-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 mb-5">
   <div className="">
@@ -268,10 +270,10 @@ function Home () {
             </div>
             <div className="shadow-md shadow-gray-500  brightness-100 bg-[#a6a6a6] rounded-2xl h-full sm:h-full md:h-full lg:h-full w-full  overflow-hidden" >
             <img src={Still_Confused} alt='this is img' width='100%' className=' w-full  brightness  rounded hover:scale-110 duration-300  '/>
-              <h1 className="text-center text-white font-semibold text-4xl m-2" >Still Confused?</h1>
+              <h1 className="text-center text-white font-semibold text-3xl m-2" >Still Confused?</h1>
               <p className="font-semibold text-white  m-2 text-md text-center">explore our skill consultancy services to get clear answer of which skill is best for you.</p>
               <div className='text-center mt-3 mb-3'>
-       <button className="border border-2 border-white p-2 rounded-xl   text-white hover:text-black bg-[#a6a6a6] hover:bg-gray-400 px-8 text-lg  font-bold">Learn More</button>
+       <button className="border-2 border-white p-2 rounded-xl   text-white hover:text-black bg-[#a6a6a6] hover:bg-gray-400 px-8 text-lg  font-bold">Learn More</button>
        </div>
             </div>
           </div>
@@ -299,50 +301,50 @@ function Home () {
           </div>
     </div>
     <div className='text-center mt-10'>
-      <Link to="Signup"><button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2 rounded-xl   px-20 text-lg  font-bold">Browse All</button></Link> 
+      <Link to="/BrowseAll"><button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2 rounded-xl   px-20 text-lg  font-bold">Browse All</button></Link> 
        </div>
   </section>
 
-{/* <!-- ....... why choose Grachiever .............--> */}
+      {/* <!-- ....... why choose Grachiever .............--> */}
 
-<section className="p-0 sm:p-0 md:p-10 lg:p-10 mt-10" >
+<section className="p-0 sm:p-0 md:p-10 lg:p-10 mt-10 mb-10 " >
           <h1 className=" text-center text-xl sm:text-xl md:text-3xl lg:text-4xl font-bold mb-2">Why Choose Grachiever?</h1>
-          <div className="grid grid-flow-cols-1 md:grid-cols-4 lg:grid-cols-4  md:mt-12">
-          <div className='justify-item-center hover:-translate-y-5 duration-500' >
-          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-5'>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  md:mt-12 pb-5">
+          <div className='hover:-translate-y-5 duration-500 mt-10 pb-5' >
+          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-auto'>
           <img src={wcg1} className="rounded-xl p-2 w-[100%] h-auto md:h-72 m-auto" />
           </div>
-          <div className='shadow-xl hover:shadow-gray-500 m-5 rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto pb-10'>
+          <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto pb-10 m-auto'>
           <h2 className="font-semibold text-2xl mt-20">Diverse Offerings</h2>
                   <p>Grachiever provides a variety of services, including online courses, freelancing opportunities, and expert consultancy, to help you develop the skills necessary for a successful career.</p>
           </div>
           </div>
 
-          <div className='justify-item-center hover:-translate-y-5 duration-500' >
-          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-5'>
-          <img src={wcg2} className="w-[60%] m-auto" />
+          <div className='justify-item-center hover:-translate-y-5 duration-500 mt-10 pb-5' >
+          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-auto'>
+          <img src={wcg2} className="w-[60%] md:w-[50%] lg:w-[60%] m-auto" />
           </div>
-          <div className='shadow-xl hover:shadow-gray-500 m-5 rounded-xl bg-[#e0ebff] p-2 w-[80%] h-auto pb-10'>
+          <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#e0ebff] p-2 w-[80%] h-auto pb-8 m-auto'>
           <h2 className="font-semibold text-2xl mt-20">Unique Tools & Features </h2>
                   <p>Grachiever's Skill Graph feature and other innovative tools provide a personalized learning and work experience, tailored to your unique needs and goals.</p>
           </div>
           </div>
 
-          <div className='justify-item-center hover:-translate-y-5 duration-500 ' >
-          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-5'>
-          <img src={wcg3} className="w-[70%] m-auto" />
+          <div className='justify-item-center hover:-translate-y-5 duration-500 mt-10 ' >
+          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-auto'>
+          <img src={wcg3} className="w-[70%] md:w-[60%] lg:w-[70%] m-auto" />
           </div>
-          <div className='shadow-xl hover:shadow-gray-500 m-5 rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto pb-10'>
+          <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto pb-16 m-auto'>
           <h2 className="font-semibold text-2xl mt-20">Supportive Community</h2>
                 <p>Grachiever's supportive community fosters networking, collaboration, and mutual support among learners and professionals, enhancing learning and work experiences.</p>
           </div>
           </div>
 
-          <div className='justify-item-center hover:-translate-y-5 duration-500' >
-          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-5'>
+          <div className='justify-item-center hover:-translate-y-5 duration-500 mt-10 pb-5' >
+          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-auto'>
           <img src={wcg4} className="rounded-xl p-2 w-[80%] h-auto md:h-72 m-auto" />
           </div>
-          <div className='shadow-xl hover:shadow-gray-500 m-5 rounded-xl bg-[#e0ebff] p-2 w-[80%] h-auto pb-10'>
+          <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#e0ebff] p-2 w-[80%] h-auto pb-16 m-auto'>
           <h2 className="font-semibold text-2xl mt-20">Affordable And Flexible</h2>
                   <p>Grachiever's budget-friendly and adaptable pricing options provide access to excellent educational resources and opportunities for skill development.</p>
           </div>
@@ -379,7 +381,7 @@ function Home () {
                   <li className="mx-5"><strong>Expert Insights</strong>: Years of experience at your service.</li>
                   <li className="mx-5"><strong>Industry Trends:</strong> Know what's in demand.</li>
                   <li className="mx-5"><strong>Confidence-Boosting:</strong> Empowering you for success.</li>
-                  <button className="bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg p-2  mt-5 ml-3 px-5">Register for Free</button>
+                  <button className="bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg p-2  mt-5 ml-3 px-5"><Link to="/Skillconsultancy">Register for Free</Link></button>
           </div>
 
     {/* <!--Skill Consultancy Rigth section--> */}
