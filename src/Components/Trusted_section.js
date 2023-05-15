@@ -15,6 +15,7 @@ function Trusted_section() {
     infinite: true,
     autoplay:true,
     arrows: false, // Hide the navigation arrows
+
     autoplaySpeed: 1000,
     speed: 1000,
     slidesToShow: 6,

@@ -226,6 +226,8 @@ function Home () {
 
     <Trusted_section/>
 
+    
+
     {/* <!--Skill Section--> */}
 
     <section className="p-0 sm:p-0 md:p-10 lg:p-10 mt-5">
@@ -355,9 +357,13 @@ function Home () {
 
       {/* BOOST YOUR PRODUCTIVITY WITH GRACHIEVER`S TOOLS SERVICE */}
 
-      <section className=' p-10 bg-[#1b1d38]'>
+      <section className='pb-20 bg-[#1b1d38]'>
         <h1 className='text-center font-bold text-white md:text-3xl md:p-10 mb-10'><span class="text-[#4eb0e1]">BOOST</span> YOUR PRODUCTIVITY WITH GRACHIEVER`S TOOLS SERVICE</h1>
+       <div className='p-16 flex justify-center gap-20'>
         <FlipCard  />
+        <FlipCard  />
+        <FlipCard  />
+        </div>
       </section>
 
 

@@ -1,64 +1,107 @@
-import React from 'react';
 import { FaStar } from "react-icons/fa";
 import { FaGreaterThan } from "react-icons/fa";
 import { FaLessThan } from "react-icons/fa";
 
+import img1 from "../images/Flipcard/card1img.png";
 
-const FlipCard = () => {
+import React, { useState } from "react";
+import RibbonFlag from "./RibbonFlag";
+import "./FlipCard.scss";
+
+export default function FlipCard() {
+  const [flip, setFlip] = useState(false);
+  const flipCard = () => {
+    setFlip(!flip);
+  };
+  const save = () => {
+    flipCard();
+  };
   return (
-    <div>
-      <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3'>
-      <div className="group relative w-full md:w-64 h-72 bg-red-100  rounded-2xl ">
-      <div className="absolute inset-0 bg-white  p-2 rounded-2xl z-10 ">
-            <h2 className="text-gray-700 ml-3 font-bold  items-center ">Tools<span className='float-right text-x m-2 border-2 border-black rounded-full p-1'><FaGreaterThan /></span></h2>
-            <p className="text-gray-700 ml-3">HOW IT WORKS?</p>
-            <img src={'https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png'} className='w-full h-52 p-2 rounded-2xl' />
+    <div className={`flip-card ${flip != true ? "front-flip" : "back-flip"}`}>
+      <div className="flip-card-inner">
+        <div className="flip-card-front">
+          <RibbonFlag />
+          <button onClick={flipCard} type="button" class="absolute top-1 right-0 text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-xs px-5 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800">info</button>
+          
+          <img src={img1} alt="" />
+          <div className="action-btns">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+          </div>
+        </div>
+        <div className="flip-card-back">
+          <h1>This tool is verified because it is either an established company or has good social media presence</h1>
+          <button onClick={save} type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Front</button>
+          
+        </div>
       </div>
-      <div className='w-52 h-[270px]  overflow-hidden rounded-2xl m-3 p-2 bg-gray-300 transform transition duration-500 group-hover:translate-x-60'><span className='float-right text-x m-2 border-2 border-black rounded-full p-1'><FaLessThan /></span>
-      <p className=" ml-3 font-bold flex items-center ">Tools</p>
-      <p className="ml-3">
-      Lorem  Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem 
-      </p>
+      <div className="bg-[#01001c] rounded-md">
+        
+      <div className="ml-4 pt-2 text-white text-lg font-bold">Audioread</div>
+      <div className="ml-4 text-white">&#9733; &#9733; &#9733; &#9733; &#9734;  (2) </div>
+      <div className="flex justify-center mt-2">
+      <button type="button" class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Visit</button>
+      <button type="button" class="w-full text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-full text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Bookmark</button>
       </div>
-    </div>
-    
-    <div className="group relative w-full md:w-64 h-72 bg-red-100  rounded-2xl ">
-      <div className="absolute inset-0 bg-white  p-2 rounded-2xl z-10 ">
-            <h2 className="text-gray-700 ml-3 font-bold  items-center ">Tools <span className='float-right text-x m-2 border-2 border-black rounded-full p-1'><FaGreaterThan /></span></h2>
-            <p className="text-gray-700 ml-3">HOW IT WORKS?</p>
-            <img src={'https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png'} className='w-full h-52 p-2 rounded-2xl' />
-      </div>
-      <div className='w-52 h-[270px]  overflow-hidden rounded-2xl m-3 p-2 bg-gray-300 transform transition duration-500 group-hover:translate-x-60'><span className='float-right text-x m-2 border-2 border-black rounded-full p-1'><FaLessThan /></span>
-      <p className=" ml-3 font-bold flex items-center ">Tools </p>
-      <p className="ml-3">
-      Lorem  Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem 
-      </p>
-      </div>
-    </div>
-
-    <div className="group relative w-full md:w-64 h-72 bg-red-100  rounded-2xl ">
-      <div className="absolute inset-0 bg-white  p-2 rounded-2xl z-10 ">
-            <h2 className="text-gray-700 ml-3 font-bold  items-center ">Tools <span className='float-right text-x m-2 border-2 border-black rounded-full p-1'><FaGreaterThan /></span></h2>
-            <p className="text-gray-700 ml-3">HOW IT WORKS?</p>
-            <img src={'https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png'} className='w-full h-52 p-2 rounded-2xl' />
-      </div>
-      <div className='w-52 h-[270px]  overflow-hidden rounded-2xl m-3 p-2 bg-gray-300 transform transition duration-500 group-hover:translate-x-60'><span className='float-right text-x m-2 border-2 border-black rounded-full p-1'><FaLessThan /></span>
-      <p className=" ml-3 font-bold flex items-center ">Tools </p>
-      <p className="ml-3">
-      Lorem  Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem 
-      </p>
       </div>
     </div>
-    </div>
-    <div className='text-center mt-10'>
-      <button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2  rounded-xl  px-20 text-lg  font-bold">See More</button>
-       </div>
-    </div>
-
   );
-};
+}
 
-export default FlipCard;
+
+
+
+// const FlipCard = () => {
+//   return (
+//     <div className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3'>
+//       <div className="group relative w-full md:w-64 h-72 bg-red-100  rounded-2xl ">
+//       <div className="absolute inset-0 bg-white  p-2 rounded-2xl z-10 ">
+//             <h2 className="text-gray-700 ml-3 font-bold  items-center ">Tools<span className='float-right text-x m-2 border-2 border-black rounded-full p-1'><FaGreaterThan /></span></h2>
+//             <p className="text-gray-700 ml-3">HOW IT WORKS?</p>
+//             <img src={'https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png'} className='w-full h-52 p-2 rounded-2xl' />
+//       </div>
+//       <div className='w-52 h-[270px]  overflow-hidden rounded-2xl m-3 p-2 bg-gray-300 transform transition duration-500 group-hover:translate-x-60'><span className='float-right text-x m-2 border-2 border-black rounded-full p-1'><FaLessThan /></span>
+//       <p className=" ml-3 font-bold flex items-center ">Tools</p>
+//       <p className="ml-3">
+//       Lorem  Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem 
+//       </p>
+//       </div>
+//     </div>
+    
+//     <div className="group relative w-full md:w-64 h-72 bg-red-100  rounded-2xl ">
+//       <div className="absolute inset-0 bg-white  p-2 rounded-2xl z-10 ">
+//             <h2 className="text-gray-700 ml-3 font-bold  items-center ">Tools <span className='float-right text-x m-2 border-2 border-black rounded-full p-1'><FaGreaterThan /></span></h2>
+//             <p className="text-gray-700 ml-3">HOW IT WORKS?</p>
+//             <img src={'https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png'} className='w-full h-52 p-2 rounded-2xl' />
+//       </div>
+//       <div className='w-52 h-[270px]  overflow-hidden rounded-2xl m-3 p-2 bg-gray-300 transform transition duration-500 group-hover:translate-x-60'><span className='float-right text-x m-2 border-2 border-black rounded-full p-1'><FaLessThan /></span>
+//       <p className=" ml-3 font-bold flex items-center ">Tools </p>
+//       <p className="ml-3">
+//       Lorem  Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem 
+//       </p>
+//       </div>
+//     </div>
+
+//     <div className="group relative w-full md:w-64 h-72 bg-red-100  rounded-2xl ">
+//       <div className="absolute inset-0 bg-white  p-2 rounded-2xl z-10 ">
+//             <h2 className="text-gray-700 ml-3 font-bold  items-center ">Tools <span className='float-right text-x m-2 border-2 border-black rounded-full p-1'><FaGreaterThan /></span></h2>
+//             <p className="text-gray-700 ml-3">HOW IT WORKS?</p>
+//             <img src={'https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png'} className='w-full h-52 p-2 rounded-2xl' />
+//       </div>
+//       <div className='w-52 h-[270px]  overflow-hidden rounded-2xl m-3 p-2 bg-gray-300 transform transition duration-500 group-hover:translate-x-60'><span className='float-right text-x m-2 border-2 border-black rounded-full p-1'><FaLessThan /></span>
+//       <p className=" ml-3 font-bold flex items-center ">Tools </p>
+//       <p className="ml-3">
+//       Lorem  Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem 
+//       </p>
+//       </div>
+//     </div>
+
+//     </div>
+//   );
+// };
+
+// export default FlipCard;
 
 // import { useState } from "react";
 

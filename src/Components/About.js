@@ -9,6 +9,7 @@ import PremierSection from "./Premier_Education";
 function About() {
   return (
     <section className="md:p-10 lg:p-10 mt-20">
+
       <h1 className="text-3xl font-bold text-center p-3 mt-2">
         Empowering Your Career Journey: <br />
         Trust Grachiever for a Brighter <span class="text-[#4eb0e1]">Future</span>
@@ -17,6 +18,7 @@ function About() {
         Trust Grachiever to empower your career journey towards a brighter future. Gain skills, access freelance work, receive
         <br /> personalized guidance, and join a supportive community.
       </p>
+      <section>
       <div className=" w-auto md:h-full grid grid-rows-3 grid-flow-col gap-7 mt-10 ml-10">
         <div className=" md:h-full row-span-3 ...">
           <img src={image1} alt="" />
@@ -31,7 +33,6 @@ function About() {
         <div className="bg-[#1b1d38] row-span-2 col-span-2 ...">
         <h1 className="text-white text-3xl font-bold text-center p-3 mt-2">
         Grachiever: Empowering Achievement<br /> through <span class="text-[#4eb0e1]">Job-Ready</span> Digital Skills 
-        
       </h1>
       <p className=" text-white font-bold">
       At Grachiever, we offer a globally scalable solution to address the widespread digital talent shortages impacting growth, productivity, and innovation. Through collaboration with enterprises and highly motivated individuals, we design customized talent transformation journeys using our advanced Digital Competency Platform.
@@ -39,16 +40,18 @@ function About() {
         </div>
       </div>
 
+      </section>
+
       <h1 className="text-3xl font-bold text-center p-3 mt-5">
       Unlock Your Potential with Grachiever:<br /> 
       Comprehensive Services for 
      <span class="text-[#4eb0e1]"> Career Advancement</span>
       </h1>
       <div className="flex flex-col gap-8 mb-5 p-5">
-      <div className="mr-20 bg-[#1b1d38] rounded-tl-3xl rounded-br-3xl p-4 text-white">At Grachiever, we offer a comprehensive suite of services designed to empower you on your career journey. Our trusted platform provides a wide range of opportunities and resources to help you unlock your full potential and achieve professional success.</div>
-      <div className=" flex justify-end ml-20 bg-[#1b1d38] rounded-tr-3xl rounded-bl-3xl p-4 text-white">
+      <div className="mr-20 text-xs md:text-lg  bg-[#1b1d38] rounded-tl-3xl rounded-br-3xl p-4 text-white">At Grachiever, we offer a comprehensive suite of services designed to empower you on your career journey. Our trusted platform provides a wide range of opportunities and resources to help you unlock your full potential and achieve professional success.</div>
+      <div className=" text-xs md:text-lg flex justify-end ml-20 bg-[#1b1d38] rounded-tr-3xl rounded-bl-3xl p-4 text-white">
         From our extensive collection of online courses sourced from top institutions, to our curated freelance work opportunities and skilled consultancy services, we have everything you need to build the skills necessary for a thriving career.</div>
-      <div className=" mr-20 bg-[#1b1d38] rounded-tl-3xl rounded-br-3xl p-4 text-white">With our unique Skill Graph feature, personalized recommendations, and cutting-edge tools, we provide a highly tailored learning and work experience that ensures you stay ahead of the curve. Our supportive community of like-minded learners and professionals is always ready to network, collaborate, and offer mutual support, making your journey even more enjoyable and fulfilling.</div>
+      <div className=" text-xs md:text-lg mr-20 bg-[#1b1d38] rounded-tl-3xl rounded-br-3xl p-4 text-white">With our unique Skill Graph feature, personalized recommendations, and cutting-edge tools, we provide a highly tailored learning and work experience that ensures you stay ahead of the curve. Our supportive community of like-minded learners and professionals is always ready to network, collaborate, and offer mutual support, making your journey even more enjoyable and fulfilling.</div>
       </div>
 
       <p className="text-xl text-center mt-5 m-auto p-2">
@@ -128,8 +131,8 @@ function About() {
     <div className="bg-[#ffc9ae] absolute top-50 left-70 w-20 h-20 rounded-full"> &nbsp;</div>
     <div className="bg-[#ffc9ae] absolute top-1 left-10 w-20 h-20 rounded-full"> &nbsp;</div>
     <div className="bg-[#ffc9ae] absolute bottom-10 right-10 w-20 h-20 rounded-full"> &nbsp;</div>
-    <h1>Join Grachiever in revolutionizing talent <br/> transformation and redefining your <br/> career growth and success.</h1>
-  <button className="bg-[#349fcf] text-2xl hover:bg-white text-white hover:text-black border-2 font-bold border-[#349fcf] rounded-2xl px-5 py-2 ml-3 mt-10">Join For Free    ></button>
+    <h1 className="sm:sx">Join Grachiever in revolutionizing talent <br/> transformation and redefining your <br/> career growth and success.</h1>
+  <button className="bg-[#349fcf] text-2xl hover:bg-white text-white hover:text-black border-2 font-bold border-[#349fcf] rounded-2xl px-5 py-2 ml-3 mt-10">Join For Free> </button>
   </div>
 </section>
  
