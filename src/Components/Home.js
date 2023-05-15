@@ -225,6 +225,8 @@ function Home () {
 
     <Trusted_section/>
 
+    
+
     {/* <!--Skill Section--> */}
 
     <section className="p-0 sm:p-0 md:p-10 lg:p-10 mt-5">
