@@ -252,7 +252,7 @@ function Home () {
 
   <section className="m-5 p-0 sm:p-0 md:p-10 lg:p-10" >
   <h1 className="text-2xl md:text-4xl font-bold text-center  p-5 ">Top Categories</h1>
-  <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-[90%] mx-auto mt-5">
+  <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 w-[90%] mx-auto mt-5">
   {/* Left Side Section--> */}
   <div className="md:m-5 lg:m-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 mb-5">
   <div className="">
@@ -268,10 +268,10 @@ function Home () {
             </div>
             <div className="shadow-md shadow-gray-500  brightness-100 bg-[#a6a6a6] rounded-2xl h-full sm:h-full md:h-full lg:h-full w-full  overflow-hidden" >
             <img src={Still_Confused} alt='this is img' width='100%' className=' w-full  brightness  rounded hover:scale-110 duration-300  '/>
-              <h1 className="text-center text-white font-semibold text-4xl m-2" >Still Confused?</h1>
+              <h1 className="text-center text-white font-semibold text-3xl m-2" >Still Confused?</h1>
               <p className="font-semibold text-white  m-2 text-md text-center">explore our skill consultancy services to get clear answer of which skill is best for you.</p>
               <div className='text-center mt-3 mb-3'>
-       <button className="border border-2 border-white p-2 rounded-xl   text-white hover:text-black bg-[#a6a6a6] hover:bg-gray-400 px-8 text-lg  font-bold">Learn More</button>
+       <button className="border-2 border-white p-2 rounded-xl   text-white hover:text-black bg-[#a6a6a6] hover:bg-gray-400 px-8 text-lg  font-bold">Learn More</button>
        </div>
             </div>
           </div>
