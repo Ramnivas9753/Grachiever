@@ -375,7 +375,7 @@ function Home () {
                   <li className="mx-5"><strong>Expert Insights</strong>: Years of experience at your service.</li>
                   <li className="mx-5"><strong>Industry Trends:</strong> Know what's in demand.</li>
                   <li className="mx-5"><strong>Confidence-Boosting:</strong> Empowering you for success.</li>
-                  <button className="bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg p-2  mt-5 ml-3 px-5">Register for Free</button>
+                  <button className="bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg p-2  mt-5 ml-3 px-5"><Link to="/Skillconsultancy">Register for Free</Link></button>
           </div>
 
     {/* <!--Skill Consultancy Rigth section--> */}
