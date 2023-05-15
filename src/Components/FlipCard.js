@@ -37,6 +37,7 @@ export default function FlipCard() {
         </div>
       </div>
       <div className="bg-[#01001c] rounded-md">
+        
       <div className="ml-4 pt-2 text-white text-lg font-bold">Audioread</div>
       <div className="ml-4 text-white">&#9733; &#9733; &#9733; &#9733; &#9734;  (2) </div>
       <div className="flex justify-center mt-2">
