@@ -13,7 +13,7 @@ function consultancy() {
                     </div>
                     {/* <!--Graph Section--> */}
                     <div className="mt-5 md:mt-0">
-                        <img src={first} className='"h-auto max-w-full' />
+                        <img src={first} className='h-auto max-w-full' />
                     </div>
                 </div>
             </section>

@@ -10,6 +10,8 @@ function BrowseAll() {
   return (
     <section>
       <div className='bg-[#dbd8d0] p-10 flex flex-wrap  '>
+        
+
         <div className='w-[100%] sm:w-[25%] bg-white p-5  mt-20 rounded-lg ml-10'>
           <p className='font-bold text-black outline-none'>Filter
             <hr className="border-t-2 border-gray-300 my-4 w-full" /> </p>
