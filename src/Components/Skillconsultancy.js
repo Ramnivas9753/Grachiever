@@ -11,7 +11,6 @@ function consultancy() {
                         <h1 className="text-7xl font-bold text-white text-left p-20 mt-10">Tailored Skill <br /> Consultancy for <br /> <span class="text-[#00c5ff]">Future Success</span> </h1>
 
                     </div>
-
                     {/* <!--Graph Section--> */}
                     <div className="mt-5 md:mt-0">
                         <img src={first} className='"h-auto max-w-full' />
@@ -134,7 +133,6 @@ function consultancy() {
                             <div className="bg-[#1b1d38]  ml-2 p-2  w-60 h-10 font-bold rounded-md shadow-md text-lg text-white"> Competitive Edge </div>
                         </div>
                         <p className='text-lg p-5 ml-10'>
-
                             By staying ahead of the skills curve, you'll <br /> gain a competitive edge in the job market <br /> and stand out to potential employers.</p>
                     </div>
                     {/* ----------------------------- */}
@@ -146,15 +144,10 @@ function consultancy() {
                             <div className="bg-[#1b1d38]  ml-2 p-2  w-60 h-10 font-bold rounded-md shadow-md text-lg text-white">Lifetime Learning </div>
                         </div>
                         <p className='text-lg p-5 ml-10'>
-
                             The skills you acquire through our <br /> consultancy will benefit you throughout <br /> your career, ensuring long-term <br /> professional success.</p>
                     </div>
                     {/* ----------------------------- */}
-
-
-
                 </div>
-
             </section>
             {/* --------------------------------------last-section------------------------------- */}
             <section className="p-0 sm:p-0 md:p-5 lg:p-10 bg-[#1b1d38] mb-5 rounded-3xl">
@@ -166,19 +159,9 @@ function consultancy() {
                         <p className="p-2  text-lg  font-bold text-white">
                             Ready to take your skills to the next level? Contact us today to schedule a consultation with one of our skill experts. Together, we'll unlock your full potential and set you on the path to a thriving career.</p>
                     </div>
-
                 </div>
             </section>
-
-
-
-
         </>
-
-
     )
-
-
-
 }
 export default consultancy
