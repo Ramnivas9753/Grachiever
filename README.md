@@ -68,3 +68,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+This command for Graph Chart in React .
+### ` npm install --save react-apexcharts apexcharts `
+
+This command for saas card .
+### ` Npm i sass ` or  ### ` Npm install node-sass `
