@@ -1,5 +1,6 @@
 import React from 'react'
 import Sidebar from './Sidebar';
+import Topnavbar from './Topnavbar';
 import GraphChart from '../Components/GraphChart';
 import { FaGreaterThan } from 'react-icons/fa';
 
@@ -15,9 +16,9 @@ const Dashboard_Index = () => {
       {/* This is LeftSide Div... */}
       <div className='bg-yellow-500 w-[24%] h-auto'>
         
-        <div className='mb-10'>
+        {/* <div className='mb-10'>
             <Sidebar/>
-        </div>
+        </div> */}
       
       </div>
       
@@ -27,10 +28,10 @@ const Dashboard_Index = () => {
         <div className='bg-[#11cdef] pb-10'>
 
         <div className=''>
-            <p className=''>this is top Navbar</p>
+            <Topnavbar />
           </div>
 
-          <div className='grid grid-cols-4 '>
+          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 '>
           
           {/* ------------Card_1------------ */}
 
@@ -119,14 +120,14 @@ const Dashboard_Index = () => {
 
           {/* Graph Section Start */}
         
-        <div className='flex -mt-10 '>
+        <div className='flex flex-col sm:flex-col md:flex-col lg:flex-row -mt-10 '>
             
-            <div className='bg-white w-[60%] h-96 rounded-2xl m-3'>
+            <div className='bg-white lg:w-[60%] h-96 rounded-2xl m-3'>
               <p className='font-bold text-center'>For Graph</p>
             </div>
             
-            <div className='bg-blue-900 w-[40%] h-96 rounded-2xl m-3'>
-            <img src='https://wallpapers.com/images/featured/murjp1nk4lp1idlt.jpg' className='h-full rounded-2xl' />
+            <div className='lg:w-[40%] h-96 rounded-2xl m-3'>
+            <img src='https://wallpapers.com/images/featured/murjp1nk4lp1idlt.jpg' className='h-full rounded-2xl m-auto' />
             </div>
 
         </div>
@@ -324,9 +325,9 @@ const Dashboard_Index = () => {
 
       {/* Last Section */}
 
-      <div className='flex'>
+      <div className='flex flex-col sm:flex-col md:flex-col lg:flex-row'>
             
-            <div className='bg-white w-[60%] h-auto rounded-2xl m-3'>
+            <div className='bg-white md:w-[60%] h-auto rounded-2xl m-3'>
             <table className="min-w-full divide-y divide-gray-200">
       <thead>
         <tr>
@@ -508,7 +509,7 @@ const Dashboard_Index = () => {
 
             {/* Right side Section */}
             
-            <div className='w-[40%] h-auto rounded-2xl m-3'>
+            <div className='md:w-[40%] h-auto rounded-2xl m-3'>
             <div className='bg-white rounded-2xl p-3' >
           <h1 className='text-md font-bold'>Categories</h1>
           <div className='flex mt-3 mb-2'>
@@ -611,6 +612,10 @@ const Dashboard_Index = () => {
             </div>
 
         </div>
+
+        
+
+        
         {/* ============================================== */}
       </div>
     </div>
