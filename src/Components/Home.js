@@ -31,6 +31,7 @@ import { FaUser } from "react-icons/fa";
 import Cards from "./Cards";
 import Z_index_card1 from './Z_index_card1';
 import FlipCard from './FlipCard';
+import GraphChart from './GraphChart';
 
 import { Link } from 'react-router-dom'
 import { useState } from "react";
@@ -245,7 +246,9 @@ function Home () {
         </div>
     </div>
     </section>
-   
+     
+<GraphChart/>
+  
     {/* <!-- ........... card slider for codepen --> */}
 
     <Cards />

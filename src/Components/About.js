@@ -1,5 +1,5 @@
-import image1 from "../images/About/aboutimg1.jpeg";
-import education from "../images/About/about education.jpeg";
+import image1 from "../images/About/about.png";
+import education from "../images/About/Rectangle.png";
 import { FaGraduationCap } from "react-icons/fa";
 import { FaList } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
@@ -18,8 +18,10 @@ function About() {
         Trust Grachiever to empower your career journey towards a brighter future. Gain skills, access freelance work, receive
         <br /> personalized guidance, and join a supportive community.
       </p>
+
+
       <section>
-      <div className=" w-auto md:h-full grid grid-rows-3 grid-flow-col gap-7 mt-10 ml-10">
+      <div className=" grid-cols-1 md:grid-cols-1 lg:grid-cols-3 w-auto md:h-full grid grid-rows-3 grid-flow-col gap-7 mt-10 ml-10">
         <div className=" md:h-full row-span-3 ...">
           <img src={image1} alt="" />
         </div>
@@ -132,7 +134,7 @@ function About() {
     <div className="bg-[#ffc9ae] absolute top-1 left-10 w-20 h-20 rounded-full"> &nbsp;</div>
     <div className="bg-[#ffc9ae] absolute bottom-10 right-10 w-20 h-20 rounded-full"> &nbsp;</div>
     <h1 className="sm:sx">Join Grachiever in revolutionizing talent <br/> transformation and redefining your <br/> career growth and success.</h1>
-  <button className="bg-[#349fcf] text-2xl hover:bg-white text-white hover:text-black border-2 font-bold border-[#349fcf] rounded-2xl px-5 py-2 ml-3 mt-10">Join For Free> </button>
+  <button className="bg-[#349fcf] text-2xl hover:bg-white text-white hover:text-black border-2 font-bold border-[#349fcf] rounded-2xl px-5 py-2 ml-3 mt-10">Join For Free {">"} </button>
   </div>
 </section>
  
