@@ -1,6 +1,4 @@
-
 import NavBar from "./nav01";
-// import FlipCard from "./FlipCard";
 function Blog() {
     return (
         <>

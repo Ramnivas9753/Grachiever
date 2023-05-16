@@ -11,16 +11,16 @@ function Navbar() {
     <section className="relative">
       <nav className="w-full bg-[#1b1d38] fixed top-0 z-50">   
       {/* bg-[#FAF9F6] */}
-          <div className="justify-between  mx-auto lg:max-w-7xl md:items-center md:flex ">
+          <div className="justify-between mx-auto lg:max-w-7xl md:items-center md:flex ">
               <div>
                   <div className="flex items-center justify-between py-3 md:py-5 md:block">
                       <Link to="/"><img src={grachieverlogo} className="w-24 sm:w-28 md:w-40 -mt-5 md:-mt-10" alt="Grachiever Logo" /></Link>
                       <div className="flex text-white text-sm hidden max-md:block">
                               <Link to="/login" className="px-2 py-1 text-center rounded-full shadow hover:text-blue-500 border border-white">Log-in</Link>
-                              <Link to="/signup" className="px-2 py-1 text-center text-gray-800 bg-[#349fcf] text-white rounded-full shadow hover:text-black">Sign up</Link>
+                              <Link to="/signup" className="px-2 py-1 text-center bg-[#349fcf] text-white rounded-full shadow hover:text-black">Sign up</Link>
                       </div>
                           
-                      <div className="md:hidden">
+                      <div className="md:hidden ">
                           <button
                               className="p-2 text-white rounded-md outline-none focus:border-gray-400 focus:border"
                               onClick={() => setNavbar(!navbar)}
