@@ -35,14 +35,14 @@ function LoginAndRegister({ onLogin, onRegister }) {
           <p className="mt-4 text-left ml-5">
             {isLogin ? (
               <>
-                <button className="text-black-500   font-bold hover:text-[#00c5ff] hover:underline" onClick={() => setIsLogin(false)}>Register</button>
+                <button className="text-black-500   font-bold hover:text-[#00c5ff] hover:underline" onClick={() => setIsLogin(false)}>Signup</button>
                 <button className="text-black-500 ml-5 font-bold hover:text-[#00c5ff] hover:underline" onClick={() => setIsLogin(true)}>Login </button>
 
               </>
 
             ) : (
               <>
-                <button className="text-black-500   font-bold hover:text-[#00c5ff] hover:underline" onClick={() => setIsLogin(false)}>Register</button>
+                <button className="text-black-500   font-bold hover:text-[#00c5ff] hover:underline" onClick={() => setIsLogin(false)}>Signup</button>
                 <button className="text-black-500  ml-5 font-bold hover:text-[#00c5ff] hover:underline " onClick={() => setIsLogin(true)} >Login</button>
 
               </>
@@ -80,7 +80,7 @@ function LoginAndRegister({ onLogin, onRegister }) {
               </label>
             </div>
 
-            <button type="submit" className="bg-[#00c5ff] hover:bg-cyan-600 text-white rounded-md w-full px-4 py-2">{isLogin ? 'Login' : 'Register'}</button>
+            <button type="submit" className="bg-[#00c5ff] hover:bg-cyan-600 text-white rounded-md w-full px-4 py-2">{isLogin ? 'LOGIN' : 'SIGN UP'}</button>
 
             {/* -------------logo--------------- */}
             <div className='mx-auto mt-5 '>
