@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaAngleRight } from "react-icons/fa";
-import grachieverlogo from "../images/LOGOS/grachiever-02.png"
-// import login from '../images/Skill_graph/login.jpg';
+import grachieverlogo from "../images/LOGOS/grachiever-02.png";
+ import login from '../images/Form/login.png';
 
 
 
@@ -26,8 +26,8 @@ function LoginAndRegister({ onLogin, onRegister }) {
   return (
     <section className="p-0 sm:p-0 md:p-10 lg:p-10 mt-5">
       <div className="h-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2" >
-        <div className=" md:mt-0">
-          {/* <img src={login} className='max-w-md ml-10' /> */}
+        <div className=" md:mt-10">
+          <img src={login} className='h-auto max-w-full' />
         </div>
         <div className="lg:h-full md:h-full mx-5 sm:mx-5 md:mx-10 lg:mx-10 mt-10 p-10 bg-white rounded-md shadow-md">
           {/* <h2 className="text-xl font-medium mb-4">{isLogin ? 'Login' : 'Register'}</h2> */}
@@ -36,17 +36,24 @@ function LoginAndRegister({ onLogin, onRegister }) {
             {isLogin ? (
               <>
                 <button className="text-black-500  font-bold hover:text-[#00c5ff] hover:underline " onClick={() => setIsLogin(true)} >Login</button>
-                <button className="text-black-500  ml-5 font-bold hover:text-[#00c5ff] hover:underline" onClick={() => setIsLogin(false)}>Register</button>
+                <button className="text-black-500  ml-5 font-bold hover:text-[#00c5ff] hover:underline" onClick={() => setIsLogin(false)}>Signup</button>
               </>
             ) : (
               <>
                 <button className="text-black-500  font-bold hover:text-[#00c5ff] hover:underline" onClick={() => setIsLogin(true)}>Login </button>
-                <button className="text-black-500  ml-5 font-bold hover:text-[#00c5ff] hover:underline" onClick={() => setIsLogin(false)}>Register</button>
+                <button className="text-black-500  ml-5 font-bold hover:text-[#00c5ff] hover:underline" onClick={() => setIsLogin(false)}>Signup</button>
               </>
             )}
           </p>
           {/* <p className='mt-2'>Enter your information to setup a new account </p> */}
           <form onSubmit={isLogin ? handleLogin : handleRegister}>
+          {!isLogin && (
+              <div className="mb-4 mt-5">
+                {/* <label htmlFor="confirmPassword" className="block text-gray-700 font-medium mb-2">Confirm Password</label> */}
+                <input type="text" id="confirmPassword" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder="Username" ref={confirmPasswordRef} />
+                <label for="floating_password" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">confirmPassword</label>
+              </div>
+            )}
             <div className="mb-4 mt-5">
               {/* <label htmlFor="email" className="block text-gray-700 font-medium mb-2">Email</label> */}
 
@@ -69,14 +76,8 @@ function LoginAndRegister({ onLogin, onRegister }) {
 
               </label>
             </div>
-            {!isLogin && (
-              <div className="mb-4">
-                {/* <label htmlFor="confirmPassword" className="block text-gray-700 font-medium mb-2">Confirm Password</label> */}
-                <input type="password" id="confirmPassword" className="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder="Confirm password" ref={confirmPasswordRef} />
-                <label for="floating_password" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">confirmPassword</label>
-              </div>
-            )}
-            <button type="submit" className="bg-[#00c5ff] hover:bg-cyan-600 text-white rounded-md w-full px-4 py-2">{isLogin ? 'Login' : 'Register'}</button>
+          
+            <button type="submit" className="bg-[#00c5ff] hover:bg-cyan-600 text-white rounded-md w-full px-4 py-2">{isLogin ? 'LOGIN' : 'SIGN UP'}</button>
 
             {/* -------------logo--------------- */}
             <div className='mx-auto mt-5 '>
