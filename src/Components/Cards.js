@@ -196,9 +196,9 @@ function Cards() {
     
 
   </Slider>
-  <div className='text-center mt-3'>
+    <div className='text-center mt-3'>
       <Link to='BrowseAll'><button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2  rounded-xl  px-20 text-lg  font-bold">Browse All</button></Link> 
-       </div>
+    </div>
     </section>
   </>
   );

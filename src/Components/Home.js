@@ -495,17 +495,20 @@ function Home () {
 
 
 {/* <!-- ....... popular and demand start  ...... --> */}
-<section className='mt-10 mb-36'>
-<div className='h-96'>
+<section className='mt-10'>
+  <div className='h-96'>
     <h1 className="text-center text-5xl">Popular <span className='text-[#00c5ff]'>In-Demand </span> Services</h1>
        <Z_index_card1 />
-    </div>
+  </div>
 </section>
+<div className='text-center mt-24'>
+    <Link to='BrowseAll'><button className="border-4 border-[#00c5ff] p-2 rounded-xl px-10 text-lg font-bold">See More.......</button></Link> 
+</div>
 
 {/* <!-- ....... popular and demand end ...... --> */}
     
       {/* <!--Finding Your Right Course--> */}
-<section className="p-0 sm:p-0 md:p-10 lg:p-10 bg-[#e0ebff] mb-5">
+<section className="p-0 sm:p-0 md:p-10 lg:p-10 bg-[#e0ebff] mb-5 mt-5">
       <div className=" m-2 mx-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 mt-5">
         <div className="m-auto md:col-span-2">
           <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-3xl font-bold p-2">Finding Your Right Course</h1>

@@ -33,14 +33,6 @@ function GraphChart(){
             <Chart
                 options={state.options}
                 series={state.series}
-                type="bar"
-                width="500"
-            />
-        </div>
-        <div>
-            <Chart
-                options={state.options}
-                series={state.series}
                 type="line"
                 width="500"
             />
@@ -57,13 +49,18 @@ function GraphChart(){
             <Chart
                 options={state.options}
                 series={state.series}
-                type="histogram"
+                type="candlestick"
                 width="500"
             />
         </div>
        
        {/* graph type
-       1. scatter */}
+       1. scatter 
+       2. bar 
+       3. radar 
+       4. histogram
+       
+       */}
     </div>
   )
 }
