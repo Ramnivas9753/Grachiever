@@ -1,7 +1,7 @@
 import React from 'react'
 import Sidebar from './Sidebar';
 import GraphChart from '../Components/GraphChart';
-import logo1 from '../images/LOGOS/sign_in.jpeg';
+import { FaGreaterThan } from 'react-icons/fa';
 
 
 const Dashboard_Index = () => {
@@ -138,7 +138,7 @@ const Dashboard_Index = () => {
         <div className='bg-white rounded-2xl p-5 m-3' >
           <h1 className='text-xl'>Team Members</h1>
           <div className='flex mt-3 mb-2'>
-            <div className=' w-[20%]'>
+            <div className=' w-[20%] m-auto'>
             <img src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv0HMfzvQG_0ePm7WauQoS-2chZlw6a49s190jXwe1Zw&usqp=CAU&ec=48665699'} className='w-12 m-auto' />
             </div>
             <div className=' w-[40%]'>
@@ -324,67 +324,285 @@ const Dashboard_Index = () => {
 
       {/* Last Section */}
 
-      <div className='flex '>
+      <div className='flex'>
             
             <div className='bg-white w-[60%] h-auto rounded-2xl m-3'>
-              <p className='font-bold text-center'>For Graph</p>
+            <table className="min-w-full divide-y divide-gray-200">
+      <thead>
+        <tr>
+          <th className="px-6 py-3 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+          AUTHOR
+          </th>
+          <th className="px-6 py-3 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+          FUNCTION
+          </th>
+          <th className="px-6 py-3 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+          STATUS
+          </th>
+          <th className="px-6 py-3 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+          EMPLOYED
+          </th>
+          <th className="px-6 py-3 bg-gray-50 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+          ACTION
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td className="">
+            <div className='flex'>
+            <div className='m-auto p-1'>
+            <img src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv0HMfzvQG_0ePm7WauQoS-2chZlw6a49s190jXwe1Zw&usqp=CAU&ec=48665699'} className='w-8 m-auto' />
             </div>
+            <div className='m-auto p-1'>
+              <p className='font-bold text-sm'>John Michael</p>
+              <p className='w-full text-sm text-gray-600'>john@creative.com</p>
+            </div>
+            </div>
+          </td>
+          <td className="px-6 py-4 whitespace-nowrap">
+            <div>
+            <p className='text-sm text-gray-600 font-bold'>Manager</p>
+            <p className='text-sm text-gray-600'>Organization</p>
+            </div>
+          </td>
+          <td className="px-6 py-4 whitespace-nowrap">
+            <div className='m-3'>
+            <p className='bg-green-300 text-sm rounded text-white p-1'>ONLINE</p>
+            </div>
+          </td>
+          <td className="px-6 py-4 whitespace-nowrap">
+            <p className='text-sm text-gray-500'>23/04/18</p>
+          </td>
+          <td className="px-6 py-4 whitespace-nowrap">
+          <p  className='text-sm text-gray-500'>Edit</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td className="">
+            <div className='flex'>
+            <div className='m-auto p-1'>
+            <img src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv0HMfzvQG_0ePm7WauQoS-2chZlw6a49s190jXwe1Zw&usqp=CAU&ec=48665699'} className='w-8 m-auto' />
+            </div>
+            <div className='m-auto p-1'>
+              <p className='font-bold text-sm'>John Michael</p>
+              <p className='w-full text-sm text-gray-600'>john@creative.com</p>
+            </div>
+            </div>
+          </td>
+          <td className="px-6 py-4 whitespace-nowrap">
+            <div>
+            <p className='text-sm text-gray-600 font-bold'>Manager</p>
+            <p className='text-sm text-gray-600'>Organization</p>
+            </div>
+          </td>
+          <td className="px-6 py-4 whitespace-nowrap">
+            <div className='m-3'>
+            <p className='bg-green-300 text-sm rounded text-white p-1'>ONLINE</p>
+            </div>
+          </td>
+          <td className="px-6 py-4 whitespace-nowrap">
+            <p className='text-sm text-gray-500'>23/04/18</p>
+          </td>
+          <td className="px-6 py-4 whitespace-nowrap">
+          <p  className='text-sm text-gray-500'>Edit</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td className="">
+            <div className='flex'>
+            <div className='m-auto p-1'>
+            <img src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv0HMfzvQG_0ePm7WauQoS-2chZlw6a49s190jXwe1Zw&usqp=CAU&ec=48665699'} className='w-8 m-auto' />
+            </div>
+            <div className='m-auto p-1'>
+              <p className='font-bold text-sm'>John Michael</p>
+              <p className='w-full text-sm text-gray-600'>john@creative.com</p>
+            </div>
+            </div>
+          </td>
+          <td className="px-6 py-4 whitespace-nowrap">
+            <div>
+            <p className='text-sm text-gray-600 font-bold'>Manager</p>
+            <p className='text-sm text-gray-600'>Organization</p>
+            </div>
+          </td>
+          <td className="px-6 py-4 whitespace-nowrap">
+            <div className='m-3'>
+            <p className='bg-green-300 text-sm rounded text-white p-1'>ONLINE</p>
+            </div>
+          </td>
+          <td className="px-6 py-4 whitespace-nowrap">
+            <p className='text-sm text-gray-500'>23/04/18</p>
+          </td>
+          <td className="px-6 py-4 whitespace-nowrap">
+          <p  className='text-sm text-gray-500'>Edit</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td className="">
+            <div className='flex'>
+            <div className='m-auto p-1'>
+            <img src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv0HMfzvQG_0ePm7WauQoS-2chZlw6a49s190jXwe1Zw&usqp=CAU&ec=48665699'} className='w-8 m-auto' />
+            </div>
+            <div className='m-auto p-1'>
+              <p className='font-bold text-sm'>John Michael</p>
+              <p className='w-full text-sm text-gray-600'>john@creative.com</p>
+            </div>
+            </div>
+          </td>
+          <td className="px-6 py-4 whitespace-nowrap">
+            <div>
+            <p className='text-sm text-gray-600 font-bold'>Manager</p>
+            <p className='text-sm text-gray-600'>Organization</p>
+            </div>
+          </td>
+          <td className="px-6 py-4 whitespace-nowrap">
+            <div className='m-3'>
+            <p className='bg-green-300 text-sm rounded text-white p-1'>ONLINE</p>
+            </div>
+          </td>
+          <td className="px-6 py-4 whitespace-nowrap">
+            <p className='text-sm text-gray-500'>23/04/18</p>
+          </td>
+          <td className="px-6 py-4 whitespace-nowrap">
+          <p  className='text-sm text-gray-500'>Edit</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td className="">
+            <div className='flex'>
+            <div className='m-auto p-1'>
+            <img src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv0HMfzvQG_0ePm7WauQoS-2chZlw6a49s190jXwe1Zw&usqp=CAU&ec=48665699'} className='w-8 m-auto' />
+            </div>
+            <div className='m-auto p-1'>
+              <p className='font-bold text-sm'>John Michael</p>
+              <p className='w-full text-sm text-gray-600'>john@creative.com</p>
+            </div>
+            </div>
+          </td>
+          <td className="px-6 py-4 whitespace-nowrap">
+            <div>
+            <p className='text-sm text-gray-600 font-bold'>Manager</p>
+            <p className='text-sm text-gray-600'>Organization</p>
+            </div>
+          </td>
+          <td className="px-6 py-4 whitespace-nowrap">
+            <div className='m-3'>
+            <p className='bg-green-300 text-sm rounded text-white p-1'>ONLINE</p>
+            </div>
+          </td>
+          <td className="px-6 py-4 whitespace-nowrap">
+            <p className='text-sm text-gray-500'>23/04/18</p>
+          </td>
+          <td className="px-6 py-4 whitespace-nowrap">
+          <p  className='text-sm text-gray-500'>Edit</p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+            </div>
+
+            {/* Right side Section */}
             
             <div className='w-[40%] h-auto rounded-2xl m-3'>
-            <div className='bg-white rounded-2xl p-5' >
-          <h1 className='text-xl'>Team Members</h1>
+            <div className='bg-white rounded-2xl p-3' >
+          <h1 className='text-md font-bold'>Categories</h1>
           <div className='flex mt-3 mb-2'>
-            <div className=' w-[20%]'>
-            <img src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv0HMfzvQG_0ePm7WauQoS-2chZlw6a49s190jXwe1Zw&usqp=CAU&ec=48665699'} className='w-12 m-auto' />
+            <div className=' w-[20%] m-auto'>
+            <img src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv0HMfzvQG_0ePm7WauQoS-2chZlw6a49s190jXwe1Zw&usqp=CAU&ec=48665699'} className='w-8 m-auto' />
             </div>
             <div className=' w-[40%]'>
-              <p>Name</p>
-              <p>Online</p>
+              <p>Devices</p>
+              <p className='text-sm text-gray-500'>250 in stock, 346+ sold</p>
             </div>
             <div className=' w-[40%] m-auto'>
-              <button className='border p-2 w-full  border-[#11cdef] rounded-xl m-auto'>Add</button>
+              <p className='text-xl text-center font-bold text-gray-400'>
+                <FaGreaterThan className='m-auto'/>
+              </p>
             </div>
           </div>
           <hr />
 
           <div className='flex mt-3 mb-2'>
-            <div className=' w-[20%]'>
-            <img src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv0HMfzvQG_0ePm7WauQoS-2chZlw6a49s190jXwe1Zw&usqp=CAU&ec=48665699'} className='w-12 m-auto' />
+            <div className=' w-[20%] m-auto'>
+            <img src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv0HMfzvQG_0ePm7WauQoS-2chZlw6a49s190jXwe1Zw&usqp=CAU&ec=48665699'} className='w-8 m-auto' />
             </div>
             <div className=' w-[40%]'>
-              <p>Name</p>
-              <p>Online</p>
+              <p>Devices</p>
+              <p className='text-sm text-gray-500'>250 in stock, 346+ sold</p>
             </div>
             <div className=' w-[40%] m-auto'>
-              <button className='border p-2 w-full  border-[#11cdef] rounded-xl m-auto'>Add</button>
+              <p className='text-xl text-center font-bold text-gray-400'>
+                <FaGreaterThan className='m-auto'/>
+              </p>
             </div>
           </div>
           <hr />
 
           <div className='flex mt-3 mb-2'>
-            <div className=' w-[20%]'>
-            <img src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv0HMfzvQG_0ePm7WauQoS-2chZlw6a49s190jXwe1Zw&usqp=CAU&ec=48665699'} className='w-12 m-auto' />
+            <div className=' w-[20%] m-auto'>
+            <img src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv0HMfzvQG_0ePm7WauQoS-2chZlw6a49s190jXwe1Zw&usqp=CAU&ec=48665699'} className='w-8 m-auto' />
             </div>
             <div className=' w-[40%]'>
-              <p>Name</p>
-              <p>Online</p>
+              <p>Devices</p>
+              <p className='text-sm text-gray-500'>250 in stock, 346+ sold</p>
             </div>
             <div className=' w-[40%] m-auto'>
-              <button className='border p-2 w-full  border-[#11cdef] rounded-xl m-auto'>Add</button>
+              <p className='text-xl text-center font-bold text-gray-400'>
+                <FaGreaterThan className='m-auto'/>
+              </p>
             </div>
           </div>
           <hr />
 
           <div className='flex mt-3 mb-2'>
-            <div className=' w-[20%]'>
-            <img src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv0HMfzvQG_0ePm7WauQoS-2chZlw6a49s190jXwe1Zw&usqp=CAU&ec=48665699'} className='w-12 m-auto' />
+            <div className=' w-[20%] m-auto'>
+            <img src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv0HMfzvQG_0ePm7WauQoS-2chZlw6a49s190jXwe1Zw&usqp=CAU&ec=48665699'} className='w-8 m-auto' />
             </div>
             <div className=' w-[40%]'>
-              <p>Name</p>
-              <p>Online</p>
+              <p>Devices</p>
+              <p className='text-sm text-gray-500'>250 in stock, 346+ sold</p>
             </div>
             <div className=' w-[40%] m-auto'>
-              <button className='border p-2 w-full  border-[#11cdef] rounded-xl m-auto'>Add</button>
+              <p className='text-xl text-center font-bold text-gray-400'>
+                <FaGreaterThan className='m-auto'/>
+              </p>
+            </div>
+          </div>
+          <hr />
+
+          <div className='flex mt-3 mb-2'>
+            <div className=' w-[20%] m-auto'>
+            <img src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv0HMfzvQG_0ePm7WauQoS-2chZlw6a49s190jXwe1Zw&usqp=CAU&ec=48665699'} className='w-8 m-auto' />
+            </div>
+            <div className=' w-[40%]'>
+              <p>Devices</p>
+              <p className='text-sm text-gray-500'>250 in stock, 346+ sold</p>
+            </div>
+            <div className=' w-[40%] m-auto'>
+              <p className='text-xl text-center font-bold text-gray-400'>
+                <FaGreaterThan className='m-auto'/>
+              </p>
+            </div>
+          </div>
+          <hr />
+
+          <div className='flex mt-3 mb-2'>
+            <div className=' w-[20%] m-auto'>
+            <img src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv0HMfzvQG_0ePm7WauQoS-2chZlw6a49s190jXwe1Zw&usqp=CAU&ec=48665699'} className='w-8 m-auto' />
+            </div>
+            <div className=' w-[40%]'>
+              <p>Devices</p>
+              <p className='text-sm text-gray-500'>250 in stock, 346+ sold</p>
+            </div>
+            <div className=' w-[40%] m-auto'>
+              <p className='text-xl text-center font-bold text-gray-400'>
+                <FaGreaterThan className='m-auto'/>
+              </p>
             </div>
           </div>
           <hr />
