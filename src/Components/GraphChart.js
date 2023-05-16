@@ -29,14 +29,14 @@ function GraphChart(){
 
   return (
     <div className='bg-blue-100 p-10 flex flex-wrap'>
-        <div>
+        {/* <div>
             <Chart
                 options={state.options}
                 series={state.series}
                 type="bar"
                 width="500"
             />
-        </div>
+        </div> */}
         <div>
             <Chart
                 options={state.options}
@@ -45,22 +45,22 @@ function GraphChart(){
                 width="500"
             />
         </div>
-        <div>
+        {/* <div>
             <Chart
                 options={state.options}
                 series={state.series}
                 type="area"
                 width="500"
             />
-        </div>
-        <div>
+        </div> */}
+        {/* <div>
             <Chart
                 options={state.options}
                 series={state.series}
                 type="histogram"
                 width="500"
             />
-        </div>
+        </div> */}
        
        {/* graph type
        1. scatter */}
