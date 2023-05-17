@@ -503,7 +503,7 @@ function Home () {
   </div>
 </section>
 <div className='text-center mt-24'>
-    <Link to='BrowseAll'><button className="border-4 border-[#00c5ff] p-2 rounded-xl px-10 text-lg font-bold">See More.......</button></Link> 
+    <Link to='BrowseAll'><button className="bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] p-2 rounded-xl px-10 text-lg font-bold">Browse All</button></Link> 
 </div>
 
 {/* <!-- ....... popular and demand end ...... --> */}
