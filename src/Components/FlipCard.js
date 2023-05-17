@@ -2,7 +2,7 @@
 // import { FaGreaterThan } from "react-icons/fa";
 // import { FaLessThan } from "react-icons/fa";
 // import { FaBeer } from 'react-icons/fa';
-import {BsBookmarkCheck,BsBookmark} from "react-icons/bs";
+import {BsBookmarkCheck,BsBookmark,BsBookmarkCheckFill} from "react-icons/bs";
 import { GoVerified } from "react-icons/go";
 import { FiExternalLink } from "react-icons/fi";
 import img1 from "../images/Flipcard/card1img.png";
@@ -22,6 +22,13 @@ export default function FlipCard() {
   const save = () => {
     flipCard();
   };
+  const [icon, setIcon] = useState("check");
+  const changeIcon = (state) => {
+    if (state === "check") {
+        return "unCheck";
+    }
+    return "check";
+};
   // function HeaderIcon({ <BsBookmark /> , <BsBookmarkCheck/>}) {
   //   const [isActive, setIsActive] = useState(false);
   // }
@@ -42,16 +49,21 @@ export default function FlipCard() {
         <div className="flip-card-back">
           <h1 className="font-bold mt-10 text-black text-xl">Audioread</h1>
           <h3 className="text-center mt-3">This tool is verified because it is either an established company or has good social media presence.</h3>
-          <button onClick={save} type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Front</button>
+          <button onClick={save} type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Back</button>
           
         </div>
       </div>
       <div className="bg-[#01001c] rounded-b-3xl pb-1" >
     
-      <div className="flex gap-2 ml-4 pt-2 text-white text-lg font-bold">Audioread <GoVerified className="text-blue-500 text-base"/> 
-      {/* <div onClick={() => setIsActive(!isActive)}>
-       {isActive ? <BsBookmarkCheck/> :<BsBookmark/> }
-   </div> */}<BsBookmarkCheck/>
+      <div className="flex justify-between gap-2 pt-2 text-white text-lg font-bold">
+        <div className="flex gap-2 ml-4 pt-2 text-white text-lg font-bold">
+            Audioread <GoVerified className="text-blue-500 text-base"/>
+        </div>
+        
+
+   <button className="mr-3" onClick={() => setIcon((old) => changeIcon(old))}>{icon === "check" ?<BsBookmark/>  : <BsBookmarkCheckFill/> }</button>
+   
+   
       
        </div>
       <div className="ml-4 text-yellow-400" >&#9733; &#9733; &#9733; &#9733; &#9734;  (2) </div>
