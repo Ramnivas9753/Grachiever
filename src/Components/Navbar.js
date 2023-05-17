@@ -124,7 +124,7 @@ function Navbar() {
                                 </span>
                             </button>
                             <ul className="bg-white text-black border rounded-md transform scale-0 group-hover:scale-100 absolute 
-                            transition duration-150 ease-in-out origin-top min-w-32 w-20 text-sm">
+                            transition duration-150 ease-in-out origin-top min-w-32 w-20 text-sm md:text-md">
                                 <li className="rounded-sm relative px-1 py-1 hover:bg-gray-100">
                                 <button className="w-full text-left flex items-center outline-none focus:outline-none">
                                     <span className="pr-1 flex-1">Data</span>
@@ -141,17 +141,17 @@ function Navbar() {
                                 <ul className="bg-white border rounded-sm absolute top-0 right-0 
                                     transition duration-150 ease-in-out origin-top-left
                                     min-w-24">
-                                    <li className="px-2 py-1 hover:bg-gray-100">
+                                    <li className="px-2 md:px-3 py-1 hover:bg-gray-100">
                                     <Link to=''>Python 1</Link></li><hr/>
-                                    <li className="px-2 py-1 hover:bg-gray-100">
+                                    <li className="px-2 md:px-3  py-1 hover:bg-gray-100">
                                     <Link to=''>Go</Link></li><hr/>
-                                    <li className="px-2 py-1 hover:bg-gray-100">
+                                    <li className="px-2 md:px-3  py-1 hover:bg-gray-100">
                                     <Link to=''>Rust</Link></li><hr/>
-                                    <li className="px-2 py-1 hover:bg-gray-100">
+                                    <li className="px-2 md:px-3  py-1 hover:bg-gray-100">
                                     <Link to=''>Rust</Link></li><hr/>
-                                    <li className="px-2 py-1 hover:bg-gray-100">
+                                    <li className="px-2 md:px-3  py-1 hover:bg-gray-100">
                                     <Link to=''>Rust</Link></li><hr/>
-                                    <li className="px-2 py-1 hover:bg-gray-100">
+                                    <li className="px-2 md:px-3  py-1 hover:bg-gray-100">
                                     <Link to=''>Rust</Link></li><hr/>
                                 </ul>
                                 </li><hr/>

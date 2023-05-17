@@ -40,7 +40,6 @@ import { useState } from "react";
 import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
 
-
 function Home () {
   const typedRef = useRef(null);
   useEffect(() => {
@@ -227,8 +226,7 @@ function Home () {
 
     <Trusted_section/>
 
-    
-
+  
     {/* <!--Skill Section--> */}
 
     <section className="p-0 sm:p-0 md:p-10 lg:p-10 mt-5">
@@ -240,16 +238,15 @@ function Home () {
             <div className=' mt-10'>
        <button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2 rounded-xl   px-8 text-lg  font-bold"><Link to="/Skillgraph">Learn More</Link></button>
        </div>
-        </div>
+      </div>
     {/* <!--Graph Section--> */}
-        <div className="mt-5 md:mt-0">
-          <img src={sgraph} className='mx-auto' />
+        <div className="mt-5">
+          {/* <img src={sgraph} className='mx-auto' /> */}
+          <GraphChart/>
         </div>
     </div>
     </section>
-     
-<GraphChart/>
-  
+      
     {/* <!-- ........... card slider for codepen --> */}
 
     <Cards />

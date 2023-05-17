@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Chart from "react-apexcharts";
 
 
-function GraphChart(){
+function Dashboard_Graph(){
     const [state ,setState]=useState({
         options: {
         //   colors: ['#2E93fA', '#66DA26', '#546E7A', '#E91E63', '#FF9800'],
@@ -29,19 +29,11 @@ function GraphChart(){
 
   return (
     <div className=''>
-         {/* <div>
+         <div>
             <Chart
                 options={state.options}
                 series={state.series}
                 type="line"
-                width="500"
-            />
-        </div> */}
-        <div>
-            <Chart
-                options={state.options}
-                series={state.series}
-                type="area"
                 width="100%"
             />
         </div>
@@ -57,4 +49,4 @@ function GraphChart(){
   )
 }
 
-export default GraphChart
+export default Dashboard_Graph;
