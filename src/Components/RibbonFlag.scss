@@ -1,8 +1,8 @@
 .flag {
-    background: #b6d5de;
-    width: 100px;
+    background: #fff957;
+    width: 50px;
     position: relative;
-    height: 30px;
+    height: 25px;
     margin-left: -5px;
     margin-top: 5px;
     &::before {
@@ -20,8 +20,8 @@
       border-style: solid;
       top: 0;
       right: -2em;
-      border-width: 15px 20px 15px 20px;
-      border-color: #b6d5de transparent #b6d5de #b6d5de;
+      border-width: 10px 15px 15px 20px;
+      border-color: #fff957 transparent #fef969 #fffa73;
     }
   }
   

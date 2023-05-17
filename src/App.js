@@ -7,6 +7,7 @@ import About from './Components/About';
 import Contact from './Components/Contact';
 import Login from './Components/Login';
 import Signup from './Components/Signup';
+import GAtools from './Components/GAtools';
 
 import Layout from './Components/Layout';
 import Skillgraph from './Components/Skillgraph';
@@ -63,6 +64,7 @@ function App() {
           <Route path="skillconsultancy" element={<Skillconsultancy />} />
           <Route path="BrowseAll" element={<BrowseAll />} />
           <Route path="Dashboard_Index" element={<Dashboard_Index />} />
+          <Route path="Gatools" element={<GAtools/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

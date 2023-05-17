@@ -1,8 +1,7 @@
 import React from "react";
-import { HiCurrencyRupee } from "react-icons/hi";
 import "./RibbonFlag.scss";
 
 export default function RibbonFlag() {
-  return <div className="flag flex justify-center gap-2"> <HiCurrencyRupee className="text-xl" />  PAID</div>;
+  return <div className="flag flex justify-center gap-2"> New</div>;
 }
 // &#8377; 

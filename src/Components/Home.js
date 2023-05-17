@@ -32,6 +32,7 @@ import Cards from "./Cards";
 import Z_index_card1 from './Z_index_card1';
 import FlipCard from './FlipCard';
 import GraphChart from './GraphChart';
+import GAtools from './GAtools';
 
 import { Link } from 'react-router-dom'
 import { useState } from "react";
@@ -429,7 +430,7 @@ function Home () {
     <div className="mt-5">
         <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-4xl font-bold text-center p-5 mb-10">Achievements</h1>
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 text-center">
-            <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-44 w-44 lg:h-48 lg:w-48 mb-10 rounded-full">
+            <div className=" m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-44 w-44 lg:h-48 lg:w-48 mb-10 rounded-full">
               <FaGraduationCap className='text-5xl text-black-400 mt-10 mx-auto m-2 group-hover:text-blue-500'/>
               <p className="text-2xl font-bold group-hover:text-[#349fcf]">350+</p>
               <p className='group-hover:text-green-500'>Student worldwide</p>

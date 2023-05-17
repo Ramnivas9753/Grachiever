@@ -2,11 +2,12 @@
 // import { FaGreaterThan } from "react-icons/fa";
 // import { FaLessThan } from "react-icons/fa";
 // import { FaBeer } from 'react-icons/fa';
-
+import {BsBookmarkCheck} from "react-icons/bs";
 import { GoVerified } from "react-icons/go";
 import { FiExternalLink } from "react-icons/fi";
 import img1 from "../images/Flipcard/card1img.png";
-import { Link } from "react-router-dom";
+import {Link} from 'react-router-dom';
+
 
 import React, { useState } from "react";
 import RibbonFlag from "./RibbonFlag";
@@ -20,8 +21,12 @@ export default function FlipCard() {
   const save = () => {
     flipCard();
   };
+  const changeIcon = (icon)=>{
+    icon.toggle(<GoVerified/>)
+  }
   return (
-    <div className={`flip-card ${flip != true ? "front-flip" : "back-flip"}`}>
+    <div className={`flip-card ${flip != true ? "front-flip" : "back-flip"} mb-32  `}>
+
       <div className="flip-card-inner">
         <div className="flip-card-front">
           <RibbonFlag />
@@ -29,25 +34,28 @@ export default function FlipCard() {
           
           <img src={img1} alt="" />
           <div className="action-btns">
-            <span>1</span>
-            <span>2</span>
-            <span>3</span>
+            <span>Tranding</span>
+            
           </div>
         </div>
         <div className="flip-card-back">
-          <h1>This tool is verified because it is either an established company or has good social media presence</h1>
+          <h1 className="font-bold mt-10 text-black text-xl">Audioread</h1>
+          <h3 className="text-center mt-3">This tool is verified because it is either an established company or has good social media presence.</h3>
           <button onClick={save} type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Front</button>
           
         </div>
       </div>
       <div className="bg-[#01001c] rounded-b-3xl pb-1" >
+    
+      <div className="flex gap-2 ml-4 pt-2 text-white text-lg font-bold">Audioread <GoVerified className="text-blue-500 text-base"/> 
 
-      <div className="flex gap-2 ml-4 pt-2 text-white text-lg font-bold">Audioread <GoVerified className="text-blue-500 text-base"/> </div>
-      <div className="ml-4 text-white" >&#9733; &#9733; &#9733; &#9733; &#9734;  (2) </div>
+      <BsBookmarkCheck onClick="changeIcon()"/>
+       </div>
+      <div className="ml-4 text-yellow-400" >&#9733; &#9733; &#9733; &#9733; &#9734;  (2) </div>
       <div className="flex justify-center mt-2">
-        <a className="flex w-full" href="https://www.futurepedia.io/">
-      <button type="button" class="flex justify-center gap-2 ml-2 w-full text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Visit <FiExternalLink/></button></a>
-      <button type="button" class=" w-full text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-full text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700">Bookmark</button>
+        <Link className="flex w-full" to='/GAtools'>
+      <button type="button" class="flex justify-center gap-2 ml-2 w-full text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Visit <FiExternalLink/></button></Link>
+      
       </div>
       </div>
     </div>
