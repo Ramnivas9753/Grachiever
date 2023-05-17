@@ -3,6 +3,7 @@ import Sidebar from './Sidebar';
 import Topnavbar from './Topnavbar';
 import GraphChart from '../Components/GraphChart';
 import { FaGreaterThan } from 'react-icons/fa';
+import Dashboard_Graph from './Dashboard_Graph';
 
 const Dashboard_Index = () => {
   return (
@@ -13,11 +14,11 @@ const Dashboard_Index = () => {
 
     <div className='flex bg-gray-100 mt-20'>
       {/* This is LeftSide Div... */}
-      <div className='bg-yellow-500 w-[24%] h-auto'>
+      <div className='w-[24%] h-auto'>
         
-        {/* <div className='mb-10'>
+        <div className='mb-10'>
             <Sidebar/>
-        </div> */}
+        </div>
       
       </div>
       
@@ -123,6 +124,7 @@ const Dashboard_Index = () => {
             
             <div className='bg-white lg:w-[60%] h-96 rounded-2xl m-3'>
               <p className='font-bold text-center'>For Graph</p>
+              <Dashboard_Graph />
             </div>
             
             <div className='lg:w-[40%] h-96 rounded-2xl m-3'>

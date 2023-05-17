@@ -5,15 +5,14 @@ function consultancy() {
     return (
         <>
 {/* min-h-min */}
-            <section className="p-0 sm:p-0 md:p-0 lg:p-0 mt-40">
+            <section className="p-0 sm:p-0 md:p-0 lg:p-0 mt-40 mx-5">
                 <div className=" grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2" >
-                    <div className="mt-20 h-[75%]  md:w-[100%] bg-[#1b1d38] rounded-3xl">
-                        <h1 className="text-7xl font-bold text-white text-left px-24 p-12 mt-8">Tailored Skill <br /> Consultancy for <br /> <span class= "text-6xl text-[#00c5ff]">Future Success</span> </h1>
-
+                    <div className="mt-20 md:w-[100%] bg-[#1b1d38] rounded-3xl">
+                        <h1 className="text-5xl font-bold text-white text-left px-24 p-12 mt-8">Tailored Skill <br /> Consultancy for <br /> <span class= "text-6xl text-[#00c5ff]">Future Success</span> </h1>
                     </div>
                     {/* <!--Graph Section--> */}
                     <div className="mt-5 md:mt-0">
-                        <img src={first} className=' w-[100%] z-50' />
+                        <img src={first} className='w-[100%] rounded-br-3xl z-50 md:-translate-x-20' />
                     </div>
                 </div>
                 {/* h-auto max-w-full */}
@@ -73,7 +72,7 @@ function consultancy() {
                 </div>
             </section>
             {/* ----------------------------forthsectin---------------- */}
-            <section className="p-0 sm:p-0 md:p-5 lg:p-10 bg-[#c8d9db] mb-5 rounded-3xl mt-5">
+            <section className="p-0 sm:p-0 md:p-5 lg:p-10 bg-[#E0EBFF] mb-5 rounded-3xl mt-5 shadow-lg hover:shadow-gray-500 mx-5">
                 <div className=" mx-12 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 mt-2">
                     <div className=" md:col-span-2">
                         <p className="text-xl text-left text-black"><label className='font-bold' >Future-Proofing:</label>  Our goal is to make you  future-ready. We'll not only help you acquire the  <br /> skills you need today but also equip you with the tools and knowledge to adapt to future <br /> industry demands.</p>
@@ -148,7 +147,7 @@ function consultancy() {
                 </div>
             </section>
             {/* --------------------------------------last-section------------------------------- */}
-            <section className="p-0 sm:p-0 md:p-5 lg:p-10 bg-[#1b1d38] mb-5 rounded-3xl">
+            <section className="p-0 sm:p-0 md:p-5 lg:p-10 bg-[#1b1d38] mb-5 rounded-3xl mx-5">
                 <div className=" m-2 mx-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 mt-5">
                     <div className="  mb-0 ">
                         <button className="p-2 rounded-lg bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-8 text-lg mt-2">Get Started now!</button>

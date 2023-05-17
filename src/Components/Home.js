@@ -238,7 +238,7 @@ function Home () {
             <div className=' mt-10'>
        <button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2 rounded-xl   px-8 text-lg  font-bold"><Link to="/Skillgraph">Learn More</Link></button>
        </div>
-        </div>
+      </div>
     {/* <!--Graph Section--> */}
         <div className="mt-5">
           {/* <img src={sgraph} className='mx-auto' /> */}
