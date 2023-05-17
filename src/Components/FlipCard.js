@@ -2,7 +2,7 @@
 // import { FaGreaterThan } from "react-icons/fa";
 // import { FaLessThan } from "react-icons/fa";
 // import { FaBeer } from 'react-icons/fa';
-import {BsBookmarkCheck} from "react-icons/bs";
+import {BsBookmarkCheck,BsBookmark} from "react-icons/bs";
 import { GoVerified } from "react-icons/go";
 import { FiExternalLink } from "react-icons/fi";
 import img1 from "../images/Flipcard/card1img.png";
@@ -22,16 +22,16 @@ export default function FlipCard() {
   const save = () => {
     flipCard();
   };
-  const changeIcon = (icon)=>{
-    icon.toggle(<GoVerified/>)
-  }
+  // function HeaderIcon({ <BsBookmark /> , <BsBookmarkCheck/>}) {
+  //   const [isActive, setIsActive] = useState(false);
+  // }
   return (
-    <div className={`flip-card ${flip != true ? "front-flip" : "back-flip"} mb-32  `}>
+    <div className={`flip-card ${flip != true ? "front-flip" : "back-flip"} mb-32 lg:w-[200px]  `}>
 
       <div className="flip-card-inner">
-        <div className="flip-card-front">
+        <div className="flip-card-front ">
           <RibbonFlag />
-          <button onClick={flipCard} type="button" class="absolute top-1 right-0 text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-xs px-5 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800"><AiOutlineArrowRight/></button>
+          <button onClick={flipCard} type="button" class="md:px-5 md:py-2 absolute top-1 right-0 text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-xs px-5 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800"><AiOutlineArrowRight/></button>
           
           <img src={img1} alt="" />
           <div className="action-btns">
@@ -49,8 +49,10 @@ export default function FlipCard() {
       <div className="bg-[#01001c] rounded-b-3xl pb-1" >
     
       <div className="flex gap-2 ml-4 pt-2 text-white text-lg font-bold">Audioread <GoVerified className="text-blue-500 text-base"/> 
-
-      <BsBookmarkCheck onClick="changeIcon()"/>
+      {/* <div onClick={() => setIsActive(!isActive)}>
+       {isActive ? <BsBookmarkCheck/> :<BsBookmark/> }
+   </div> */}<BsBookmarkCheck/>
+      
        </div>
       <div className="ml-4 text-yellow-400" >&#9733; &#9733; &#9733; &#9733; &#9734;  (2) </div>
       <div className="flex justify-center mt-2">
