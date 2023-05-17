@@ -3,7 +3,7 @@ import Sidebar from './Sidebar';
 import Topnavbar from './Topnavbar';
 import GraphChart from '../Components/GraphChart';
 import { FaGreaterThan } from 'react-icons/fa';
-
+import Dash_Graph from './Dash_Graph';
 
 const Dashboard_Index = () => {
   return (
