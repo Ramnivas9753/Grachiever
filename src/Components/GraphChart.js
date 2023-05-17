@@ -7,7 +7,7 @@ function GraphChart(){
     const [state ,setState]=useState({
         options: {
         //   colors: ['#2E93fA', '#66DA26', '#546E7A', '#E91E63', '#FF9800'],
-          colors: ['#2E93fA', '#66DA26', '#546E7A', '#E91E63'],
+          colors: ['#00c5ff', '#546E7A', '#E91E63'],
           chart: {
             id: "basic-bar"
           },
@@ -28,32 +28,24 @@ function GraphChart(){
       })
 
   return (
-    <div className='bg-blue-100 p-10 flex flex-wrap'>
-        {/* <div>
+    <div className=''>
+         {/* <div>
             <Chart
                 options={state.options}
                 series={state.series}
                 type="line"
                 width="500"
             />
-        </div>
-        {/* <div>
+        </div> */}
+        <div>
             <Chart
                 options={state.options}
                 series={state.series}
                 type="area"
-                width="500"
+                width="100%"
             />
-        </div> */}
-        {/* <div>
-            <Chart
-                options={state.options}
-                series={state.series}
-                type="candlestick"
-                width="500"
-            />
-        </div> */}
-       
+        </div>
+        
        {/* graph type
        1. scatter 
        2. bar 
