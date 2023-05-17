@@ -28,7 +28,7 @@ function LoginAndRegister({ onLogin, onRegister }) {
     <section className="p-0 sm:p-0 md:p-10 lg:p-10 mt-5">
       <div className="h-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2" >
         <div className=" md:mt-10">
-          <img src={login} className='lg:h-96 max-w-full mt-20 mb-40 mx-40 ' />
+          <img src={login} className='lg:h-96 max-w-full mt-20 mb-40 mx-60 mt-10' />
         </div>
         <div className=" lg:h-96 md:h-full  mx-5 sm:mx-5 md:mx-10 lg:mx-10  p-5 bg-white rounded-md items-center mb-40 mt-40  ">
           {/* <h2 className="text-xl font-medium mb-4">{isLogin ? 'Login' : 'Register'}</h2> */}
