@@ -2,6 +2,7 @@ import React from 'react';
 import { FaAngleRight } from "react-icons/fa";
 import grachieverlogo from "../images/LOGOS/grachiever-02.png";
  import login from '../images/Form/login.png';
+ import { Link } from 'react-router-dom'
 
 
 
@@ -27,7 +28,7 @@ function LoginAndRegister({ onLogin, onRegister }) {
     <section className="p-0 sm:p-0 md:p-10 lg:p-10 mt-5">
       <div className="h-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2" >
         <div className=" md:mt-10">
-          <img src={login} className='lg:h-96 max-w-full mt-20 mb-40 mx-40 ' />
+          <img src={login} className='lg:h-96 max-w-full my-20 mb-40 mx-60 ' />
         </div>
         <div className=" lg:h-96 md:h-full  mx-5 sm:mx-5 md:mx-10 lg:mx-10  p-5 bg-white rounded-md items-center mb-40 mt-40  ">
           {/* <h2 className="text-xl font-medium mb-4">{isLogin ? 'Login' : 'Register'}</h2> */}
@@ -75,9 +76,12 @@ function LoginAndRegister({ onLogin, onRegister }) {
 
 
               </label>
+           
             </div>
+            <div className='ml-3 p-3 hover:text-[#00c5ff] '><Link to="/Forgetpass">Forgot Password?</Link></div>
+            
           
-            <button type="submit" className="bg-[#00c5ff] hover:bg-cyan-600 text-white rounded-md w-96 ml-5 px-4 py-2">{isLogin ? 'LOGIN' : 'SIGN UP'}</button>
+            <button type="submit" className="bg-[#00c5ff] hover:text-black border-2 border-[#00c5ff] hover:bg-white text-white rounded-md w-96 ml-5 px-4 py-2">{isLogin ? 'LOGIN' : 'SIGN UP'}</button>
 
             {/* -------------logo--------------- */}
             <div className='mx-20 ml-20 mt-10 '>
