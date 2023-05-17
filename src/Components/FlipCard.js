@@ -6,6 +6,7 @@ import {BsBookmarkCheck} from "react-icons/bs";
 import { GoVerified } from "react-icons/go";
 import { FiExternalLink } from "react-icons/fi";
 import img1 from "../images/Flipcard/card1img.png";
+import {AiOutlineArrowRight} from "react-icons/ai"
 import {Link} from 'react-router-dom';
 
 
@@ -30,7 +31,7 @@ export default function FlipCard() {
       <div className="flip-card-inner">
         <div className="flip-card-front">
           <RibbonFlag />
-          <button onClick={flipCard} type="button" class="absolute top-1 right-0 text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-xs px-5 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800">info</button>
+          <button onClick={flipCard} type="button" class="absolute top-1 right-0 text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-xs px-5 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800"><AiOutlineArrowRight/></button>
           
           <img src={img1} alt="" />
           <div className="action-btns">

@@ -365,6 +365,9 @@ function Home () {
         <FlipCard  />
         <FlipCard  />
         </div>
+        <div className='text-center mt-10'>
+      <Link to="/Gatools"><button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2 rounded-xl   px-20 text-lg  font-bold">Browse All</button></Link> 
+       </div>
       </section>
 
 
