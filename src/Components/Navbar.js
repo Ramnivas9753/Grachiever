@@ -13,8 +13,8 @@ function Navbar() {
       {/* bg-[#FAF9F6] */}
           <div className="justify-between mx-auto lg:max-w-7xl md:items-center md:flex ">
               <div>
-                  <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                      <Link to="/"><img src={grachieverlogo} className="w-24 sm:w-28 md:w-40 -mt-5 md:-mt-10" alt="Grachiever Logo" /></Link>
+                  <div className="flex items-center justify-between py-3 md:py-5 md:-ml-14 md:block">
+                      <Link to="/"><img src={grachieverlogo} className="w-24 sm:w-28 md:w-40 -mt-5 md:-mt-8" alt="Grachiever Logo" /></Link>
                       <div className="flex text-white text-sm hidden max-md:block">
                               <Link to="/login" className="px-2 py-1 text-center rounded-full shadow hover:text-blue-500 border border-white">Log-in</Link>
                               <Link to="/signup" className="px-2 py-1 text-center bg-[#349fcf] text-white rounded-full shadow hover:text-black">Sign up</Link>

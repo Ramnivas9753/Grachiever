@@ -1,8 +1,9 @@
+@import "../css-config/mixins.scss";
 .flag {
     background: #fff957;
     width: 50px;
     position: relative;
-    height: 25px;
+    height:20px;
     margin-left: -5px;
     margin-top: 5px;
     &::before {
@@ -20,8 +21,16 @@
       border-style: solid;
       top: 0;
       right: -2em;
-      border-width: 10px 15px 15px 20px;
+      border-width: 5px 12px 12px 22px;
       border-color: #fff957 transparent #fef969 #fffa73;
+      @include md{
+        border-width: 10px 15px 15px 20px;
+      }
     }
+    @include md{
+      height: 25px;
+      width: 50px;
+    }
+
   }
   
