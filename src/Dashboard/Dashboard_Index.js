@@ -4,7 +4,6 @@ import Topnavbar from './Topnavbar';
 import GraphChart from '../Components/GraphChart';
 import { FaGreaterThan } from 'react-icons/fa';
 
-
 const Dashboard_Index = () => {
   return (
     <>
