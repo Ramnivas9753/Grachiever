@@ -1,5 +1,6 @@
 import "./Home.css"
 import React, { useState } from 'react';
+import { Link } from "react-router-dom";
 import { FaChevronCircleRight, FaChevronCircleLeft, FaCircle } from "react-icons/fa";
 
 
