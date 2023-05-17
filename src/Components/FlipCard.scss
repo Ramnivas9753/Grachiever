@@ -1,4 +1,14 @@
 @import "../css-config/mixins.scss";
+
+// @media (max-width: 653px) {
+//   .flip-card
+//   {
+//     width: 230px;
+//     height: 200px;
+//     perspective: 1000px;
+//   }
+// }
+
 .flip-card {
     background-color: transparent;
     width: 330px;
