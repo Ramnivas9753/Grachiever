@@ -2,6 +2,7 @@ import React from 'react';
 import { FaAngleRight } from "react-icons/fa";
 import grachieverlogo from "../images/LOGOS/grachiever-02.png";
  import login from '../images/Form/login.png';
+ import { Link } from 'react-router-dom'
 
 
 
@@ -75,9 +76,12 @@ function LoginAndRegister({ onLogin, onRegister }) {
 
 
               </label>
+           
             </div>
+            <div className='ml-3 p-3 hover:text-[#00c5ff] '><Link to="/Forgetpass">Forgot Password?</Link></div>
+            
           
-            <button type="submit" className="bg-[#00c5ff] hover:bg-cyan-600 text-white rounded-md w-96 ml-5 px-4 py-2">{isLogin ? 'LOGIN' : 'SIGN UP'}</button>
+            <button type="submit" className="bg-[#00c5ff] hover:text-black border-2 border-[#00c5ff] hover:bg-white text-white rounded-md w-96 ml-5 px-4 py-2">{isLogin ? 'LOGIN' : 'SIGN UP'}</button>
 
             {/* -------------logo--------------- */}
             <div className='mx-20 ml-20 mt-10 '>
