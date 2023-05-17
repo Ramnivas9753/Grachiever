@@ -84,7 +84,7 @@ function LoginAndRegister({ onLogin, onRegister }) {
                         </div>
 
 
-                        <button type="submit" className="bg-[#00c5ff] hover:bg-cyan-600 text-white rounded-md w-96 ml-5 px-4 py-2">Reset Password</button>
+                        <button type="submit" className="bg-[#00c5ff] hover:text-black border-2 border-[#00c5ff] hover:bg-white text-white rounded-md w-96 ml-5 px-4 py-2">Reset Password</button>
 
                         {/* -------------logo--------------- */}
                         {/* <div className='mx-20 ml-20 mt-10 '>
