@@ -1,7 +1,8 @@
+@import "../css-config/mixins.scss";
 .flip-card {
     background-color: transparent;
     width: 330px;
-    height: 280px;
+    height: 230px;
     perspective: 1000px;
     margin-left: 10px;
     &.back-flip {
@@ -20,6 +21,11 @@
         height: 30px;
       }
     }
+    @include md {
+    width: 330px;
+    height: 280px;
+  }
+
     .flip-card-inner {
       position: relative;
       width: 100%;
@@ -41,13 +47,19 @@
         color: black;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
+      
       }
       .flip-card-back {
         background-color: #2980b9;
         color: white;
+        font-size: 9px;
+        padding: 2px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
-        transform: rotateY(180deg);
+        transform: rotateY(180deg); 
+         @include md {
+          font-size: 15px;
+        }
       }
     }
   }

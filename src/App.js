@@ -13,6 +13,7 @@ import Layout from './Components/Layout';
 import Skillgraph from './Components/Skillgraph';
 import Skillconsultancy from './Components/Skillconsultancy';
 import BrowseAll from './Components/BrowseAll';
+import Forgetpass from './Components/Forgetpass';
 
 import Dashboard_Index from './Dashboard/Dashboard_Index';
 
@@ -53,8 +54,8 @@ function App() {
     // </>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={ <Layout />}>
-          <Route index element={ <Home />} />
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="blog" element={<Blog />} />
           <Route path="contact" element={<Contact />} />
@@ -64,7 +65,8 @@ function App() {
           <Route path="skillconsultancy" element={<Skillconsultancy />} />
           <Route path="BrowseAll" element={<BrowseAll />} />
           <Route path="Dashboard_Index" element={<Dashboard_Index />} />
-          <Route path="Gatools" element={<GAtools/>}/>
+          <Route path="Gatools" element={<GAtools />} />
+          <Route path="Forgetpass" element={<Forgetpass />} />
         </Route>
       </Routes>
     </BrowserRouter>
