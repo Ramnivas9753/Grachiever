@@ -36,13 +36,13 @@ function LoginAndRegister({ onLogin, onRegister }) {
           <p className="mt-4 text-left ml-5">
             {isLogin ? (
               <>
-                <button className="text-black-500  font-bold hover:text-[#00c5ff] hover:underline " onClick={() => setIsLogin(true)} >Login</button>
-                <button className="text-black-500  ml-5 font-bold hover:text-[#00c5ff] hover:underline" onClick={() => setIsLogin(false)}>Signup</button>
+                <button className="text-black-500  font-bold text-[#00c5ff]  " onClick={() => setIsLogin(true)} >Login</button>
+                <button className="text-black-500  ml-5 font-bold " onClick={() => setIsLogin(false)}>Signup</button>
               </>
             ) : (
               <>
-                <button className="text-black-500  font-bold hover:text-[#00c5ff] hover:underline" onClick={() => setIsLogin(true)}>Login </button>
-                <button className="text-black-500  ml-5 font-bold hover:text-[#00c5ff] hover:underline" onClick={() => setIsLogin(false)}>Signup</button>
+                <button className="text-black-500  font-bold " onClick={() => setIsLogin(true)}>Login </button>
+                <button className="text-black-500  ml-5 font-bold text-[#00c5ff] " onClick={() => setIsLogin(false)}>Signup</button>
               </>
             )}
           </p>
@@ -78,8 +78,9 @@ function LoginAndRegister({ onLogin, onRegister }) {
               </label>
            
             </div>
+            {isLogin && (
             <div className='ml-3 p-3 hover:text-[#00c5ff] '><Link to="/Forgetpass">Forgot Password?</Link></div>
-            
+            )}
           
             <button type="submit" className="bg-[#00c5ff] hover:text-black border-2 border-[#00c5ff] hover:bg-white text-white rounded-md w-96 ml-5 px-4 py-2">{isLogin ? 'LOGIN' : 'SIGN UP'}</button>
 
