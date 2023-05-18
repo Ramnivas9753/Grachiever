@@ -3,7 +3,8 @@ import FlipCard from './FlipCard';
 
 function GAtools() {
   return (
-<section className='p-10'>
+<section className='p-10 flex flex-row'>
+
    <div className='mt-10'>
    <h1 className="text-3xl font-bold text-center p-3 mt-2">
         Grachiever
@@ -57,6 +58,7 @@ function GAtools() {
 </div>
 
    </div>
+
 </section>
   );
 };
