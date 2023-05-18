@@ -21,10 +21,11 @@ function About() {
 
 
       <section>
-      <div className=" grid-cols-1 md:grid-cols-1 lg:grid-cols-3 w-auto md:h-full grid grid-rows-3 grid-flow-col gap-7 mt-10 md:ml-10">
+      <div className=" grid-cols-1 md:grid-cols-3 lg:grid-cols-3 w-auto md:h-full grid grid-rows-3 grid-flow-col gap-7 mt-10 md:ml-10">
         <div className=" h-auto row-span-3 ... z-20">
           <img src={image1} alt="" />
         </div>
+        
         <div className=" md:h-full  md:mx-10 col-span-2 ... md:p-5 p-1"> 
         <p className="font-bold mt-5"> Welcome to Grachiever Enhance your skills with best services</p>
 
