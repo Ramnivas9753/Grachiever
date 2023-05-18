@@ -86,8 +86,8 @@ function LoginAndRegister({ onLogin, onRegister }) {
 
             {/* -------------logo--------------- */}
             <div className='mx-20 ml-20 mt-10 '>
-              <p className='ml-20 '>or register with</p>
-              <div className='mx-9 ml-20 mr-10 '>
+              <p className='ml-20 '>Or With Social Profile</p>
+              <div className='mx-10 ml-20 mr-10 '>
               <a
                 href="#!"
                 type="button"
