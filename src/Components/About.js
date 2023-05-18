@@ -21,6 +21,9 @@ function About() {
 
 
       <section>
+      <div className="m-5 hidden">
+        <img src={image1} alt="" />
+      </div>
       <div className=" grid-cols-1 md:grid-cols-3 lg:grid-cols-3 w-auto md:h-full grid grid-rows-3 grid-flow-col gap-7 mt-10 md:ml-10">
         <div className=" h-auto row-span-3 ... z-20">
           <img src={image1} alt="" />
