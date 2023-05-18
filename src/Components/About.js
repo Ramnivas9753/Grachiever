@@ -113,20 +113,20 @@ function About() {
 <div className="flex justify-center ">
   <img src={education} alt="" />
 </div>
-<div className="bg-[#00C5FF] absolute top-5 left-40 md:left-60 sm:text-2xl md:text-3xl text-xs rounded-tl-3xl rounded-br-3xl p-3 font-bold text-center  shadow-[0_10px_10px_-5px_rgba(0,0,0,0.5)] w-max ">
+<div className="bg-[#00C5FF] ml-2  md:absolute top-5 left-40 md:left-60 sm:text-2xl md:text-3xl text-xs rounded-tl-3xl rounded-br-3xl p-3 font-bold text-center  shadow-[0_10px_10px_-5px_rgba(0,0,0,0.5)] w-max ">
     <h2>Online Courses</h2>
 </div>
 <br></br>
-<div className="bg-[#F6D93D] absolute top-5 md:top-32 md:right-20 sm:text-2xl md:text-3xl text-xs rounded-tl-3xl rounded-br-3xl p-3 font-bold text-center  shadow-[0_10px_10px_-5px_rgba(0,0,0,0.5)]  w-max">
+<div className="bg-[#F6D93D] m-2 md:absolute top-5 md:top-32 md:right-20 sm:text-2xl md:text-3xl text-xs rounded-tl-3xl rounded-br-3xl p-3 font-bold text-center  shadow-[0_10px_10px_-5px_rgba(0,0,0,0.5)]  w-max">
     <h1>Skill Graph Feature</h1>
 </div>
-<div className="bg-[#00C5FF] absolute right-20 bottom-40 sm:text-2xl md:text-3xl text-xs rounded-tr-3xl rounded-bl-3xl p-3 font-bold text-center  shadow-[0_10px_10px_-5px_rgba(0,0,0,0.5)]  w-max">
+<div className="bg-[#00C5FF] m-2 md:absolute right-20 bottom-40 sm:text-2xl md:text-3xl text-xs rounded-tr-3xl rounded-bl-3xl p-3 font-bold text-center  shadow-[0_10px_10px_-5px_rgba(0,0,0,0.5)]  w-max">
     <h1>Skilled Consultancy Services</h1>
 </div>
-<div className="bg-[#F6D93D] absolute bottom-20 md:left-20 sm:text-2xl md:text-3xl text-xs rounded-tr-3xl rounded-bl-3xl p-3 font-bold text-center  shadow-[0_10px_10px_-5px_rgba(0,0,0,0.5)]  w-max">
+<div className="bg-[#F6D93D] m-2 md:absolute bottom-20 md:left-20 sm:text-2xl md:text-3xl text-xs rounded-tr-3xl rounded-bl-3xl p-3 font-bold text-center  shadow-[0_10px_10px_-5px_rgba(0,0,0,0.5)]  w-max">
     <h1>Tools & Resources</h1>
 </div>
-<div className="bg-[#F6D93D] absolute bottom-60 md:bottom-60 left-30  sm:text-2xl md:text-3xl text-xs rounded-tr-3xl rounded-bl-3xl p-3 font-bold text-center  shadow-[0_10px_10px_-5px_rgba(0,0,0,0.5)]  w-max">
+<div className="bg-[#F6D93D] m-2 md:absolute bottom-60 md:bottom-60 left-30  sm:text-2xl md:text-3xl text-xs rounded-tr-3xl rounded-bl-3xl p-3 font-bold text-center  shadow-[0_10px_10px_-5px_rgba(0,0,0,0.5)]  w-max">
     <h1>Freelance Work Opportunities</h1>
 </div>
   </div>
