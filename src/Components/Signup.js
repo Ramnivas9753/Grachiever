@@ -36,14 +36,14 @@ function LoginAndRegister({ onLogin, onRegister }) {
           <p className="mt-4 text-left ml-5">
             {isLogin ? (
               <>
-                <button className="text-black-500  font-bold hover:text-[#00c5ff] hover:underline" onClick={() => setIsLogin(false)}>Signup</button>
-                <button className="text-black-500  ml-5 font-bold hover:text-[#00c5ff] hover:underline " onClick={() => setIsLogin(true)} >Login</button>
+                <button  className="text-black-500  font-bold" onClick={() => setIsLogin(false) }>Signup</button>
+                <button className="text-black-500  ml-5 font-bold text-[#00c5ff]  " onClick={() => setIsLogin(true)} >Login</button>
 
               </>
             ) : (
               <>
-                <button className="text-black-500  font-bold hover:text-[#00c5ff] hover:underline" onClick={() => setIsLogin(false)}>Signup</button>
-                <button className="text-black-500  ml-5 font-bold hover:text-[#00c5ff] hover:underline" onClick={() => setIsLogin(true)}>Login </button>
+                <button className="text-black-500  font-bold text-[#00c5ff] " onClick={() => setIsLogin(false)}>Signup</button>
+                <button className="text-black-500  ml-5 font-bold  " onClick={() => setIsLogin(true)}>Login </button>
 
               </>
             )}
