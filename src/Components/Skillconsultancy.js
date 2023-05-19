@@ -2,6 +2,8 @@ import React from 'react';
 import first from '../images/Skill_Consultancy/first.png';
 import second from '../images/Skill_Consultancy/second.png';
 import grachiever from '../images/Skill_Consultancy/grachiever.png';
+import xicon from '../images/Skill_Consultancy/xicon.png';
+import vector from '../images/Skill_Consultancy/Vector.png';
 function consultancy() {
     return (
         <>
@@ -161,10 +163,88 @@ function consultancy() {
             </section>
 
             {/* -----------------------------------------pricing-section------------------------ */}
-            <section className="p-0 sm:p-0 md:p-0 lg:p-0 mt-5">
-                <div className=' mt-0'>
+            <section className="p-0 sm:p-0 md:p-0 lg:p-0 mt-10 mb-10">
+                <div className=' mt-5'>
                     <img src={grachiever} className=" w-40 m-auto" ></img>
                     <h1 className="text-3xl  text-center p-3 mt-2">Monthly Pricing Plans</h1>
+                </div>
+                <div className=' mt-5 shadow-2xl'>
+                    <div className=''>
+                
+                        <table className="w-full p-10 text-center border-collapse   ...">
+                        <tbody>
+                                <tr className='h-10'>
+                                    <td className='text-3xl  text-center'>Pricing Table</td>
+                                    <td className='bg-[#eddc24] '></td>
+                                    <td className='bg-[#359bdb] '></td>
+                                    <td className='bg-[#1839cc] '></td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr className='h-40'>
+                                    <td></td>
+                                    <td className='text-lg'>$ <span className='text-4xl'>19</span><br />per month</td>
+                                    <td className='text-lg'>$ <span className='text-4xl'>29</span><br />per month</td>
+                                    <td className='text-lg'>$ <span className='text-4xl'>99</span><br />per month</td>
+                                </tr>
+                            </tbody>
+                            <tbody >
+                                <tr className='h-20 '>
+                                    <th className= " bg-[#f1f2eb] text-lg  border-slate-300 ...">Courses</th>
+                                    <td className="bg-[#f1f2eb] text-lg border-slate-300 ...">Limited Access</td>
+                                    <td className=" bg-[#f1f2eb] text-lg border-slate-300 ...">Unlimited Access</td>
+                                    <td className="bg-[#f1f2eb] text-lg border-slate-300 ...">Unlimited Access</td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr className='h-20 '>
+                                    <th className=" text-lg border-slate-300 ...">Freelancing & Projects</th>
+                                    <td className="text-lg border-slate-300 ..."><img src={xicon} className=" w-10 m-auto" /></td>
+                                    <td className="text-lg border-slate-300 ...">Limited Projects</td>
+                                    <td className="text-lg border-slate-300 ...">Unlimited Projects</td>
+                                </tr>
+                                <tr className='h-20'>
+                                    <th className="bg-[#f1f2eb] text-lg border-slate-300 ...">Skill Graph</th>
+                                    <td className="bg-[#f1f2eb] text-lg border-slate-300 ..."><img src={xicon} className=" w-10 m-auto" /></td>
+                                    <td className="bg-[#f1f2eb] text-lg border-slate-300 ..."><img src={vector} className=" w-10 m-auto" /></td>
+                                    <td className="bg-[#f1f2eb] text-lg border-slate-300 ..."><img src={vector} className=" w-10 m-auto " /> <span></span></td>
+                                    
+                                </tr>
+                                <tr className='h-20'>
+                                    <th className=" text-lg border-slate-300 ...">Consultancy</th>
+                                    <td className="text-lg border-slate-300 ...">1 call/month</td>
+                                    <td className="text-lg border-slate-300 ...">4 call/month</td>
+                                    <td className=" text-lg border-slate-300 ...">Unlimited Calls</td>
+                                </tr>
+
+                                <tr className='h-20'>
+                                    <th className="bg-[#f1f2eb] text-lg border-slate-300 ...">Tools & Resources</th>
+                                    <td className="bg-[#f1f2eb] text-lg border-slate-300 ...">Basic</td>
+                                    <td className="bg-[#f1f2eb] text-lg border-slate-300 ...">Uncommon</td>
+                                    <td className="bg-[#f1f2eb] text-lg border-slate-300 ...">Premium</td>
+                                </tr>
+
+                                <tr className='h-20'>
+                                    <th className=" text-lg border-slate-300 ...">Support</th>
+                                    <td className=" text-lg border-slate-300 ...">Email</td>
+                                    <td className=" text-lg border-slate-300 ...">Email + Chat</td>
+                                    <td className="text-lg">Email, Chat, Phone</td>
+                                </tr>
+
+                                <tr className='h-20'>
+                                    <th className=" text-lg border-slate-300 ..."></th>
+                                    <td className=" text-lg border-slate-300 ..."> <button className="p-2 w-60 rounded-full bg-[#eddc24] font-bold hover:bg-white text-white hover:text-black border-2  px-8 text-lg mt-2">Get Started </button></td>
+                                    <td className=" text-lg border-slate-300 ..."> <button className="p-2 w-60 rounded-full bg-[#359bdb] font-bold hover:bg-white text-white hover:text-black border-2  px-8 text-lg mt-2">Get Started </button></td>
+                                    <td className="text-lg border-slate-300 ..."> <button className="p-2 w-60 rounded-full bg-[#1839cc] font-bold hover:bg-white text-white hover:text-black border-2  px-8 text-lg mt-2">Get Started </button></td>
+                                   
+                                </tr>
+                            </tbody>
+                        </table>
+
+
+                    </div>
+
+
                 </div>
             </section>
         </>
