@@ -2,7 +2,7 @@ import NavBar from "./nav01";
 function Blog() {
     return (
         <>
-        <section className="p-1 mt-20">
+        <section className="p-1 mt-20 ">
     <h1 className="text-3xl font-bold text-center p-3 mt-5">
       Latest News
     </h1>
@@ -23,7 +23,7 @@ function Blog() {
 
 
 
-    <section>
+    <section >
     <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-10 mt-10 m-auto w-[85%] ">
         <div className=" rounded-xl">
             <img src="https://www.classcentral.com/report/wp-content/uploads/2022/03/Best-Courses-Copywriting-Banner.png" className="rounded-xl hover:scale-105 duration-300"/>
@@ -44,7 +44,7 @@ function Blog() {
             <p className="mt-2">April 15, 2023</p>
         </div>
     </div>
-    <div className="text-center mt-20">
+    <div className="text-center mt-20 mb-10 m-auto">
       <nav className="isolate inline-flex -space-x-px rounded-md shadow-sm" aria-label="Pagination">
         <a href="#" className="relative inline-flex items-center rounded-l-md px-2 py-2 text-gray-400 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0">
           <span className="sr-only">Previous</span>

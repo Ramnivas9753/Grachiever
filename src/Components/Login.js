@@ -25,20 +25,20 @@ function LoginAndRegister({ onLogin, onRegister }) {
   }
 
   return (
-    <section className="p-0 sm:p-0 md:p-10 lg:p-10 mt-5">
-      <div className="h-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2" >
-        <div className=" md:mt-10">
-          <img src={login} className='lg:h-96 max-w-full my-20 mb-40 mx-60 ' />
+    <section className="mt-20">
+      <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2" >
+        <div className="m-auto">
+          <img src={login} className='p-10' />
         </div>
-        <div className=" lg:h-96 md:h-full  mx-5 sm:mx-5 md:mx-10 lg:mx-10  p-5 bg-white rounded-md items-center mb-40 mt-40  ">
+        <div className=" bg-white rounded-md items-center mb-20 md:mt-20 p-2 w-full md:w-96">
           {/* <h2 className="text-xl font-medium mb-4">{isLogin ? 'Login' : 'Register'}</h2> */}
-          <img src={grachieverlogo} className="w-20 my-10 md:w-40 -mt-5 md:-mt-10 " alt="Grachiever Logo" />
-          <p className="mt-4 text-left ml-5">
+          <img src={grachieverlogo} className=" m-auto w-40  " alt="Grachiever Logo" />
+          <p className="mt-4 text-left ">
             {isLogin ? (
-              <>
+              <div className='w-full md:w-96'>
                 <button className="text-black-500  font-bold text-[#00c5ff]  " onClick={() => setIsLogin(true)} >Login</button>
                 <button className="text-black-500  ml-5 font-bold " onClick={() => setIsLogin(false)}>Signup</button>
-              </>
+              </div>
             ) : (
               <>
                 <button className="text-black-500  font-bold " onClick={() => setIsLogin(true)}>Login </button>
@@ -51,26 +51,26 @@ function LoginAndRegister({ onLogin, onRegister }) {
           {!isLogin && (
               <div className="mb-4 mt-5">
                 {/* <label htmlFor="confirmPassword" className="block text-gray-700 font-medium mb-2">Confirm Password</label> */}
-                <input type="text" id="confirmPassword" className="block py-2.5 px-0 w-96 ml-5 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder="Username" ref={confirmPasswordRef} />
+                <input type="text" id="confirmPassword" className="block py-2.5 px-0 w-full md:w-96 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder="Username" ref={confirmPasswordRef} />
                 <label for="floating_password" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">confirmPassword</label>
               </div>
             )}
             <div className="mb-4 mt-5">
               {/* <label htmlFor="email" className="block text-gray-700 font-medium mb-2">Email</label> */}
 
-              <input type="email" id="email" className="block py-2.5 px-0 w-96 ml-5 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder="Enter your email" ref={emailRef} />
+              <input type="email" id="email" className="block py-2.5 px-0  w-full md:w-96 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder="Enter your email" ref={emailRef} />
               <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email address</label>
             </div>
             <div className="mb-4">
               {/* <label htmlFor="password" className="block text-gray-700 font-medium mb-2">Password</label> */}
 
-              <input type="password" id="password" className="block py-2.5 px-0 w-96 ml-5 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder="Password" ref={passwordRef} />
+              <input type="password" id="password" className="block py-2.5 px-0  w-full md:w-96 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder="Password" ref={passwordRef} />
               <svg
                 className="absolute top-0 left-0 w-8 h-full text-gray-400 fill-current"
                 viewBox="0 0 24 24"
               >
                 <path d="M0 0h24v24H0z" fill="none" />
-                <path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm-8 10.59L5.41 8H19v8H5.41l6.59-6.59z" />
+                {/* <path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm-8 10.59L5.41 8H19v8H5.41l6.59-6.59z" /> */}
               </svg>
               <label for="floating_password" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Password
 
@@ -79,19 +79,19 @@ function LoginAndRegister({ onLogin, onRegister }) {
            
             </div>
             {isLogin && (
-            <div className='ml-3 p-3 hover:text-[#00c5ff] '><Link to="/Forgetpass">Forgot Password?</Link></div>
+            <div className='mb-3 hover:text-[#00c5ff] '><Link to="/Forgetpass">Forgot Password?</Link></div>
             )}
           
-            <button type="submit" className="bg-[#00c5ff] hover:text-black border-2 border-[#00c5ff] hover:bg-white text-white rounded-md w-96 ml-5 px-4 py-2">{isLogin ? 'LOGIN' : 'SIGN UP'}</button>
+            <button type="submit" className="bg-[#00c5ff] hover:text-black border-2 border-[#00c5ff] hover:bg-white text-white rounded-md w-full md:w-96 px-4 py-2">{isLogin ? 'LOGIN' : 'SIGN UP'}</button>
 
             {/* -------------logo--------------- */}
-            <div className='mx-20 ml-20 mt-10 '>
-              <p className='ml-20 '>or register with</p>
-              <div className='mx-9 ml-20 mr-10 '>
+            <div className=' mt-10 w-full md:w-96 '>
+              <p className='text-center'>Or With Social Profile</p>
+              <div className='text-center'>
               <a
                 href="#!"
                 type="button"
-                className="m-1 h-9 w-9 rounded-full border-2 border-[#1877f2] uppercase leading-normal text-[#1877f2] transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-[#349fcf]"
+                className="m-1 mt-2 mx-3 h-9 w-9 rounded-full border-2 border-[#1877f2] uppercase leading-normal text-[#1877f2] transition  ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-[#349fcf]"
                 data-te-ripple-init
                 data-te-ripple-color="light">
                 <svg
@@ -107,7 +107,7 @@ function LoginAndRegister({ onLogin, onRegister }) {
               <a
                 href="https://instagram.com/grachiever?igshid=ZDdkNTZiNTM="
                 type="button"
-                className="m-1 h-9 w-9 rounded-full border-2 border-[#c13584] uppercase leading-normal text-[#c13584] transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-[#349fcf]"
+                className="m-1 mt-2 mx-3 h-9 w-9 rounded-full border-2 border-[#c13584] uppercase leading-normal text-[#c13584] transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-[#349fcf]"
                 data-te-ripple-init
                 data-te-ripple-color="light">
                 <svg
@@ -123,7 +123,7 @@ function LoginAndRegister({ onLogin, onRegister }) {
               <a
                 href="https://www.linkedin.com/company/grachiever/"
                 type="button"
-                className="m-1 h-9 w-9 rounded-full border-2 border-[#0077b5] uppercase leading-normal text-[#0077b5] transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-[#349fcf]"
+                className="m-1 mt-2 mx-3 h-9 w-9 rounded-full border-2 border-[#0077b5] uppercase leading-normal text-[#0077b5] transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-[#349fcf]"
                 data-te-ripple-init
                 data-te-ripple-color="light">
                 <svg

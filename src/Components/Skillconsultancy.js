@@ -1,14 +1,17 @@
 import React from 'react';
 import first from '../images/Skill_Consultancy/first.png';
-import second from '../images/Skill_Consultancy/second.jpg';
+import second from '../images/Skill_Consultancy/second.png';
+import grachiever from '../images/Skill_Consultancy/grachiever.png';
+import xicon from '../images/Skill_Consultancy/xicon.png';
+import vector from '../images/Skill_Consultancy/Vector.png';
 function consultancy() {
     return (
         <>
-{/* min-h-min */}
+            {/* min-h-min */}
             <section className="p-0 sm:p-0 md:p-0 lg:p-0 mt-40 mx-5">
                 <div className=" grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2" >
                     <div className="mt-20 md:w-[100%] bg-[#1b1d38] rounded-3xl">
-                        <h1 className="text-5xl font-bold text-white text-left px-24 p-12 mt-8">Tailored Skill <br /> Consultancy for <br /> <span class= "text-6xl text-[#00c5ff]">Future Success</span> </h1>
+                        <h1 className="text-5xl font-bold text-white text-left px-24 p-12 mt-8">Tailored Skill <br /> Consultancy for <br /> <span class="text-6xl text-[#00c5ff]">Future Success</span> </h1>
                     </div>
                     {/* <!--Graph Section--> */}
                     <div className="mt-5 md:mt-0">
@@ -20,7 +23,7 @@ function consultancy() {
             {/* --------------------------------second-part------------------------- */}
             <section className="p-0 sm:p-0 md:p-0 lg:p-0 mt-5">
                 <div className=' mt-0'>
-                <button className="p-2 rounded-xl bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 ml-60 font-bold border-[#349fcf] px-8 text-lg mt-2">Take the Next Step</button>                    <p className="text-lg p-10 ">
+                    <button className="p-2 rounded-xl bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 ml-60 font-bold border-[#349fcf] px-8 text-lg mt-2">Take the Next Step</button>                    <p className="text-lg p-10 ">
                         In today's fast-paced and competitive job market, it's crucial to stay ahead of the curve. Employers are constantly seeking candidates with the latest skills and abilities that align with industry trends. At Grachiever, we recognize the challenges professionals face in keeping up with these changes. That's why we've developed Skill Graph – an innovative tool designed to provide real-time insights and recommendations for career growth.
                     </p>
                 </div>
@@ -28,7 +31,7 @@ function consultancy() {
             {/* -----------------------------------image-part----------------------------- */}
             <section className="p-0 sm:p-0 md:p-0 lg:p-0 mt-0">
                 <div className="mt-2 md:mt-0">
-                    <img src={second} className='w-[65%] ml-64' /> 
+                    <img src={second} className='w-[65%] ml-64' />
                 </div>
                 {/* h-auto max-w-full p-10 ml-20 */}
             </section>
@@ -78,7 +81,7 @@ function consultancy() {
                         <p className="text-xl text-left text-black"><label className='font-bold' >Future-Proofing:</label>  Our goal is to make you  future-ready. We'll not only help you acquire the  <br /> skills you need today but also equip you with the tools and knowledge to adapt to future <br /> industry demands.</p>
                     </div>
                     <div className="mb-0 ml-40">
-                    <button className="p-2 rounded-lg bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-16 text-lg mt-3">Join Now</button>
+                        <button className="p-2 rounded-lg bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-16 text-lg mt-3">Join Now</button>
                     </div>
                 </div>
             </section>
@@ -156,6 +159,92 @@ function consultancy() {
                         <p className="p-2  text-lg  font-bold text-white">
                             Ready to take your skills to the next level? Contact us today to schedule a consultation with one of our skill experts. Together, we'll unlock your full potential and set you on the path to a thriving career.</p>
                     </div>
+                </div>
+            </section>
+
+            {/* -----------------------------------------pricing-section------------------------ */}
+            <section className="p-0 sm:p-0 md:p-0 lg:p-0 mt-10 mb-10">
+                <div className=' mt-5'>
+                    <img src={grachiever} className=" w-40 m-auto" ></img>
+                    <h1 className="text-3xl  text-center p-3 mt-2">Monthly Pricing Plans</h1>
+                </div>
+                <div className=' mt-5 shadow-2xl'>
+                    <div className=''>
+                
+                        <table className="w-full p-10 text-center border-collapse   ...">
+                        <tbody>
+                                <tr className='h-10'>
+                                    <td className='text-3xl  text-center'>Pricing Table</td>
+                                    <td className='bg-[#eddc24] '></td>
+                                    <td className='bg-[#359bdb] '></td>
+                                    <td className='bg-[#1839cc] '></td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr className='h-40'>
+                                    <td></td>
+                                    <td className='text-lg'>$ <span className='text-4xl'>19</span><br />per month</td>
+                                    <td className='text-lg'>$ <span className='text-4xl'>29</span><br />per month</td>
+                                    <td className='text-lg'>$ <span className='text-4xl'>99</span><br />per month</td>
+                                </tr>
+                            </tbody>
+                            <tbody >
+                                <tr className='h-20 '>
+                                    <th className= " bg-[#f1f2eb] text-lg  border-slate-300 ...">Courses</th>
+                                    <td className="bg-[#f1f2eb] text-lg border-slate-300 ...">Limited Access</td>
+                                    <td className=" bg-[#f1f2eb] text-lg border-slate-300 ...">Unlimited Access</td>
+                                    <td className="bg-[#f1f2eb] text-lg border-slate-300 ...">Unlimited Access</td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr className='h-20 '>
+                                    <th className=" text-lg border-slate-300 ...">Freelancing & Projects</th>
+                                    <td className="text-lg border-slate-300 ..."><img src={xicon} className=" w-10 m-auto" /></td>
+                                    <td className="text-lg border-slate-300 ...">Limited Projects</td>
+                                    <td className="text-lg border-slate-300 ...">Unlimited Projects</td>
+                                </tr>
+                                <tr className='h-20'>
+                                    <th className="bg-[#f1f2eb] text-lg border-slate-300 ...">Skill Graph</th>
+                                    <td className="bg-[#f1f2eb] text-lg border-slate-300 ..."><img src={xicon} className=" w-10 m-auto" /></td>
+                                    <td className="bg-[#f1f2eb] text-lg border-slate-300 ..."><img src={vector} className=" w-10 m-auto" /></td>
+                                    <td className="bg-[#f1f2eb] text-lg border-slate-300 ..."><img src={vector} className=" w-10 m-auto " /> <span></span></td>
+                                    
+                                </tr>
+                                <tr className='h-20'>
+                                    <th className=" text-lg border-slate-300 ...">Consultancy</th>
+                                    <td className="text-lg border-slate-300 ...">1 call/month</td>
+                                    <td className="text-lg border-slate-300 ...">4 call/month</td>
+                                    <td className=" text-lg border-slate-300 ...">Unlimited Calls</td>
+                                </tr>
+
+                                <tr className='h-20'>
+                                    <th className="bg-[#f1f2eb] text-lg border-slate-300 ...">Tools & Resources</th>
+                                    <td className="bg-[#f1f2eb] text-lg border-slate-300 ...">Basic</td>
+                                    <td className="bg-[#f1f2eb] text-lg border-slate-300 ...">Uncommon</td>
+                                    <td className="bg-[#f1f2eb] text-lg border-slate-300 ...">Premium</td>
+                                </tr>
+
+                                <tr className='h-20'>
+                                    <th className=" text-lg border-slate-300 ...">Support</th>
+                                    <td className=" text-lg border-slate-300 ...">Email</td>
+                                    <td className=" text-lg border-slate-300 ...">Email + Chat</td>
+                                    <td className="text-lg">Email, Chat, Phone</td>
+                                </tr>
+
+                                <tr className='h-20'>
+                                    <th className=" text-lg border-slate-300 ..."></th>
+                                    <td className=" text-lg border-slate-300 ..."> <button className="p-2 w-60 rounded-full bg-[#eddc24] font-bold hover:bg-white text-white hover:text-black border-2  px-8 text-lg mt-2">Get Started </button></td>
+                                    <td className=" text-lg border-slate-300 ..."> <button className="p-2 w-60 rounded-full bg-[#359bdb] font-bold hover:bg-white text-white hover:text-black border-2  px-8 text-lg mt-2">Get Started </button></td>
+                                    <td className="text-lg border-slate-300 ..."> <button className="p-2 w-60 rounded-full bg-[#1839cc] font-bold hover:bg-white text-white hover:text-black border-2  px-8 text-lg mt-2">Get Started </button></td>
+                                   
+                                </tr>
+                            </tbody>
+                        </table>
+
+
+                    </div>
+
+
                 </div>
             </section>
         </>
