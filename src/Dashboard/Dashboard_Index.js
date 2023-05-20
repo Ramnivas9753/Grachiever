@@ -116,8 +116,6 @@ const Dashboard_Index = () => {
           </div>
 
         </div>
-
-
           {/* Graph Section Start */}
         
         <div className='flex flex-col sm:flex-col md:flex-col lg:flex-row -mt-10 '>
