@@ -77,10 +77,10 @@ function consultancy() {
             {/* ----------------------------forthsectin---------------- */}
             <section className="p-0 sm:p-0 md:p-5 lg:p-10 bg-[#E0EBFF] mb-5 rounded-3xl mt-5 shadow-lg hover:shadow-gray-500 mx-5">
                 <div className=" mx-12 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 mt-2">
-                    <div className=" md:col-span-2">
-                        <p className="text-xl text-left text-black"><label className='font-bold' >Future-Proofing:</label>  Our goal is to make you  future-ready. We'll not only help you acquire the  <br /> skills you need today but also equip you with the tools and knowledge to adapt to future <br /> industry demands.</p>
+                    <div className="m-auto md:col-span-2">
+                        <p className="text-xl text-left text-black"><label className='font-bold' >Future-Proofing:</label>  Our goal is to make you  future-ready. We'll not only help you acquire the   skills you need today but also equip you with the tools and knowledge to adapt to future industry demands.</p>
                     </div>
-                    <div className="mb-0 ml-40">
+                    <div className="m-auto mb-0 sm:p-0">
                         <button className="p-2 rounded-lg bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-16 text-lg mt-3">Join Now</button>
                     </div>
                 </div>
@@ -152,10 +152,10 @@ function consultancy() {
             {/* --------------------------------------last-section------------------------------- */}
             <section className="p-0 sm:p-0 md:p-5 lg:p-10 bg-[#1b1d38] mb-5 rounded-3xl mx-5">
                 <div className=" m-2 mx-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 mt-5">
-                    <div className="  mb-0 ">
+                    <div className="m-auto  mb-0 ">
                         <button className="p-2 rounded-lg bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-8 text-lg mt-2">Get Started now!</button>
                     </div>
-                    <div className=" md:col-span-2 ml-30">
+                    <div className="m-auto md:col-span-2  ml-30">
                         <p className="p-2  text-lg  font-bold text-white">
                             Ready to take your skills to the next level? Contact us today to schedule a consultation with one of our skill experts. Together, we'll unlock your full potential and set you on the path to a thriving career.</p>
                     </div>
