@@ -24,7 +24,8 @@ function About() {
       <div className="m-5 md:hidden">
         <img src={image1} alt="" />
       </div>
-      <div className=" grid-cols-1 md:grid-cols-3 lg:grid-cols-3 w-auto md:h-full grid grid-rows-1 grid-flow-col gap-7 mt-10 md:ml-10">
+      <div className=" grid-cols-1 md:grid-cols-3 lg:grid-cols-3 w-auto md:h-full grid grid-rows-1
+      grid-flow-col gap-7 mt-10 md:ml-10">
         <div className=" h-auto row-span-3 ... z-20">
           <img src={image1} alt="" />
         </div>
@@ -38,7 +39,7 @@ function About() {
           We also offer the ability to track progress and earn certifications, providing learners with tangible evidence of their newly acquired skills. And with our exceptional customer service and support, learners can rest assured that they'll have the assistance they need every step of the way. Join our community of learners today and experience the Grachiever difference.
           </p>
           </div>
-        <div className="bg-[#1b1d38]   md:-ml-[55%] h-[1100px] md:w-auto md:h-96 row-span-2 md:col-span-2 ... rounded-br-3xl rounded-tl-3xl ">
+        <div className="bg-[#1b1d38]  md:-ml-[55%] lg:h-[480px] md:h-[670px] h-[550px] md:w-auto md:h-96 row-span-2 md:col-span-2 ... rounded-br-3xl rounded-tl-3xl ">
         <h1 className="text-white  md:text-3xl font-bold  p-3 mt-2 md:w-[50%] md:ml-[40%]">
         Grachiever: Empowering Achievement<br /> through <span class="text-[#4eb0e1]">Job-Ready</span> Digital Skills 
       </h1>
