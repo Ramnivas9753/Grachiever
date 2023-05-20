@@ -6,19 +6,19 @@ import { StarIcon } from "@heroicons/react/24/solid";
 import { Select, Option } from "@material-tailwind/react";
 
 
+
 function BrowseAll() {
   return (
     <section>
-      <div className='bg-[#dbd8d0] p-10 flex flex-wrap  '>
-        
-
-        <div className='w-[100%] sm:w-[25%] bg-white p-5  mt-20 rounded-lg ml-10'>
+      <div className='bg-white p-0 flex flex-wrap '>
+        <div className='w-full sm:w-[20%] bg-white p-5  mt-20 rounded-lg ml-10'>
           <p className='font-bold text-black outline-none'>Filter
             <hr className="border-t-2 border-gray-300 my-4 w-full" /> </p>
 
 
           <div className='mt-5'>
             <p>CATEGORIES</p>
+         
             <p><Checkbox label="React" /></p>
             <p><Checkbox label="Javascript" /></p>
             <p><Checkbox label="Angular" /></p>
@@ -33,9 +33,9 @@ function BrowseAll() {
             <p><Checkbox label="HTML5" /></p>
           </div>
           <div className='ml-3'>
-          <hr className="border-t-2 border-gray-300 my-4 w-full" /> 
+            <hr className="border-t-2 border-gray-300 my-4 w-full" />
             <p>RATINGS</p>
-           
+
             <div className="5 flex items-center gap-0 mt-2">
               <StarIcon className="h-5 w-5 text-yellow-700" />
               <StarIcon className="h-5 w-5 text-yellow-700" />
@@ -60,32 +60,32 @@ function BrowseAll() {
           </div>
 
           <div className='mt-5'>
-          <hr className="border-t-2 border-gray-300 my-4 w-full" /> 
+            <hr className="border-t-2 border-gray-300 my-4 w-full" />
             <p>SKILL LEVEL</p>
             <p><Checkbox label="All Level" /></p>
             <p><Checkbox label="Beginner" /></p>
             <p><Checkbox label="Intermediate" /></p>
             <p><Checkbox label="Advance" /></p>
-          
+
           </div>
         </div>
-        <div className='w-[100%] sm:w-[70%] bg-[#dbd8d0] p-10'>
+        <div className='w-full sm:w-[75%] bg-[#dbd8d0] p-10'>
           <div className='flex ml-80'>
-          <div className='text-center m2 mt-5'>
-        <input type="text" className="mt-5 w-full ml-10 md:w-64 lg:w-64 text-lg  h-14 border rounded-xl  p-2  md:m-2  outline-none" placeholder="Search Course" />
-        </div>
-        <div className="text-center m-2 mt-5">
-        <select className="mt-5 w-full ml-10 md:w-64 lg:w-64 text-lg  h-14 border rounded-xl  p-2  md:m-2  outline-none">
-            <option>Sort by</option>
-            <option>Newest</option>
-            <option>Free</option>
-            <option>Most Popular</option>
-            <option>Highest Rated</option>
-        </select>
-    </div>
-    </div>
+            <div className='text-center m2 mt-20'>
+              <input type="text" className="mt-5 w-96   text-lg  h-14 border rounded-full  p-2  md:m-2  outline-none" placeholder="Search Course" />
+            </div>
+            <div className="text-center m-2 mt-20">
+              <select className="mt-5 w-full ml-10 md:w-64 lg:w-64 text-lg  h-14 border rounded-xl  p-2  md:m-2  outline-none">
+                <option>Sort by</option>
+                <option>Newest</option>
+                <option>Free</option>
+                <option>Most Popular</option>
+                <option>Highest Rated</option>
+              </select>
+            </div>
+          </div>
           <Browsecards />
-       
+
         </div>
 
       </div>
