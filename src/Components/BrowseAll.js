@@ -4,6 +4,7 @@ import { Checkbox } from "@material-tailwind/react";
 import { Label } from '@mui/icons-material';
 import { StarIcon } from "@heroicons/react/24/solid";
 import { Select, Option } from "@material-tailwind/react";
+import { FaSearch } from "react-icons/fa";
 
 
 
@@ -69,12 +70,21 @@ function BrowseAll() {
 
           </div>
         </div>
-        <div className='w-full sm:w-[75%] bg-[#dbd8d0] p-10'>
-          <div className='flex ml-80'>
-            <div className='text-center m2 mt-20'>
-              <input type="text" className="mt-5 w-96   text-lg  h-14 border rounded-full  p-2  md:m-2  outline-none" placeholder="Search Course" />
-            </div>
-            <div className="text-center m-2 mt-20">
+        <div className='w-full sm:w-[75%] bg-[#dbd8d0] p-10 mt-20'>
+        <div className="relative  ml-10 flex items-center mt-8 w-auto rounded-full  text-xl">
+        <input type="text" className="py-3 px-4  w-full rounded-full" placeholder="Search Course..."  />
+       
+        <span className="w-10 sm:w-16 md:w-16 lg:w-14 m-1 h-10 z-50 md:-translate-x-20 rounded-full bg-[#00c5ff] text-white"><FaSearch className='text-2xl mx-auto mt-2'/></span>
+        </div>
+
+
+
+          {/* <div className='flex '> */}
+            {/* <div className='text-center m2 mt-20'>
+              <FaSearch className='mt-20 ml-80' />
+              <input type="text" className="mt-5 w-[90%]  text-lg  h-14 border rounded-full  p-2  md:m-2  outline-none" placeholder="Search Course" />
+            </div> */}
+            {/* <div className="text-center m-2 mt-20">
               <select className="mt-5 w-full ml-10 md:w-64 lg:w-64 text-lg  h-14 border rounded-xl  p-2  md:m-2  outline-none">
                 <option>Sort by</option>
                 <option>Newest</option>
@@ -82,8 +92,8 @@ function BrowseAll() {
                 <option>Most Popular</option>
                 <option>Highest Rated</option>
               </select>
-            </div>
-          </div>
+            </div> */}
+          {/* </div> */}
           <Browsecards />
 
         </div>
