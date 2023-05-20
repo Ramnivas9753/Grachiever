@@ -168,7 +168,7 @@ function consultancy() {
                     <img src={grachiever} className=" w-40 m-auto" ></img>
                     <h1 className="text-3xl  text-center p-3 mt-2">Monthly Pricing Plans</h1>
                 </div>
-                <div className=' mt-5 shadow-2xl'>
+                <div className=' mt-5 shadow-2xl overflow-auto rounded-lg'>
                     <div className=''>
                 
                         <table className="w-full p-10 text-center border-collapse   ...">
