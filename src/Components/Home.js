@@ -83,7 +83,7 @@ function Home () {
 {/* <!-- ........................ home section start ..................................... --> */}
  <section className="px-5 sm:px-5 md:px-10 lg:px-10 pt-10 mt-12 md:mt-28 container">
   <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
-    <div className="pl-5 md:pl-10 lg:pl-10">
+    <div className="pl-5 md:pl-10 lg:pl-10 ">
       <span className="type text-[30px] mt-5 lg:text-[60px] font-medium text-[#00c5ff]" ref={typedRef}></span>
       <p className="mt-5 text-2xl">The only easier, powerful and authoring platform designed for consistent learners to
         unlock the power of monetizing</p>
