@@ -41,7 +41,7 @@ function Trusted_section() {
 
   return (
     <>
-    <section className="p-2 md:p-10 mt-10 bg-[#f6f9ff] container">
+    <section className="p-2 md:p-10 mt-10 bg-[#f6f9ff] container mx-auto">
     
     <h1 className=" text-center text-3xl sm:text-3xl md:text-3xl lg:text-3xl font-bold">Trusted By World Best</h1>
     

@@ -8,7 +8,7 @@ function Navbar() {
 //   const [open, setOpen] = useState(false);
 
     return (
-    <section className="relative container">
+    <section className="relative container mx-auto">
       <nav className="w-full bg-[#1b1d38] fixed top-0 z-50 container">   
       {/* bg-[#FAF9F6] */}
           <div className="justify-between mx-auto lg:max-w-7xl md:items-center md:flex ">
