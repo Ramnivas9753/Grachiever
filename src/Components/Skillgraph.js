@@ -99,7 +99,7 @@ function Skill() {
                     <div className=" md:mt-0">
                         <img src={carrer} className='md:ml-10 mb-40 ' />
                     </div>
-                    <div className="lg:h-full md:h-full mx-5 sm:mx-5 md:mx-10 lg:mx-10 mt-40">
+                    <div className="lg:h-full md:h-full mx-5 sm:mx-5 md:mx-10 lg:mx-10 mt-[-6rem] lg:mt-40">
                     <h1 className="text-3xl font-bold">Unlocking <span class="text-[#00c5ff]">Opportunities</span> for Career Growth </h1>
                         <p className="mt-5 text-lg">
                             With Skill Graph, you not only gain insights into the skills needed for your current role but also discover new opportunities for career growth. By understanding the emerging trends and skills that are highly sought-after, you can identify potential areas where you can expand your expertise and explore new career paths. Skill Graph provides you with a comprehensive overview of the skills that are in high demand across industries, helping you make informed decisions about your professional development.</p>

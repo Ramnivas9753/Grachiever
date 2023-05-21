@@ -24,7 +24,8 @@ function About() {
       <div className="m-5 md:hidden">
         <img src={image1} alt="" />
       </div>
-      <div className=" grid-cols-1 md:grid-cols-3 lg:grid-cols-3 w-auto md:h-full grid grid-rows-3 grid-flow-col gap-7 mt-10 md:ml-10">
+      <div className=" grid-cols-1 md:grid-cols-3 lg:grid-cols-3 w-auto md:h-full grid grid-rows-1
+      grid-flow-col gap-7 mt-10 md:ml-10">
         <div className=" h-auto row-span-3 ... z-20">
           <img src={image1} alt="" />
         </div>
@@ -38,14 +39,14 @@ function About() {
           We also offer the ability to track progress and earn certifications, providing learners with tangible evidence of their newly acquired skills. And with our exceptional customer service and support, learners can rest assured that they'll have the assistance they need every step of the way. Join our community of learners today and experience the Grachiever difference.
           </p>
           </div>
-        <div className="bg-[#1b1d38] md:-ml-[55%] h-auto md:w-auto md:h-96 row-span-2 md:col-span-2 ... rounded-br-3xl rounded-tl-3xl ">
+        <div className="bg-[#1b1d38]  md:-ml-[55%] lg:h-[480px] md:h-[670px] h-[550px] md:w-auto md:h-96 row-span-2 md:col-span-2 ... rounded-br-3xl rounded-tl-3xl ">
         <h1 className="text-white  md:text-3xl font-bold  p-3 mt-2 md:w-[50%] md:ml-[40%]">
         Grachiever: Empowering Achievement<br /> through <span class="text-[#4eb0e1]">Job-Ready</span> Digital Skills 
       </h1>
       <p className=" text-white font-bold  p-3 md:w-[50%] mt-5 md:ml-[40%]">
       At Grachiever, we offer a globally scalable solution to address the widespread digital talent shortages impacting growth, productivity, and innovation. Through collaboration with enterprises and highly motivated individuals, we design customized talent transformation journeys using our advanced Digital Competency Platform.
       </p>
-      <p className="text-white font-semibold md:w-auto  p-5 md:ml-0  md:p-5  md:text-center">
+      <p className="text-white font-semibold md: md:w-auto  p-5 md:ml-0  md:p-5  md:text-center">
       Our exclusive content is developed in partnership with industry leaders, ensuring its relevance and quality. Each Grachiever program is meticulously crafted to eliminate the guesswork in selecting the right course, focusing on practical projects that cultivate critical thinking and workplace skills. Our expert mentors provide personalized support to unblock learning barriers and verify mastery of competencies.
       </p>
         </div>
@@ -116,7 +117,6 @@ function About() {
 <div className="bg-[#00C5FF] ml-2  md:absolute top-5 left-40 md:left-60 sm:text-2xl md:text-3xl text-xs rounded-tl-3xl rounded-br-3xl p-3 font-bold text-center  shadow-[0_10px_10px_-5px_rgba(0,0,0,0.5)] w-max ">
     <h2>Online Courses</h2>
 </div>
-<br></br>
 <div className="bg-[#F6D93D] m-2 md:absolute top-5 md:top-32 md:right-20 sm:text-2xl md:text-3xl text-xs rounded-tl-3xl rounded-br-3xl p-3 font-bold text-center  shadow-[0_10px_10px_-5px_rgba(0,0,0,0.5)]  w-max">
     <h1>Skill Graph Feature</h1>
 </div>
