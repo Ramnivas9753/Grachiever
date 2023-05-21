@@ -6,7 +6,7 @@ import { FaAngleRight } from "react-icons/fa";
 function Footer() {
   return (
     <>
-      <section className='bg-[#1c1e39]'>
+      <section className='bg-[#1c1e39] container'>
         {/* <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3'>  */}
         <div className="flex flex-wrap">
           <div className='w-[100%] md:w-[25%] lg:w-[25%]'>

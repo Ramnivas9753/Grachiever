@@ -40,7 +40,7 @@ function Cards() {
 
   return (
     <>
-    <section className="bg-[#1b1a3a] p-1 md:p-10 pb-8 mt-10">
+    <section className="bg-[#1b1a3a] p-1 md:p-10 pb-8 mt-10 container">
     <div className=" justify-items-end grid grid-cols-1 sm:grid md:grid lg:grid-cols-3 ">
     <div className="w-full font-bold text-lg md:text-4xl text-white  col-span-2 mt-8">
     <h1 className="text-center md:float-right">What Are You Seaching For?</h1>

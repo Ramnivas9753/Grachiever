@@ -81,7 +81,7 @@ function Home () {
         <>
             
 {/* <!-- ........................ home section start ..................................... --> */}
- <section className="px-5 sm:px-5 md:px-10 lg:px-10 pt-10 mt-12 md:mt-28">
+ <section className="px-5 sm:px-5 md:px-10 lg:px-10 pt-10 mt-12 md:mt-28 container">
   <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
     <div className="pl-5 md:pl-10 lg:pl-10">
       <span className="type text-[30px] mt-5 lg:text-[60px] font-medium text-[#00c5ff]" ref={typedRef}></span>
@@ -229,7 +229,7 @@ function Home () {
   
     {/* <!--Skill Section--> */}
 
-    <section className="p-0 sm:p-0 md:p-10 lg:p-10 mt-5">
+    <section className="p-0 sm:p-0 md:p-10 lg:p-10 container mt-5">
       <div className="h-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2" >
         <div className="lg:h-full md:h-full mx-5 sm:mx-5 md:mx-10 lg:mx-10">
             <h1 className=" mt-5 text-2xl sm:text-2xl md:text-3xl lg:text-5xl font-bold"><span class="text-[#4eb0e1]">Track</span> The Trending<br/> <span class="text-[#4eb0e1]">Skills</span> Over Time</h1>
@@ -253,7 +253,7 @@ function Home () {
 
   {/* Top Categories Section */}
 
-  <section className="m-5 p-0 sm:p-0 md:p-10 lg:p-10" >
+  <section className="m-5 p-0 sm:p-0 md:p-10 lg:p-10 container" >
   <h1 className="text-2xl md:text-4xl font-bold text-center  p-5 ">Top Categories</h1>
   <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 w-[90%] mx-auto mt-5">
   {/* Left Side Section--> */}
@@ -308,7 +308,7 @@ function Home () {
 
       {/* <!-- ....... why choose Grachiever .............--> */}
 
-<section className="p-0 sm:p-0 md:p-10 lg:p-10 mt-10 mb-10 " >
+<section className="p-0 sm:p-0 md:p-10 lg:p-10 container mt-10 mb-10 " >
           <h1 className=" text-center text-xl sm:text-xl md:text-3xl lg:text-4xl font-bold mb-2">Why Choose Grachiever?</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  md:mt-12 pb-5">
           <div className='hover:-translate-y-5 duration-500 mt-10 pb-5' >
@@ -355,7 +355,7 @@ function Home () {
 
       {/* BOOST YOUR PRODUCTIVITY WITH GRACHIEVER`S TOOLS SERVICE */}
 
-      <section className='pb-20 bg-[#1b1d38]'>
+      <section className='pb-20 bg-[#1b1d38] container'>
         <h1 className='text-center font-bold text-white md:text-3xl md:p-10 mb-10'><span class="text-[#4eb0e1]">BOOST</span> YOUR PRODUCTIVITY WITH GRACHIEVER`S TOOLS SERVICE</h1>
        <div className='md:p-16 flex justify-center gap-20 flex-col md:flex-row'>
         <FlipCard  />
@@ -369,7 +369,7 @@ function Home () {
 
 
    {/* <!--Skill Consultancy--> */}
-    <section className="p-0 sm:p-0 md:p-10 lg:p-10">
+    <section className="p-0 sm:p-0 md:p-10 lg:p-10 container">
       <div className="m-2 h-auto p-2 mt-[]">
           {/* <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-5xl mx-0 sm:mx-0 md:mx-20 font-bold my-10">Skill <span class="text-[#4eb0e1]">Consultancy</span></h1> */}
 
@@ -398,7 +398,7 @@ function Home () {
     </section>
 
     {/* <!--Feature Ready Skills sections--> */}
-    <section className="p-0 sm:p-0 md:p-10 lg:p-10 bg-[#1b1d38]">
+    <section className="p-0 sm:p-0 md:p-10 lg:p-10 container bg-[#1b1d38]">
     <div className="p-3 text-center m-2 h-auto">
         <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-5xl font-bold my-10  text-white">Get Personal Future Ready Skill Recommandations</h1>
         <h2 className="text-3xl text-gray-300">Enhance Your Skill With Grachiever</h2>
@@ -426,7 +426,7 @@ function Home () {
 
 
  {/* <!--Achievements Sections--> */}
-<section className="p-0 sm:p-0 md:p-10 lg:p-10 " >
+<section className="p-0 sm:p-0 md:p-10 lg:p-10 container " >
     <div className="mt-5">
         <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-4xl font-bold text-center p-5 mb-10">Achievements</h1>
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 text-center">
@@ -455,14 +455,14 @@ function Home () {
 </section>
  
    {/* <!-- Blog Section --> */}
-<section className="p-0 sm:p-0 md:p-10 lg:p-5" >
+<section className="p-0 sm:p-0 md:p-10 lg:p-5 container" >
      <div className="m-10">
       <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-5xl font-bold ">Blog</h1>
       <p className="mt-2 mb-2 text-2xl font-semibold">Most Recent</p>
       <hr />
-        <div className="flex flex-wrap justify-between">
-          {/* <button className="p-2 rounded-lg bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-8 text-lg float-right mx-10 mt-10 sm:mt-10 md:mt-10 lg:mt-0">Browse Blog</button> */}
-        </div>
+        {/* <div className="flex flex-wrap justify-between">
+          <button className="p-2 rounded-lg bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-8 text-lg float-right mx-10 mt-10 sm:mt-10 md:mt-10 lg:mt-0">Browse Blog</button>
+        </div> */}
     </div>
      {/* <!--3 Card--> */}
      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 m-2 h-auto  gap-10 sm:gap-10 md:gap-10 lg:gap-20 mx-5 lg:mx-10 md:mx-10 md:mt-10 lg:mt-10">
@@ -496,20 +496,21 @@ function Home () {
 
 
 {/* <!-- ....... popular and demand start  ...... --> */}
-<section className='mt-10'>
+<section className='mt-10 container'>
   <div className='h-96'>
     <h1 className="text-center text-5xl">Popular <span className='text-[#00c5ff]'>In-Demand </span> Services</h1>
        <Z_index_card1 />
   </div>
-</section>
-<div className='text-center mt-24'>
+  <div className='text-center mt-24'>
     <Link to='BrowseAll'><button className="bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] p-2 rounded-xl px-10 text-lg font-bold">Browse All</button></Link> 
 </div>
+
+</section>
 
 {/* <!-- ....... popular and demand end ...... --> */}
     
       {/* <!--Finding Your Right Course--> */}
-<section className="p-0 sm:p-0 md:p-10 lg:p-10 bg-[#e0ebff] mb-5 mt-5">
+<section className="p-0 sm:p-0 md:p-10 lg:p-10 bg-[#e0ebff] mb-5 mt-5 container">
       <div className=" m-2 mx-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 mt-5">
         <div className="m-auto md:col-span-2">
           <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-3xl font-bold p-2">Finding Your Right Course</h1>
