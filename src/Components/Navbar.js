@@ -109,7 +109,7 @@ function Navbar() {
                           <li>
                             <div className="group inline-block">
                             <button className="outline-none focus:outline-none px-0 rounded-sm flex items-center">
-                                <span className="flex-1">Courses</span>
+                                <span className="flex-1">Services</span>
                                 <span>
                                 <svg
                                     className="fill-current h-4 w-4 transform group-hover:-rotate-180
@@ -127,7 +127,7 @@ function Navbar() {
                             transition duration-150 ease-in-out origin-top min-w-32 w-20 text-sm md:text-md">
                                 <li className="rounded-sm relative px-1 py-1 hover:bg-gray-100">
                                 <button className="w-full text-left flex items-center outline-none focus:outline-none">
-                                    <span className="pr-1 flex-1">Data</span>
+                                    <span className="pr-1 flex-1">Courses</span>
                                     <span className="mr-auto">
                                     <svg className="fill-current h-4 w-4
                                         transition duration-150 ease-in-out"
@@ -157,7 +157,7 @@ function Navbar() {
                                 </li><hr/>
                                 <li className="rounded-sm relative px-1 py-1 hover:bg-gray-100">
                                 <button className="w-full text-left flex items-center outline-none focus:outline-none">
-                                    <span className="pr-1 flex-1">Digital Marketing</span>
+                                    <span className="pr-1 flex-1">Skill</span>
                                     <span className="mr-auto">
                                     <svg className="fill-current h-4 w-4
                                         transition duration-150 ease-in-out"
@@ -203,7 +203,7 @@ function Navbar() {
                                 
                                 <li className="rounded-sm relative px-1 py-1 hover:bg-gray-100">
                                 <button className="w-full text-left flex items-center outline-none focus:outline-none">
-                                    <span className="pr-1 flex-1">Still Confused</span>
+                                    <span className="pr-1 flex-1">Top Categories</span>
                                     <span className="mr-auto">
                                     <svg className="fill-current h-4 w-4
                                         transition duration-150 ease-in-out"
@@ -249,7 +249,7 @@ function Navbar() {
 
                                 <li className="rounded-sm relative px-1 py-1 hover:bg-gray-100">
                                 <button className="w-full text-left flex items-center outline-none focus:outline-none">
-                                    <span className="pr-1 flex-1">A.I.M.L.</span>
+                                    <span className="pr-1 flex-1">Skill Consultancy</span>
                                     <span className="mr-auto">
                                     <svg className="fill-current h-4 w-4
                                         transition duration-150 ease-in-out"

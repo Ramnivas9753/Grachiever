@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito");
 
+*{
+    color: gray;
+}
 .basedOn {
   text-align: center;
   font-size: 1.2em;
