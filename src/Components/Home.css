@@ -7,6 +7,12 @@
 * h1{
   color: black;
 }
+
+#box{
+  color:black;
+
+}
+
 .basedOn {
   text-align: center;
   font-size: 1.2em;
@@ -30,6 +36,7 @@
   position: relative;
 
 }
+
 
 .arrow {
   position: absolute;
