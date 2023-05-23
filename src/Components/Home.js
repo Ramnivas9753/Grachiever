@@ -36,6 +36,16 @@ import GAtools from './GAtools';
 
 import { Link } from 'react-router-dom'
 import { useState } from "react";
+
+// home section new animation image ......
+import home_animate_background_img from "../images/1/background_img.png"
+import home_animate_star_img from "../images/1/background_stars_img.png"
+import home_animate_left_bottom_img from "../images/1/left_bottom img-2.png"
+import home_animate_left_top_img from "../images/1/left_top img-5.png"
+import home_animate_right_top_img from "../images/1/right_top img-4.png"
+import home_animate_right_bottom_img from "../images/1/right_bottom img-3.png"
+
+import home_animate_main_img from "../images/1/main_img-1.png"
 // ........... text animation in home page ........
 import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
@@ -82,7 +92,7 @@ function Home () {
             
 {/* <!-- ........................ home section start ..................................... --> */}
  <section className="px-5 sm:px-5 md:px-10 lg:px-10 pt-10 mt-12 md:mt-28 container mx-auto">
-  <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+  <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10">
     <div className="pl-5 md:pl-10 lg:pl-10 ">
       <span className="type text-[30px] mt-5 lg:text-[60px] font-medium text-[#00c5ff]" ref={typedRef}></span>
       <p className="mt-5 text-2xl">The only easier, powerful and authoring platform designed for consistent learners to
@@ -216,7 +226,15 @@ function Home () {
 
     </div>
     <div className="mt-8 md:mt-0">
-      <img src={homeimage01} className="md:w-[80%] m-auto" />            
+      {/* <img src={homeimage01} className="md:w-[80%] m-auto" />    */}
+      <div className=" mx-auto relative animate-pulse" style={{ backgroundImage:`url(${home_animate_background_img})`,backgroundRepeat:"no-repeat",height:"120%",width:"100%",animate:"bounce"}}>
+        <img className='animate-pulse' src={home_animate_star_img} />
+        <img className='absolute top-20 left-[40%] w-40 animate-bounce' src={home_animate_main_img} />
+        <img className='absolute top-0 left-0 w-28 m-5 animate-bounce' src={home_animate_left_top_img} />
+        <img className='absolute top-52 left-0 w-40 animate-pulse' src={home_animate_left_bottom_img} />
+        <img className='absolute top-0 right-0 w-40  animate-pulse' src={home_animate_right_top_img} />
+        <img className='absolute top-52 right-0 w-28 animate-bounce' src={home_animate_right_bottom_img} />
+      </div>         
     </div>
   </div>
 </section>
