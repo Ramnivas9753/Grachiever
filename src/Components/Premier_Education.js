@@ -19,6 +19,7 @@ function Premier_section() {
     speed: 1000,
     slidesToShow: 6,
     slidesToScroll: 1,
+    arrows: false,
     responsive: [
       {
         breakpoint: 1024,

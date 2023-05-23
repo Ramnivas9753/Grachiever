@@ -43,7 +43,7 @@ function Cards() {
     <section className="bg-[#1b1a3a] p-1 md:p-10 pb-8 mt-10 container mx-auto">
     <div className=" justify-items-end grid grid-cols-1 sm:grid md:grid lg:grid-cols-3 ">
     <div className="w-full font-bold text-lg md:text-4xl text-white  col-span-2 mt-8">
-    <h1 className="text-center md:float-right">What Are You Seaching For?</h1>
+    <h1 className="text-center md:float-right text-white">What Are You Seaching For?</h1>
     </div>
     <div className="w-auto sm:w-96 md:w-96 h-10 mt-10 flex font-semibold items-center">
       <button className="p-1 md:px-5 text-md md:text-xl mx-1 sm:mx-3 md:mx-3 border-[#00c5ff] border-2 rounded-full text-[#00c5ff] hover:text-white">All</button>

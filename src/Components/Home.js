@@ -316,7 +316,7 @@ function Home () {
           <img src={wcg1} className="rounded-xl p-2 w-[100%] h-auto md:h-72 m-auto" />
           </div>
           <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto pb-10 m-auto'>
-          <h2 className="font-semibold text-2xl mt-20">Diverse Offerings</h2>
+          <h2 className="text-black font-semibold text-2xl mt-20">Diverse Offerings</h2>
                   <p>Grachiever provides a variety of services, including online courses, freelancing opportunities, and expert consultancy, to help you develop the skills necessary for a successful career.</p>
           </div>
           </div>
@@ -326,7 +326,7 @@ function Home () {
           <img src={wcg2} className="w-[60%] md:w-[50%] lg:w-[60%] m-auto" />
           </div>
           <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#e0ebff] p-2 w-[80%] h-auto pb-8 m-auto'>
-          <h2 className="font-semibold text-2xl mt-20">Unique Tools & Features </h2>
+          <h2 className="text-black font-semibold text-2xl mt-20">Unique Tools & Features </h2>
                   <p>Grachiever's Skill Graph feature and other innovative tools provide a personalized learning and work experience, tailored to your unique needs and goals.</p>
           </div>
           </div>
@@ -336,7 +336,7 @@ function Home () {
           <img src={wcg3} className="w-[70%] md:w-[60%] lg:w-[70%] m-auto" />
           </div>
           <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto pb-16 m-auto'>
-          <h2 className="font-semibold text-2xl mt-20">Supportive Community</h2>
+          <h2 className="text-black font-semibold text-2xl mt-20">Supportive Community</h2>
                 <p>Grachiever's supportive community fosters networking, collaboration, and mutual support among learners and professionals, enhancing learning and work experiences.</p>
           </div>
           </div>
@@ -346,7 +346,7 @@ function Home () {
           <img src={wcg4} className="rounded-xl p-2 w-[80%] h-auto md:h-72 m-auto" />
           </div>
           <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#e0ebff] p-2 w-[80%] h-auto pb-16 m-auto'>
-          <h2 className="font-semibold text-2xl mt-20">Affordable And Flexible</h2>
+          <h2 className="text-black font-semibold text-2xl mt-20">Affordable And Flexible</h2>
                   <p>Grachiever's budget-friendly and adaptable pricing options provide access to excellent educational resources and opportunities for skill development.</p>
           </div>
           </div>
@@ -431,22 +431,22 @@ function Home () {
         <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-4xl font-bold text-center p-5 mb-10">Achievements</h1>
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 text-center">
             <div className=" m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-44 w-44 lg:h-48 lg:w-48 mb-10 rounded-full">
-              <FaGraduationCap className='text-5xl text-black-400 mt-10 mx-auto m-2 group-hover:text-blue-500'/>
+              <FaGraduationCap className='text-5xl text-black mt-10 mx-auto m-2 group-hover:text-blue-500'/>
               <p className="text-2xl font-bold group-hover:text-[#349fcf]">350+</p>
               <p className='group-hover:text-green-500'>Student worldwide</p>
             </div>
             <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-44 w-44 lg:h-48 lg:w-48 mb-10 rounded-full">
-              <FaList className='text-3xl text-black-400 mt-10 mx-auto m-2 group-hover:text-green-500'/>           
+              <FaList className='text-3xl text-black mt-10 mx-auto m-2 group-hover:text-green-500'/>           
               <p className="text-2xl font-bold group-hover:text-[#349fcf]">450+</p>
               <p className='group-hover:text-blue-500'>Total Course Views</p>
             </div>
             <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-44 w-44 lg:h-48 lg:w-48 mb-10 rounded-full">
-              <FaStar className='text-3xl text-black-400 mt-10 mx-auto m-2 group-hover:text-yellow-500'/>
+              <FaStar className='text-3xl text-black mt-10 mx-auto m-2 group-hover:text-yellow-500'/>
               <p className="text-2xl font-bold group-hover:text-[#349fcf]">550+</p>
               <p className='group-hover:text-orange-500'>Course Reviews</p>
             </div>
             <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-44 w-44 lg:h-48 lg:w-48 mb-10 rounded-full">
-              <FaUser className='text-3xl text-black-400 mt-10 mx-auto m-2 group-hover:text-orange-500'/>
+              <FaUser className='text-3xl text-black mt-10 mx-auto m-2 group-hover:text-orange-500'/>
               <p className="text-2xl font-bold group-hover:text-[#349fcf]">650+</p>
               <p className='group-hover:text-yellow-500'>Student Community</p>
             </div>
