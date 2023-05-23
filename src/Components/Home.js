@@ -398,11 +398,11 @@ function Home () {
               <h1 className="font-bold text-4xl">Find Your <span class="text-[#4eb0e1]">Dream Career</span> With Grachiever's Skill Consultancy</h1>
               <p className="text-lg mt-5">Our skilled consultancy service provides various offerings to guide you in selecting the most suitable skills. We help you identify in-demand skills, suggest the best courses to develop those skills, and advise you on future-ready skills that AI cannot replace."</p>
 
-                  <li className="mx-5 mt-5"><strong>Personalized Guidance:</strong> Tailored advice for your unique path.</li>
-                  <li className="mx-5"><strong>Your Skills:</strong> Stay ahead of the robots.</li>
-                  <li className="mx-5"><strong>Expert Insights</strong>: Years of experience at your service.</li>
-                  <li className="mx-5"><strong>Industry Trends:</strong> Know what's in demand.</li>
-                  <li className="mx-5"><strong>Confidence-Boosting:</strong> Empowering you for success.</li>
+                  <li className=" mx-5 mt-5"><strong className='text-black'>Personalized Guidance:</strong> Tailored advice for your unique path.</li>
+                  <li className=" mx-5"><strong className='text-black'>Your Skills:</strong> Stay ahead of the robots.</li>
+                  <li className=" mx-5"><strong className='text-black'>Expert Insights</strong>: Years of experience at your service.</li>
+                  <li className=" mx-5"><strong className='text-black'>Industry Trends:</strong> Know what's in demand.</li>
+                  <li className=" mx-5"><strong className='text-black'>Confidence-Boosting:</strong> Empowering you for success.</li>
                   <button className="bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg p-2  mt-5 ml-3 px-5"><Link to="/Skillconsultancy">Register for Free</Link></button>
           </div>
 
