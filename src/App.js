@@ -18,6 +18,7 @@ import Forgetpass from './Components/Forgetpass';
 import Dashboard_Index from './Dashboard/Dashboard_Index';
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import CardDetails from './Components/CardDetails';
 
 function App() {
   return (
@@ -67,6 +68,7 @@ function App() {
           <Route path="Dashboard_Index" element={<Dashboard_Index />} />
           <Route path="Gatools" element={<GAtools />} />
           <Route path="Forgetpass" element={<Forgetpass />} />
+          <Route path="CardDetails" element={<CardDetails />} />
         </Route>
       </Routes>
     </BrowserRouter>

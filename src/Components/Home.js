@@ -95,7 +95,7 @@ function Home () {
   <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10">
     <div className="pl-5 md:pl-10 lg:pl-10 ">
       <span className="type text-[30px] mt-5 lg:text-[60px] font-medium text-[#00c5ff]" ref={typedRef}></span>
-      <p className="mt-5 text-2xl">The only easier, powerful and authoring platform designed for consistent learners to
+      <p className="mt-5 ">The only easier, powerful and authoring platform designed for consistent learners to
         unlock the power of monetizing</p>
       {/* <!--Search--> */}
       <div className="relative border-b-[#349fcf] border-[#349fcf] border-2 flex items-center mt-8 w-auto rounded-full outline-none text-xl">
@@ -105,7 +105,7 @@ function Home () {
           <option>Freelancing</option>
           <option>Tools</option>
         </select>
-        <span className="w-16 sm:w-16 md:w-16 lg:w-14 m-1 h-10 rounded-full bg-[#00c5ff] text-white"><FaSearch className='text-2xl mx-auto mt-2'/></span>
+        <span className="w-16 sm:w-16 md:w-16 lg:w-14 m-1 h-10 rounded-full bg-[#00c5ff] text-white"><FaSearch className=' mx-auto mt-2'/></span>
         {isDivVisible && (
             <div
               id="z2"
@@ -250,7 +250,7 @@ function Home () {
     <section className="p-0 sm:p-0 md:p-10 lg:p-10 container mt-5 mx-auto">
       <div className="h-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2" >
         <div className="lg:h-full md:h-full mx-5 sm:mx-5 md:mx-10 lg:mx-10">
-            <h1 className=" mt-5 text-2xl sm:text-2xl md:text-3xl lg:text-5xl font-bold"><span class="text-[#4eb0e1]">Track</span> The Trending<br/> <span class="text-[#4eb0e1]">Skills</span> Over Time</h1>
+            <h1 className=" mt-5 md:text-3xl lg:text-5xl font-bold"><span class="text-[#4eb0e1]">Track</span> The Trending<br/> <span class="text-[#4eb0e1]">Skills</span> Over Time</h1>
             <p className="mt-5  text-lg">Our Skill Graph feature helps you stay up-to-date with the latest skills in demand. our Skill Graph displays the trending skills over time.</p>
             <p  className="mt-5 text-lg">allowing you to identify which skills are gaining popularity and which are losing relevance. With this powerful tool, you can make informed decisions about the skills you want to learn or develop, ensuring you stay ahead of the curve in your chosen field.</p>
             <div className=' mt-10'>
@@ -272,7 +272,7 @@ function Home () {
   {/* Top Categories Section */}
 
   <section className="m-5 p-0 sm:p-0 md:p-10 lg:p-10 container mx-auto" >
-  <h1 className="text-2xl md:text-4xl font-bold text-center  p-5 ">Top Categories</h1>
+  <h1 className=" md:text-4xl font-bold text-center  p-5 ">Top Categories</h1>
   <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 w-[90%] mx-auto mt-5">
   {/* Left Side Section--> */}
   <div className="md:m-5 lg:m-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 mb-5">
@@ -334,7 +334,7 @@ function Home () {
           <img src={wcg1} className="rounded-xl p-2 w-[100%] h-auto md:h-72 m-auto" />
           </div>
           <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto pb-10 m-auto'>
-          <h2 className="text-black font-semibold text-2xl mt-20">Diverse Offerings</h2>
+          <h2 className="text-black font-semibold  mt-20">Diverse Offerings</h2>
                   <p>Grachiever provides a variety of services, including online courses, freelancing opportunities, and expert consultancy, to help you develop the skills necessary for a successful career.</p>
           </div>
           </div>
@@ -344,7 +344,7 @@ function Home () {
           <img src={wcg2} className="w-[60%] md:w-[50%] lg:w-[60%] m-auto" />
           </div>
           <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#e0ebff] p-2 w-[80%] h-auto pb-8 m-auto'>
-          <h2 className="text-black font-semibold text-2xl mt-20">Unique Tools & Features </h2>
+          <h2 className="text-black font-semibold  mt-20">Unique Tools & Features </h2>
                   <p>Grachiever's Skill Graph feature and other innovative tools provide a personalized learning and work experience, tailored to your unique needs and goals.</p>
           </div>
           </div>
@@ -354,7 +354,7 @@ function Home () {
           <img src={wcg3} className="w-[70%] md:w-[60%] lg:w-[70%] m-auto" />
           </div>
           <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto pb-16 m-auto'>
-          <h2 className="text-black font-semibold text-2xl mt-20">Supportive Community</h2>
+          <h2 className="text-black font-semibold  mt-20">Supportive Community</h2>
                 <p>Grachiever's supportive community fosters networking, collaboration, and mutual support among learners and professionals, enhancing learning and work experiences.</p>
           </div>
           </div>
@@ -364,7 +364,7 @@ function Home () {
           <img src={wcg4} className="rounded-xl p-2 w-[80%] h-auto md:h-72 m-auto" />
           </div>
           <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#e0ebff] p-2 w-[80%] h-auto pb-16 m-auto'>
-          <h2 className="text-black font-semibold text-2xl mt-20">Affordable And Flexible</h2>
+          <h2 className="text-black font-semibold  mt-20">Affordable And Flexible</h2>
                   <p>Grachiever's budget-friendly and adaptable pricing options provide access to excellent educational resources and opportunities for skill development.</p>
           </div>
           </div>
@@ -374,14 +374,14 @@ function Home () {
       {/* BOOST YOUR PRODUCTIVITY WITH GRACHIEVER`S TOOLS SERVICE */}
 
       <section className='pb-20 bg-[#1b1d38] container mx-auto'>
-        <h1 className='text-center font-bold text-white md:text-3xl md:p-10 mb-10'><span class="text-[#4eb0e1]">BOOST</span> YOUR PRODUCTIVITY WITH GRACHIEVER`S TOOLS SERVICE</h1>
+        <h1 className='text-center font-semibold text-white md:text-3xl md:p-10 mb-10'><span class="text-[#4eb0e1]">BOOST</span> YOUR PRODUCTIVITY WITH GRACHIEVER`S TOOLS SERVICE</h1>
        <div className='md:p-16 flex justify-center gap-20 flex-col md:flex-row'>
         <FlipCard  />
         <FlipCard  />
         <FlipCard  />
         </div>
         <div className='text-center mt-10'>
-      <Link to="/Gatools"><button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2 rounded-xl   px-20 text-lg  font-bold">Browse All</button></Link> 
+      <Link to="/Gatools"><button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2 rounded-xl   px-20 md:text-lg  font-bold">Browse All</button></Link> 
        </div>
       </section>
 
@@ -389,14 +389,14 @@ function Home () {
    {/* <!--Skill Consultancy--> */}
     <section className="p-0 sm:p-0 md:p-10 lg:p-10 container mx-auto">
       <div className="m-2 h-auto p-2 mt-[]">
-          {/* <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-5xl mx-0 sm:mx-0 md:mx-20 font-bold my-10">Skill <span class="text-[#4eb0e1]">Consultancy</span></h1> */}
+          {/* <h1 className=" md:text-3xl lg:text-5xl mx-0 sm:mx-0 md:mx-20 font-bold my-10">Skill <span class="text-[#4eb0e1]">Consultancy</span></h1> */}
 
     {/* <!--Skill Consultancy left section--> */}
 
     <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
           <div className="mx-0 sm:mx-5 md:mx-20 lg:mx-20 mb-10">
-              <h1 className="font-bold text-4xl">Find Your <span class="text-[#4eb0e1]">Dream Career</span> With Grachiever's Skill Consultancy</h1>
-              <p className="text-lg mt-5">Our skilled consultancy service provides various offerings to guide you in selecting the most suitable skills. We help you identify in-demand skills, suggest the best courses to develop those skills, and advise you on future-ready skills that AI cannot replace."</p>
+              <h1 className="font-bold md:text-4xl">Find Your <span class="text-[#4eb0e1]">Dream Career</span> With Grachiever's Skill Consultancy</h1>
+              <p className="md:text-lg mt-5">Our skilled consultancy service provides various offerings to guide you in selecting the most suitable skills. We help you identify in-demand skills, suggest the best courses to develop those skills, and advise you on future-ready skills that AI cannot replace."</p>
 
                   <li className=" mx-5 mt-5"><strong className='text-black'>Personalized Guidance:</strong> Tailored advice for your unique path.</li>
                   <li className=" mx-5"><strong className='text-black'>Your Skills:</strong> Stay ahead of the robots.</li>
@@ -418,11 +418,11 @@ function Home () {
     {/* <!--Feature Ready Skills sections--> */}
     <section className="p-0 sm:p-0 md:p-10 lg:p-10 container bg-[#1b1d38] mx-auto">
     <div className="p-3 text-center m-2 h-auto">
-        <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-5xl font-bold my-10  text-white">Get Personal Future Ready Skill Recommandations</h1>
-        <h2 className="text-3xl text-gray-300">Enhance Your Skill With Grachiever</h2>
+        <h1 className=" md:text-3xl lg:text-5xl font-bold my-10  text-white">Get Personal Future Ready Skill Recommandations</h1>
+        <h2 className="text-xl md:text-3xl text-gray-300">Enhance Your Skill With Grachiever</h2>
   
     <div className="text-center m-2 mt-5">
-        <select className="mt-5 w-full md:w-64 lg:w-64  h-14 border rounded-xl text-xl p-2  md:m-2 font-semibold outline-none">
+        <select className="mt-5 w-full md:w-64 lg:w-64  h-14 border rounded-xl text-xl p-2  md:m-2 md:font-semibold outline-none">
             <option>Category</option>
             <option>Data</option>
             <option>Digital Marketing</option>
@@ -432,7 +432,7 @@ function Home () {
         </select>
     
    
-        <select className="mt-5 w-full md:w-60 lg:w-60 h-14 border rounded-xl text-xl p-2  md:m-2 font-semibold outline-none">
+        <select className="mt-5 w-full md:w-60 lg:w-60 h-14 border rounded-xl text-xl p-2  md:m-2 md:font-semibold outline-none">
             <option>Demo Plane</option>
             <option>Basic Plane</option>
             <option>Advance Plan</option>
@@ -446,26 +446,26 @@ function Home () {
  {/* <!--Achievements Sections--> */}
 <section className="p-0 sm:p-0 md:p-10 lg:p-10 container mx-auto" >
     <div className="mt-5">
-        <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-4xl font-bold text-center p-5 mb-10">Achievements</h1>
+        <h1 className=" md:text-3xl lg:text-4xl font-bold text-center p-5 mb-10">Achievements</h1>
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 text-center">
             <div className=" m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-44 w-44 lg:h-48 lg:w-48 mb-10 rounded-full">
               <FaGraduationCap className='text-5xl text-black mt-10 mx-auto m-2 group-hover:text-blue-500'/>
-              <p className="text-2xl font-bold group-hover:text-[#349fcf]">350+</p>
+              <p className=" font-bold group-hover:text-[#349fcf]">350+</p>
               <p className='group-hover:text-green-500'>Student worldwide</p>
             </div>
             <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-44 w-44 lg:h-48 lg:w-48 mb-10 rounded-full">
               <FaList className='text-3xl text-black mt-10 mx-auto m-2 group-hover:text-green-500'/>           
-              <p className="text-2xl font-bold group-hover:text-[#349fcf]">450+</p>
+              <p className=" font-bold group-hover:text-[#349fcf]">450+</p>
               <p className='group-hover:text-blue-500'>Total Course Views</p>
             </div>
             <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-44 w-44 lg:h-48 lg:w-48 mb-10 rounded-full">
               <FaStar className='text-3xl text-black mt-10 mx-auto m-2 group-hover:text-yellow-500'/>
-              <p className="text-2xl font-bold group-hover:text-[#349fcf]">550+</p>
+              <p className=" font-bold group-hover:text-[#349fcf]">550+</p>
               <p className='group-hover:text-orange-500'>Course Reviews</p>
             </div>
             <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-44 w-44 lg:h-48 lg:w-48 mb-10 rounded-full">
               <FaUser className='text-3xl text-black mt-10 mx-auto m-2 group-hover:text-orange-500'/>
-              <p className="text-2xl font-bold group-hover:text-[#349fcf]">650+</p>
+              <p className=" font-bold group-hover:text-[#349fcf]">650+</p>
               <p className='group-hover:text-yellow-500'>Student Community</p>
             </div>
         </div>
@@ -475,8 +475,8 @@ function Home () {
    {/* <!-- Blog Section --> */}
 <section className="p-0 sm:p-0 md:p-10 lg:p-5 container mx-auto" >
      <div className="m-10">
-      <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-5xl font-bold ">Blog</h1>
-      <p className="mt-2 mb-2 text-2xl font-semibold">Most Recent</p>
+      <h1 className=" md:text-3xl lg:text-5xl font-bold ">Blog</h1>
+      <p className="mt-2 mb-2  font-semibold">Most Recent</p>
       <hr />
         {/* <div className="flex flex-wrap justify-between">
           <button className="p-2 rounded-lg bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-8 text-lg float-right mx-10 mt-10 sm:mt-10 md:mt-10 lg:mt-0">Browse Blog</button>
@@ -516,7 +516,7 @@ function Home () {
 {/* <!-- ....... popular and demand start  ...... --> */}
 <section className='mt-10 container mx-auto'>
   <div className='h-96'>
-    <h1 className="text-center text-5xl">Popular <span className='text-[#00c5ff]'>In-Demand </span> Services</h1>
+    <h1 className="text-center md:text-5xl">Popular <span className='text-[#00c5ff]'>In-Demand </span> Services</h1>
        <Z_index_card1 />
   </div>
   <div className='text-center mt-24'>
@@ -531,7 +531,7 @@ function Home () {
 <section className="p-0 sm:p-0 md:p-10 lg:p-10 bg-[#e0ebff] mb-5 mt-5 container mx-auto">
       <div className=" m-2 mx-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 mt-5">
         <div className="m-auto md:col-span-2">
-          <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-3xl font-bold p-2">Finding Your Right Course</h1>
+          <h1 className=" md:text-3xl lg:text-3xl font-bold p-2">Finding Your Right Course</h1>
           <p className="p-2 mt-5 text-lg md:w-[75%] font-bold text-gray-600">From in-demand skills to future-ready courses, Grachiever makes it simple to discover and enroll in the courses you need to achieve your career goals.</p>
          </div>
         <div className=" m-auto mb-5">

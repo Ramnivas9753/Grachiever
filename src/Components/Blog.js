@@ -3,7 +3,7 @@ function Blog() {
     return (
         <>
         <section className="p-1 mt-20 ">
-    <h1 className="text-3xl font-bold text-center p-3 mt-5">
+    <h1 className="md:text-3xl font-bold text-center p-3 mt-5">
       Latest News
     </h1>
     <p className="text-center md:w-[50%] lg:w-[50%] m-auto p-2">
