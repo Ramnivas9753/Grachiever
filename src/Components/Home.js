@@ -138,7 +138,7 @@ function Home () {
         }`}
         onClick={scrollToTop}
       >
-        <FaArrowCircleUp className='bgired-500 text-xl' />
+        <FaArrowCircleUp className='bg-red-500 text-xl' />
       </button>
     );
   };

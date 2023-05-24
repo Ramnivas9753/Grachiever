@@ -9,11 +9,11 @@ function Navbar() {
 
     return (
     <section className="relative mx-auto">
-      <nav className="w-full bg-[#FAF9F6]  fixed top-0 z-50">   
+      <nav className="w-full bg-[#FAF9F6] fixed top-0 z-50">   
       {/*  bg-[#1b1d38]*/}
-          <div className="justify-between mx-auto lg:max-w-7xl md:items-center md:flex ">
+          <div className="justify-between mx-auto lg:max-w-7xl md:items-center md:flex">
               <div>
-                  <div className="flex items-center justify-between py-3 md:py-5 md:-ml-0 md:block">
+                  <div className="flex items-center justify-between py-3 md:py-1 md:-ml-0 md:block">
                       <Link to="/"><img src={grachieverlogo} className="w-24 sm:w-28 md:w-40 " alt="Grachiever Logo" /></Link>
                       <div className="flex text-sm hidden max-md:block">
                               <Link to="/login" className="px-2 py-1 text-center rounded-full shadow hover:text-blue-500 border border-[#00c5ff]">Log-in</Link>

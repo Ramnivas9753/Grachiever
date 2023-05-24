@@ -1,4 +1,3 @@
-import NavBar from "./nav01";
 function Blog() {
     return (
         <>

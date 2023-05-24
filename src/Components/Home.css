@@ -305,13 +305,13 @@
   z-index: 10;
   background: rgba(158, 9, 9, 0.05);
   width: 100%;
-  top:8;
+  top:10%;
   left: 0;
 }
 
 
 #progressBar {
-  background: linear-gradient(to left, red, violet);
+  background: linear-gradient(to left, rgb(222, 39, 235),#00c5ff);
   transform-origin: top left;
   transform: scale(0,0);
   opacity: 0;
@@ -319,5 +319,5 @@
 
 #progressBarContainer,
 #progressBar {
-  height: 10px;
+  height:7px;
 }
