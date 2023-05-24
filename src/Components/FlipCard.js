@@ -2,7 +2,7 @@
 // import { FaGreaterThan } from "react-icons/fa";
 // import { FaLessThan } from "react-icons/fa";
 // import { FaBeer } from 'react-icons/fa';
-import {BsBookmarkCheck,BsBookmark,BsBookmarkCheckFill} from "react-icons/bs";
+import {BsBookmark,BsBookmarkCheckFill} from "react-icons/bs";
 import { GoVerified } from "react-icons/go";
 import { FiExternalLink } from "react-icons/fi";
 import img1 from "../images/Flipcard/card1img.png";
@@ -68,7 +68,7 @@ export default function FlipCard() {
        </div>
       <div className="ml-4 text-yellow-400" >&#9733; &#9733; &#9733; &#9733; &#9734;  (2) </div>
       <div className="flex justify-center mt-2">
-        <Link className="flex w-full" to='/GAtools'>
+        <Link className="flex w-full" to='/CardDetails'>
       <button type="button" class="flex justify-center gap-2 ml-2 w-full text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Visit <FiExternalLink/></button></Link>
       
       </div>
@@ -76,9 +76,6 @@ export default function FlipCard() {
     </div>
   );
 }
-
-
-
 
 // const FlipCard = () => {
 //   return (
