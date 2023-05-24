@@ -150,9 +150,9 @@ function Home () {
         <>
             
 {/* <!-- ........................ home section start ..................................... --> */}
-{/* <div id="progressBarContainer">
+<div id="progressBarContainer">
     <div id="progressBar" style={{transform: `scale(${scroll}, 1)`, opacity: `${scroll}`}} />
-</div> */}
+</div>
 
 
  <section className="px-5 sm:px-5 md:px-5 lg:px-10 pt-10 mt-12 md:mt-28 container mx-auto">
@@ -166,10 +166,10 @@ function Home () {
         <input type="text" className="py-3 px-4 outline-none w-full rounded-full text-sm sm:text-md" placeholder="Search Anything..."  onClick={handleInputClick}/>
         <select className="focus:outline-none cursor-pointer w-16 sm:w-24 md:w-24 text-sm sm:text-md">
           <option>Courses</option>
-          <option>Freelancing</option>
+          <option>Project</option>
           <option>Tools</option>
         </select>
-        <span className="w-20 sm:w-16 md:w-16 lg:w-14 m-1 h-10 rounded-full bg-[#00c5ff] text-white"><FaSearch className=' mx-auto mt-2'/></span>
+        <span className="w-20 sm:w-16 md:w-16 lg:w-14 m-1 h-10 rounded-full bg-[#00c5ff] text-white"><FaSearch className=' mx-auto mt-2 text-white'/></span>
         {isDivVisible && (
             <div
               id="z2"
@@ -438,8 +438,8 @@ function Home () {
       {/* BOOST YOUR PRODUCTIVITY WITH GRACHIEVER`S TOOLS SERVICE */}
 
       <section className='py-10 bg-[#1b1d38] container mx-auto'>
-        <h1 className='text-center font-semibold text-white text-md sm:text-3xl md:p-0 mb-10'><span class="text-[#4eb0e1]">BOOST</span> YOUR PRODUCTIVITY WITH GRACHIEVER`S TOOLS SERVICE</h1>
-       <div className='flex justify-center gap-20 flex-col md:flex-row mx-auto'>
+        <h1 className='text-center font-semibold text-white text-md sm:text-3xl md:p-0 mb-10'><span class="text-[#4eb0e1]">BOOST</span> YOUR PRODUCTIVITY <br />WITH GRACHIEVER`S TOOLS SERVICE</h1>
+       <div className='flex justify-center items-center gap-0 md:gap-20 flex-row mx-auto overflow-x-scroll'>
         <FlipCard  />
         <FlipCard  />
         <FlipCard  />
