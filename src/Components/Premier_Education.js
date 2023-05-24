@@ -32,7 +32,7 @@ function Premier_section() {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1
         }
       }
@@ -43,10 +43,10 @@ function Premier_section() {
     <>
     <section className="p-2 md:p-10 mt-10 bg-[#f6f9ff]">
     
-    <h1 className=" text-center text-3xl sm:text-3xl md:text-3xl lg:text-3xl font-bold">Premier Education Providers</h1>
+    <h1 className=" text-center md:text-3xl lg:text-3xl font-bold">Premier Education Providers</h1>
     
 <Slider {...settings} className="m-5 ">
-<div className=" m-10 -ml-2 h-24 md:h-24 lg:h-24 ">
+<div className="m-5 md:m-10 -ml-2 h-24 md:h-24 lg:h-24 ">
 <img src={slidelogo1} className=''/>
 </div>
 
