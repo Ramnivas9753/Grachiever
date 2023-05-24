@@ -45,7 +45,7 @@ function consultancy() {
                     {/* -----box1---- */}
                     <div className=" p-1 w-[80%] shadow-lg hover:shadow-gray-500  min-w-min bg-[#E0EBFF]  rounded-3xl">
                         <p className="text-lg p-10 ">
-                            <label className='font-bold'> Assessment:</label> We begin by conducting a comprehensive assessment of your current skills, experiences, and career aspirations. This helps us gain a deep understanding of your strengths and areas for development.
+                            <label id='box' className='font-bold'> Assessment:</label> We begin by conducting a comprehensive assessment of your current skills, experiences, and career aspirations. This helps us gain a deep understanding of your strengths and areas for development.
 
                         </p>
                     </div>
@@ -53,7 +53,7 @@ function consultancy() {
                     {/* <!--box2--> */}
                     <div className=" p-1 w-[80%] shadow-lg hover:shadow-gray-500  min-w-min bg-[#E0EBFF]  rounded-3xl">
                         <p className="text-lg p-10 ">
-                            <label className='font-bold'>Personalized Guidance:</label> Based on the assessment, our consultants will provide personalized guidance tailored to your specific needs. We'll identify the most relevant and in-demand skills for your desired career path.
+                            <label id='box' className='font-bold'>Personalized Guidance:</label> Based on the assessment, our consultants will provide personalized guidance tailored to your specific needs. We'll identify the most relevant and in-demand skills for your desired career path.
                         </p>
                     </div>
                 </div>
@@ -62,14 +62,14 @@ function consultancy() {
                     {/* -----box1---- */}
                     <div className=" p-1 w-[80%] shadow-lg hover:shadow-gray-500  min-w-min bg-[#E0EBFF]  rounded-3xl">
                         <p className="text-lg p-10 ">
-                            <label className='font-bold'> Skill Development :</label> Together, we'll create a customized skill development plan that outlines the necessary steps to enhance your skill set. This plan will focus on acquiring new skills, improving existing ones, and staying updated with industry trends.
+                            <label id='box' className='font-bold'> Skill Development :</label> Together, we'll create a customized skill development plan that outlines the necessary steps to enhance your skill set. This plan will focus on acquiring new skills, improving existing ones, and staying updated with industry trends.
                         </p>
                     </div>
 
                     {/* <!--box2--> */}
                     <div className=" p-1 w-[80%] shadow-lg hover:shadow-gray-500  min-w-min bg-[#E0EBFF]  rounded-3xl">
                         <p className="text-lg p-10 ">
-                            <label className='font-bold'>Ongoing Support:</label> Our consultants will be there every step of the way, offering ongoing support and advice as you progress through your skill development journey. We'll provide regular check-ins, monitor your progress, and make adjustments to the plan as needed.
+                            <label id='box' className='font-bold'>Ongoing Support:</label> Our consultants will be there every step of the way, offering ongoing support and advice as you progress through your skill development journey. We'll provide regular check-ins, monitor your progress, and make adjustments to the plan as needed.
                         </p>
                     </div>
                 </div>
@@ -78,7 +78,7 @@ function consultancy() {
             <section className="p-0 sm:p-0 md:p-5 lg:p-10 bg-[#E0EBFF] mb-5 rounded-3xl mt-5 shadow-lg hover:shadow-gray-500 mx-5">
                 <div className=" mx-12 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 mt-2">
                     <div className="m-auto md:col-span-2">
-                        <p className="text-xl text-left text-black"><label className='font-bold' >Future-Proofing:</label>  Our goal is to make you  future-ready. We'll not only help you acquire the   skills you need today but also equip you with the tools and knowledge to adapt to future industry demands.</p>
+                        <p className="text-xl text-left "><label id='box' className='font-bold' >Future-Proofing:</label>  Our goal is to make you  future-ready. We'll not only help you acquire the   skills you need today but also equip you with the tools and knowledge to adapt to future industry demands.</p>
                     </div>
                     <div className="m-auto mb-0 sm:p-0">
                         <button className="p-2 rounded-lg bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-16 text-lg mt-3">Join Now</button>

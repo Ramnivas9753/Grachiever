@@ -36,6 +36,16 @@ import GAtools from './GAtools';
 
 import { Link } from 'react-router-dom'
 import { useState } from "react";
+
+// home section new animation image ......
+import home_animate_background_img from "../images/1/background_img.png"
+import home_animate_star_img from "../images/1/background_stars_img.png"
+import home_animate_left_bottom_img from "../images/1/left_bottom img-2.png"
+import home_animate_left_top_img from "../images/1/left_top img-5.png"
+import home_animate_right_top_img from "../images/1/right_top img-4.png"
+import home_animate_right_bottom_img from "../images/1/right_bottom img-3.png"
+
+import home_animate_main_img from "../images/1/main_img-1.png"
 // ........... text animation in home page ........
 import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
@@ -82,7 +92,7 @@ function Home () {
             
 {/* <!-- ........................ home section start ..................................... --> */}
  <section className="px-5 sm:px-5 md:px-10 lg:px-10 pt-10 mt-12 md:mt-28 container mx-auto">
-  <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+  <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10">
     <div className="pl-5 md:pl-10 lg:pl-10 ">
       <span className="type text-[30px] mt-5 lg:text-[60px] font-medium text-[#00c5ff]" ref={typedRef}></span>
       <p className="mt-5 text-2xl">The only easier, powerful and authoring platform designed for consistent learners to
@@ -216,7 +226,15 @@ function Home () {
 
     </div>
     <div className="mt-8 md:mt-0">
-      <img src={homeimage01} className="md:w-[80%] m-auto" />            
+      {/* <img src={homeimage01} className="md:w-[80%] m-auto" />    */}
+      <div className=" mx-auto relative animate-pulse" style={{ backgroundImage:`url(${home_animate_background_img})`,backgroundRepeat:"no-repeat",height:"120%",width:"100%",animate:"bounce"}}>
+        <img className='animate-pulse' src={home_animate_star_img} />
+        <img className='absolute top-20 left-[40%] w-40 animate-bounce' src={home_animate_main_img} />
+        <img className='absolute top-0 left-0 w-28 m-5 animate-bounce' src={home_animate_left_top_img} />
+        <img className='absolute top-52 left-0 w-40 animate-pulse' src={home_animate_left_bottom_img} />
+        <img className='absolute top-0 right-0 w-40  animate-pulse' src={home_animate_right_top_img} />
+        <img className='absolute top-52 right-0 w-28 animate-bounce' src={home_animate_right_bottom_img} />
+      </div>         
     </div>
   </div>
 </section>
@@ -316,7 +334,7 @@ function Home () {
           <img src={wcg1} className="rounded-xl p-2 w-[100%] h-auto md:h-72 m-auto" />
           </div>
           <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto pb-10 m-auto'>
-          <h2 className="font-semibold text-2xl mt-20">Diverse Offerings</h2>
+          <h2 className="text-black font-semibold text-2xl mt-20">Diverse Offerings</h2>
                   <p>Grachiever provides a variety of services, including online courses, freelancing opportunities, and expert consultancy, to help you develop the skills necessary for a successful career.</p>
           </div>
           </div>
@@ -326,7 +344,7 @@ function Home () {
           <img src={wcg2} className="w-[60%] md:w-[50%] lg:w-[60%] m-auto" />
           </div>
           <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#e0ebff] p-2 w-[80%] h-auto pb-8 m-auto'>
-          <h2 className="font-semibold text-2xl mt-20">Unique Tools & Features </h2>
+          <h2 className="text-black font-semibold text-2xl mt-20">Unique Tools & Features </h2>
                   <p>Grachiever's Skill Graph feature and other innovative tools provide a personalized learning and work experience, tailored to your unique needs and goals.</p>
           </div>
           </div>
@@ -336,7 +354,7 @@ function Home () {
           <img src={wcg3} className="w-[70%] md:w-[60%] lg:w-[70%] m-auto" />
           </div>
           <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto pb-16 m-auto'>
-          <h2 className="font-semibold text-2xl mt-20">Supportive Community</h2>
+          <h2 className="text-black font-semibold text-2xl mt-20">Supportive Community</h2>
                 <p>Grachiever's supportive community fosters networking, collaboration, and mutual support among learners and professionals, enhancing learning and work experiences.</p>
           </div>
           </div>
@@ -346,7 +364,7 @@ function Home () {
           <img src={wcg4} className="rounded-xl p-2 w-[80%] h-auto md:h-72 m-auto" />
           </div>
           <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#e0ebff] p-2 w-[80%] h-auto pb-16 m-auto'>
-          <h2 className="font-semibold text-2xl mt-20">Affordable And Flexible</h2>
+          <h2 className="text-black font-semibold text-2xl mt-20">Affordable And Flexible</h2>
                   <p>Grachiever's budget-friendly and adaptable pricing options provide access to excellent educational resources and opportunities for skill development.</p>
           </div>
           </div>
@@ -380,11 +398,11 @@ function Home () {
               <h1 className="font-bold text-4xl">Find Your <span class="text-[#4eb0e1]">Dream Career</span> With Grachiever's Skill Consultancy</h1>
               <p className="text-lg mt-5">Our skilled consultancy service provides various offerings to guide you in selecting the most suitable skills. We help you identify in-demand skills, suggest the best courses to develop those skills, and advise you on future-ready skills that AI cannot replace."</p>
 
-                  <li className="mx-5 mt-5"><strong>Personalized Guidance:</strong> Tailored advice for your unique path.</li>
-                  <li className="mx-5"><strong>Your Skills:</strong> Stay ahead of the robots.</li>
-                  <li className="mx-5"><strong>Expert Insights</strong>: Years of experience at your service.</li>
-                  <li className="mx-5"><strong>Industry Trends:</strong> Know what's in demand.</li>
-                  <li className="mx-5"><strong>Confidence-Boosting:</strong> Empowering you for success.</li>
+                  <li className=" mx-5 mt-5"><strong className='text-black'>Personalized Guidance:</strong> Tailored advice for your unique path.</li>
+                  <li className=" mx-5"><strong className='text-black'>Your Skills:</strong> Stay ahead of the robots.</li>
+                  <li className=" mx-5"><strong className='text-black'>Expert Insights</strong>: Years of experience at your service.</li>
+                  <li className=" mx-5"><strong className='text-black'>Industry Trends:</strong> Know what's in demand.</li>
+                  <li className=" mx-5"><strong className='text-black'>Confidence-Boosting:</strong> Empowering you for success.</li>
                   <button className="bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg p-2  mt-5 ml-3 px-5"><Link to="/Skillconsultancy">Register for Free</Link></button>
           </div>
 
@@ -431,22 +449,22 @@ function Home () {
         <h1 className="text-3xl sm:text-3xl md:text-3xl lg:text-4xl font-bold text-center p-5 mb-10">Achievements</h1>
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 text-center">
             <div className=" m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-44 w-44 lg:h-48 lg:w-48 mb-10 rounded-full">
-              <FaGraduationCap className='text-5xl text-black-400 mt-10 mx-auto m-2 group-hover:text-blue-500'/>
+              <FaGraduationCap className='text-5xl text-black mt-10 mx-auto m-2 group-hover:text-blue-500'/>
               <p className="text-2xl font-bold group-hover:text-[#349fcf]">350+</p>
               <p className='group-hover:text-green-500'>Student worldwide</p>
             </div>
             <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-44 w-44 lg:h-48 lg:w-48 mb-10 rounded-full">
-              <FaList className='text-3xl text-black-400 mt-10 mx-auto m-2 group-hover:text-green-500'/>           
+              <FaList className='text-3xl text-black mt-10 mx-auto m-2 group-hover:text-green-500'/>           
               <p className="text-2xl font-bold group-hover:text-[#349fcf]">450+</p>
               <p className='group-hover:text-blue-500'>Total Course Views</p>
             </div>
             <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-44 w-44 lg:h-48 lg:w-48 mb-10 rounded-full">
-              <FaStar className='text-3xl text-black-400 mt-10 mx-auto m-2 group-hover:text-yellow-500'/>
+              <FaStar className='text-3xl text-black mt-10 mx-auto m-2 group-hover:text-yellow-500'/>
               <p className="text-2xl font-bold group-hover:text-[#349fcf]">550+</p>
               <p className='group-hover:text-orange-500'>Course Reviews</p>
             </div>
             <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-44 w-44 lg:h-48 lg:w-48 mb-10 rounded-full">
-              <FaUser className='text-3xl text-black-400 mt-10 mx-auto m-2 group-hover:text-orange-500'/>
+              <FaUser className='text-3xl text-black mt-10 mx-auto m-2 group-hover:text-orange-500'/>
               <p className="text-2xl font-bold group-hover:text-[#349fcf]">650+</p>
               <p className='group-hover:text-yellow-500'>Student Community</p>
             </div>

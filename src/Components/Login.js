@@ -3,6 +3,7 @@ import { FaAngleRight } from "react-icons/fa";
 import grachieverlogo from "../images/LOGOS/grachiever-02.png";
  import login from '../images/Form/login.png';
  import { Link } from 'react-router-dom'
+ import signup from '../images/Form/signup.png';
 
 
 
@@ -27,9 +28,18 @@ function LoginAndRegister({ onLogin, onRegister }) {
   return (
     <section className="mt-20 container mx-auto">
       <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2" >
+      {isLogin && (
         <div className="m-auto">
           <img src={login} className='p-10' />
         </div>
+           )}
+
+          {!isLogin && (
+          <div className="m-auto">
+          <img src={signup} className='p-10' />
+        </div>
+          )}
+
         <div className=" bg-white rounded-md items-center mb-20 md:mt-20 p-2 w-full md:w-96">
           {/* <h2 className="text-xl font-medium mb-4">{isLogin ? 'Login' : 'Register'}</h2> */}
           <img src={grachieverlogo} className=" m-auto w-40  " alt="Grachiever Logo" />
