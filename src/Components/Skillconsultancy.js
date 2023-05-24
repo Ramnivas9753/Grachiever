@@ -11,11 +11,11 @@ function consultancy() {
             <section className="p-0 sm:p-0 md:p-0 lg:p-0 mt-40 mx-5">
                 <div className=" grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2" >
                     <div className="mt-20 md:w-[100%] bg-[#1b1d38] rounded-3xl">
-                        <h1 className="text-5xl font-bold text-white text-left px-24 p-12 mt-8">Tailored Skill <br /> Consultancy for <br /> <span class="text-6xl text-[#00c5ff]">Future Success</span> </h1>
+                        <h1 className="text-6xl font-bold text-white text-left px-24 p-12 mt-8">Tailored Skill <br /> Consultancy for <br /> <span class="text-6xl text-[#00c5ff]">Future Success</span> </h1>
                     </div>
                     {/* <!--Graph Section--> */}
                     <div className="mt-5 md:mt-0">
-                        <img src={first} className='w-[100%] rounded-br-3xl z-50 md:-translate-x-20' />
+                        <img src={first} className='w-[100%] mt-10 rounded-br-3xl z-50 md:-translate-x-20' />
                     </div>
                 </div>
                 {/* h-auto max-w-full */}
@@ -153,10 +153,10 @@ function consultancy() {
             <section className="p-0 sm:p-0 md:p-5 lg:p-10 bg-[#1b1d38] mb-5 rounded-3xl mx-5">
                 <div className=" m-2 mx-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 mt-5">
                     <div className="m-auto  mb-0 ">
-                        <button className="p-2 rounded-lg bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-8 text-lg mt-2">Get Started now!</button>
+                        <button className="p-2 rounded-lg bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-8 text-lg mt-0">Get Started now!</button>
                     </div>
                     <div className="m-auto md:col-span-2  ml-30">
-                        <p className="p-2  text-lg  font-bold text-white">
+                        <p className="p-2  text-lg  font-bold ">
                             Ready to take your skills to the next level? Contact us today to schedule a consultation with one of our skill experts. Together, we'll unlock your full potential and set you on the path to a thriving career.</p>
                     </div>
                 </div>
