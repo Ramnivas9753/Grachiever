@@ -41,12 +41,12 @@ function Trusted_section() {
 
   return (
     <>
-    <section className="p-2 md:p-10 mt-52 max-md:mt-10 bg-[#f6f9ff] container mx-auto">
+    <section className="p-2 md:p-10 mt-10 max-md:mt-10 bg-[#f6f9ff] container mx-auto">
     
-    <h1 className=" text-center text-3xl sm:text-3xl md:text-3xl lg:text-3xl font-bold">Trusted By World Best</h1>
+    <h1 className=" text-center text-xl sm:text-3xl font-bold">Trusted By World Best</h1>
     
 <Slider {...settings} className="m-5 ">
-<div className=" m-10 -ml-2 h-24 md:h-24 lg:h-24 ">
+<div className=" m-10 -ml-2 h-10 md:h-24 lg:h-24 ">
 <img src={slidelogo1} className=''/>
 </div>
 

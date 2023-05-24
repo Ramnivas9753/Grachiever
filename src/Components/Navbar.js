@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from 'react-router-dom'
-import grachieverlogo from "../images/LOGOS/g.logo.white1.png"
+import grachieverlogo from "../images/LOGOS/grachiever-02.png"
 
 
 function Navbar() {
@@ -9,15 +9,15 @@ function Navbar() {
 
     return (
     <section className="relative mx-auto">
-      <nav className="w-full bg-[#1b1d38] fixed top-0 z-50">   
-      {/* bg-[#FAF9F6] */}
+      <nav className="w-full bg-[#FAF9F6]  fixed top-0 z-50">   
+      {/*  bg-[#1b1d38]*/}
           <div className="justify-between mx-auto lg:max-w-7xl md:items-center md:flex ">
               <div>
-                  <div className="flex items-center justify-between py-3 md:py-5 md:-ml-14 md:block">
-                      <Link to="/"><img src={grachieverlogo} className="w-24 sm:w-28 md:w-40 -mt-5 md:-mt-8" alt="Grachiever Logo" /></Link>
-                      <div className="flex text-white text-sm hidden max-md:block">
-                              <Link to="/login" className="px-2 py-1 text-center rounded-full shadow hover:text-blue-500 border border-white">Log-in</Link>
-                              <Link to="/signup" className="px-2 py-1 text-center bg-[#349fcf] text-white rounded-full shadow hover:text-black">Sign up</Link>
+                  <div className="flex items-center justify-between py-3 md:py-5 md:-ml-0 md:block">
+                      <Link to="/"><img src={grachieverlogo} className="w-24 sm:w-28 md:w-40 " alt="Grachiever Logo" /></Link>
+                      <div className="flex text-sm hidden max-md:block">
+                              <Link to="/login" className="px-2 py-1 text-center rounded-full shadow hover:text-blue-500 border border-[#00c5ff]">Log-in</Link>
+                              <Link to="/signup" className="ml-3 px-2 py-1 text-center bg-[#00c5ff] text-white rounded-full shadow hover:text-black">Sign up</Link>
                       </div>
                           
                       <div className="md:hidden ">
@@ -62,7 +62,7 @@ function Navbar() {
               <div>
                   <div className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden" }`}>
                       <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 font-medium text-white ml-10">
-                          <li className="hover:text-blue-500">
+                          <li className="hover:text-blue-500 text-black">
                               <Link to="/">Home</Link>
                           </li>
                           {/* <li className="">
@@ -109,7 +109,7 @@ function Navbar() {
                           <li>
                             <div className="group inline-block">
                             <button className="outline-none focus:outline-none px-0 rounded-sm flex items-center">
-                                <span className="flex-1">Services</span>
+                                <span className="flex-1 text-black">Services</span>
                                 <span>
                                 <svg
                                     className="fill-current h-4 w-4 transform group-hover:-rotate-180
@@ -387,18 +387,18 @@ function Navbar() {
                             </ul>
                             </div>
                           </li>
-                          <li className="hover:text-blue-500">
+                          <li className="hover:text-blue-500 text-black">
                               <Link to="/blog">Blog</Link>
                           </li>
-                          <li className="hover:text-blue-500">
+                          <li className="hover:text-blue-500 text-black">
                               <Link to="/about">About</Link>
                           </li>
-                          <li className="hover:text-blue-500">
+                          <li className="hover:text-blue-500 text-black">
                               <Link to="/contact">Contact</Link>
                           </li>
                           <li className=" lg:pl-10">
                           <div className="flex max-md:hidden">
-                              <Link to="/login" className="px-4 py-2 text-center rounded-full shadow hover:text-blue-500 border border-[#1b1d38] hover:border-white">  Log-in</Link>
+                              <Link to="/login" className="px-4 py-2 mr-2 text-center rounded-full shadow hover:text-blue-500 border border-[#1b1d38] hover:border-white text-black">  Log-in</Link>
                               <Link to="/signup" className="px-4 py-2 text-center text-gray-800 bg-[#00c5ff] text-white rounded-full shadow hover:text-black">Sign up</Link>
                           </div>
                           </li>

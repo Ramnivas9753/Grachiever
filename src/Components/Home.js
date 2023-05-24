@@ -50,6 +50,13 @@ import home_animate_main_img from "../images/1/main_img-1.png"
 import React, { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
 
+// ...................... scroll indicator ..........
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
+import 'tailwindcss/tailwind.css';
+import { FaArrowCircleUp } from "react-icons/fa";
+
+
 function Home () {
   const typedRef = useRef(null);
   useEffect(() => {
@@ -86,26 +93,83 @@ function Home () {
     setDivVisibility(false);
     document.getElementById('homepageicons').style.marginTop="10px";
   };
+
+
+  // ............ scroll indicator progress bar code ............
+  const [scroll, setScroll] = useState(0);
+
+  useEffect(() => {
+  
+      let progressBarHandler = () => {
+          const totalScroll = document.documentElement.scrollTop;
+          const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+          const scroll = `${totalScroll / windowHeight}`;
+          setScroll(scroll);
+      }
+      window.addEventListener("scroll", progressBarHandler);
+      return () => window.removeEventListener("scroll", progressBarHandler);
+  });
+
+
+  // .....................................
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+  const ScrollToTopButton = () => {
+    const [showButton, setShowButton] = useState(false);
+  
+    useEffect(() => {
+      const handleScroll = () => {
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        setShowButton(scrollTop > 100);
+      };
+  
+      window.addEventListener('scroll', handleScroll);
+  
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, []);
+  
+    return (
+      <button
+        className={`fixed bottom-4 right-4 z-50 bg-red-500 text-black rounded-full p-3 ${
+          showButton ? 'opacity-100' : 'opacity-0'
+        }`}
+        onClick={scrollToTop}
+      >
+        <FaArrowCircleUp className='bgired-500 text-xl' />
+      </button>
+    );
+  };
+  // ..............................
+
+
  
     return(
         <>
             
 {/* <!-- ........................ home section start ..................................... --> */}
- <section className="px-5 sm:px-5 md:px-10 lg:px-10 pt-10 mt-12 md:mt-28 container mx-auto">
+{/* <div id="progressBarContainer">
+    <div id="progressBar" style={{transform: `scale(${scroll}, 1)`, opacity: `${scroll}`}} />
+</div> */}
+
+
+ <section className="px-5 sm:px-5 md:px-5 lg:px-10 pt-10 mt-12 md:mt-28 container mx-auto">
   <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10">
-    <div className="pl-5 md:pl-10 lg:pl-10 ">
-      <span className="type text-[30px] mt-5 lg:text-[60px] font-medium text-[#00c5ff]" ref={typedRef}></span>
-      <p className="mt-5 ">The only easier, powerful and authoring platform designed for consistent learners to
+    <div className="md:pl-0 lg:pl-10 ">
+      <span className="type text-2xl sm:text-5xl mt-5 font-medium text-[#00c5ff]" ref={typedRef}></span>
+      <p className="mt-5 text-sm sm:text-xl">The only easier, powerful and authoring platform designed for consistent learners to
         unlock the power of monetizing</p>
       {/* <!--Search--> */}
       <div className="relative border-b-[#349fcf] border-[#349fcf] border-2 flex items-center mt-8 w-auto rounded-full outline-none text-xl">
-        <input type="text" className="py-3 px-4 outline-none w-full rounded-full" placeholder="Search Anything..."  onClick={handleInputClick}/>
-        <select className="focus:outline-none cursor-pointer w-24 text-md sm:text">
+        <input type="text" className="py-3 px-4 outline-none w-full rounded-full text-sm sm:text-md" placeholder="Search Anything..."  onClick={handleInputClick}/>
+        <select className="focus:outline-none cursor-pointer w-16 sm:w-24 md:w-24 text-sm sm:text-md">
           <option>Courses</option>
           <option>Freelancing</option>
           <option>Tools</option>
         </select>
-        <span className="w-16 sm:w-16 md:w-16 lg:w-14 m-1 h-10 rounded-full bg-[#00c5ff] text-white"><FaSearch className=' mx-auto mt-2'/></span>
+        <span className="w-20 sm:w-16 md:w-16 lg:w-14 m-1 h-10 rounded-full bg-[#00c5ff] text-white"><FaSearch className=' mx-auto mt-2'/></span>
         {isDivVisible && (
             <div
               id="z2"
@@ -221,20 +285,20 @@ function Home () {
           <img className='w-auto rounded-full' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Ficon-cs.png?auto=format&h=50&ixlib=php-4.1.0&s=ca1b72eb12f2dfea042808d8709c73d8' />
           <p className='mx-3 self-center'>Computer Science</p>
         </div>
-
+        
       </div>
 
     </div>
     <div className="mt-8 md:mt-0">
-      {/* <img src={homeimage01} className="md:w-[80%] m-auto" />    */}
-      <div className=" mx-auto relative animate-pulse" style={{ backgroundImage:`url(${home_animate_background_img})`,backgroundRepeat:"no-repeat",height:"120%",width:"100%",animate:"bounce"}}>
+      <img src={homeimage01} className="md:w-[80%] m-auto" />   
+      {/* <div className=" mx-auto relative animate-pulse" style={{ backgroundImage:`url(${home_animate_background_img})`,backgroundRepeat:"no-repeat",height:"120%",width:"100%",animate:"bounce"}}>
         <img className='animate-pulse' src={home_animate_star_img} />
         <img className='absolute top-20 left-[40%] w-40 animate-bounce' src={home_animate_main_img} />
         <img className='absolute top-0 left-0 w-28 m-5 animate-bounce' src={home_animate_left_top_img} />
         <img className='absolute top-52 left-0 w-40 animate-pulse' src={home_animate_left_bottom_img} />
         <img className='absolute top-0 right-0 w-40  animate-pulse' src={home_animate_right_top_img} />
         <img className='absolute top-52 right-0 w-28 animate-bounce' src={home_animate_right_bottom_img} />
-      </div>         
+      </div>          */}
     </div>
   </div>
 </section>
@@ -247,18 +311,18 @@ function Home () {
   
     {/* <!--Skill Section--> */}
 
-    <section className="p-0 sm:p-0 md:p-10 lg:p-10 container mt-5 mx-auto">
+    <section className="p-0 sm:p-0 md:p-0 lg:p-0 container mt-5 mx-auto">
       <div className="h-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2" >
-        <div className="lg:h-full md:h-full mx-5 sm:mx-5 md:mx-10 lg:mx-10">
-            <h1 className=" mt-5 md:text-3xl lg:text-5xl font-bold"><span class="text-[#4eb0e1]">Track</span> The Trending<br/> <span class="text-[#4eb0e1]">Skills</span> Over Time</h1>
-            <p className="mt-5  text-lg">Our Skill Graph feature helps you stay up-to-date with the latest skills in demand. our Skill Graph displays the trending skills over time.</p>
-            <p  className="mt-5 text-lg">allowing you to identify which skills are gaining popularity and which are losing relevance. With this powerful tool, you can make informed decisions about the skills you want to learn or develop, ensuring you stay ahead of the curve in your chosen field.</p>
-            <div className=' mt-10'>
-       <button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2 rounded-xl   px-8 text-lg  font-bold"><Link to="/Skillgraph">Learn More</Link></button>
-       </div>
+        <div className="lg:h-full md:h-full mx-5 sm:mx-5 md:mx-5 lg:mx-10">
+            <h1 className=" mt-5 text-xl sm:text-3xl font-bold"><span class="text-[#4eb0e1]">Track</span> The Trending<br/> <span class="text-[#4eb0e1]">Skills</span> Over Time</h1>
+            <p className="mt-5 text-sm sm:text-xl">Our Skill Graph feature helps you stay up-to-date with the latest skills in demand. our Skill Graph displays the trending skills over time.</p>
+            <p  className="mt-5 text-sm sm:text-xl">allowing you to identify which skills are gaining popularity and which are losing relevance. With this powerful tool, you can make informed decisions about the skills you want to learn or develop, ensuring you stay ahead of the curve in your chosen field.</p>
+            <div className='mt-3 sm:mt-10'>
+              <button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-0 sm:p-2 rounded-xl px-3 sm:px-8 text-lg font-bold"><Link to="/Skillgraph">Learn More</Link></button>
+            </div>
       </div>
     {/* <!--Graph Section--> */}
-        <div className="mt-5">
+        <div className="mt-5 mx- sm:mx-5 md:mx-5 lg:mx-5">
           {/* <img src={sgraph} className='mx-auto' /> */}
           <GraphChart/>
         </div>
@@ -272,7 +336,7 @@ function Home () {
   {/* Top Categories Section */}
 
   <section className="m-5 p-0 sm:p-0 md:p-10 lg:p-10 container mx-auto" >
-  <h1 className=" md:text-4xl font-bold text-center  p-5 ">Top Categories</h1>
+  <h1 className="text-xl sm:text-3xl font-bold text-center  p-5 ">Top Categories</h1>
   <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 w-[90%] mx-auto mt-5">
   {/* Left Side Section--> */}
   <div className="md:m-5 lg:m-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 mb-5">
@@ -327,7 +391,7 @@ function Home () {
       {/* <!-- ....... why choose Grachiever .............--> */}
 
 <section className="p-0 sm:p-0 md:p-10 lg:p-10 container mt-10 mb-10 mx-auto " >
-          <h1 className=" text-center text-xl sm:text-xl md:text-3xl lg:text-4xl font-bold mb-2">Why Choose Grachiever?</h1>
+          <h1 className=" text-center text-xl sm:text-3xl font-bold mb-2">Why Choose Grachiever?</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  md:mt-12 pb-5">
           <div className='hover:-translate-y-5 duration-500 mt-10 pb-5' >
           <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-auto'>
@@ -373,9 +437,9 @@ function Home () {
 
       {/* BOOST YOUR PRODUCTIVITY WITH GRACHIEVER`S TOOLS SERVICE */}
 
-      <section className='pb-20 bg-[#1b1d38] container mx-auto'>
-        <h1 className='text-center font-semibold text-white md:text-3xl md:p-10 mb-10'><span class="text-[#4eb0e1]">BOOST</span> YOUR PRODUCTIVITY WITH GRACHIEVER`S TOOLS SERVICE</h1>
-       <div className='md:p-16 flex justify-center gap-20 flex-col md:flex-row'>
+      <section className='py-10 bg-[#1b1d38] container mx-auto'>
+        <h1 className='text-center font-semibold text-white text-md sm:text-3xl md:p-0 mb-10'><span class="text-[#4eb0e1]">BOOST</span> YOUR PRODUCTIVITY WITH GRACHIEVER`S TOOLS SERVICE</h1>
+       <div className='flex justify-center gap-20 flex-col md:flex-row mx-auto'>
         <FlipCard  />
         <FlipCard  />
         <FlipCard  />
@@ -538,8 +602,14 @@ function Home () {
             <button className="p-2 rounded-lg bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-8 text-lg mt-5">Start Learning For Free</button>
         </div>
       </div>
-    </section>
 
+</section>
+<section>
+<ScrollToTopButton />
+
+</section>
+
+    
         </>
     );
 }

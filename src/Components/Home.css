@@ -297,3 +297,27 @@
     color: #00c5ff;
   }
 }
+
+
+/* ..................... scroll indicator progress bar ...........  */
+#progressBarContainer {
+  position: fixed;
+  z-index: 10;
+  background: rgba(158, 9, 9, 0.05);
+  width: 100%;
+  top:8;
+  left: 0;
+}
+
+
+#progressBar {
+  background: linear-gradient(to left, red, violet);
+  transform-origin: top left;
+  transform: scale(0,0);
+  opacity: 0;
+}
+
+#progressBarContainer,
+#progressBar {
+  height: 10px;
+}
