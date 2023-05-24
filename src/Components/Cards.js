@@ -37,7 +37,6 @@ function Cards() {
       }
     ]
   };
-
   return (
     <>
     <section className="bg-[#1b1a3a] p-1 md:p-10 pb-8 mt-10 container mx-auto">

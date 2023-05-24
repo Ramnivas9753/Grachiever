@@ -18,6 +18,7 @@ function About() {
         Trust Grachiever to empower your career journey towards a brighter future. Gain skills, access freelance work, receive
         <br /> personalized guidance, and join a supportive community.
       </p>
+      
       <section>
         <div className="flex flex-col p-1">
           <div className="absolute p-2 md:ml-10 flex flex-col md:flex-row">
