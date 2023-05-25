@@ -243,7 +243,10 @@ function Home () {
       </div> */}
 
       
-      <div id='homepageicons' className='flex flex-wrap mt-10'> 
+      <div id='homepageicons' className='flex flex-wrap mt-10'
+       data-aos="fade-up"
+       data-aos-easing="ease-out-cubic"
+       data-aos-duration="2000"> 
         <a href='https://tailwindcss.com/'><div className='bg-[#f9fafc] p-1 h-10 m-1 flex rounded-full shadow-xl hover:scale-105 duration-300'>
           <img className='w-auto' src='https://ccweb.imgix.net/https%3A%2F%2Fwww.classcentral.com%2Fimages%2Ficon-free-certificates.png?auto=format&h=50&ixlib=php-4.1.0&s=c25548f8b3bc8df8ae051dbe30a9a50a' />
           <p className='mx-3 self-center'>Free Certificates</p>
@@ -316,7 +319,10 @@ function Home () {
 
     <section className="p-0 sm:p-0 md:p-0 lg:p-0 container mt-5 mx-auto">
       <div className="h-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2" >
-        <div className="lg:h-full md:h-full mx-5 sm:mx-5 md:mx-5 lg:mx-10">
+        <div className="lg:h-full md:h-full mx-5 sm:mx-5 md:mx-5 lg:mx-10"
+         data-aos="fade-right"
+         data-aos-easing="ease-out-cubic"
+         data-aos-duration="2000">
             <h1 className=" mt-5 text-xl sm:text-3xl font-bold"><span class="text-[#4eb0e1]">Track</span> The Trending<br/> <span class="text-[#4eb0e1]">Skills</span> Over Time</h1>
             <p className="mt-5 text-sm sm:text-xl">Our Skill Graph feature helps you stay up-to-date with the latest skills in demand. our Skill Graph displays the trending skills over time.</p>
             <p  className="mt-5 text-sm sm:text-xl">allowing you to identify which skills are gaining popularity and which are losing relevance. With this powerful tool, you can make informed decisions about the skills you want to learn or develop, ensuring you stay ahead of the curve in your chosen field.</p>
@@ -325,7 +331,10 @@ function Home () {
             </div>
       </div>
     {/* <!--Graph Section--> */}
-        <div className="mt-5 mx- sm:mx-5 md:mx-5 lg:mx-5">
+        <div className="mt-5 mx- sm:mx-5 md:mx-5 lg:mx-5"
+         data-aos="fade-left"
+         data-aos-easing="ease-out-cubic"
+         data-aos-duration="2000">
           {/* <img src={sgraph} className='mx-auto' /> */}
           <GraphChart/>
         </div>
@@ -338,7 +347,10 @@ function Home () {
 
   {/* Top Categories Section */}
 
-  <section className="m-5 p-0 sm:p-0 md:p-10 lg:p-10 container mx-auto" >
+  <section className="m-5 p-0 sm:p-0 md:p-10 lg:p-10 container mx-auto"
+   data-aos="fade-up"
+   data-aos-easing="ease-out-cubic"
+   data-aos-duration="2000" >
   <h1 className="text-xl sm:text-3xl font-bold text-center  p-5 ">Top Categories</h1>
   <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 w-[90%] mx-auto mt-5">
   {/* Left Side Section--> */}
@@ -393,7 +405,10 @@ function Home () {
 
       {/* <!-- ....... why choose Grachiever .............--> */}
 
-<section className="p-0 sm:p-0 md:p-10 lg:p-10 container mt-10 mb-10 mx-auto " >
+<section className="p-0 sm:p-0 md:p-10 lg:p-10 container mt-10 mb-10 mx-auto "
+ data-aos="fade-up"
+ data-aos-easing="ease-out-cubic"
+ data-aos-duration="2000" >
           <h1 className=" text-center text-xl sm:text-3xl font-bold mb-2">Why Choose Grachiever?</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  md:mt-12 pb-5">
           <div className='hover:-translate-y-5 duration-500 mt-10 pb-5' >
@@ -440,7 +455,10 @@ function Home () {
 
       {/* BOOST YOUR PRODUCTIVITY WITH GRACHIEVER`S TOOLS SERVICE */}
 
-      <section className='py-10 bg-[#1b1d38] container mx-auto'>
+      <section className='py-10 bg-[#1b1d38] container mx-auto'
+       data-aos="fade-up"
+       data-aos-easing="ease-out-cubic"
+       data-aos-duration="2000">
         <h1 className='text-center font-semibold text-white text-md sm:text-3xl md:p-0 mb-10'><span class="text-[#4eb0e1]">BOOST</span> YOUR PRODUCTIVITY <br />WITH GRACHIEVER`S TOOLS SERVICE</h1>
        <div className='flex justify-center items-center gap-0 md:gap-20 flex-row mx-auto overflow-x-scroll'>
         <FlipCard  />
@@ -461,7 +479,10 @@ function Home () {
     {/* <!--Skill Consultancy left section--> */}
 
     <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
-          <div className="mx-0 sm:mx-5 md:mx-20 lg:mx-20 mb-10">
+          <div className="mx-0 sm:mx-5 md:mx-20 lg:mx-20 mb-10"
+           data-aos="fade-right"
+           data-aos-easing="ease-out-cubic"
+           data-aos-duration="2000">
               <h1 className="font-bold md:text-4xl">Find Your <span class="text-[#4eb0e1]">Dream Career</span> With Grachiever's Skill Consultancy</h1>
               <p className="md:text-lg mt-5">Our skilled consultancy service provides various offerings to guide you in selecting the most suitable skills. We help you identify in-demand skills, suggest the best courses to develop those skills, and advise you on future-ready skills that AI cannot replace."</p>
 
@@ -475,7 +496,10 @@ function Home () {
 
     {/* <!--Skill Consultancy Rigth section--> */}
 
-    <div className="">
+    <div className=""
+     data-aos="fade-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
       <img src={sc1} width="60%" className="mx-auto" />
     </div>
     </div>
@@ -483,7 +507,10 @@ function Home () {
     </section>
 
     {/* <!--Feature Ready Skills sections--> */}
-    <section className="p-0 sm:p-0 md:p-10 lg:p-10 container bg-[#1b1d38] mx-auto">
+    <section className="p-0 sm:p-0 md:p-10 lg:p-10 container bg-[#1b1d38] mx-auto"
+     data-aos="fade-up"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
     <div className="p-3 text-center m-2 h-auto">
         <h1 className=" md:text-3xl lg:text-5xl font-bold my-10  text-white">Get Personal Future Ready Skill Recommandations</h1>
         <h2 className="text-xl md:text-3xl text-gray-300">Enhance Your Skill With Grachiever</h2>
@@ -511,7 +538,10 @@ function Home () {
 
 
  {/* <!--Achievements Sections--> */}
-<section className="p-0 sm:p-0 md:p-10 lg:p-10 container mx-auto" >
+<section className="p-0 sm:p-0 md:p-10 lg:p-10 container mx-auto"
+ data-aos="fade-up"
+ data-aos-easing="ease-out-cubic"
+ data-aos-duration="2000" >
     <div className="mt-5">
         <h1 className=" md:text-3xl lg:text-4xl font-bold text-center p-5 mb-10">Achievements</h1>
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 text-center">
@@ -540,7 +570,10 @@ function Home () {
 </section>
  
    {/* <!-- Blog Section --> */}
-<section className="p-0 sm:p-0 md:p-10 lg:p-5 container mx-auto" >
+<section className="p-0 sm:p-0 md:p-10 lg:p-5 container mx-auto"
+ data-aos="fade-up"
+ data-aos-easing="ease-out-cubic"
+ data-aos-duration="2000" >
      <div className="m-10">
       <h1 className=" md:text-3xl lg:text-5xl font-bold ">Blog</h1>
       <p className="mt-2 mb-2  font-semibold">Most Recent</p>
@@ -581,7 +614,10 @@ function Home () {
 
 
 {/* <!-- ....... popular and demand start  ...... --> */}
-<section className='mt-10 container mx-auto'>
+<section className='mt-10 container mx-auto'
+data-aos="fade-up"
+  data-aos-easing="ease-out-cubic"
+  data-aos-duration="2000">
   <div className='h-96'>
     <h1 className="text-center md:text-5xl">Popular <span className='text-[#00c5ff]'>In-Demand </span> Services</h1>
        <Z_index_card1 />
@@ -595,7 +631,10 @@ function Home () {
 {/* <!-- ....... popular and demand end ...... --> */}
     
       {/* <!--Finding Your Right Course--> */}
-<section className="p-0 sm:p-0 md:p-10 lg:p-10 bg-[#e0ebff] mb-5 mt-5 container mx-auto">
+<section className="p-0 sm:p-0 md:p-10 lg:p-10 bg-[#e0ebff] mb-5 mt-5 container mx-auto"
+ data-aos="fade-up"
+ data-aos-easing="ease-out-cubic"
+ data-aos-duration="2000">
       <div className=" m-2 mx-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 mt-5">
         <div className="m-auto md:col-span-2">
           <h1 className=" md:text-3xl lg:text-3xl font-bold p-2">Finding Your Right Course</h1>
