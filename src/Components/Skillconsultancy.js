@@ -269,9 +269,9 @@ function consultancy() {
 
                                 <tr className='h-20'>
                                     <th className=" text-lg border-slate-300 ..."></th>
-                                    <td className=" text-lg border-slate-300 ..."> <button className="p-2 w-60 rounded-full bg-[#eddc24] font-bold hover:bg-white text-white hover:text-black border-2  px-8 text-lg mt-2"  data-aos="zoom-in"  data-aos-duration="2000">Get Started </button></td>
-                                    <td className=" text-lg border-slate-300 ..."> <button className="p-2 w-60 rounded-full bg-[#359bdb] font-bold hover:bg-white text-white hover:text-black border-2  px-8 text-lg mt-2"  data-aos="zoom-in"  data-aos-duration="2000">Get Started </button></td>
-                                    <td className="text-lg border-slate-300 ..."> <button className="p-2 w-60 rounded-full bg-[#1839cc] font-bold hover:bg-white text-white hover:text-black border-2  px-8 text-lg mt-2"  data-aos="zoom-in"  data-aos-duration="2000">Get Started </button></td>
+                                    <td className=" text-lg border-slate-300 ..."> <button className="p-2 w-60 rounded-full bg-[#eddc24] font-bold hover:bg-white text-white hover:text-black border-2  px-8 text-lg mt-2"  data-aos="zoom-in"  data-aos-duration="3000">Get Started </button></td>
+                                    <td className=" text-lg border-slate-300 ..."> <button className="p-2 w-60 rounded-full bg-[#359bdb] font-bold hover:bg-white text-white hover:text-black border-2  px-8 text-lg mt-2"  data-aos="zoom-in"  data-aos-duration="3000">Get Started </button></td>
+                                    <td className="text-lg border-slate-300 ..."> <button className="p-2 w-60 rounded-full bg-[#1839cc] font-bold hover:bg-white text-white hover:text-black border-2  px-8 text-lg mt-2"  data-aos="zoom-in"  data-aos-duration="3000">Get Started </button></td>
                                    
                                 </tr>
                             </tbody>
