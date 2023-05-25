@@ -92,7 +92,7 @@ function Footer() {
         </div>
         {/* </div> */}
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 lg:grid-cols-5 text-white mx-10 -mt-10 text-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 lg:grid-cols-5 text-white md:mx-10 -mt-10 text-center">
           <div className="text-sm">
             <h1 className='text-white text-center text-xl font-bold p-3'>What is Grachiever ?</h1>
             <p className=''> Grachiever is a comprehensive platform designed to help individuals achieve success in their careers. Our goal is to provide high-quality courses, freelance opportunities, and the latest tools and resources to help you enhance your productivity and stay ahead in today's competitive job market.</p>
