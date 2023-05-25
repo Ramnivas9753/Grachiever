@@ -411,7 +411,7 @@ function Home () {
  data-aos-duration="2000" >
           <h1 className=" text-center text-xl sm:text-3xl font-bold mb-2">Why Choose Grachiever?</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  md:mt-12 pb-5">
-          <div className='hover:-translate-y-5 duration-500 mt-10 pb-5' >
+          <div className='hover:-translate-y-5 duration-500 mt-10 pb-5'data-aos="zoom-in"  data-aos-duration="2000" >
           <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-auto'>
           <img src={wcg1} className="rounded-xl p-2 w-[100%] h-auto md:h-72 m-auto" />
           </div>
@@ -460,7 +460,7 @@ function Home () {
        data-aos-easing="ease-out-cubic"
        data-aos-duration="2000">
         <h1 className='text-center font-semibold text-white text-md sm:text-3xl md:p-0 mb-10'><span class="text-[#4eb0e1]">BOOST</span> YOUR PRODUCTIVITY <br />WITH GRACHIEVER`S TOOLS SERVICE</h1>
-       <div className='flex justify-center items-center gap-0 md:gap-20 flex-row mx-auto overflow-x-scroll'>
+       <div className='flex justify-center items-center gap-0 md:gap-20 flex-row mx-auto overflow-x-scroll' data-aos="zoom-in"  data-aos-duration="2000">
         <FlipCard  />
         <FlipCard  />
         <FlipCard  />
@@ -544,7 +544,7 @@ function Home () {
  data-aos-duration="2000" >
     <div className="mt-5">
         <h1 className=" md:text-3xl lg:text-4xl font-bold text-center p-5 mb-10">Achievements</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 text-center">
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 text-center" data-aos="zoom-in"  data-aos-duration="2000">
             <div className=" m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-44 w-44 lg:h-48 lg:w-48 mb-10 rounded-full">
               <FaGraduationCap className='text-5xl text-black mt-10 mx-auto m-2 group-hover:text-blue-500'/>
               <p className=" font-bold group-hover:text-[#349fcf]">350+</p>
@@ -570,11 +570,11 @@ function Home () {
 </section>
  
    {/* <!-- Blog Section --> */}
-<section className="p-0 sm:p-0 md:p-10 lg:p-5 container mx-auto"
- data-aos="fade-up"
- data-aos-easing="ease-out-cubic"
- data-aos-duration="2000" >
-     <div className="m-10">
+<section className="p-0 sm:p-0 md:p-10 lg:p-5 container mx-auto" >
+     <div className="m-10"
+      data-aos="fade-up"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000">
       <h1 className=" md:text-3xl lg:text-5xl font-bold ">Blog</h1>
       <p className="mt-2 mb-2  font-semibold">Most Recent</p>
       <hr />
@@ -585,7 +585,10 @@ function Home () {
      {/* <!--3 Card--> */}
      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 m-2 h-auto  gap-10 sm:gap-10 md:gap-10 lg:gap-20 mx-5 lg:mx-10 md:mx-10 md:mt-10 lg:mt-10">
        {/* <!-- Card_1 --> */}
-       <div className="shadow-lg hover:shadow-gray-500 w-auto overflow-hidden p-5 rounded-2xl">
+       <div className="shadow-lg hover:shadow-gray-500 w-auto overflow-hidden p-5 rounded-2xl"
+        data-aos="fade-right"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
            <div className=" h-52">
             <img src="https://www.classcentral.com/report/wp-content/uploads/2022/03/Best-Courses-Copywriting-Banner.png" width="100%" className="rounded-xl hover:scale-105 duration-300 h-52" />
            </div>
@@ -593,7 +596,10 @@ function Home () {
            <p className=" w-auto mb-6 space-x-8 p-2">Transform your writing skills into profit: discover the best copywriting courses to launch your lucrative career or side hustle..</p>
        </div>
        {/* <!-- Card_2 --> */}
-       <div className="shadow-lg hover:shadow-gray-500 w-auto overflow-hidden p-5 rounded-2xl">
+       <div className="shadow-lg hover:shadow-gray-500 w-auto overflow-hidden p-5 rounded-2xl"
+        data-aos="fade-up"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
           <div className=" h-52">
           <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png" className="rounded-xl hover:scale-105 duration-300 h-52 w-full" />
           </div>
@@ -601,7 +607,10 @@ function Home () {
           <p className=" w-auto mb-6 space-x-8 p-2">Unlock the power of data analysis with the top pandas courses. Pandas is a powerful, open-source Python library.</p>
        </div>
        {/* <!-- Card_3 --> */}
-       <div className="shadow-lg hover:shadow-gray-500 w-auto overflow-hidden p-5 rounded-2xl">
+       <div className="shadow-lg hover:shadow-gray-500 w-auto overflow-hidden p-5 rounded-2xl"
+        data-aos="fade-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
           <div className=" h-52">
           <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/NumPy-BCG-Banner.png" className="rounded-xl hover:scale-105 duration-300 h-52 w-full" />
           </div>
