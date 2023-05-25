@@ -155,7 +155,7 @@ function Home () {
 </div>
 
 
- <section className="px-5 sm:px-5 md:px-5 lg:px-10 pt-10 mt-12 md:mt-28 container mx-auto">
+ <section className="px-2 md:px-5 lg:px-10 pt-10 mt-12 md:mt-28 container mx-auto">
   <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10">
     <div className="md:pl-0 lg:pl-10 ">
       <span className="type text-2xl sm:text-5xl mt-5 font-medium text-[#00c5ff]" ref={typedRef}></span>
@@ -313,7 +313,7 @@ function Home () {
 
     <section className="p-0 sm:p-0 md:p-0 lg:p-0 container mt-5 mx-auto">
       <div className="h-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2" >
-        <div className="lg:h-full md:h-full mx-5 sm:mx-5 md:mx-5 lg:mx-10">
+        <div className="lg:h-full md:h-full mx-2 md:mx-5 lg:mx-10">
             <h1 className=" mt-5 text-xl sm:text-3xl font-bold"><span class="text-[#4eb0e1]">Track</span> The Trending<br/> <span class="text-[#4eb0e1]">Skills</span> Over Time</h1>
             <p className="mt-5 text-sm sm:text-xl">Our Skill Graph feature helps you stay up-to-date with the latest skills in demand. our Skill Graph displays the trending skills over time.</p>
             <p  className="mt-5 text-sm sm:text-xl">allowing you to identify which skills are gaining popularity and which are losing relevance. With this powerful tool, you can make informed decisions about the skills you want to learn or develop, ensuring you stay ahead of the curve in your chosen field.</p>
@@ -390,44 +390,44 @@ function Home () {
 
       {/* <!-- ....... why choose Grachiever .............--> */}
 
-<section className="p-0 sm:p-0 md:p-10 lg:p-10 container mt-10 mb-10 mx-auto " >
+<section className="p-0 sm:p-0 md:p-10 lg:p-10 container mt-10 mb-10 " >
           <h1 className=" text-center text-xl sm:text-3xl font-bold mb-2">Why Choose Grachiever?</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  md:mt-12 pb-5">
           <div className='hover:-translate-y-5 duration-500 mt-10 pb-5' >
-          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-auto'>
+          <div className='  -mb-20 h-auto md:h-72 w-[90%] md:w-[80%] rounded-xl p-2 m-auto'>
           <img src={wcg1} className="rounded-xl p-2 w-[100%] h-auto md:h-72 m-auto" />
           </div>
-          <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto pb-10 m-auto'>
+          <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#f5f5f5] p-2 w-[90%] md:w-[80%] h-auto pb-10 m-auto'>
           <h2 className="text-black font-semibold  mt-20">Diverse Offerings</h2>
                   <p>Grachiever provides a variety of services, including online courses, freelancing opportunities, and expert consultancy, to help you develop the skills necessary for a successful career.</p>
           </div>
           </div>
 
           <div className='justify-item-center hover:-translate-y-5 duration-500 mt-10 pb-5' >
-          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-auto'>
+          <div className='  -mb-20 h-auto md:h-72 w-[90%] md:w-[80%] rounded-xl p-2 m-auto'>
           <img src={wcg2} className="w-[60%] md:w-[50%] lg:w-[60%] m-auto" />
           </div>
-          <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#e0ebff] p-2 w-[80%] h-auto pb-8 m-auto'>
+          <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#e0ebff] p-2 w-[90%] md:w-[80%] h-auto pb-8 m-auto'>
           <h2 className="text-black font-semibold  mt-20">Unique Tools & Features </h2>
                   <p>Grachiever's Skill Graph feature and other innovative tools provide a personalized learning and work experience, tailored to your unique needs and goals.</p>
           </div>
           </div>
 
           <div className='justify-item-center hover:-translate-y-5 duration-500 mt-10 ' >
-          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-auto'>
+          <div className='  -mb-20 h-auto md:h-72 w-[90%] md:w-[80%] rounded-xl p-2 m-auto'>
           <img src={wcg3} className="w-[70%] md:w-[60%] lg:w-[70%] m-auto" />
           </div>
-          <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto pb-16 m-auto'>
+          <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#f5f5f5] p-2 w-[90%] md:w-[80%] h-auto pb-16 m-auto'>
           <h2 className="text-black font-semibold  mt-20">Supportive Community</h2>
                 <p>Grachiever's supportive community fosters networking, collaboration, and mutual support among learners and professionals, enhancing learning and work experiences.</p>
           </div>
           </div>
 
           <div className='justify-item-center hover:-translate-y-5 duration-500 mt-10 pb-5' >
-          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-auto'>
-          <img src={wcg4} className="rounded-xl p-2 w-[80%] h-auto md:h-72 m-auto" />
+          <div className='  -mb-20 h-auto md:h-72 w-[90%] md:w-[80%] rounded-xl p-2 m-auto'>
+          <img src={wcg4} className="rounded-xl p-2 w-[90%] md:w-[80%] h-auto md:h-72 m-auto" />
           </div>
-          <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#e0ebff] p-2 w-[80%] h-auto pb-16 m-auto'>
+          <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#e0ebff] p-2 w-[90%] md:w-[80%] h-auto pb-16 m-auto'>
           <h2 className="text-black font-semibold  mt-20">Affordable And Flexible</h2>
                   <p>Grachiever's budget-friendly and adaptable pricing options provide access to excellent educational resources and opportunities for skill development.</p>
           </div>
@@ -452,13 +452,13 @@ function Home () {
 
    {/* <!--Skill Consultancy--> */}
     <section className="p-0 sm:p-0 md:p-10 lg:p-10 container mx-auto">
-      <div className="m-2 h-auto p-2 mt-[]">
+      <div className="md:m-2 h-auto p-2 mt-[]">
           {/* <h1 className=" md:text-3xl lg:text-5xl mx-0 sm:mx-0 md:mx-20 font-bold my-10">Skill <span class="text-[#4eb0e1]">Consultancy</span></h1> */}
 
     {/* <!--Skill Consultancy left section--> */}
 
     <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
-          <div className="mx-0 sm:mx-5 md:mx-20 lg:mx-20 mb-10">
+          <div className=" mb-10">
               <h1 className="font-bold md:text-4xl">Find Your <span class="text-[#4eb0e1]">Dream Career</span> With Grachiever's Skill Consultancy</h1>
               <p className="md:text-lg mt-5">Our skilled consultancy service provides various offerings to guide you in selecting the most suitable skills. We help you identify in-demand skills, suggest the best courses to develop those skills, and advise you on future-ready skills that AI cannot replace."</p>
 
@@ -473,7 +473,7 @@ function Home () {
     {/* <!--Skill Consultancy Rigth section--> */}
 
     <div className="">
-      <img src={sc1} width="60%" className="mx-auto" />
+      <img src={sc1} className="mx-auto md:w-[60%]" />
     </div>
     </div>
     </div>
@@ -481,11 +481,11 @@ function Home () {
 
     {/* <!--Feature Ready Skills sections--> */}
     <section className="p-0 sm:p-0 md:p-10 lg:p-10 container bg-[#1b1d38] mx-auto">
-    <div className="p-3 text-center m-2 h-auto">
-        <h1 className=" md:text-3xl lg:text-5xl font-bold my-10  text-white">Get Personal Future Ready Skill Recommandations</h1>
+    <div className=" text-center h-auto">
+        <h1 className=" md:text-3xl lg:text-5xl font-bold my-5 pt-5  text-white">Get Personal Future Ready Skill Recommandations</h1>
         <h2 className="text-xl md:text-3xl text-gray-300">Enhance Your Skill With Grachiever</h2>
   
-    <div className="text-center m-2 mt-5">
+    <div className="text-center mt-5 pb-5">
         <select className="mt-5 w-full md:w-64 lg:w-64  h-14 border rounded-xl text-xl p-2  md:m-2 md:font-semibold outline-none">
             <option>Category</option>
             <option>Data</option>
@@ -538,7 +538,7 @@ function Home () {
  
    {/* <!-- Blog Section --> */}
 <section className="p-0 sm:p-0 md:p-10 lg:p-5 container mx-auto" >
-     <div className="m-10">
+     <div className="md:m-10 pl-2">
       <h1 className=" md:text-3xl lg:text-5xl font-bold ">Blog</h1>
       <p className="mt-2 mb-2  font-semibold">Most Recent</p>
       <hr />
@@ -547,29 +547,29 @@ function Home () {
         </div> */}
     </div>
      {/* <!--3 Card--> */}
-     <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 m-2 h-auto  gap-10 sm:gap-10 md:gap-10 lg:gap-20 mx-5 lg:mx-10 md:mx-10 md:mt-10 lg:mt-10">
+     <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 m-2 h-auto  gap-10 sm:gap-10 md:gap-10 lg:gap-20  lg:mx-10 md:mx-10 md:mt-10 lg:mt-10">
        {/* <!-- Card_1 --> */}
-       <div className="shadow-lg hover:shadow-gray-500 w-auto overflow-hidden p-5 rounded-2xl">
+       <div className="shadow-lg hover:shadow-gray-500 w-auto overflow-hidden p-2 md:p-5 rounded-2xl">
            <div className=" h-52">
             <img src="https://www.classcentral.com/report/wp-content/uploads/2022/03/Best-Courses-Copywriting-Banner.png" width="100%" className="rounded-xl hover:scale-105 duration-300 h-52" />
            </div>
-           <h2 className="text-xl font-bold mt-5">Best Copywriting Courses to Take in 2023</h2>
+           <h2 className="md:text-xl font-bold mt-5">Best Copywriting Courses to Take in 2023</h2>
            <p className=" w-auto mb-6 space-x-8 p-2">Transform your writing skills into profit: discover the best copywriting courses to launch your lucrative career or side hustle..</p>
        </div>
        {/* <!-- Card_2 --> */}
-       <div className="shadow-lg hover:shadow-gray-500 w-auto overflow-hidden p-5 rounded-2xl">
+       <div className="shadow-lg hover:shadow-gray-500 w-auto overflow-hidden p-2 md:p-5 rounded-2xl">
           <div className=" h-52">
           <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png" className="rounded-xl hover:scale-105 duration-300 h-52 w-full" />
           </div>
-          <h2 className="text-xl font-bold mt-5">Best pandas Courses to Take in 2023</h2>
+          <h2 className="md:text-xl font-bold mt-5">Best pandas Courses to Take in 2023</h2>
           <p className=" w-auto mb-6 space-x-8 p-2">Unlock the power of data analysis with the top pandas courses. Pandas is a powerful, open-source Python library.</p>
        </div>
        {/* <!-- Card_3 --> */}
-       <div className="shadow-lg hover:shadow-gray-500 w-auto overflow-hidden p-5 rounded-2xl">
+       <div className="shadow-lg hover:shadow-gray-500 w-auto overflow-hidden p-2 md:p-5 rounded-2xl">
           <div className=" h-52">
           <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/NumPy-BCG-Banner.png" className="rounded-xl hover:scale-105 duration-300 h-52 w-full" />
           </div>
-          <h2 className="text-xl font-bold mt-5">Best NumPy Courses to Take in 2023</h2>
+          <h2 className="md:text-xl font-bold mt-5">Best NumPy Courses to Take in 2023</h2>
           <p className=" w-auto mb-6 space-x-8 p-2">Whether you’re a data scientist, machine learning engineer, or just someone who needs to crunch a bunch of numbers in a short amount of time, NumPy is definitely for you.</p>
         </div>
        </div>
@@ -593,7 +593,7 @@ function Home () {
     
       {/* <!--Finding Your Right Course--> */}
 <section className="p-0 sm:p-0 md:p-10 lg:p-10 bg-[#e0ebff] mb-5 mt-5 container mx-auto">
-      <div className=" m-2 mx-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 mt-5">
+      <div className=" m-2 md:mx-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 mt-5">
         <div className="m-auto md:col-span-2">
           <h1 className=" md:text-3xl lg:text-3xl font-bold p-2">Finding Your Right Course</h1>
           <p className="p-2 mt-5 text-lg md:w-[75%] font-bold text-gray-600">From in-demand skills to future-ready courses, Grachiever makes it simple to discover and enroll in the courses you need to achieve your career goals.</p>

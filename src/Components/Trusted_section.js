@@ -41,46 +41,46 @@ function Trusted_section() {
 
   return (
     <>
-    <section className="p-2 md:p-10 mt-10 max-md:mt-10 bg-[#f6f9ff] container mx-auto">
+    <section className="mt-10 max-md:mt-10 bg-[#f6f9ff] container mx-auto">
     
     <h1 className=" text-center text-xl sm:text-3xl font-bold">Trusted By World Best</h1>
     
 <Slider {...settings} className="m-5 ">
-<div className=" m-10 -ml-2 h-10 md:h-24 lg:h-24 ">
-<img src={slidelogo1} className=''/>
+<div className=" ">
+<img src={slidelogo3} className=''/>
 </div>
 
     {/* Card 1 */}
-    <div className=" w-24 h-5  "><h1 className="mt-2 p-5  md:p-10">
-          <img src={slidelogo2} />
-            </h1></div>
+    <div className="   ">
+          <img src={slidelogo5} />
+            </div>
 
     {/* Card 2 */}
-    <div className=" w-24 h-5 "><h1 className="mt-2 p-5  md:p-10">
-          <img src={slidelogo3} className='mt-4'/>
-            </h1></div>
+    <div className="  ">
+          <img src={slidelogo3} className=''/>
+            </div>
 
     {/* Card 3 */}
-    <div className=" w-24 h-5 "><h1 className="mt-8 p-5  md:p-10">
+    <div className="  ">
           <img src={slidelogo4} />
-            </h1></div>
+            </div>
 
     {/* Card 4 */}
-    <div className=" w-24 h-5 "><h1 className="mt-8 p-5  md:p-10">
+    <div className="  ">
           <img src={slidelogo5} />
-            </h1></div>
+            </div>
 
     {/* Card 5 */}
 
-    <div className=" w-24 h-5 "><h1 className="mt-8 p-5  md:p-10">
+    <div className="  ">
           <img src={slidelogo6} />
-            </h1></div>
+           </div>
             
     {/* Card 6 */}
 
-    <div className=" w-24 h-5 "><h1 className="mt-3 p-5  md:p-10">
-          <img src={slidelogo7} />
-            </h1></div>
+    <div className="  ">
+        <img src={slidelogo4} />
+            </div>
 
 
   </Slider>

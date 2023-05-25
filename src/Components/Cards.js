@@ -57,7 +57,7 @@ function Cards() {
     {/* Card 1 */}
     <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full ">
     <div className="p-2   bg-white rounded-3xl h-full  pb-5 ">
-      <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
+      <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-3xl shadow-lg" />
       <div className="grid grid-cols-2 gap-0 md:gap-20  mt-5">
       <div className=" flex items-center m-auto text-[#00c5ff]">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
@@ -85,7 +85,7 @@ function Cards() {
     {/* Card 1 */}
     <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full ">
     <div className="p-2   bg-white rounded-3xl h-full  pb-5 ">
-      <img src="https://www.classcentral.com/report/wp-content/uploads/2022/03/Best-Courses-Copywriting-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
+      <img src="https://www.classcentral.com/report/wp-content/uploads/2022/03/Best-Courses-Copywriting-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-3xl shadow-lg" />
       <div className="grid grid-cols-2  md:gap-20  mt-5">
       <div className=" flex items-center m-auto text-[#00c5ff]">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
@@ -112,7 +112,7 @@ function Cards() {
     {/* Card 1 */}
     <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full ">
     <div className="p-2   bg-white rounded-3xl h-full  pb-5 ">
-      <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/NumPy-BCG-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
+      <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/NumPy-BCG-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-3xl shadow-lg" />
       <div className="grid grid-cols-2  md:gap-20  mt-5">
       <div className=" flex items-center m-auto text-[#00c5ff]">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
@@ -140,7 +140,7 @@ function Cards() {
     {/* Card 1 */}
     <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full ">
     <div className="p-2   bg-white rounded-3xl h-full  pb-5 ">
-      <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/79/40d8a60bae487c8b4c862f52e0f13d/dj4e_thumbnail_specialization.jpg?auto=format%2Ccompress&dpr=1&w=330&h=330&q=25&fit=fill" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
+      <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/79/40d8a60bae487c8b4c862f52e0f13d/dj4e_thumbnail_specialization.jpg?auto=format%2Ccompress&dpr=1&w=330&h=330&q=25&fit=fill" alt="image1" className="mx-auto w-full h-48 object-cover rounded-3xl shadow-lg" />
       <div className="grid grid-cols-2  md:gap-20  mt-5">
       <div className=" flex items-center m-auto text-[#00c5ff]">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
@@ -168,7 +168,7 @@ function Cards() {
     {/* Card 1 */}
     <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full ">
     <div className="p-2 bg-white rounded-3xl h-full  pb-5 ">
-      <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/ff/4584404c7511e7a18adb2a6ad3c009/GettyImages-185239648.jpg?auto=format%2Ccompress&dpr=1&w=330&h=330&fit=fill&q=25" alt="image1" className="mx-auto w-full h-48 object-cover rounded-lg shadow-lg" />
+      <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/ff/4584404c7511e7a18adb2a6ad3c009/GettyImages-185239648.jpg?auto=format%2Ccompress&dpr=1&w=330&h=330&fit=fill&q=25" alt="image1" className="mx-auto w-full h-48 object-cover rounded-3xl shadow-lg" />
       <div className="grid grid-cols-2  md:gap-20  mt-5">
       <div className=" flex items-center  mx-3">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
