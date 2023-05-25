@@ -3,7 +3,11 @@ import { FaBookDead, FaCalendarMinus, FaCircle, FaDollarSign, FaFileInvoiceDolla
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import logo1 from "../images/LOGOS/fev_icon.png"
+import logo1 from '../images/LOGOS/fev_icon.png';
+import img1 from '../images/cards/img-1.png';
+import img2 from '../images/cards/img-2.png';
+import img3 from '../images/cards/img-3.png';
+import img4 from '../images/cards/img-4.png';
 
 import "./Home.css"
 import { Link } from 'react-router-dom'
@@ -39,7 +43,10 @@ function Cards() {
   };
   return (
     <>
-    <section className="bg-[#1b1a3a] p-1 md:p-10 pb-8 mt-10 container mx-auto">
+    <section className="bg-[#1b1a3a] p-1 md:p-10 pb-8 mt-10 container mx-auto"
+     data-aos="fade-up"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
     <div className=" justify-items-end grid grid-cols-1 sm:grid md:grid lg:grid-cols-3 ">
    
     <div className="w-full font-bold text-lg md:text-4xl text-white  col-span-2 mt-8">
@@ -58,7 +65,7 @@ function Cards() {
     {/* Card 1 */}
     <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full ">
     <div className="p-2   bg-white rounded-3xl h-full  pb-5 ">
-      <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-3xl shadow-lg" />
+      <img src={img1} alt="image1" className="mx-auto w-full h-48 object-cover rounded-3xl shadow-lg" />
       <div className="grid grid-cols-2 gap-0 md:gap-20  mt-5">
       <div className=" flex items-center m-auto text-[#00c5ff]">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
@@ -84,12 +91,9 @@ function Cards() {
     </div>
 
     {/* Card 1 */}
-    <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full "
-     data-aos="fade-up"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
+    <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full ">
     <div className="p-2   bg-white rounded-3xl h-full  pb-5 ">
-      <img src="https://www.classcentral.com/report/wp-content/uploads/2022/03/Best-Courses-Copywriting-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-3xl shadow-lg" />
+      <img src={img2} alt="image1" className="mx-auto w-full h-48 object-cover rounded-3xl shadow-lg" />
       <div className="grid grid-cols-2  md:gap-20  mt-5">
       <div className=" flex items-center m-auto text-[#00c5ff]">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
@@ -114,12 +118,9 @@ function Cards() {
     </div>
     </div>
     {/* Card 1 */}
-    <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full "
-     data-aos="fade-up"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
+    <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full ">
     <div className="p-2   bg-white rounded-3xl h-full  pb-5 ">
-      <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/NumPy-BCG-Banner.png" alt="image1" className="mx-auto w-full h-48 object-cover rounded-3xl shadow-lg" />
+      <img src={img3} alt="image1" className="mx-auto w-full h-48 object-cover rounded-3xl shadow-lg" />
       <div className="grid grid-cols-2  md:gap-20  mt-5">
       <div className=" flex items-center m-auto text-[#00c5ff]">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
@@ -145,12 +146,9 @@ function Cards() {
     </div>
 
     {/* Card 1 */}
-    <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full "
-     data-aos="fade-up"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
+    <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full ">
     <div className="p-2   bg-white rounded-3xl h-full  pb-5 ">
-      <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://d15cw65ipctsrr.cloudfront.net/79/40d8a60bae487c8b4c862f52e0f13d/dj4e_thumbnail_specialization.jpg?auto=format%2Ccompress&dpr=1&w=330&h=330&q=25&fit=fill" alt="image1" className="mx-auto w-full h-48 object-cover rounded-3xl shadow-lg" />
+      <img src={img4} alt="image1" className="mx-auto w-full h-48 object-cover rounded-3xl shadow-lg" />
       <div className="grid grid-cols-2  md:gap-20  mt-5">
       <div className=" flex items-center m-auto text-[#00c5ff]">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
