@@ -22,7 +22,7 @@ function About() {
       <section>
         <div className="flex flex-col p-1">
           <div className="absolute p-2 md:ml-10 flex flex-col md:flex-row">
-            <div className=" m-5 max-w-[450px]">
+            <div className=" md:m-5 max-w-[450px]">
               <img src={image1} alt="" />
             </div>
             <div className=" max-w-[800px] mt-6 md:p-10">
@@ -36,7 +36,7 @@ function About() {
             </div>
           </div>
 
-          <div className="bg-[#1b1d38] mt-[1200px] md:mt-[400px] max-w-screen text-center lg:h-[450px] md:h-[670px] h-auto md:w-auto rounded-br-3xl rounded-tl-3xl ">
+          <div className="bg-[#1b1d38] mt-[1100px] md:mt-[400px] max-w-screen text-center lg:h-[450px] md:h-[670px] h-auto md:w-auto rounded-br-3xl rounded-tl-3xl ">
             <h1 className="text-white  md:text-3xl font-bold  p-3 mt-2 md:w-[50%] md:ml-[40%]">
               Grachiever: Empowering Achievement<br /> through <span class="text-[#4eb0e1]">Job-Ready</span> Digital Skills
             </h1>
