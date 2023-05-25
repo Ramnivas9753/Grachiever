@@ -33,12 +33,12 @@ export default function FlipCard() {
   //   const [isActive, setIsActive] = useState(false);
   // }
   return (
-    <div className={`flip-card ${flip != true ? "front-flip" : "back-flip"} mb-32 lg:w-[200px]`}>
+    <div className={`flip-card ${flip != true ? "front-flip" : "back-flip"} mb-32 lg:w-[270px]`}>
 
       <div className="flip-card-inner">
         <div className="flip-card-front ">
           <RibbonFlag />
-          <button onClick={flipCard} type="button" class="md:px-5 md:py-2 absolute top-1 right-0 text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-xs px-5 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800"><AiOutlineArrowRight/></button>
+          <button onClick={flipCard} type="button" class="md:px-4 md:py-1.5 absolute top-1 right-0 text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-xs px-3 py-1.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800"><AiOutlineArrowRight/></button>
           
           <img src={img1} alt="" />
           <div className="action-btns">
@@ -49,7 +49,7 @@ export default function FlipCard() {
         <div className="flip-card-back">
           <h1 className="font-bold text-black md:text-xl">Audioread</h1>
           <h3 className="text-center mt-3">This tool is verified because it is either an established company or has good social media presence.</h3>
-          <button onClick={save} type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Back</button>
+          <button onClick={save} type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-normal rounded-lg text-xm px-2 py-1.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Back</button>
           
         </div>
       </div>
