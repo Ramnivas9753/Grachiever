@@ -474,7 +474,7 @@ function Home () {
 
        <div className='flex justify-center items-center gap-0 md:gap-20 flex-row mx-auto overflow-auto '></div>
 
-       <div className='flex justify-center items-center gap-0 md:gap-20 flex-row mx-auto overflow-x-scroll' data-aos="zoom-in"  data-aos-duration="2000">
+       <div className='flex justify-center items-center gap-0 md:gap-20 flex-row mx-auto overflow-auto' data-aos="zoom-in"  data-aos-duration="2000">
 
         <FlipCard  />
         <FlipCard  />
