@@ -442,7 +442,7 @@ function Home () {
 
       <section className='py-10 bg-[#1b1d38] container mx-auto'>
         <h1 className='text-center font-semibold text-white text-md sm:text-3xl md:p-0 mb-10'><span class="text-[#4eb0e1]">BOOST</span> YOUR PRODUCTIVITY <br />WITH GRACHIEVER`S TOOLS SERVICE</h1>
-       <div className='flex justify-center items-center gap-0 md:gap-20 flex-row mx-auto overflow-x-scroll'>
+       <div className='flex justify-center items-center gap-0 md:gap-20 flex-row mx-auto overflow-auto '>
         <FlipCard  />
         <FlipCard  />
         <FlipCard  />
