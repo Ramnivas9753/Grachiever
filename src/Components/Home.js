@@ -155,7 +155,10 @@ function Home () {
 </div>
 
 
- <section className="px-5 sm:px-5 md:px-5 lg:px-10 pt-10 mt-12 md:mt-28 container mx-auto">
+ <section className="px-5 sm:px-5 md:px-5 lg:px-10 pt-10 mt-12 md:mt-28 container mx-auto"
+  data-aos="fade-up"
+  data-aos-easing="ease-out-cubic"
+  data-aos-duration="2000">
   <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10">
     <div className="md:pl-0 lg:pl-10 ">
       <span className="type text-2xl sm:text-5xl mt-5 font-medium text-[#00c5ff]" ref={typedRef}></span>
