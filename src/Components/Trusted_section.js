@@ -41,45 +41,45 @@ function Trusted_section() {
 
   return (
     <>
-    <section className="mt-10 max-md:mt-10 bg-[#f6f9ff] container mx-auto">
+    <section className="mt-10  p-5 max-md:mt-10 bg-[#f6f9ff] container mx-auto">
     
     <h1 className=" text-center text-xl sm:text-3xl font-bold">Trusted By World Best</h1>
     
 <Slider {...settings} className="m-5 ">
-<div className=" ">
-<img src={slidelogo3} className=''/>
+<div className="p-5 w-24 h-[50px]  ">
+<img src={slidelogo7} className='scale-75 -mt-7'/>
 </div>
 
     {/* Card 1 */}
-    <div className="   ">
-          <img src={slidelogo5} />
+    <div className="p-5  w-24 h-20  ">
+          <img src={slidelogo1} className='scale-75 -mt-5'/>
             </div>
 
     {/* Card 2 */}
-    <div className="  ">
-          <img src={slidelogo3} className=''/>
+    <div className="p-5  w-24 h-20 ">
+          <img src={slidelogo2} className='scale-75 -mt-6'/>
             </div>
 
     {/* Card 3 */}
-    <div className="  ">
-          <img src={slidelogo4} />
+    <div className="p-5  w-24 h-20 ">
+          <img src={slidelogo3} className='scale-75 p-2'/>
             </div>
 
     {/* Card 4 */}
-    <div className="  ">
-          <img src={slidelogo5} />
+    <div className="p-5  w-24 h-20 ">
+          <img src={slidelogo4} className='scale-75 mt-4'/>
             </div>
 
     {/* Card 5 */}
 
-    <div className="  ">
-          <img src={slidelogo6} />
+    <div className="p-5  w-24 h-20 ">
+          <img src={slidelogo5} className='scale-75 mt-5'/>
            </div>
             
     {/* Card 6 */}
 
-    <div className="  ">
-        <img src={slidelogo4} />
+    <div className="p-5  w-24 h-20 ">
+        <img src={slidelogo6} className='scale-75 mt-1'/>
             </div>
 
 
