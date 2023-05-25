@@ -1,7 +1,10 @@
 function Blog() {
     return (
         <>
-        <section className="p-1 mt-20 ">
+        <section className="p-1 mt-20 "
+         data-aos="fade-up"
+         data-aos-easing="ease-out-cubic"
+         data-aos-duration="2000">
     <h1 className="md:text-3xl font-bold text-center p-3 mt-5">
       Latest News
     </h1>
@@ -24,19 +27,28 @@ function Blog() {
 
     <section >
     <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-10 mt-10 m-auto w-[85%] ">
-        <div className=" rounded-xl">
+        <div className=" rounded-xl"
+         data-aos="fade-right"
+         data-aos-easing="ease-out-cubic"
+         data-aos-duration="2000">
             <img src="https://www.classcentral.com/report/wp-content/uploads/2022/03/Best-Courses-Copywriting-Banner.png" className="rounded-xl hover:scale-105 duration-300"/>
             <h2 className="text-[#7a4af6] mt-5">Best Copywriting Courses to Take in 2023</h2>
             <h2 className=" font-bold mt-2">Transform your writing skills into profit: discover the best copywriting courses to launch your lucrative career or side hustle..</h2>
             <p className="mt-2">April 15, 2023</p>
         </div>
-        <div className=" rounded-xl">
+        <div className=" rounded-xl"
+          data-aos="fade-up"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
             <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png" className="rounded-xl hover:scale-105 duration-300"/>
             <h2 className="text-[#7a4af6] mt-5">Best pandas Courses to Take in 2023</h2>
             <h2 className=" font-bold mt-2">Unlock the power of data analysis with the top pandas courses. Pandas is a powerful, open-source Python library</h2>
             <p className="mt-2">April 15, 2023</p>
         </div>
-        <div className=" rounded-xl">
+        <div className=" rounded-xl"
+          data-aos="fade-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000">
             <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/NumPy-BCG-Banner.png" className="rounded-xl hover:scale-105 duration-300"/>
             <h2 className="text-[#7a4af6] mt-5">Best NumPy Courses to Take in 2023</h2>
             <h2 className=" font-bold mt-2">Whether you’re a data scientist, machine learning engineer, or just someone who needs to crunch a bunch of numbers in a short amount of time, NumPy is definitely for you.</h2>

@@ -10,18 +10,27 @@ function consultancy() {
             {/* min-h-min */}
             <section className="p-0 sm:p-0 md:p-0 lg:p-0 mt-40 mx-5">
                 <div className=" grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2" >
-                    <div className="mt-20 md:w-[100%] bg-[#1b1d38] rounded-3xl">
+                    <div className="mt-20 md:w-[100%] bg-[#1b1d38] rounded-3xl"
+                     data-aos="fade-right"
+                     data-aos-easing="ease-out-cubic"
+                     data-aos-duration="2000">
                         <h1 className="text-6xl font-bold text-white text-left px-24 p-12 mt-8">Tailored Skill <br /> Consultancy for <br /> <span class="text-6xl text-[#00c5ff]">Future Success</span> </h1>
                     </div>
                     {/* <!--Graph Section--> */}
-                    <div className="mt-5 md:mt-0">
+                    <div className="mt-5 md:mt-0"
+                     data-aos="fade-left"
+                     data-aos-easing="ease-out-cubic"
+                     data-aos-duration="2000">
                         <img src={first} className='w-[100%] mt-10 rounded-br-3xl z-50 md:-translate-x-20' />
                     </div>
                 </div>
                 {/* h-auto max-w-full */}
             </section>
             {/* --------------------------------second-part------------------------- */}
-            <section className="p-0 sm:p-0 md:p-0 lg:p-0 mt-5">
+            <section className="p-0 sm:p-0 md:p-0 lg:p-0 mt-5"
+            data-aos="fade-up"
+ data-aos-easing="ease-out-cubic"
+ data-aos-duration="2000">
                 <div className=' mt-0'>
                     <button className="p-2 rounded-xl bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 ml-60 font-bold border-[#349fcf] px-8 text-lg mt-2">Take the Next Step</button>                    <p className="text-lg p-10 ">
                         In today's fast-paced and competitive job market, it's crucial to stay ahead of the curve. Employers are constantly seeking candidates with the latest skills and abilities that align with industry trends. At Grachiever, we recognize the challenges professionals face in keeping up with these changes. That's why we've developed Skill Graph – an innovative tool designed to provide real-time insights and recommendations for career growth.
@@ -29,7 +38,10 @@ function consultancy() {
                 </div>
             </section>
             {/* -----------------------------------image-part----------------------------- */}
-            <section className="p-0 sm:p-0 md:p-0 lg:p-0 mt-0">
+            <section className="p-0 sm:p-0 md:p-0 lg:p-0 mt-0"
+            data-aos="fade-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
                 <div className="mt-2 md:mt-0">
                     <img src={second} className='w-[65%] ml-64' />
                 </div>
@@ -37,13 +49,19 @@ function consultancy() {
             </section>
             {/* ----------------------------third-part------------------------------ */}
             <section className="p-0 sm:p-0 md:p-0 lg:p-0 mt-5">
-                <div className=' mt-0'>
+                <div className=' mt-0'
+                 data-aos="fade-up"
+                 data-aos-easing="ease-out-cubic"
+                 data-aos-duration="2000">
                     <h1 className="text-3xl font-bold text-center p-3 mt-2">How Skill Consultancy Works</h1>
                 </div>
                 {/* --------------------- */}
                 <div className=" grid grid-cols-1  md:grid-cols-1 lg:grid-cols-2 p-5 ml-20 mt" >
                     {/* -----box1---- */}
-                    <div className=" p-1 w-[80%] shadow-lg hover:shadow-gray-500  min-w-min bg-[#E0EBFF]  rounded-3xl">
+                    <div className=" p-1 w-[80%] shadow-lg hover:shadow-gray-500  min-w-min bg-[#E0EBFF]  rounded-3xl"
+                     data-aos="fade-right"
+                     data-aos-easing="ease-out-cubic"
+                     data-aos-duration="2000">
                         <p className="text-lg p-10 ">
                             <label id='box' className='font-bold'> Assessment:</label> We begin by conducting a comprehensive assessment of your current skills, experiences, and career aspirations. This helps us gain a deep understanding of your strengths and areas for development.
 
@@ -51,7 +69,10 @@ function consultancy() {
                     </div>
 
                     {/* <!--box2--> */}
-                    <div className=" p-1 w-[80%] shadow-lg hover:shadow-gray-500  min-w-min bg-[#E0EBFF]  rounded-3xl">
+                    <div className=" p-1 w-[80%] shadow-lg hover:shadow-gray-500  min-w-min bg-[#E0EBFF]  rounded-3xl"
+                     data-aos="fade-left"
+                     data-aos-easing="ease-out-cubic"
+                     data-aos-duration="2000">
                         <p className="text-lg p-10 ">
                             <label id='box' className='font-bold'>Personalized Guidance:</label> Based on the assessment, our consultants will provide personalized guidance tailored to your specific needs. We'll identify the most relevant and in-demand skills for your desired career path.
                         </p>
@@ -60,14 +81,20 @@ function consultancy() {
 
                 <div className=" grid grid-cols-1  md:grid-cols-1 lg:grid-cols-2 p-5 ml-20" >
                     {/* -----box1---- */}
-                    <div className=" p-1 w-[80%] shadow-lg hover:shadow-gray-500  min-w-min bg-[#E0EBFF]  rounded-3xl">
+                    <div className=" p-1 w-[80%] shadow-lg hover:shadow-gray-500  min-w-min bg-[#E0EBFF]  rounded-3xl"
+                     data-aos="fade-right"
+                     data-aos-easing="ease-out-cubic"
+                     data-aos-duration="2000">
                         <p className="text-lg p-10 ">
                             <label id='box' className='font-bold'> Skill Development :</label> Together, we'll create a customized skill development plan that outlines the necessary steps to enhance your skill set. This plan will focus on acquiring new skills, improving existing ones, and staying updated with industry trends.
                         </p>
                     </div>
 
                     {/* <!--box2--> */}
-                    <div className=" p-1 w-[80%] shadow-lg hover:shadow-gray-500  min-w-min bg-[#E0EBFF]  rounded-3xl">
+                    <div className=" p-1 w-[80%] shadow-lg hover:shadow-gray-500  min-w-min bg-[#E0EBFF]  rounded-3xl"
+                     data-aos="fade-left"
+                     data-aos-easing="ease-out-cubic"
+                     data-aos-duration="2000">
                         <p className="text-lg p-10 ">
                             <label id='box' className='font-bold'>Ongoing Support:</label> Our consultants will be there every step of the way, offering ongoing support and advice as you progress through your skill development journey. We'll provide regular check-ins, monitor your progress, and make adjustments to the plan as needed.
                         </p>
@@ -75,7 +102,10 @@ function consultancy() {
                 </div>
             </section>
             {/* ----------------------------forthsectin---------------- */}
-            <section className="p-0 sm:p-0 md:p-5 lg:p-10 bg-[#E0EBFF] mb-5 rounded-3xl mt-5 shadow-lg hover:shadow-gray-500 mx-5">
+            <section className="p-0 sm:p-0 md:p-5 lg:p-10 bg-[#E0EBFF] mb-5 rounded-3xl mt-5 shadow-lg hover:shadow-gray-500 mx-5"
+            data-aos="fade-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
                 <div className=" mx-12 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 mt-2">
                     <div className="m-auto md:col-span-2">
                         <p className="text-xl text-left "><label id='box' className='font-bold' >Future-Proofing:</label>  Our goal is to make you  future-ready. We'll not only help you acquire the   skills you need today but also equip you with the tools and knowledge to adapt to future industry demands.</p>
@@ -150,7 +180,10 @@ function consultancy() {
                 </div>
             </section>
             {/* --------------------------------------last-section------------------------------- */}
-            <section className="p-0 sm:p-0 md:p-5 lg:p-10 bg-[#1b1d38] mb-5 rounded-3xl mx-5">
+            <section className="p-0 sm:p-0 md:p-5 lg:p-10 bg-[#1b1d38] mb-5 rounded-3xl mx-5"
+            data-aos="fade-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
                 <div className=" m-2 mx-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 mt-5">
                     <div className="m-auto  mb-0 ">
                         <button className="p-2 rounded-lg bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-8 text-lg mt-0">Get Started now!</button>
@@ -163,7 +196,10 @@ function consultancy() {
             </section>
 
             {/* -----------------------------------------pricing-section------------------------ */}
-            <section className="p-0 sm:p-0 md:p-0 lg:p-0 mt-10 mb-10">
+            <section className="p-0 sm:p-0 md:p-0 lg:p-0 mt-10 mb-10"
+            data-aos="fade-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
                 <div className=' mt-5'>
                     <img src={grachiever} className=" w-40 m-auto" ></img>
                     <h1 className="text-3xl  text-center p-3 mt-2">Monthly Pricing Plans</h1>
@@ -233,9 +269,9 @@ function consultancy() {
 
                                 <tr className='h-20'>
                                     <th className=" text-lg border-slate-300 ..."></th>
-                                    <td className=" text-lg border-slate-300 ..."> <button className="p-2 w-60 rounded-full bg-[#eddc24] font-bold hover:bg-white text-white hover:text-black border-2  px-8 text-lg mt-2">Get Started </button></td>
-                                    <td className=" text-lg border-slate-300 ..."> <button className="p-2 w-60 rounded-full bg-[#359bdb] font-bold hover:bg-white text-white hover:text-black border-2  px-8 text-lg mt-2">Get Started </button></td>
-                                    <td className="text-lg border-slate-300 ..."> <button className="p-2 w-60 rounded-full bg-[#1839cc] font-bold hover:bg-white text-white hover:text-black border-2  px-8 text-lg mt-2">Get Started </button></td>
+                                    <td className=" text-lg border-slate-300 ..."> <button className="p-2 w-60 rounded-full bg-[#eddc24] font-bold hover:bg-white text-white hover:text-black border-2  px-8 text-lg mt-2"  data-aos="zoom-in"  data-aos-duration="2000">Get Started </button></td>
+                                    <td className=" text-lg border-slate-300 ..."> <button className="p-2 w-60 rounded-full bg-[#359bdb] font-bold hover:bg-white text-white hover:text-black border-2  px-8 text-lg mt-2"  data-aos="zoom-in"  data-aos-duration="2000">Get Started </button></td>
+                                    <td className="text-lg border-slate-300 ..."> <button className="p-2 w-60 rounded-full bg-[#1839cc] font-bold hover:bg-white text-white hover:text-black border-2  px-8 text-lg mt-2"  data-aos="zoom-in"  data-aos-duration="2000">Get Started </button></td>
                                    
                                 </tr>
                             </tbody>

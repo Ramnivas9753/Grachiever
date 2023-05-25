@@ -3,7 +3,10 @@ import FlipCard from './FlipCard';
 
 function GAtools() {
   return (
-<section className='p-10 flex flex-row'>
+<section className='p-10 flex flex-row'
+ data-aos="fade-up"
+ data-aos-easing="ease-out-cubic"
+ data-aos-duration="2000">
 
    <div className='mt-10'>
    <h1 className="text-3xl font-bold text-center p-3 mt-2">
