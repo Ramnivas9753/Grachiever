@@ -1,4 +1,4 @@
-import homeimage01 from '../images/1/HOME page.png';
+import homeimage01 from '../images/1/home_new_image.gif';
 import slidelogo1 from '../images/2/cisco-logo.png';
 import slidelogo2 from '../images/2/futurelearn-logo.png';
 import slidelogo3 from '../images/2/google-logo-2.png';
@@ -96,52 +96,53 @@ function Home () {
 
 
   // ............ scroll indicator progress bar code ............
-  const [scroll, setScroll] = useState(0);
+  // const [scroll, setScroll] = useState(0);
 
-  useEffect(() => {
+  // useEffect(() => {
   
-      let progressBarHandler = () => {
-          const totalScroll = document.documentElement.scrollTop;
-          const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-          const scroll = `${totalScroll / windowHeight}`;
-          setScroll(scroll);
-      }
-      window.addEventListener("scroll", progressBarHandler);
-      return () => window.removeEventListener("scroll", progressBarHandler);
-  });
+  //     let progressBarHandler = () => {
+  //         const totalScroll = document.documentElement.scrollTop;
+  //         const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  //         const scroll = `${totalScroll / windowHeight}`;
+  //         setScroll(scroll);
+  //     }
+  //     window.addEventListener("scroll", progressBarHandler);
+  //     return () => window.removeEventListener("scroll", progressBarHandler);
+  // });
 
 
   // .....................................
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
-  const ScrollToTopButton = () => {
-    const [showButton, setShowButton] = useState(false);
+  // const scrollToTop = () => {
+  //   window.scrollTo({ top:0, behavior: 'smooth' });
+  // };
+  // const ScrollToTopButton = () => {
+  //   const [showButton, setShowButton] = useState(false);
   
-    useEffect(() => {
-      const handleScroll = () => {
-        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-        setShowButton(scrollTop > 100);
-      };
+  //   useEffect(() => {
+  //     const handleScroll = () => {
+  //       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  //       setShowButton(scrollTop > 100);
+  //     };
   
-      window.addEventListener('scroll', handleScroll);
+  //     window.addEventListener('scroll', handleScroll);
   
-      return () => {
-        window.removeEventListener('scroll', handleScroll);
-      };
-    }, []);
+  //     return () => {
+  //       window.removeEventListener('scroll', handleScroll);
+  //     };
+  //   }, []);
   
-    return (
-      <button
-        className={`fixed bottom-4 right-4 z-50 bg-red-500 text-black rounded-full p-3 ${
-          showButton ? 'opacity-100' : 'opacity-0'
-        }`}
-        onClick={scrollToTop}
-      >
-        <FaArrowCircleUp className='bg-red-500 text-xl' />
-      </button>
-    );
-  };
+  //   return (
+  //     <button
+  //       className={`fixed bottom-4 right-0 z-100 bg-red-500 text-black rounded-full p-3 width-[0%] ${
+  //         showButton ? 'opacity-100' : 'opacity-0'
+  //       }`}
+  //       onClick={scrollToTop}
+  //     >
+  //       <FaArrowCircleUp className='bg-red-500 text-xl' />
+  //     </button>
+  //   );
+  // };
+
   // ..............................
 
 
@@ -150,9 +151,9 @@ function Home () {
         <>
             
 {/* <!-- ........................ home section start ..................................... --> */}
-<div id="progressBarContainer">
+{/* <div id="progressBarContainer">
     <div id="progressBar" style={{transform: `scale(${scroll}, 1)`, opacity: `${scroll}`}} />
-</div>
+</div> */}
 
 
  <section className="px-5 sm:px-5 md:px-5 lg:px-10 pt-10 mt-12 md:mt-28 container mx-auto"
@@ -167,7 +168,7 @@ function Home () {
       {/* <!--Search--> */}
       <div className="relative border-b-[#349fcf] border-[#349fcf] border-2 flex items-center mt-8 w-auto rounded-full outline-none text-xl">
         <input type="text" className="py-3 px-4 outline-none w-full rounded-full text-sm sm:text-md" placeholder="Search Anything..."  onClick={handleInputClick}/>
-        <select className="focus:outline-none cursor-pointer w-16 sm:w-24 md:w-24 text-sm sm:text-md">
+        <select className="focus:outline-none cursor-pointer w-20 sm:w-24 md:w-24 text-sm sm:text-md">
           <option>Courses</option>
           <option>Project</option>
           <option>Tools</option>
@@ -296,7 +297,8 @@ function Home () {
 
     </div>
     <div className="mt-8 md:mt-0">
-      <img src={homeimage01} className="md:w-[80%] m-auto" />   
+      {/* <img src={homeimage01} className="md:w-[80%] m-auto" />    */}
+      <img src={homeimage01} className="md:w-[100%] m-auto" />   
       {/* <div className=" mx-auto relative animate-pulse" style={{ backgroundImage:`url(${home_animate_background_img})`,backgroundRepeat:"no-repeat",height:"120%",width:"100%",animate:"bounce"}}>
         <img className='animate-pulse' src={home_animate_star_img} />
         <img className='absolute top-20 left-[40%] w-40 animate-bounce' src={home_animate_main_img} />
@@ -320,9 +322,10 @@ function Home () {
     <section className="p-0 sm:p-0 md:p-0 lg:p-0 container mt-5 mx-auto">
       <div className="h-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2" >
         <div className="lg:h-full md:h-full mx-5 sm:mx-5 md:mx-5 lg:mx-10"
-         data-aos="fade-right"
+        >
+           {/* data-aos="fade-right"
          data-aos-easing="ease-out-cubic"
-         data-aos-duration="2000">
+         data-aos-duration="2000" */}
             <h1 className=" mt-5 text-xl sm:text-3xl font-bold"><span class="text-[#4eb0e1]">Track</span> The Trending<br/> <span class="text-[#4eb0e1]">Skills</span> Over Time</h1>
             <p className="mt-5 text-sm sm:text-xl">Our Skill Graph feature helps you stay up-to-date with the latest skills in demand. our Skill Graph displays the trending skills over time.</p>
             <p  className="mt-5 text-sm sm:text-xl">allowing you to identify which skills are gaining popularity and which are losing relevance. With this powerful tool, you can make informed decisions about the skills you want to learn or develop, ensuring you stay ahead of the curve in your chosen field.</p>
@@ -332,9 +335,13 @@ function Home () {
       </div>
     {/* <!--Graph Section--> */}
         <div className="mt-5 mx- sm:mx-5 md:mx-5 lg:mx-5"
-         data-aos="fade-left"
+        >
+           {/* data-aos="fade-left"
          data-aos-easing="ease-out-cubic"
-         data-aos-duration="2000">
+         data-aos-duration="2000" */}
+
+
+
           {/* <img src={sgraph} className='mx-auto' /> */}
           <GraphChart/>
         </div>
@@ -348,9 +355,10 @@ function Home () {
   {/* Top Categories Section */}
 
   <section className="m-5 p-0 sm:p-0 md:p-10 lg:p-10 container mx-auto"
-   data-aos="fade-up"
+    >
+      {/* data-aos="fade-up"
    data-aos-easing="ease-out-cubic"
-   data-aos-duration="2000" >
+   data-aos-duration="2000" */}
   <h1 className="text-xl sm:text-3xl font-bold text-center  p-5 ">Top Categories</h1>
   <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 w-[90%] mx-auto mt-5">
   {/* Left Side Section--> */}
@@ -406,9 +414,10 @@ function Home () {
       {/* <!-- ....... why choose Grachiever .............--> */}
 
 <section className="p-0 sm:p-0 md:p-10 lg:p-10 container mt-10 mb-10 mx-auto "
- data-aos="fade-up"
+  >
+    {/* data-aos="fade-up"
  data-aos-easing="ease-out-cubic"
- data-aos-duration="2000" >
+ data-aos-duration="2000" */}
           <h1 className=" text-center text-xl sm:text-3xl font-bold mb-2">Why Choose Grachiever?</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  md:mt-12 pb-5">
           <div className='hover:-translate-y-5 duration-500 mt-10 pb-5'data-aos="zoom-in"  data-aos-duration="2000" >
@@ -456,11 +465,17 @@ function Home () {
       {/* BOOST YOUR PRODUCTIVITY WITH GRACHIEVER`S TOOLS SERVICE */}
 
       <section className='py-10 bg-[#1b1d38] container mx-auto'
-       data-aos="fade-up"
+       >
+        {/* data-aos="fade-up"
        data-aos-easing="ease-out-cubic"
-       data-aos-duration="2000">
+       data-aos-duration="2000" */}
+
         <h1 className='text-center font-semibold text-white text-md sm:text-3xl md:p-0 mb-10'><span class="text-[#4eb0e1]">BOOST</span> YOUR PRODUCTIVITY <br />WITH GRACHIEVER`S TOOLS SERVICE</h1>
-       <div className='flex justify-center items-center gap-0 md:gap-20 flex-row mx-auto overflow-x-scroll' data-aos="zoom-in"  data-aos-duration="2000">
+
+       <div className='flex justify-center items-center gap-0 md:gap-20 flex-row mx-auto overflow-auto '></div>
+
+       <div className='flex justify-center items-center gap-0 md:gap-20 flex-row mx-auto overflow-auto' data-aos="zoom-in"  data-aos-duration="2000">
+
         <FlipCard  />
         <FlipCard  />
         <FlipCard  />
@@ -480,9 +495,10 @@ function Home () {
 
     <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
           <div className="mx-0 sm:mx-5 md:mx-20 lg:mx-20 mb-10"
-           data-aos="fade-right"
+          >
+             {/* data-aos="fade-right"
            data-aos-easing="ease-out-cubic"
-           data-aos-duration="2000">
+           data-aos-duration="2000" */}
               <h1 className="font-bold md:text-4xl">Find Your <span class="text-[#4eb0e1]">Dream Career</span> With Grachiever's Skill Consultancy</h1>
               <p className="md:text-lg mt-5">Our skilled consultancy service provides various offerings to guide you in selecting the most suitable skills. We help you identify in-demand skills, suggest the best courses to develop those skills, and advise you on future-ready skills that AI cannot replace."</p>
 
@@ -497,9 +513,10 @@ function Home () {
     {/* <!--Skill Consultancy Rigth section--> */}
 
     <div className=""
-     data-aos="fade-left"
+     >
+      {/* data-aos="fade-left"
      data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
+     data-aos-duration="2000" */}
       <img src={sc1} width="60%" className="mx-auto" />
     </div>
     </div>
@@ -508,9 +525,10 @@ function Home () {
 
     {/* <!--Feature Ready Skills sections--> */}
     <section className="p-0 sm:p-0 md:p-10 lg:p-10 container bg-[#1b1d38] mx-auto"
-     data-aos="fade-up"
+    >
+       {/* data-aos="fade-up"
      data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
+     data-aos-duration="2000" */}
     <div className="p-3 text-center m-2 h-auto">
         <h1 className=" md:text-3xl lg:text-5xl font-bold my-10  text-white">Get Personal Future Ready Skill Recommandations</h1>
         <h2 className="text-xl md:text-3xl text-gray-300">Enhance Your Skill With Grachiever</h2>
@@ -539,9 +557,10 @@ function Home () {
 
  {/* <!--Achievements Sections--> */}
 <section className="p-0 sm:p-0 md:p-10 lg:p-10 container mx-auto"
- data-aos="fade-up"
+  >
+    {/* data-aos="fade-up"
  data-aos-easing="ease-out-cubic"
- data-aos-duration="2000" >
+ data-aos-duration="2000" */}
     <div className="mt-5">
         <h1 className=" md:text-3xl lg:text-4xl font-bold text-center p-5 mb-10">Achievements</h1>
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 text-center" data-aos="zoom-in"  data-aos-duration="2000">
@@ -572,9 +591,10 @@ function Home () {
    {/* <!-- Blog Section --> */}
 <section className="p-0 sm:p-0 md:p-10 lg:p-5 container mx-auto" >
      <div className="m-10"
-      data-aos="fade-up"
+     >
+       {/* data-aos="fade-up"
       data-aos-easing="ease-out-cubic"
-      data-aos-duration="2000">
+      data-aos-duration="2000" */}
       <h1 className=" md:text-3xl lg:text-5xl font-bold ">Blog</h1>
       <p className="mt-2 mb-2  font-semibold">Most Recent</p>
       <hr />
@@ -586,9 +606,10 @@ function Home () {
      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 m-2 h-auto  gap-10 sm:gap-10 md:gap-10 lg:gap-20 mx-5 lg:mx-10 md:mx-10 md:mt-10 lg:mt-10">
        {/* <!-- Card_1 --> */}
        <div className="shadow-lg hover:shadow-gray-500 w-auto overflow-hidden p-5 rounded-2xl"
-        data-aos="fade-right"
+      >
+          {/* data-aos="fade-right"
         data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000">
+        data-aos-duration="2000" */}
            <div className=" h-52">
             <img src="https://www.classcentral.com/report/wp-content/uploads/2022/03/Best-Courses-Copywriting-Banner.png" width="100%" className="rounded-xl hover:scale-105 duration-300 h-52" />
            </div>
@@ -597,9 +618,10 @@ function Home () {
        </div>
        {/* <!-- Card_2 --> */}
        <div className="shadow-lg hover:shadow-gray-500 w-auto overflow-hidden p-5 rounded-2xl"
-        data-aos="fade-up"
+        >
+          {/* data-aos="fade-up"
         data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000">
+        data-aos-duration="2000" */}
           <div className=" h-52">
           <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png" className="rounded-xl hover:scale-105 duration-300 h-52 w-full" />
           </div>
@@ -608,9 +630,10 @@ function Home () {
        </div>
        {/* <!-- Card_3 --> */}
        <div className="shadow-lg hover:shadow-gray-500 w-auto overflow-hidden p-5 rounded-2xl"
-        data-aos="fade-left"
+        >
+          {/* data-aos="fade-left"
         data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000">
+        data-aos-duration="2000" */}
           <div className=" h-52">
           <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/NumPy-BCG-Banner.png" className="rounded-xl hover:scale-105 duration-300 h-52 w-full" />
           </div>
@@ -624,9 +647,10 @@ function Home () {
 
 {/* <!-- ....... popular and demand start  ...... --> */}
 <section className='mt-10 container mx-auto'
-data-aos="fade-up"
-  data-aos-easing="ease-out-cubic"
-  data-aos-duration="2000">
+>
+  {/* data-aos="fade-up"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000" */}
   <div className='h-96'>
     <h1 className="text-center md:text-5xl">Popular <span className='text-[#00c5ff]'>In-Demand </span> Services</h1>
        <Z_index_card1 />
@@ -641,9 +665,10 @@ data-aos="fade-up"
     
       {/* <!--Finding Your Right Course--> */}
 <section className="p-0 sm:p-0 md:p-10 lg:p-10 bg-[#e0ebff] mb-5 mt-5 container mx-auto"
- data-aos="fade-up"
+ >
+  {/* data-aos="fade-up"
  data-aos-easing="ease-out-cubic"
- data-aos-duration="2000">
+ data-aos-duration="2000" */}
       <div className=" m-2 mx-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 mt-5">
         <div className="m-auto md:col-span-2">
           <h1 className=" md:text-3xl lg:text-3xl font-bold p-2">Finding Your Right Course</h1>
@@ -655,10 +680,11 @@ data-aos="fade-up"
       </div>
 
 </section>
-<section>
+
+{/* <section>
 <ScrollToTopButton />
 
-</section>
+</section> */}
 
     
         </>

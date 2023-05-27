@@ -24,7 +24,7 @@ const CardDetails = () => {
     return (
 
         <section className='bg-sky-100 flex justify-center items-center  '>
-            <div className="flex md:flex-row pr-2 sm:p-20 flex-col">
+            <div className="flex md:flex-row pr-2 sm:p-20 flex-col-reverse">
                 {/* left box */}
                 <div className='flex flex-col w-full'>
                     <div className='bg-white w-full rounded-lg m-8 max-w-[410px] max-h-[660px] p-5'>

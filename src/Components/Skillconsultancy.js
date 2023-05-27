@@ -8,13 +8,13 @@ function consultancy() {
     return (
         <>
             {/* min-h-min */}
-            <section className="p-0 sm:p-0 md:p-0 lg:p-0 mt-40 mx-5">
+            <section className="p-0 sm:p-0 md:p-0 lg:p-0 mt-12 md:mt-28 mx-5">
                 <div className=" grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2" >
                     <div className="mt-20 md:w-[100%] bg-[#1b1d38] rounded-3xl"
                      data-aos="fade-right"
                      data-aos-easing="ease-out-cubic"
                      data-aos-duration="2000">
-                        <h1 className="text-6xl font-bold text-white text-left px-24 p-12 mt-8">Tailored Skill <br /> Consultancy for <br /> <span class="text-6xl text-[#00c5ff]">Future Success</span> </h1>
+                        <h1 className="text-3xl md:text-6xl font-bold text-white text-left md:px-24 p-12 mt-8">Tailored Skill <br /> Consultancy for <br /> <span class="text-3xl md:text-6xl text-[#00c5ff]">Future Success</span> </h1>
                     </div>
                     {/* <!--Graph Section--> */}
                     <div className="mt-5 md:mt-0"
@@ -31,8 +31,9 @@ function consultancy() {
             data-aos="fade-up"
  data-aos-easing="ease-out-cubic"
  data-aos-duration="2000">
-                <div className=' mt-0'>
-                    <button className="p-2 rounded-xl bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 ml-60 font-bold border-[#349fcf] px-8 text-lg mt-2">Take the Next Step</button>                    <p className="text-lg p-10 ">
+                <div className='text-center mt-0'>
+                    <button className="p-2 rounded-xl bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2  font-bold border-[#349fcf] px-8 text-lg mt-2">Take the Next Step</button>                    
+                    <p className="text-lg p-10 text-left">
                         In today's fast-paced and competitive job market, it's crucial to stay ahead of the curve. Employers are constantly seeking candidates with the latest skills and abilities that align with industry trends. At Grachiever, we recognize the challenges professionals face in keeping up with these changes. That's why we've developed Skill Graph – an innovative tool designed to provide real-time insights and recommendations for career growth.
                     </p>
                 </div>
@@ -43,7 +44,7 @@ function consultancy() {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000">
                 <div className="mt-2 md:mt-0">
-                    <img src={second} className='w-[65%] ml-64' />
+                    <img src={second} className='w-[65%] m-auto' />
                 </div>
                 {/* h-auto max-w-full p-10 ml-20 */}
             </section>
@@ -56,46 +57,46 @@ function consultancy() {
                     <h1 className="text-3xl font-bold text-center p-3 mt-2">How Skill Consultancy Works</h1>
                 </div>
                 {/* --------------------- */}
-                <div className=" grid grid-cols-1  md:grid-cols-1 lg:grid-cols-2 p-5 ml-20 mt" >
+                <div className=" grid grid-cols-1  md:grid-cols-1 lg:grid-cols-2 p-5 md:ml-20 mt" >
                     {/* -----box1---- */}
-                    <div className=" p-1 w-[80%] shadow-lg hover:shadow-gray-500  min-w-min bg-[#E0EBFF]  rounded-3xl"
+                    <div className=" p-1 w-auto md:w-[80%] shadow-lg hover:shadow-gray-500  min-w-min bg-[#E0EBFF]  rounded-3xl"
                      data-aos="fade-right"
                      data-aos-easing="ease-out-cubic"
                      data-aos-duration="2000">
-                        <p className="text-lg p-10 ">
+                        <p className="text-lg p-5 md:p-10 ">
                             <label id='box' className='font-bold'> Assessment:</label> We begin by conducting a comprehensive assessment of your current skills, experiences, and career aspirations. This helps us gain a deep understanding of your strengths and areas for development.
 
                         </p>
                     </div>
 
                     {/* <!--box2--> */}
-                    <div className=" p-1 w-[80%] shadow-lg hover:shadow-gray-500  min-w-min bg-[#E0EBFF]  rounded-3xl"
-                     data-aos="fade-left"
+                    <div className=" p-1 w-auto  md:w-[80%] shadow-lg hover:shadow-gray-500  min-w-min bg-[#E0EBFF] mt-5 md:mt-0 rounded-3xl"
+                     data-aos="fade-center"
                      data-aos-easing="ease-out-cubic"
                      data-aos-duration="2000">
-                        <p className="text-lg p-10 ">
+                        <p className="text-lg p-5 md:p-10 ">
                             <label id='box' className='font-bold'>Personalized Guidance:</label> Based on the assessment, our consultants will provide personalized guidance tailored to your specific needs. We'll identify the most relevant and in-demand skills for your desired career path.
                         </p>
                     </div>
                 </div>
 
-                <div className=" grid grid-cols-1  md:grid-cols-1 lg:grid-cols-2 p-5 ml-20" >
+                <div className=" grid grid-cols-1  md:grid-cols-1 lg:grid-cols-2 p-5 md:ml-20" >
                     {/* -----box1---- */}
-                    <div className=" p-1 w-[80%] shadow-lg hover:shadow-gray-500  min-w-min bg-[#E0EBFF]  rounded-3xl"
+                    <div className=" p-1 w-auto md:w-[80%] shadow-lg hover:shadow-gray-500  min-w-min bg-[#E0EBFF]  rounded-3xl"
                      data-aos="fade-right"
                      data-aos-easing="ease-out-cubic"
                      data-aos-duration="2000">
-                        <p className="text-lg p-10 ">
+                        <p className="text-lg p-5 md:p-10 ">
                             <label id='box' className='font-bold'> Skill Development :</label> Together, we'll create a customized skill development plan that outlines the necessary steps to enhance your skill set. This plan will focus on acquiring new skills, improving existing ones, and staying updated with industry trends.
                         </p>
                     </div>
 
                     {/* <!--box2--> */}
-                    <div className=" p-1 w-[80%] shadow-lg hover:shadow-gray-500  min-w-min bg-[#E0EBFF]  rounded-3xl"
-                     data-aos="fade-left"
+                    <div className=" p-1 w-auto md:w-[80%] shadow-lg hover:shadow-gray-500  min-w-min bg-[#E0EBFF]  rounded-3xl mt-5 md:mt-0"
+                     data-aos="fade-up"
                      data-aos-easing="ease-out-cubic"
                      data-aos-duration="2000">
-                        <p className="text-lg p-10 ">
+                        <p className="text-lg p-5 md:p-10 ">
                             <label id='box' className='font-bold'>Ongoing Support:</label> Our consultants will be there every step of the way, offering ongoing support and advice as you progress through your skill development journey. We'll provide regular check-ins, monitor your progress, and make adjustments to the plan as needed.
                         </p>
                     </div>
@@ -106,18 +107,18 @@ function consultancy() {
             data-aos="fade-up"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000">
-                <div className=" mx-12 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 mt-2">
+                <div className="p-5 md:p-0 md:mx-12 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 mt-2">
                     <div className="m-auto md:col-span-2">
                         <p className="text-xl text-left "><label id='box' className='font-bold' >Future-Proofing:</label>  Our goal is to make you  future-ready. We'll not only help you acquire the   skills you need today but also equip you with the tools and knowledge to adapt to future industry demands.</p>
                     </div>
                     <div className="m-auto mb-0 sm:p-0">
-                        <button className="p-2 rounded-lg bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-16 text-lg mt-3">Join Now</button>
+                        <button className="p-2 rounded-lg bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-8 md:px-16 text-lg mt-3">Join Now</button>
                     </div>
                 </div>
             </section>
             {/* -----------------------------------------fifthsection------------------------- */}
             <section className="p-0 sm:p-0 md:p-3 lg:p-5  mb-5  mt-5  ">
-                <div className=' mt-0 p-20 border-[#1b1d38] border-8 '>
+                <div className=' mt-0 p-5 md:p-20  border-[#1b1d38] border-8 '>
                     <div className=' mt-0'>
                         <h1 className="text-3xl font-bold text-center  ">BENEFITS</h1>
                     </div>
@@ -186,10 +187,10 @@ function consultancy() {
             data-aos-duration="2000">
                 <div className=" m-2 mx-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 mt-5">
                     <div className="m-auto  mb-0 ">
-                        <button className="p-2 rounded-lg bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-8 text-lg mt-0">Get Started now!</button>
+                        <button className="p-2 rounded-lg bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] md:px-8 px-7 text-lg mt-5 md:mt-0">Get Started now!</button>
                     </div>
                     <div className="m-auto md:col-span-2  ml-30">
-                        <p className="p-2  text-lg  font-bold ">
+                        <p className="p-2 mt-5 md:mt-0 text-lg  font-bold ">
                             Ready to take your skills to the next level? Contact us today to schedule a consultation with one of our skill experts. Together, we'll unlock your full potential and set you on the path to a thriving career.</p>
                     </div>
                 </div>
@@ -205,7 +206,7 @@ function consultancy() {
                     <h1 className="text-3xl  text-center p-3 mt-2">Monthly Pricing Plans</h1>
                 </div>
                 <div className=' mt-5 shadow-2xl overflow-auto rounded-lg'>
-                    <div className=''>
+                    <div className='scroll-x-auto'>
                 
                         <table className="w-full p-10 text-center border-collapse   ...">
                         <tbody>
