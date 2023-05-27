@@ -26,7 +26,7 @@ function LoginAndRegister({ onLogin, onRegister }) {
 
   return (
     <section className="mt-20">
-      <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2" >
+      <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 md:w-[80%] mx-auto" >
         <div className="m-auto">
           <img src={login} className='p-10' />
         </div>
