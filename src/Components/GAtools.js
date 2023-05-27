@@ -27,7 +27,7 @@ function GAtools() {
         <span class="sr-only">Search</span>
     </button>
 </form>
-<select className="bg-blue-600 text-white mt-5 w-full md:w-64 lg:w-64  h-11 border rounded-xl text-sm  p-1  md:m-2 font-semibold outline-none">
+<select className="bg-blue-600 text-white sm:mt-5 sm:w-full md:w-64 lg:w-64  h-11 border rounded-xl sm:text-sm text-xs p-1 md:m-2 font-semibold outline-none">
             <option>Category</option>
             <hr />
             <option>Tranding</option>
