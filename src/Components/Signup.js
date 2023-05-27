@@ -40,12 +40,12 @@ function LoginAndRegister({ onLogin, onRegister }) {
         </div>
           )}
 
-        <div className=" bg-white rounded-md items-center mb-20 md:mt-20 p-2 w-full md:w-96">
+        <div className=" bg-white rounded-md items-center mb-20 md:mt-20 p-2 m-auto w-[90%] md:w-[50%] border-2 border-blue-400">
           {/* <h2 className="text-xl font-medium mb-4">{isLogin ? 'Login' : 'Register'}</h2> */}
           <img src={grachieverlogo} className=" m-auto w-40  " alt="Grachiever Logo" />
           <p className="mt-4 text-left ">
             {isLogin ? (
-              <div className='w-full md:w-96'>
+              <div className='w-full md:w-full'>
                  <button className="text-black-500  font-bold " onClick={() => setIsLogin(false)}>Signup</button>
                 <button className="text-black-500  ml-5 font-bold text-[#00c5ff]  " onClick={() => setIsLogin(true)} >Login</button>
                
@@ -63,20 +63,20 @@ function LoginAndRegister({ onLogin, onRegister }) {
           {!isLogin && (
               <div className="mb-4 mt-5">
                 {/* <label htmlFor="confirmPassword" className="block text-gray-700 font-medium mb-2">Confirm Password</label> */}
-                <input type="text" id="confirmPassword" className="block py-2.5 px-0 w-full md:w-96 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder="Username" ref={confirmPasswordRef} />
+                <input type="text" id="confirmPassword" className="block py-2.5 px-0 w-full md:w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder="Username" ref={confirmPasswordRef} />
                 <label for="floating_password" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">confirmPassword</label>
               </div>
             )}
             <div className="mb-4 mt-5">
               {/* <label htmlFor="email" className="block text-gray-700 font-medium mb-2">Email</label> */}
 
-              <input type="email" id="email" className="block py-2.5 px-0  w-full md:w-96 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder="Enter your email" ref={emailRef} />
+              <input type="email" id="email" className="block py-2.5 px-0  w-full md:w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder="Enter your email" ref={emailRef} />
               <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email address</label>
             </div>
             <div className="mb-4">
               {/* <label htmlFor="password" className="block text-gray-700 font-medium mb-2">Password</label> */}
 
-              <input type="password" id="password" className="block py-2.5 px-0  w-full md:w-96 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder="Password" ref={passwordRef} />
+              <input type="password" id="password" className="block py-2.5 px-0  w-full md:w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder="Password" ref={passwordRef} />
               <svg
                 className="absolute top-0 left-0 w-8 h-full text-gray-400 fill-current"
                 viewBox="0 0 24 24"
@@ -94,10 +94,10 @@ function LoginAndRegister({ onLogin, onRegister }) {
             <div className='mb-3 hover:text-[#00c5ff] '><Link to="/Forgetpass">Forgot Password?</Link></div>
             )}
           
-            <button type="submit" className="bg-[#00c5ff] hover:text-black border-2 border-[#00c5ff] hover:bg-white text-white rounded-md w-full md:w-96 px-4 py-2">{isLogin ? 'LOGIN' : 'SIGN UP'}</button>
+            <button type="submit" className="bg-[#00c5ff] hover:text-black border-2 border-[#00c5ff] hover:bg-white text-white rounded-md w-full md:w-full px-4 py-2">{isLogin ? 'LOGIN' : 'SIGN UP'}</button>
 
             {/* -------------logo--------------- */}
-            <div className=' mt-10 w-full md:w-96 '>
+            <div className=' mt-10 w-full md:w-full '>
               <p className='text-center'>Or With Social Profile</p>
               <div className='text-center'>
               <a
