@@ -17,13 +17,13 @@ function Skill() {
                     {/* <!--Graph Section--> */}
                     <div className="mt-7 md:mt-0"
                      data-aos="fade-right"
-                     data-aos-easing="ease-out-cubic"
+                    //  data-aos-easing="ease-out-cubic"
                      data-aos-duration="2000">
                         <img src={rgraph}/>
                     </div>
                     <div className="lg:h-full md:h-full mx-5 sm:mx-5 md:mx-10 lg:mx-10 mt-10"
                      data-aos="fade-left"
-                     data-aos-easing="ease-out-cubic"
+                    //  data-aos-easing="ease-out-cubic"
                      data-aos-duration="2000">
                         <p className="mt-7 mr-25 text-lg">At Grachiever, we understand the importance of staying ahead in today's dynamic job market. That's why we've developed Skill Graph, a powerful tool that empowers you with real-time insights into skill trends and in-demand abilities. With Skill Graph, you can navigate the ever-evolving landscape of professional skills effortlessly. Whether you're a student, a working professional, or a freelancer, Skill Graph provides personalized recommendations and identifies the skills you need to succeed. Our intuitive templates and resources help you craft a tailored skill development plan, unlocking opportunities for career growth and ensuring you remain competitive in the industry. Don't just keep up with the trends – lead the way with Grachiever's Skill Graph.</p>
                         <div className=' mt-10'>
@@ -125,13 +125,14 @@ function Skill() {
                     {/* <!--Graph Section--> */}
                     <div className=" md:mt-10"
                      data-aos="fade-right"
-                     data-aos-easing="ease-out-cubic"
+                    //  data-aos-easing="ease-out-cubic"
                      data-aos-duration="2000">
                         <img src={carrer} className='md:ml-10  ' />
                     </div>
-                    <div className="lg:h-full md:h-full mx-5 sm:mx-5 md:mx-10 lg:mx-10 mt-[-6rem] lg:mt-20"
+                    <div className="lg:h-full md:h-full mt-20  mx-5 sm:mx-5 md:mx-10 lg:mx-10"
+                    // lg:h-full md:h-full mx-5 sm:mx-10 md:mx-10 lg:mx-10 mt-[-6rem] lg:mt-20
                      data-aos="fade-left"
-                     data-aos-easing="ease-out-cubic"
+                    //  data-aos-easing="ease-out-cubic"
                      data-aos-duration="2000">
                     <h1 className="text-3xl font-bold">Unlocking <span class="text-[#00c5ff]">Opportunities</span> for Career Growth </h1>
                         <p className="mt-5 text-lg">
