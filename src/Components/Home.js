@@ -425,7 +425,7 @@ function Home () {
           <img src={wcg1} className="rounded-xl p-2 w-[100%] h-auto md:h-72 m-auto" />
           </div>
           <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto pb-10 m-auto'>
-          <h2 className="text-black font-semibold  mt-20">Diverse Offerings</h2>
+          <h2 className="text-black font-semibold  mt-24">Diverse Offerings</h2>
                   <p>Grachiever provides a variety of services, including online courses, freelancing opportunities, and expert consultancy, to help you develop the skills necessary for a successful career.</p>
           </div>
           </div>
@@ -434,8 +434,8 @@ function Home () {
           <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-auto'>
           <img src={wcg2} className="w-[60%] md:w-[50%] lg:w-[60%] m-auto" />
           </div>
-          <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#e0ebff] p-2 w-[80%] h-auto pb-8 m-auto'>
-          <h2 className="text-black font-semibold  mt-20">Unique Tools & Features </h2>
+          <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#e0ebff] p-2 w-[80%] h-auto pb-14 m-auto'>
+          <h2 className="text-black font-semibold  mt-24">Unique Tools & Features </h2>
                   <p>Grachiever's Skill Graph feature and other innovative tools provide a personalized learning and work experience, tailored to your unique needs and goals.</p>
           </div>
           </div>
@@ -445,7 +445,7 @@ function Home () {
           <img src={wcg3} className="w-[70%] md:w-[60%] lg:w-[70%] m-auto" />
           </div>
           <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto pb-16 m-auto'>
-          <h2 className="text-black font-semibold  mt-20">Supportive Community</h2>
+          <h2 className="text-black font-semibold  mt-24">Supportive Community</h2>
                 <p>Grachiever's supportive community fosters networking, collaboration, and mutual support among learners and professionals, enhancing learning and work experiences.</p>
           </div>
           </div>
@@ -455,7 +455,7 @@ function Home () {
           <img src={wcg4} className="rounded-xl p-2 w-[80%] h-auto md:h-72 m-auto" />
           </div>
           <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#e0ebff] p-2 w-[80%] h-auto pb-16 m-auto'>
-          <h2 className="text-black font-semibold  mt-20">Affordable And Flexible</h2>
+          <h2 className="text-black font-semibold  mt-24">Affordable And Flexible</h2>
                   <p>Grachiever's budget-friendly and adaptable pricing options provide access to excellent educational resources and opportunities for skill development.</p>
           </div>
           </div>
