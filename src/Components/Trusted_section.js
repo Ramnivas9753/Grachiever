@@ -32,7 +32,7 @@ function Trusted_section() {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1
         }
       }
@@ -45,14 +45,14 @@ function Trusted_section() {
     
     <h1 className=" text-center text-xl sm:text-3xl font-bold">Trusted By World Best</h1>
     
-<Slider {...settings} className="m-5 ">
+<Slider {...settings} className="m-5 md:block hidden">
 <div className="p-5 w-24 h-[50px]  ">
-<img src={slidelogo7} className='scale-75 -mt-7'/>
+<img src={slidelogo7} className='scale-75 -mt-5 '/>
 </div>
 
     {/* Card 1 */}
     <div className="p-5  w-24 h-20  ">
-          <img src={slidelogo1} className='scale-75 -mt-5'/>
+          <img src={slidelogo1} className='scale-75 -mt-4'/>
             </div>
 
     {/* Card 2 */}
@@ -81,6 +81,48 @@ function Trusted_section() {
     <div className="p-5  w-24 h-20 ">
         <img src={slidelogo6} className='scale-75 mt-1'/>
             </div>
+
+
+  </Slider>
+
+  {/* Responsive View */}
+
+  <Slider {...settings} className=" md:hidden">
+<div className="m-5 md:m-10 -ml-2 h-24 md:h-24 lg:h-24 ">
+<img src={slidelogo1} className='mt-4 p-2'/>
+</div>
+
+    {/* Card 1 */}
+    <div className=" w-24 h-5  "><h1 className="mt-2 p-5  md:p-10">
+          <img src={slidelogo2} className='mt-4'/>
+            </h1></div>
+
+    {/* Card 2 */}
+    <div className=" w-24 h-5 "><h1 className="mt-2 p-5  md:p-10">
+          <img src={slidelogo3} className='mt-4 p-2'/>
+            </h1></div>
+
+    {/* Card 3 */}
+    <div className=" w-24 h-5 "><h1 className="mt-8 p-5  md:p-10">
+          <img src={slidelogo4} />
+            </h1></div>
+
+    {/* Card 4 */}
+    <div className=" w-24 h-5 "><h1 className="mt-8 p-5  md:p-10">
+          <img src={slidelogo5} />
+            </h1></div>
+
+    {/* Card 5 */}
+
+    <div className=" w-24 h-5 "><h1 className="mt-8 p-5  md:p-10">
+          <img src={slidelogo6} />
+            </h1></div>
+            
+    {/* Card 6 */}
+
+    <div className=" w-24 h-5 "><h1 className="mt-3 p-5  md:p-10">
+          <img src={slidelogo7} className='mt-3'/>
+            </h1></div>
 
 
   </Slider>

@@ -6,11 +6,8 @@ import { FaAngleRight } from "react-icons/fa";
 function Footer() {
   return (
     <>
-      <section className='bg-[#1c1e39] container mx-auto' class='section'>
-        <div class='air air1'></div>
-        <div class='air air2'></div>
-        <div class='air air3'></div>
-        <div class='air air4'></div>
+      <section className='bg-[#1c1e39] container mx-auto' >
+ 
         {/* <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3'>  */}
         <div className="flex flex-wrap">
           <div className='w-[100%] md:w-[25%] lg:w-[25%]'>
@@ -134,6 +131,12 @@ function Footer() {
         </div>
         <div
           className="p-4 text-center text-white">Copyright © 2023 <a className="underline" href="https://tailwind-elements.com/"> Grachiever.</a> All rights reserved.
+        </div>
+        <div class='section'>
+        <div class='air air1'></div>
+        <div class='air air2'></div>
+        <div class='air air3'></div>
+        <div class='air air4'></div>
         </div>
       </section>
     </>
