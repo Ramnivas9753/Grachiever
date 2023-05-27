@@ -14,7 +14,7 @@ function Navbar() {
           <div className="justify-between mx-auto lg:max-w-7xl md:items-center md:flex">
               <div>
                   <div className="flex items-center justify-between py-3 md:py-1 md:-ml-0 md:block">
-                      <Link to="/"><img src={grachieverlogo} className="w-24 sm:w-28 md:w-40 " alt="Grachiever Logo" /></Link>
+                      <Link to="/"><img src={grachieverlogo} className="w-24 sm:w-28 md:w-40" alt="Grachiever Logo" /></Link>
                       <div className="flex text-sm hidden max-md:block">
                               <Link to="/login" className="px-2 py-1 text-center rounded-full shadow hover:text-blue-500 border border-[#00c5ff]">Log-in</Link>
                               <Link to="/signup" className="ml-3 px-2 py-1 text-center bg-[#00c5ff] text-white rounded-full shadow hover:text-black">Sign up</Link>
@@ -102,17 +102,17 @@ function Navbar() {
                                     transition duration-150 ease-in-out origin-top-left
                                     min-w-24">
                                     <li className="px-2 md:px-3 py-1 hover:bg-gray-100">
-                                    <Link to=''>Data</Link></li><hr/>
+                                    <Link to='/CardDetails'>Data</Link></li><hr/>
                                     <li className="px-2 md:px-3  py-1 hover:bg-gray-100">
-                                    <Link to=''>Digital Marketing</Link></li><hr/>
+                                    <Link to='/CardDetails'>Digital Marketing</Link></li><hr/>
                                     <li className="px-2 md:px-3  py-1 hover:bg-gray-100">
-                                    <Link to=''>Still Confused?</Link></li><hr/>
+                                    <Link to='/CardDetails'>Still Confused?</Link></li><hr/>
                                     <li className="px-2 md:px-3  py-1 hover:bg-gray-100">
-                                    <Link to=''>A.I.M.L.</Link></li><hr/>
+                                    <Link to='/CardDetails'>A.I.M.L.</Link></li><hr/>
                                     <li className="px-2 md:px-3  py-1 hover:bg-gray-100">
-                                    <Link to=''>Video Animation</Link></li><hr/>
+                                    <Link to='/CardDetails'>Video Animation</Link></li><hr/>
                                     <li className="px-2 md:px-3  py-1 hover:bg-gray-100">
-                                    <Link to=''>Graphics & Design</Link></li><hr/>
+                                    <Link to='/CardDetails'>Graphics & Design</Link></li><hr/>
                                 </ul>
                                 </li><hr/>
                                 <li className="rounded-sm relative px-1 py-1 hover:bg-gray-100">
@@ -132,19 +132,17 @@ function Navbar() {
                                     transition duration-150 ease-in-out origin-top-left
                                     min-w-32">
                                     <li className="px-3 py-1 hover:bg-gray-100">
-                                    <Link to=''>Data</Link></li><hr/>
+                                    <Link to='/CardDetails'>Data</Link></li><hr/>
                                     <li className="px-3 py-1 hover:bg-gray-100">
-                                    <Link to=''>Digital Marketing</Link></li><hr/>
+                                    <Link to='/CardDetails'>Digital Marketing</Link></li><hr/>
                                     <li className="px-3 py-1 hover:bg-gray-100">
-                                    <Link to=''>Still Confused?</Link></li><hr/>
+                                    <Link to='/CardDetails'>Still Confused?</Link></li><hr/>
                                     <li className="px-3 py-1 hover:bg-gray-100">
-                                    <Link to=''>A.I.M.L.</Link></li><hr/>
+                                    <Link to='/CardDetails'>A.I.M.L.</Link></li><hr/>
                                     <li className="px-3 py-1 hover:bg-gray-100">
-                                    <Link to=''>Rust</Link></li><hr/>
+                                    <Link to='/CardDetails'>Video Animation</Link></li><hr/>
                                     <li className="px-3 py-1 hover:bg-gray-100">
-                                    <Link to=''>Video Animation</Link></li><hr/>
-                                    <li className="px-3 py-1 hover:bg-gray-100">
-                                    <Link to=''>Graphics & Design</Link></li><hr/>
+                                    <Link to='/CardDetails'>Graphics & Design</Link></li><hr/>
                                 </ul>
                                 </li><hr/>
 
@@ -165,19 +163,17 @@ function Navbar() {
                                     transition duration-150 ease-in-out origin-top-left
                                     min-w-32">
                                     <li className="px-3 py-1 hover:bg-gray-100">
-                                    <Link to=''>Data</Link></li><hr/>
+                                    <Link to='/CardDetails'>Data</Link></li><hr/>
                                     <li className="px-3 py-1 hover:bg-gray-100">
-                                    <Link to=''>Digital Marketing</Link></li><hr/>
+                                    <Link to='/CardDetails'>Digital Marketing</Link></li><hr/>
                                     <li className="px-3 py-1 hover:bg-gray-100">
-                                    <Link to=''>Still Confused?</Link></li><hr/>
+                                    <Link to='/CardDetails'>Still Confused?</Link></li><hr/>
                                     <li className="px-3 py-1 hover:bg-gray-100">
-                                    <Link to=''>A.I.M.L.</Link></li><hr/>
+                                    <Link to='/CardDetails'>A.I.M.L.</Link></li><hr/>
                                     <li className="px-3 py-1 hover:bg-gray-100">
-                                    <Link to=''>Rust</Link></li><hr/>
+                                    <Link to='/CardDetails'>Video Animation</Link></li><hr/>
                                     <li className="px-3 py-1 hover:bg-gray-100">
-                                    <Link to=''>Video Animation</Link></li><hr/>
-                                    <li className="px-3 py-1 hover:bg-gray-100">
-                                    <Link to=''>Graphics & Design</Link></li><hr/>
+                                    <Link to='/CardDetails'>Graphics & Design</Link></li><hr/>
                                 </ul>
                                 </li><hr/>
 
@@ -188,7 +184,7 @@ function Navbar() {
                                 </li>
                                 <li className="rounded-sm relative px-1 py-1 hover:bg-gray-100">
                                     <button className="w-full text-left flex items-center outline-none focus:outline-none">
-                                        <Link to="/skillConsultancy" className="pr-1 flex-1">Skill Graph</Link>
+                                        <Link to="/Skillgraph" className="pr-1 flex-1">Skill Graph</Link>
                                     </button>
                                 </li><hr/>
 
