@@ -84,13 +84,13 @@ function Cards() {
       </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-5 gap-4 ">
-        <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] rounded-lg ">Enroll Now</a>
+        <Link to="/CardDetails" className="px-3 py-2 text-sm font-medium text-center bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] rounded-lg ">Enroll Now</Link>
       <a href="#" className="px-3 py-2 text-sm font-medium text-center hover:bg-[#00c5ff] bg-white hover:text-white text-black border-2 border-[#00c5ff] rounded-lg ">Compaire</a>
       </div>
     </div>
     </div>
 
-    {/* Card 1 */}
+    {/* Card 2 */}
     <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full ">
     <div className="   bg-white rounded-3xl h-full  pb-5 ">
       <img src={img2} alt="image1" className="mx-auto w-[100%] md:w-full h-48  rounded-2xl shadow-lg" />
@@ -112,12 +112,12 @@ function Cards() {
       </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-5 gap-4 ">
-        <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] rounded-lg ">Enroll Now</a>
+      <Link to="/CardDetails" className="px-3 py-2 text-sm font-medium text-center bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] rounded-lg ">Enroll Now</Link>
       <a href="#" className="px-3 py-2 text-sm font-medium text-center hover:bg-[#00c5ff] bg-white hover:text-white text-black border-2 border-[#00c5ff] rounded-lg ">Compaire</a>
       </div>
     </div>
     </div>
-    {/* Card 1 */}
+    {/* Card 3 */}
     <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full ">
     <div className="   bg-white rounded-3xl h-full  pb-5 ">
       <img src={img3} alt="image1" className="mx-auto w-[100%] md:w-full h-48  rounded-2xl shadow-lg" />
@@ -139,13 +139,13 @@ function Cards() {
       </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-5 gap-4 ">
-        <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] rounded-lg ">Enroll Now</a>
+       <Link to="/CardDetails" className="px-3 py-2 text-sm font-medium text-center bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] rounded-lg ">Enroll Now</Link>
       <a href="#" className="px-3 py-2 text-sm font-medium text-center hover:bg-[#00c5ff] bg-white hover:text-white text-black border-2 border-[#00c5ff] rounded-lg ">Compaire</a>
       </div>
     </div>
     </div>
 
-    {/* Card 1 */}
+    {/* Card 4 */}
     <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full ">
     <div className="   bg-white rounded-3xl h-full  pb-5 ">
       <img src={img4} alt="image1" className="mx-auto w-[100%] md:w-full h-48  rounded-2xl shadow-lg" />
@@ -167,13 +167,13 @@ function Cards() {
       </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-5 gap-4 ">
-        <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] rounded-lg ">Enroll Now</a>
+      <Link to="/CardDetails" className="px-3 py-2 text-sm font-medium text-center bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] rounded-lg ">Enroll Now</Link>
       <a href="#" className="px-3 py-2 text-sm font-medium text-center hover:bg-[#00c5ff] bg-white hover:text-white text-black border-2 border-[#00c5ff] rounded-lg ">Compaire</a>
       </div>
     </div>
     </div>
 
-    {/* Card 1 */}
+    {/* Card 5 */}
     <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full ">
     <div className=" bg-white rounded-3xl h-full  pb-5 ">
       <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/ff/4584404c7511e7a18adb2a6ad3c009/GettyImages-185239648.jpg?auto=format%2Ccompress&dpr=1&w=330&h=330&fit=fill&q=25" alt="image1" className="mx-auto w-[100%] md:w-full h-48  rounded-2xl shadow-lg" />
@@ -195,7 +195,7 @@ function Cards() {
       </div>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-5 gap-4 ">
-        <a href="#" className="px-3 py-2 text-sm font-medium text-center bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] rounded-lg ">Enroll Now</a>
+      <Link to="/CardDetails" className="px-3 py-2 text-sm font-medium text-center bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] rounded-lg ">Enroll Now</Link>
       <a href="#" className="px-3 py-2 text-sm font-medium text-center hover:bg-[#00c5ff] bg-white hover:text-white text-black border-2 border-[#00c5ff] rounded-lg ">Compaire</a>
       </div>
     </div>

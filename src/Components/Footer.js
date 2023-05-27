@@ -1,6 +1,6 @@
 // import grachieverlogo from "../images/LOGOS/g.logo.white1.png"
 import { Link } from 'react-router-dom'
-import footer_logo1 from "../images/LOGOS/footer_logo1.png"
+import footer_logo1 from "../images/LOGOS/g.logo.white1.png"
 import { FaAngleRight } from "react-icons/fa";
 
 function Footer() {
@@ -93,11 +93,7 @@ function Footer() {
         </div>
         {/* </div> */}
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 lg:grid-cols-5 text-white md:mx-10 -mt-10 text-center">
-          <div className="text-sm">
-            <h1 className='text-white text-center text-xl font-bold p-3'>What is Grachiever ?</h1>
-            <p className=''> Grachiever is a comprehensive platform designed to help individuals achieve success in their careers. Our goal is to provide high-quality courses, freelance opportunities, and the latest tools and resources to help you enhance your productivity and stay ahead in today's competitive job market.</p>
-          </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 text-white md:mx-10 text-center sm:text-left">
           <div className="p-5  lg:pl-20">
             <h1 className="text-white font-bold text-lg mb-3">About</h1>
             <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">About Us</Link></p>
