@@ -65,8 +65,8 @@ function Cards() {
     {/* Card 1 */}
     <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full ">
     <div className="   bg-white rounded-3xl h-full  pb-5 ">
-      <img src={img1} alt="image1" className="mx-auto w-[100%] md:w-full h-48  rounded-2xl shadow-lg" />
-      <div className="grid grid-cols-2 gap-0 md:gap-20  mt-5">
+      <img src={img1} alt="image1" className="mx-auto w-[100%] md:w-full h-48  rounded-t-2xl shadow-lg" />
+      <div className="grid grid-cols-2 gap-0 md:40  mt-5">
       <div className=" flex items-center m-auto text-[#00c5ff]">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
       </div>
@@ -74,7 +74,7 @@ function Cards() {
       <FaDollarSign className="" /> <h1 className="font-bold">1000</h1>
       </div>
       </div>
-      <h2 className="mt-5 text-sm md:text-2xl  text-gray-900 text-center font-semibold">Python FullStack Development</h2>
+      <h2 className="mt-5 text-sm md:text-xl  text-gray-900 text-center font-semibold">Python FullStack Development</h2>
       <div className="grid grid-cols-2  md:gap-10 mt-5">
       <div className=" flex items-center m-auto">
       <img src={logo1} className="m-2 w-6"/> <h2 className="font-bold ">Grachiever</h2>
@@ -93,8 +93,8 @@ function Cards() {
     {/* Card 2 */}
     <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full ">
     <div className="   bg-white rounded-3xl h-full  pb-5 ">
-      <img src={img2} alt="image1" className="mx-auto w-[100%] md:w-full h-48  rounded-2xl shadow-lg" />
-      <div className="grid grid-cols-2  md:gap-20  mt-5">
+      <img src={img2} alt="image1" className="mx-auto w-[100%] md:w-full h-48  rounded-t-2xl shadow-lg" />
+      <div className="grid grid-cols-2  md:40  mt-5">
       <div className=" flex items-center m-auto text-[#00c5ff]">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
       </div>
@@ -102,7 +102,7 @@ function Cards() {
       <FaDollarSign className="" /> <h1 className="font-bold">1000</h1>
       </div>
       </div>
-      <h2 className="mt-5 text-sm md:text-2xl  text-gray-900 text-center  font-semibold">Python FullStack Development</h2>
+      <h2 className="mt-5 text-sm md:text-xl  text-gray-900 text-center  font-semibold">Python FullStack Development</h2>
       <div className="grid grid-cols-2  md:gap-10 mt-5">
       <div className=" flex items-center m-auto">
       <img src={logo1} className="m-2 w-6"/> <h2 className="font-bold">Grachiever</h2>
@@ -120,8 +120,8 @@ function Cards() {
     {/* Card 3 */}
     <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full ">
     <div className="   bg-white rounded-3xl h-full  pb-5 ">
-      <img src={img3} alt="image1" className="mx-auto w-[100%] md:w-full h-48  rounded-2xl shadow-lg" />
-      <div className="grid grid-cols-2  md:gap-20  mt-5">
+      <img src={img3} alt="image1" className="mx-auto w-[100%] md:w-full h-48  rounded-t-2xl shadow-lg" />
+      <div className="grid grid-cols-2  md:40  mt-5">
       <div className=" flex items-center m-auto text-[#00c5ff]">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
       </div>
@@ -129,7 +129,7 @@ function Cards() {
       <FaDollarSign className="" /> <h1 className="font-bold">1000</h1>
       </div>
       </div>
-      <h2 className="mt-5 text-sm md:text-2xl  text-gray-900 text-center font-semibold">Python FullStack Development</h2>
+      <h2 className="mt-5 text-sm md:text-xl  text-gray-900 text-center font-semibold">Python FullStack Development</h2>
       <div className="grid grid-cols-2  md:gap-10 mt-5">
       <div className=" flex items-center m-auto">
       <img src={logo1} className="m-2 w-6"/> <h2 className="font-bold">Grachiever</h2>
@@ -148,8 +148,8 @@ function Cards() {
     {/* Card 4 */}
     <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full ">
     <div className="   bg-white rounded-3xl h-full  pb-5 ">
-      <img src={img4} alt="image1" className="mx-auto w-[100%] md:w-full h-48  rounded-2xl shadow-lg" />
-      <div className="grid grid-cols-2  md:gap-20  mt-5">
+      <img src={img4} alt="image1" className="mx-auto w-[100%] md:w-full h-48  rounded-t-2xl shadow-lg" />
+      <div className="grid grid-cols-2  md:40  mt-5">
       <div className=" flex items-center m-auto text-[#00c5ff]">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
       </div>
@@ -157,7 +157,7 @@ function Cards() {
       <FaDollarSign className="" /> <h1 className="font-bold">1000</h1>
       </div>
       </div>
-      <h2 className="mt-5 text-sm md:text-2xl  text-gray-900 text-center  font-semibold">Python FullStack Development</h2>
+      <h2 className="mt-5 text-sm md:text-xl  text-gray-900 text-center  font-semibold">Python FullStack Development</h2>
       <div className="grid grid-cols-2  md:gap-10 mt-5">
       <div className=" flex items-center m-auto">
       <img src={logo1} className="m-2 w-6"/> <h2 className="font-bold">Grachiever</h2>
@@ -176,8 +176,8 @@ function Cards() {
     {/* Card 5 */}
     <div className="p-1 sm:p-1 md:p-8 lg:p-8 h-full ">
     <div className=" bg-white rounded-3xl h-full  pb-5 ">
-      <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/ff/4584404c7511e7a18adb2a6ad3c009/GettyImages-185239648.jpg?auto=format%2Ccompress&dpr=1&w=330&h=330&fit=fill&q=25" alt="image1" className="mx-auto w-[100%] md:w-full h-48  rounded-2xl shadow-lg" />
-      <div className="grid grid-cols-2  md:gap-20  mt-5">
+      <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/ff/4584404c7511e7a18adb2a6ad3c009/GettyImages-185239648.jpg?auto=format%2Ccompress&dpr=1&w=330&h=330&fit=fill&q=25" alt="image1" className="mx-auto w-[100%] md:w-full h-48  rounded-t-2xl shadow-lg" />
+      <div className="grid grid-cols-2  md:40  mt-5">
       <div className=" flex items-center text-[#00c5ff]  mx-3">
       <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
       </div>
@@ -185,7 +185,7 @@ function Cards() {
       <FaDollarSign className="" /> <h1 className="font-bold">1000</h1>
       </div>
       </div>
-      <h2 className="mt-5 text-sm md:text-2xl  text-gray-900 text-center  font-semibold">Python FullStack Development</h2>
+      <h2 className="mt-5 text-sm md:text-xl  text-gray-900 text-center  font-semibold">Python FullStack Development</h2>
       <div className="grid grid-cols-2  md:gap-10 mt-5">
       <div className=" flex items-center m-auto">
       <img src={logo1} className="m-2 w-6"/> <h2 className="font-bold">Grachiever</h2>
