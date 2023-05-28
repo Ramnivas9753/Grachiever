@@ -6,7 +6,7 @@ function Contact() {
         <section className=" p-1 bg-[#1b1a3a] text-gray-300 mt-20 mb-2">
 
     <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-[90%] m-auto">
-      <div className="md:m-2 mt-4 md:p-10 lg:p-10 md:w-[75%]">
+      <div className="md:m-2 mt-8 md:mt-4 md:p-10 lg:p-10 md:w-[75%] md:order-first order-last">
        <h1 className="font-bold text-white text-2xl"
          data-aos="fade-up"
          data-aos-easing="ease-out-cubic"
