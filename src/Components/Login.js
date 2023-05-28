@@ -26,16 +26,24 @@ function LoginAndRegister({ onLogin, onRegister }) {
   }
 
   return (
-    <section className="mt-20 container mx-auto">
-      <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 " >
+    <section className="mt-20 container mx-auto"
+  >
+      <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 " 
+   >
       {isLogin && (
-        <div className="m-auto">
+        <div className="m-auto"
+        data-aos="zoom-in"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
           <img src={login} className='p-10' />
         </div>
            )}
 
           {!isLogin && (
-          <div className="m-auto">
+          <div className="m-auto"
+          data-aos="zoom-in"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000">
           <img src={signup} className='p-10' />
         </div>
           )}
@@ -92,7 +100,10 @@ function LoginAndRegister({ onLogin, onRegister }) {
             <div className='mb-3 hover:text-[#00c5ff] '><Link to="/Forgetpass">Forgot Password?</Link></div>
             )}
           
-            <button type="submit" className="bg-[#00c5ff] hover:text-black border-2 border-[#00c5ff] hover:bg-white text-white rounded-md w-full md:w-full px-4 py-2">{isLogin ? 'LOGIN' : 'SIGN UP'}</button>
+            <button type="submit" className="bg-[#00c5ff] hover:text-black border-2 border-[#00c5ff] hover:bg-white text-white rounded-md w-full md:w-full px-4 py-2"
+             data-aos="zoom-in"
+             data-aos-easing="ease-out-cubic"
+             data-aos-duration="1000">{isLogin ? 'LOGIN' : 'SIGN UP'}</button>
 
             {/* -------------logo--------------- */}
             <div className=' mt-10 w-full md:w-full '>

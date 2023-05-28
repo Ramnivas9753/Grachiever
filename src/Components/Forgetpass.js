@@ -27,7 +27,10 @@ function LoginAndRegister({ onLogin, onRegister }) {
   return (
     <section className="mt-20">
       <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 md:w-[80%] mx-auto" >
-        <div className="m-auto">
+        <div className="m-auto"
+         data-aos="zoom-in"
+         data-aos-easing="ease-out-cubic"
+         data-aos-duration="1000">
           <img src={login} className='p-10' />
         </div>
         <div className=" bg-white rounded-md items-center mb-20 md:mt-20 p-2 w-[90%] m-auto md:w-[50%] border-2 border-blue-400">
@@ -88,7 +91,10 @@ function LoginAndRegister({ onLogin, onRegister }) {
             <div className='mb-3 hover:text-[#00c5ff] '><Link to="/Forgetpass">Forgot Password?</Link></div>
             )} */}
           
-            <button type="submit" className="bg-[#00c5ff] hover:text-black border-2 border-[#00c5ff] hover:bg-white text-white rounded-md w-full md:w-full px-4 py-2">RESET PASSWORD</button>
+            <button type="submit" className="bg-[#00c5ff] hover:text-black border-2 border-[#00c5ff] hover:bg-white text-white rounded-md w-full md:w-full px-4 py-2"
+             data-aos="zoom-in"
+             data-aos-easing="ease-out-cubic"
+             data-aos-duration="1000">RESET PASSWORD</button>
 
             {/* -------------logo--------------- */}
             {/* <div className=' mt-10 w-full md:w-full '>
