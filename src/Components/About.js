@@ -1,5 +1,5 @@
-import image1 from "../images/About/about.png";
-import education from "../images/About/Rectangle.png";
+import image1 from "../images/About/about.svg";
+import education from "../images/About/Rectangle.svg";
 import { FaGraduationCap } from "react-icons/fa";
 import { FaList } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
