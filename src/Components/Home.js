@@ -166,7 +166,7 @@ function Home () {
       <p className="mt-5 text-sm sm:text-xl">The only easier, powerful and authoring platform designed for consistent learners to
         unlock the power of monetizing</p>
       {/* <!--Search--> */}
-      <div className="relative border-b-[#349fcf] border-[#349fcf] border-2 flex items-center mt-8 w-auto rounded-full outline-none text-xl">
+      <div className="relative border-b-[#349fcf] border-[#00c5ff] border-2 flex items-center mt-8 w-auto rounded-full outline-none text-xl">
         <input type="text" className="py-3 px-4 outline-none w-full rounded-full text-sm sm:text-md" placeholder="Search Anything..."  onClick={handleInputClick}/>
         <select className="focus:outline-none cursor-pointer w-20 sm:w-24 md:w-24 text-sm sm:text-md">
           <option>Courses</option>
@@ -524,7 +524,7 @@ function Home () {
                   <li className=" mx-5"><strong className='text-black'>Expert Insights</strong>: Years of experience at your service.</li>
                   <li className=" mx-5"><strong className='text-black'>Industry Trends:</strong> Know what's in demand.</li>
                   <li className=" mx-5"><strong className='text-black'>Confidence-Boosting:</strong> Empowering you for success.</li>
-                  <button className="bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg p-2  mt-5 ml-3 px-5"
+                  <button className="bg-[#00c5ff]  hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] rounded-lg p-2  mt-5 ml-3 px-5"
                     data-aos="zoom-in"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="1000"><Link to="/Skillconsultancy">Register for Free</Link></button>
@@ -568,7 +568,7 @@ function Home () {
             <option>Basic Plane</option>
             <option>Advance Plan</option>
           </select>
-          <button className="mt-5 w-full md:w-auto m-auto bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] text-xl rounded-full p-3 md:px-10"
+          <button className="mt-5 w-full md:w-auto m-auto bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] text-xl rounded-full p-3 md:px-10"
             data-aos="zoom-in"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000">Get Started Now</button>
@@ -586,22 +586,22 @@ function Home () {
     <div className="mt-5">
         <h1 className=" md:text-3xl lg:text-4xl font-bold text-center p-5 mb-10">Achievements</h1>
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 text-center" data-aos="zoom-in"  data-aos-duration="2000">
-            <div className=" m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-44 w-44 lg:h-48 lg:w-48 mb-10 rounded-full">
+            <div className=" m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#00c5ff] hover:scale-110 duration-500 h-44 w-44 lg:h-48 lg:w-48 mb-10 rounded-full">
               <FaGraduationCap className='text-5xl text-black mt-10 mx-auto m-2 group-hover:text-blue-500'/>
               <p className=" font-bold group-hover:text-[#349fcf]">350+</p>
               <p className='group-hover:text-green-500'>Student worldwide</p>
             </div>
-            <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-44 w-44 lg:h-48 lg:w-48 mb-10 rounded-full">
+            <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#00c5ff] hover:scale-110 duration-500 h-44 w-44 lg:h-48 lg:w-48 mb-10 rounded-full">
               <FaList className='text-3xl text-black mt-10 mx-auto m-2 group-hover:text-green-500'/>           
               <p className=" font-bold group-hover:text-[#349fcf]">450+</p>
               <p className='group-hover:text-blue-500'>Total Course Views</p>
             </div>
-            <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-44 w-44 lg:h-48 lg:w-48 mb-10 rounded-full">
+            <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#00c5ff] hover:scale-110 duration-500 h-44 w-44 lg:h-48 lg:w-48 mb-10 rounded-full">
               <FaStar className='text-3xl text-black mt-10 mx-auto m-2 group-hover:text-yellow-500'/>
               <p className=" font-bold group-hover:text-[#349fcf]">550+</p>
               <p className='group-hover:text-orange-500'>Course Reviews</p>
             </div>
-            <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#349fcf] hover:scale-110 duration-500 h-44 w-44 lg:h-48 lg:w-48 mb-10 rounded-full">
+            <div className="m-auto group border-2 border-blue-100 bg-blue-100 hover:bg-white hover:border-[#00c5ff] hover:scale-110 duration-500 h-44 w-44 lg:h-48 lg:w-48 mb-10 rounded-full">
               <FaUser className='text-3xl text-black mt-10 mx-auto m-2 group-hover:text-orange-500'/>
               <p className=" font-bold group-hover:text-[#349fcf]">650+</p>
               <p className='group-hover:text-yellow-500'>Student Community</p>
@@ -622,7 +622,7 @@ function Home () {
       <p className="mt-2 mb-2  font-semibold">Most Recent</p>
       <hr />
         {/* <div className="flex flex-wrap justify-between">
-          <button className="p-2 rounded-lg bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-8 text-lg float-right mx-10 mt-10 sm:mt-10 md:mt-10 lg:mt-0">Browse Blog</button>
+          <button className="p-2 rounded-lg bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] px-8 text-lg float-right mx-10 mt-10 sm:mt-10 md:mt-10 lg:mt-0">Browse Blog</button>
         </div> */}
     </div>
      {/* <!--3 Card--> */}
@@ -674,7 +674,7 @@ function Home () {
        <Z_index_card1 />
   </div>
   <div className='text-center mt-24'>
-    <Link to='BrowseAll'><button className="bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] p-2 rounded-xl px-10 text-lg font-bold"
+    <Link to='BrowseAll'><button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2 rounded-xl px-10 text-lg font-bold"
       data-aos="zoom-in"
       data-aos-easing="ease-out-cubic"
       data-aos-duration="1000">Browse All</button></Link> 
@@ -698,7 +698,7 @@ function Home () {
           <p className="p-2 mt-5 text-lg md:w-[75%] font-bold text-gray-600">From in-demand skills to future-ready courses, Grachiever makes it simple to discover and enroll in the courses you need to achieve your career goals.</p>
          </div>
         <div className=" m-auto mb-5">
-            <button className="p-2 rounded-lg bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-8 text-lg mt-5"
+            <button className="p-2 rounded-lg bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] px-8 text-lg mt-5"
               data-aos="zoom-in"
               data-aos-easing="ease-out-cubic"
               data-aos-duration="1000">Start Learning For Free</button>
