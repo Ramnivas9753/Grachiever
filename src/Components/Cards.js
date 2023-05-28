@@ -83,9 +83,9 @@ function Cards() {
       <FaCalendarMinus className="m-2"/> <h2 className="font-semibold">3 Hrs</h2>
       </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-5 gap-4 ">
-        <Link to="/CardDetails" className="px-3 py-2 text-sm font-medium text-center bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] rounded-lg ">Enroll Now</Link>
-      <a href="#" className="px-3 py-2 text-sm font-medium text-center hover:bg-[#00c5ff] bg-white hover:text-white text-black border-2 border-[#00c5ff] rounded-lg ">Compaire</a>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-5 gap-4 mx-5">
+        <Link to="/CardDetails" className=" py-2 text-sm font-medium text-center bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] rounded-lg ">Enroll Now</Link>
+      <a href="#" className=" py-2 text-sm font-medium text-center hover:bg-[#00c5ff] bg-white hover:text-white text-black border-2 border-[#00c5ff] rounded-lg ">Compaire</a>
       </div>
     </div>
     </div>
@@ -111,9 +111,9 @@ function Cards() {
       <FaCalendarMinus className="m-2"/> <h2 className="font-semibold">3 Hrs</h2>
       </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-5 gap-4 ">
-      <Link to="/CardDetails" className="px-3 py-2 text-sm font-medium text-center bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] rounded-lg ">Enroll Now</Link>
-      <a href="#" className="px-3 py-2 text-sm font-medium text-center hover:bg-[#00c5ff] bg-white hover:text-white text-black border-2 border-[#00c5ff] rounded-lg ">Compaire</a>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-5 gap-4 mx-5">
+      <Link to="/CardDetails" className=" py-2 text-sm font-medium text-center bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] rounded-lg ">Enroll Now</Link>
+      <a href="#" className=" py-2 text-sm font-medium text-center hover:bg-[#00c5ff] bg-white hover:text-white text-black border-2 border-[#00c5ff] rounded-lg ">Compaire</a>
       </div>
     </div>
     </div>
@@ -138,9 +138,9 @@ function Cards() {
       <FaCalendarMinus className="m-2"/> <h2 className="font-semibold">3 Hrs</h2>
       </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-5 gap-4 ">
-       <Link to="/CardDetails" className="px-3 py-2 text-sm font-medium text-center bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] rounded-lg ">Enroll Now</Link>
-      <a href="#" className="px-3 py-2 text-sm font-medium text-center hover:bg-[#00c5ff] bg-white hover:text-white text-black border-2 border-[#00c5ff] rounded-lg ">Compaire</a>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-5 gap-4 mx-5">
+       <Link to="/CardDetails" className=" py-2 text-sm font-medium text-center bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] rounded-lg ">Enroll Now</Link>
+      <a href="#" className=" py-2 text-sm font-medium text-center hover:bg-[#00c5ff] bg-white hover:text-white text-black border-2 border-[#00c5ff] rounded-lg ">Compaire</a>
       </div>
     </div>
     </div>
@@ -166,9 +166,9 @@ function Cards() {
       <FaCalendarMinus className="m-2"/> <h2 className="font-semibold">3 Hrs</h2>
       </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-5 gap-4 ">
-      <Link to="/CardDetails" className="px-3 py-2 text-sm font-medium text-center bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] rounded-lg ">Enroll Now</Link>
-      <a href="#" className="px-3 py-2 text-sm font-medium text-center hover:bg-[#00c5ff] bg-white hover:text-white text-black border-2 border-[#00c5ff] rounded-lg ">Compaire</a>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-5 gap-4 mx-5">
+      <Link to="/CardDetails" className=" py-2 text-sm font-medium text-center bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] rounded-lg ">Enroll Now</Link>
+      <a href="#" className=" py-2 text-sm font-medium text-center hover:bg-[#00c5ff] bg-white hover:text-white text-black border-2 border-[#00c5ff] rounded-lg ">Compaire</a>
       </div>
     </div>
     </div>
@@ -194,9 +194,9 @@ function Cards() {
       <FaCalendarMinus className="m-2"/> <h2 className="font-semibold">3 Hrs</h2>
       </div>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-5 gap-4 ">
-      <Link to="/CardDetails" className="px-3 py-2 text-sm font-medium text-center bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] rounded-lg ">Enroll Now</Link>
-      <a href="#" className="px-3 py-2 text-sm font-medium text-center hover:bg-[#00c5ff] bg-white hover:text-white text-black border-2 border-[#00c5ff] rounded-lg ">Compaire</a>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 mt-5 gap-4 mx-5">
+      <Link to="/CardDetails" className=" py-2 text-sm font-medium text-center bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] rounded-lg ">Enroll Now</Link>
+      <a href="#" className=" py-2 text-sm font-medium text-center hover:bg-[#00c5ff] bg-white hover:text-white text-black border-2 border-[#00c5ff] rounded-lg ">Compaire</a>
       </div>
     </div>
     </div>
