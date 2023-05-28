@@ -11,7 +11,10 @@ import { FaSearch } from "react-icons/fa";
 function BrowseAll() {
   return (
     <section>
-      <div className='bg-[#f5f1f0] p-0 flex flex-wrap '>
+      <div className='bg-[#f5f1f0] p-0 flex flex-wrap '
+       data-aos="fade-up"
+       data-aos-easing="ease-out-cubic"
+       data-aos-duration="2000">
         <div className='w-full sm:w-[20%] bg-white p-5  mt-20 rounded-lg ml-10'>
           <p className='font-bold text-black outline-none'>Filter
             <hr className="border-t-2 border-gray-300 my-4 w-full" /> </p>

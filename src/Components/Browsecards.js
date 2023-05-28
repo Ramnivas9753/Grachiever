@@ -19,7 +19,10 @@ function Browsecards() {
             <section className="p-0 sm:p-0 md:p-10 lg:p-2" >
                 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 m-2 h-auto    ">
                     {/* card1 */}
-                    <div className="p-5 w-auto  ">
+                    <div className="p-5 w-auto "
+                     data-aos="zoom-in"
+                     data-aos-easing="ease-out-cubic"
+                     data-aos-duration="1000">
                         <Card className="mt-6 w-35  shadow-lg hover:shadow-gray-500 ">
                             <CardHeader color="blue-gray" className="relative h-53">
                                 <img src={card1} />
@@ -71,7 +74,10 @@ function Browsecards() {
 
 
                     {/* card2 */}
-                    <div className="p-5 w-auto">
+                    <div className="p-5 w-auto"
+                     data-aos="zoom-in"
+                     data-aos-easing="ease-out-cubic"
+                     data-aos-duration="1000">
                         <Card className="mt-6 w-35   shadow-lg hover:shadow-gray-500  ">
                             <CardHeader color="blue-gray" className="relative h-53">
                                 <img src={card1} />
@@ -124,7 +130,10 @@ function Browsecards() {
 
 
                     {/* card3 */}
-                    <div className="p-5 w-auto">
+                    <div className="p-5 w-auto"
+                     data-aos="zoom-in"
+                     data-aos-easing="ease-out-cubic"
+                     data-aos-duration="1000">
                         <Card className="mt-6 w-35  shadow-lg hover:shadow-gray-500  ">
                             <CardHeader color="blue-gray" className="relative h-53">
                                 <img src={card1} />
@@ -181,7 +190,10 @@ function Browsecards() {
             <section className="p-0 sm:p-0 md:p-10 lg:p-3" >
                 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 m-2 h-auto    ">
                     {/* card1 */}
-                    <div className="p-5 w-auto  ">
+                    <div className="p-5 w-auto  "
+                     data-aos="zoom-in"
+                     data-aos-easing="ease-out-cubic"
+                     data-aos-duration="1000">
                         <Card className="mt-6 w-35  shadow-lg hover:shadow-gray-500 ">
                             <CardHeader color="blue-gray" className="relative h-53">
                                 <img src={card1} />
@@ -233,7 +245,10 @@ function Browsecards() {
 
 
                     {/* card2 */}
-                    <div className="p-5 w-auto">
+                    <div className="p-5 w-auto"
+                     data-aos="zoom-in"
+                     data-aos-easing="ease-out-cubic"
+                     data-aos-duration="1000">
                         <Card className="mt-6 w-35   shadow-lg hover:shadow-gray-500  ">
                             <CardHeader color="blue-gray" className="relative h-53">
                                 <img src={card1} />
@@ -286,7 +301,10 @@ function Browsecards() {
 
 
                     {/* card3 */}
-                    <div className="p-5 w-auto">
+                    <div className="p-5 w-auto"
+                     data-aos="zoom-in"
+                     data-aos-easing="ease-out-cubic"
+                     data-aos-duration="1000">
                         <Card className="mt-6 w-35  shadow-lg hover:shadow-gray-500  ">
                             <CardHeader color="blue-gray" className="relative h-53">
                                 <img src={card1} />
@@ -344,7 +362,10 @@ function Browsecards() {
             <section className="p-0 sm:p-0 md:p-10 lg:p-3" >
                 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 m-2 h-auto    ">
                     {/* card1 */}
-                    <div className="p-5 w-auto  ">
+                    <div className="p-5 w-auto  "
+                     data-aos="zoom-in"
+                     data-aos-easing="ease-out-cubic"
+                     data-aos-duration="1000">
                         <Card className="mt-6 w-35  shadow-lg hover:shadow-gray-500 ">
                             <CardHeader color="blue-gray" className="relative h-53">
                                 <img src={card1} />
@@ -396,7 +417,10 @@ function Browsecards() {
 
 
                     {/* card2 */}
-                    <div className="p-5 w-auto">
+                    <div className="p-5 w-auto"
+                     data-aos="zoom-in"
+                     data-aos-easing="ease-out-cubic"
+                     data-aos-duration="1000">
                         <Card className="mt-6 w-35   shadow-lg hover:shadow-gray-500  ">
                             <CardHeader color="blue-gray" className="relative h-53">
                                 <img src={card1} />
@@ -449,7 +473,10 @@ function Browsecards() {
 
 
                     {/* card3 */}
-                    <div className="p-5 w-auto">
+                    <div className="p-5 w-auto"
+                     data-aos="zoom-in"
+                     data-aos-easing="ease-out-cubic"
+                     data-aos-duration="1000">
                         <Card className="mt-6 w-35  shadow-lg hover:shadow-gray-500  ">
                             <CardHeader color="blue-gray" className="relative h-53">
                                 <img src={card1} />
