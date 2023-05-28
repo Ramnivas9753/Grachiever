@@ -33,10 +33,7 @@ export default function FlipCard() {
   //   const [isActive, setIsActive] = useState(false);
   // }
   return (
-    <div className={`flip-card ${flip != true ? "front-flip" : "back-flip"} mb-32 lg:w-[270px]`}
-    data-aos="fade-up"
-    data-aos-easing="ease-out-cubic"
-    data-aos-duration="2000">
+    <div className={`flip-card ${flip != true ? "front-flip" : "back-flip"} mb-32 lg:w-[270px]`}>
 
       <div className="flip-card-inner">
         <div className="flip-card-front ">

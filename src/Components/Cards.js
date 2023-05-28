@@ -204,7 +204,10 @@ function Cards() {
 
   </Slider>
     <div className='text-center mt-3'>
-      <Link to='BrowseAll'><button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2  rounded-xl  px-20 text-lg  font-bold">Browse All</button></Link> 
+      <Link to='BrowseAll'><button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2  rounded-xl  px-20 text-lg  font-bold"
+        data-aos="zoom-in"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">Browse All</button></Link> 
     </div>
     </section>
   </>

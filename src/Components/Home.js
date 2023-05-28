@@ -319,29 +319,26 @@ function Home () {
   
     {/* <!--Skill Section--> */}
 
-    <section className="p-0 sm:p-0 md:p-0 lg:p-0 container mt-5 mx-auto">
+    <section className="p-0 sm:p-0 md:p-0 lg:p-0 container mt-5 mx-auto"
+    data-aos="fade-up"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000">
       <div className="h-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2" >
         <div className="lg:h-full md:h-full mx-5 sm:mx-5 md:mx-5 lg:mx-10"
         >
-           {/* data-aos="fade-right"
-         data-aos-easing="ease-out-cubic"
-         data-aos-duration="2000" */}
+      
             <h1 className=" mt-5 text-xl sm:text-3xl font-bold"><span class="text-[#4eb0e1]">Track</span> The Trending<br/> <span class="text-[#4eb0e1]">Skills</span> Over Time</h1>
             <p className="mt-5 text-sm sm:text-xl">Our Skill Graph feature helps you stay up-to-date with the latest skills in demand. our Skill Graph displays the trending skills over time.</p>
             <p  className="mt-5 text-sm sm:text-xl">allowing you to identify which skills are gaining popularity and which are losing relevance. With this powerful tool, you can make informed decisions about the skills you want to learn or develop, ensuring you stay ahead of the curve in your chosen field.</p>
             <div className='mt-3 sm:mt-10'>
-              <button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-0 sm:p-2 rounded-xl px-3 sm:px-8 text-lg font-bold"><Link to="/Skillgraph">Learn More</Link></button>
+              <button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-0 sm:p-2 rounded-xl px-3 sm:px-8 text-lg font-bold"
+              data-aos="zoom-in"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="1000"><Link to="/Skillgraph">Learn More</Link></button>
             </div>
       </div>
     {/* <!--Graph Section--> */}
-        <div className="mt-5 mx- sm:mx-5 md:mx-5 lg:mx-5"
-        >
-           {/* data-aos="fade-left"
-         data-aos-easing="ease-out-cubic"
-         data-aos-duration="2000" */}
-
-
-
+        <div className="mt-5 mx- sm:mx-5 md:mx-5 lg:mx-5" >
           {/* <img src={sgraph} className='mx-auto' /> */}
           <GraphChart/>
         </div>
@@ -354,12 +351,12 @@ function Home () {
 
   {/* Top Categories Section */}
 
-  <section className="m-5 p-0 sm:p-0 md:p-10 lg:p-10 container mx-auto"
-    >
-      {/* data-aos="fade-up"
-   data-aos-easing="ease-out-cubic"
-   data-aos-duration="2000" */}
-  <h1 className="text-xl sm:text-3xl font-bold text-center  p-5 ">Top Categories</h1>
+  <section className="m-5 p-0 sm:p-0 md:p-10 lg:p-10 container mx-auto" >
+
+  <h1 className="text-xl sm:text-3xl font-bold text-center  p-5 "
+    data-aos="fade-up"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="1000">Top Categories</h1>
   <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 w-[90%] mx-auto mt-5">
   {/* Left Side Section--> */}
   <div className="md:m-5 lg:m-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 mb-5">
@@ -379,7 +376,8 @@ function Home () {
               <h1 className="text-center text-white font-semibold text-3xl m-2" >Still Confused?</h1>
               <p className="font-semibold text-white  m-2 text-md text-center">explore our skill consultancy services to get clear answer of which skill is best for you.</p>
               <div className='text-center mt-3 mb-3'>
-       <button className="border-2 border-white p-2 rounded-xl   text-white hover:text-black bg-[#a6a6a6] hover:bg-gray-400 px-8 text-lg  font-bold">Learn More</button>
+       <button className="border-2 border-white p-2 rounded-xl   text-white hover:text-black bg-[#a6a6a6] hover:bg-gray-400 px-8 text-lg  font-bold"
+      >Learn More</button>
        </div>
             </div>
           </div>
@@ -407,21 +405,27 @@ function Home () {
           </div>
     </div>
     <div className='text-center mt-10'>
-      <Link to="/BrowseAll"><button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2 rounded-xl   px-20 text-lg  font-bold">Browse All</button></Link> 
+      <Link to="/BrowseAll"><button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2 rounded-xl   px-20 text-lg  font-bold"
+        data-aos="zoom-in"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">Browse All</button></Link> 
        </div>
   </section>
 
       {/* <!-- ....... why choose Grachiever .............--> */}
 
 <section className="p-0 sm:p-0 md:p-10 lg:p-10 container mt-10 mb-10 mx-auto "
-  >
-    {/* data-aos="fade-up"
- data-aos-easing="ease-out-cubic"
- data-aos-duration="2000" */}
+   data-aos="fade-up"
+   data-aos-easing="ease-out-cubic"
+   data-aos-duration="2000" >
+  
           <h1 className=" text-center text-xl sm:text-3xl font-bold mb-2">Why Choose Grachiever?</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  md:mt-12 pb-5">
-          <div className='hover:-translate-y-5 duration-500 mt-10 pb-5'data-aos="zoom-in"  data-aos-duration="2000" >
-          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-auto'>
+          <div className='hover:-translate-y-5 duration-500 mt-10 pb-5' >
+          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-auto'  data-aos="zoom-in"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000"
+          >
           <img src={wcg1} className="rounded-xl p-2 w-[100%] h-auto md:h-72 m-auto" />
           </div>
           <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto pb-9 m-auto'>
@@ -431,7 +435,10 @@ function Home () {
           </div>
 
           <div className='justify-item-center hover:-translate-y-5 duration-500 mt-10 pb-5' >
-          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-auto'>
+          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-auto'
+            data-aos="zoom-in"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000">
           <img src={wcg2} className="w-[60%] md:w-[50%] lg:w-[60%] m-auto" />
           </div>
           <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#e0ebff] p-2 w-[80%] h-auto pb-[17%] m-auto'>
@@ -441,7 +448,10 @@ function Home () {
           </div>
 
           <div className='justify-item-center hover:-translate-y-5 duration-500 mt-10 ' >
-          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-auto'>
+          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-auto'
+            data-aos="zoom-in"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000">
           <img src={wcg3} className="w-[70%] md:w-[60%] lg:w-[70%] m-auto" />
           </div>
           <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#f5f5f5] p-2 w-[80%] h-auto pb-10 m-auto'>
@@ -451,7 +461,10 @@ function Home () {
           </div>
 
           <div className='justify-item-center hover:-translate-y-5 duration-500 mt-10 pb-5' >
-          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-auto'>
+          <div className='  -mb-20 h-auto md:h-72 w-[80%] rounded-xl p-2 m-auto'
+            data-aos="zoom-in"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000">
           <img src={wcg4} className="rounded-xl p-2 w-[80%] h-auto md:h-72 m-auto" />
           </div>
           <div className='shadow-xl hover:shadow-gray-500  rounded-xl bg-[#e0ebff] p-2 w-[80%] h-auto pb-16 m-auto'>
@@ -465,10 +478,10 @@ function Home () {
       {/* BOOST YOUR PRODUCTIVITY WITH GRACHIEVER`S TOOLS SERVICE */}
 
       <section className='py-10 bg-[#1b1d38] container mx-auto'
-       >
-        {/* data-aos="fade-up"
+       data-aos="fade-up"
        data-aos-easing="ease-out-cubic"
-       data-aos-duration="2000" */}
+       data-aos-duration="2000" >
+        
 
         <h1 className='text-center font-semibold text-white text-md sm:text-3xl md:p-0 mb-10'><span class="text-[#4eb0e1]">BOOST</span> YOUR PRODUCTIVITY <br />WITH GRACHIEVER`S TOOLS SERVICE</h1>
 
@@ -481,13 +494,19 @@ function Home () {
         <FlipCard  />
         </div>
         <div className='text-center mt-10'>
-      <Link to="/Gatools"><button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2 rounded-xl   px-20 md:text-lg  font-bold">Browse All</button></Link> 
+      <Link to="/Gatools"><button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2 rounded-xl   px-20 md:text-lg  font-bold"
+        data-aos="zoom-in"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">Browse All</button></Link> 
        </div>
       </section>
 
 
    {/* <!--Skill Consultancy--> */}
-    <section className="p-0 sm:p-0 md:p-10 lg:p-10 container mx-auto">
+    <section className="p-0 sm:p-0 md:p-10 lg:p-10 container mx-auto"
+      data-aos="fade-up"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000">
       <div className="m-2 h-auto p-2 mt-[]">
           {/* <h1 className=" md:text-3xl lg:text-5xl mx-0 sm:mx-0 md:mx-20 font-bold my-10">Skill <span class="text-[#4eb0e1]">Consultancy</span></h1> */}
 
@@ -496,9 +515,7 @@ function Home () {
     <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
           <div className="mx-0 sm:mx-5 md:mx-20 lg:mx-20 mb-10"
           >
-             {/* data-aos="fade-right"
-           data-aos-easing="ease-out-cubic"
-           data-aos-duration="2000" */}
+          
               <h1 className="font-bold md:text-4xl">Find Your <span class="text-[#4eb0e1]">Dream Career</span> With Grachiever's Skill Consultancy</h1>
               <p className="md:text-lg mt-5">Our skilled consultancy service provides various offerings to guide you in selecting the most suitable skills. We help you identify in-demand skills, suggest the best courses to develop those skills, and advise you on future-ready skills that AI cannot replace."</p>
 
@@ -507,16 +524,18 @@ function Home () {
                   <li className=" mx-5"><strong className='text-black'>Expert Insights</strong>: Years of experience at your service.</li>
                   <li className=" mx-5"><strong className='text-black'>Industry Trends:</strong> Know what's in demand.</li>
                   <li className=" mx-5"><strong className='text-black'>Confidence-Boosting:</strong> Empowering you for success.</li>
-                  <button className="bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg p-2  mt-5 ml-3 px-5"><Link to="/Skillconsultancy">Register for Free</Link></button>
+                  <button className="bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] rounded-lg p-2  mt-5 ml-3 px-5"
+                    data-aos="zoom-in"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="1000"><Link to="/Skillconsultancy">Register for Free</Link></button>
           </div>
 
     {/* <!--Skill Consultancy Rigth section--> */}
 
     <div className=""
-     >
-      {/* data-aos="fade-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" */}
+      data-aos="zoom-in"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000" >
       <img src={sc1} width="60%" className="mx-auto" />
     </div>
     </div>
@@ -525,10 +544,10 @@ function Home () {
 
     {/* <!--Feature Ready Skills sections--> */}
     <section className="p-0 sm:p-0 md:p-10 lg:p-10 container bg-[#1b1d38] mx-auto"
-    >
-       {/* data-aos="fade-up"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000" */}
+      data-aos="fade-up"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000">
+   
     <div className="p-3 text-center m-2 h-auto">
         <h1 className=" md:text-3xl lg:text-5xl font-bold my-10  text-white">Get Personal Future Ready Skill Recommandations</h1>
         <h2 className="text-xl md:text-3xl text-gray-300">Enhance Your Skill With Grachiever</h2>
@@ -549,7 +568,10 @@ function Home () {
             <option>Basic Plane</option>
             <option>Advance Plan</option>
           </select>
-          <button className="mt-5 w-full md:w-auto m-auto bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] text-xl rounded-full p-3 md:px-10">Get Started Now</button>
+          <button className="mt-5 w-full md:w-auto m-auto bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] text-xl rounded-full p-3 md:px-10"
+            data-aos="zoom-in"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000">Get Started Now</button>
         </div>
     </div>
 </section>
@@ -557,10 +579,10 @@ function Home () {
 
  {/* <!--Achievements Sections--> */}
 <section className="p-0 sm:p-0 md:p-10 lg:p-10 container mx-auto"
-  >
-    {/* data-aos="fade-up"
- data-aos-easing="ease-out-cubic"
- data-aos-duration="2000" */}
+   data-aos="fade-up"
+   data-aos-easing="ease-out-cubic"
+   data-aos-duration="2000" >
+ 
     <div className="mt-5">
         <h1 className=" md:text-3xl lg:text-4xl font-bold text-center p-5 mb-10">Achievements</h1>
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-4 text-center" data-aos="zoom-in"  data-aos-duration="2000">
@@ -589,12 +611,13 @@ function Home () {
 </section>
  
    {/* <!-- Blog Section --> */}
-<section className="p-0 sm:p-0 md:p-10 lg:p-5 container mx-auto" >
+<section className="p-0 sm:p-0 md:p-10 lg:p-5 container mx-auto" 
+  data-aos="fade-up"
+  data-aos-easing="ease-out-cubic"
+  data-aos-duration="2000">
      <div className="m-10"
      >
-       {/* data-aos="fade-up"
-      data-aos-easing="ease-out-cubic"
-      data-aos-duration="2000" */}
+     
       <h1 className=" md:text-3xl lg:text-5xl font-bold ">Blog</h1>
       <p className="mt-2 mb-2  font-semibold">Most Recent</p>
       <hr />
@@ -607,9 +630,6 @@ function Home () {
        {/* <!-- Card_1 --> */}
        <div className="shadow-lg hover:shadow-gray-500 w-auto overflow-hidden p-5 rounded-2xl"
       >
-          {/* data-aos="fade-right"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000" */}
            <div className=" h-52">
             <img src="https://www.classcentral.com/report/wp-content/uploads/2022/03/Best-Courses-Copywriting-Banner.png" width="100%" className="rounded-xl hover:scale-105 duration-300 h-52" />
            </div>
@@ -619,9 +639,7 @@ function Home () {
        {/* <!-- Card_2 --> */}
        <div className="shadow-lg hover:shadow-gray-500 w-auto overflow-hidden p-5 rounded-2xl"
         >
-          {/* data-aos="fade-up"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000" */}
+
           <div className=" h-52">
           <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/Pandas-BCG-Banner.png" className="rounded-xl hover:scale-105 duration-300 h-52 w-full" />
           </div>
@@ -631,9 +649,7 @@ function Home () {
        {/* <!-- Card_3 --> */}
        <div className="shadow-lg hover:shadow-gray-500 w-auto overflow-hidden p-5 rounded-2xl"
         >
-          {/* data-aos="fade-left"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000" */}
+       
           <div className=" h-52">
           <img src="https://www.classcentral.com/report/wp-content/uploads/2023/04/NumPy-BCG-Banner.png" className="rounded-xl hover:scale-105 duration-300 h-52 w-full" />
           </div>
@@ -647,7 +663,9 @@ function Home () {
 
 {/* <!-- ....... popular and demand start  ...... --> */}
 <section className='mt-10 container mx-auto'
->
+  data-aos="fade-up"
+  data-aos-easing="ease-out-cubic"
+  data-aos-duration="2000">
   {/* data-aos="fade-up"
     data-aos-easing="ease-out-cubic"
     data-aos-duration="2000" */}
@@ -656,7 +674,10 @@ function Home () {
        <Z_index_card1 />
   </div>
   <div className='text-center mt-24'>
-    <Link to='BrowseAll'><button className="bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] p-2 rounded-xl px-10 text-lg font-bold">Browse All</button></Link> 
+    <Link to='BrowseAll'><button className="bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] p-2 rounded-xl px-10 text-lg font-bold"
+      data-aos="zoom-in"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000">Browse All</button></Link> 
 </div>
 
 </section>
@@ -665,7 +686,9 @@ function Home () {
     
       {/* <!--Finding Your Right Course--> */}
 <section className="p-0 sm:p-0 md:p-10 lg:p-10 bg-[#e0ebff] mb-5 mt-5 container mx-auto"
- >
+   data-aos="fade-up"
+   data-aos-easing="ease-out-cubic"
+   data-aos-duration="2000">
   {/* data-aos="fade-up"
  data-aos-easing="ease-out-cubic"
  data-aos-duration="2000" */}
@@ -675,7 +698,10 @@ function Home () {
           <p className="p-2 mt-5 text-lg md:w-[75%] font-bold text-gray-600">From in-demand skills to future-ready courses, Grachiever makes it simple to discover and enroll in the courses you need to achieve your career goals.</p>
          </div>
         <div className=" m-auto mb-5">
-            <button className="p-2 rounded-lg bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-8 text-lg mt-5">Start Learning For Free</button>
+            <button className="p-2 rounded-lg bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-8 text-lg mt-5"
+              data-aos="zoom-in"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="1000">Start Learning For Free</button>
         </div>
       </div>
 
