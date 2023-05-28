@@ -93,7 +93,7 @@ function Contact() {
                     <label htmlFor="message" className="block mb-2 font-bold text-white text-lg">Message</label>
                     <textarea id="message" rows="6" className="text-black block p-2.5 w-full text-sm rounded-lg shadow-sm border border-gray-300 focus:outline-[#349fcf] focus:ring-primary-500 focus:border-primary-500 dark:border-gray-600 dark:placeholder-gray-400  dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Message.."></textarea>
                 </div>
-                <button type="submit" className="py-3 px-5 rounded-lg sm:w-fit bg-[#349fcf] hover:bg-white text-white hover:text-black border-2 border-[#349fcf]"
+                <button type="submit" className="py-3 px-5 rounded-lg sm:w-fit bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff]"
                  data-aos="zoom-in"
                  data-aos-easing="ease-out-cubic"
                  data-aos-duration="1000">Send message</button>

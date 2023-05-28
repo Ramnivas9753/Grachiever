@@ -33,7 +33,7 @@ function LoginAndRegister({ onLogin, onRegister }) {
          data-aos-duration="1000">
           <img src={login} className='p-10' />
         </div>
-        <div className=" bg-white rounded-md items-center mb-20 md:mt-20 p-2 w-[90%] m-auto md:w-[50%] border-2 border-blue-400">
+        <div className=" rounded-md items-center mb-20 md:mt-20 p-2 w-[90%] m-auto md:w-[50%] bg-blue-50 shadow-lg shadow-cyan-500/50 hover:shadow-cyan-500">
           {/* <h2 className="text-xl font-medium mb-4">{isLogin ? 'Login' : 'Register'}</h2> */}
           <img src={grachieverlogo} className=" m-auto w-40  " alt="Grachiever Logo" />
           {/* <p className="mt-4 text-left ">

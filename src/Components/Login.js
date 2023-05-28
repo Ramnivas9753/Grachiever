@@ -48,7 +48,7 @@ function LoginAndRegister({ onLogin, onRegister }) {
         </div>
           )}
 
-        <div className=" bg-white rounded-md items-center mb-20 md:mt-20 p-2 w-[90%] m-auto md:w-[50%] border-2 border-blue-400" >
+        <div className="rounded-md items-center mb-20 md:mt-20 p-2 w-[90%] m-auto md:w-[50%] bg-blue-50 shadow-lg shadow-cyan-500/50 hover:shadow-cyan-500"  >
           {/* <h2 className="text-xl font-medium mb-4">{isLogin ? 'Login' : 'Register'}</h2> */}
           <img src={grachieverlogo} className=" m-auto w-40  " alt="Grachiever Logo" />
           <p className="mt-4 text-left ">
@@ -100,7 +100,7 @@ function LoginAndRegister({ onLogin, onRegister }) {
             <div className='mb-3 hover:text-[#00c5ff] '><Link to="/Forgetpass">Forgot Password?</Link></div>
             )}
           
-            <button type="submit" className="bg-[#00c5ff] hover:text-black border-2 border-[#00c5ff] hover:bg-white text-white rounded-md w-full md:w-full px-4 py-2"
+            <button type="submit" className="-[#00c5ff] hover:text-black border-2 border-[#00c5ff] hover:bg-white text-white rounded-md w-full md:w-full px-4 py-2"
              data-aos="zoom-in"
              data-aos-easing="ease-out-cubic"
              data-aos-duration="1000">{isLogin ? 'LOGIN' : 'SIGN UP'}</button>
