@@ -32,7 +32,7 @@ function About() {
               <img src={image1} alt="" />
             </div>
             <div className=" max-w-[800px] mt-6 md:p-10"
-             data-aos="fade-left"
+             data-aos="fade-up"
              data-aos-easing="ease-out-cubic"
              data-aos-duration="2000">
               <h1 className=" mt-5  font-semibold"> Welcome to Grachiever Enhance your skills with best services</h1>
@@ -46,7 +46,7 @@ function About() {
           </div>
 
           <div className="bg-[#1b1d38] mt-[1100px] md:mt-[400px] max-w-screen text-center lg:h-[450px] md:h-[670px] h-auto md:w-auto rounded-br-3xl rounded-tl-3xl "
-           data-aos="fade-left"
+           data-aos="fade-up"
            data-aos-easing="ease-out-cubic"
            data-aos-duration="2000">
             <h1 className="text-white  md:text-3xl font-bold  p-3 mt-2 md:w-[50%] md:ml-[40%]">
@@ -209,7 +209,10 @@ function About() {
            data-aos="fade-up"
            data-aos-easing="ease-out-cubic"
            data-aos-duration="2000">Join Grachiever in revolutionizing talent transformation and redefining your career growth and success.</h1>
-          <button className="bg-[#349fcf] text-md md:text-xl hover:bg-white text-white hover:text-black border-2 font-bold border-[#349fcf] rounded-2xl px-5 py-2 text-center mt-10">Join For Free {">"} </button>
+          <button className="bg-[#349fcf] text-md md:text-xl hover:bg-white text-white hover:text-black border-2 font-bold border-[#349fcf] rounded-2xl px-5 py-2 text-center mt-10"
+           data-aos="zoom-in"
+           data-aos-easing="ease-out-cubic"
+           data-aos-duration="2000">Join For Free {">"} </button>
         </div>
       </section>
     </section>
