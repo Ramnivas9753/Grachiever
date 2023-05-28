@@ -209,7 +209,7 @@ function About() {
            data-aos="fade-up"
            data-aos-easing="ease-out-cubic"
            data-aos-duration="2000">Join Grachiever in revolutionizing talent transformation and redefining your career growth and success.</h1>
-          <button className="bg-[#349fcf] text-md md:text-xl hover:bg-white text-white hover:text-black border-2 font-bold border-[#349fcf] rounded-2xl px-5 py-2 text-center mt-10"
+          <button className="bg-[#00c5ff] text-md md:text-xl hover:bg-white text-white hover:text-black border-2 font-bold border-[#00c5ff] rounded-2xl px-5 py-2 text-center mt-10"
            data-aos="zoom-in"
            data-aos-easing="ease-out-cubic"
            data-aos-duration="2000">Join For Free {">"} </button>
