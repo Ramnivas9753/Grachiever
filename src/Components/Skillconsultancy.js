@@ -16,7 +16,7 @@ function consultancy() {
                     <div className="mt-20 md:w-[100%] bg-[#1b1d38] rounded-3xl">
                         <h1 className="text-3xl md:text-6xl font-bold text-white text-left md:px-24 p-12 mt-8">Tailored Skill <br /> Consultancy for <br /> <span class="text-3xl md:text-6xl text-[#00c5ff]">Future Success</span> </h1>
                     </div>
-                    {/* <!--Graph Section--> */}
+                    {/* <!--Graph Section*/}
                     <div className="mt-5 md:mt-0">
                         <img src={first} className='w-[100%] mt-10 rounded-br-3xl z-50 md:-translate-x-20' />
                     </div>
@@ -25,14 +25,14 @@ function consultancy() {
             </section>
             {/* --------------------------------second-part------------------------- */}
             <section className="p-0 sm:p-0 md:p-0 lg:p-0 mt-5"
-            data-aos="fade-up"
- data-aos-easing="ease-out-cubic"
- data-aos-duration="2000">
+                data-aos="fade-up"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                 <div className='text-center mt-0'>
                     <button className="p-2 rounded-xl bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2  font-bold border-[#349fcf] px-8 text-lg mt-2"
                         data-aos="zoom-in"
                         data-aos-easing="ease-out-cubic"
-                        data-aos-duration="1000">Take the Next Step</button>                    
+                        data-aos-duration="1000">Take the Next Step</button>
                     <p className="text-lg p-10 text-left">
                         In today's fast-paced and competitive job market, it's crucial to stay ahead of the curve. Employers are constantly seeking candidates with the latest skills and abilities that align with industry trends. At Grachiever, we recognize the challenges professionals face in keeping up with these changes. That's why we've developed Skill Graph – an innovative tool designed to provide real-time insights and recommendations for career growth.
                     </p>
@@ -40,9 +40,9 @@ function consultancy() {
             </section>
             {/* -----------------------------------image-part----------------------------- */}
             <section className="p-0 sm:p-0 md:p-0 lg:p-0 mt-0"
-            data-aos="fade-up"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000">
+                data-aos="fade-up"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                 <div className="mt-2 md:mt-0">
                     <img src={second} className='w-[65%] m-auto' />
                 </div>
@@ -50,9 +50,9 @@ function consultancy() {
             </section>
             {/* ----------------------------third-part------------------------------ */}
             <section className="p-0 sm:p-0 md:p-0 lg:p-0 mt-5"
-             data-aos="fade-up"
-             data-aos-easing="ease-out-cubic"
-             data-aos-duration="2000">
+                data-aos="fade-up"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                 <div className=' mt-0'
                 >
                     <h1 className="text-3xl font-bold text-center p-3 mt-2">How Skill Consultancy Works</h1>
@@ -64,19 +64,19 @@ function consultancy() {
                         data-aos="zoom-in"
                         data-aos-easing="ease-out-cubic"
                         data-aos-duration="1000">
-                        <p className="text-lg p-5 md:p-10 ">
-                            <label id='box' className='font-bold'> Assessment:</label> We begin by conducting a comprehensive assessment of your current skills, experiences, and career aspirations. This helps us gain a deep understanding of your strengths and areas for development.
+                        <p className="text-base sm:text-lg p-5 md:p-10 ">
+                            <label id='box' className='font-bold text-lg'> Assessment:</label> We begin by conducting a comprehensive assessment of your current skills, experiences, and career aspirations. This helps us gain a deep understanding of your strengths and areas for development.
 
                         </p>
                     </div>
 
-                    {/* <!--box2--> */}
+                    {/* <!--box2*/} 
                     <div className=" p-1 w-auto  md:w-[80%] shadow-lg hover:shadow-gray-500  min-w-min bg-[#E0EBFF] mt-5 md:mt-0 rounded-3xl"
-                     data-aos="zoom-in"
-                     data-aos-easing="ease-out-cubic"
-                     data-aos-duration="1000"  >
-                        <p className="text-lg p-5 md:p-10 ">
-                            <label id='box' className='font-bold'>Personalized Guidance:</label> Based on the assessment, our consultants will provide personalized guidance tailored to your specific needs. We'll identify the most relevant and in-demand skills for your desired career path.
+                        data-aos="zoom-in"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="1000"  >
+                        <p className="text-base sm:text-lg p-5 md:p-10 ">
+                            <label id='box' className='font-bold text-lg'>Personalized Guidance:</label> Based on the assessment, our consultants will provide personalized guidance tailored to your specific needs. We'll identify the most relevant and in-demand skills for your desired career path.
                         </p>
                     </div>
                 </div>
@@ -84,58 +84,58 @@ function consultancy() {
                 <div className=" grid grid-cols-1  md:grid-cols-1 lg:grid-cols-2 p-5 md:ml-20" >
                     {/* -----box1---- */}
                     <div className=" p-1 w-auto md:w-[80%] shadow-lg hover:shadow-gray-500  min-w-min bg-[#E0EBFF]  rounded-3xl"
-                      data-aos="zoom-in"
-                      data-aos-easing="ease-out-cubic"
-                      data-aos-duration="1000" >
-                        <p className="text-lg p-5 md:p-10 ">
-                            <label id='box' className='font-bold'> Skill Development :</label> Together, we'll create a customized skill development plan that outlines the necessary steps to enhance your skill set. This plan will focus on acquiring new skills, improving existing ones, and staying updated with industry trends.
+                        data-aos="zoom-in"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="1000" >
+                        <p className="text-base sm:text-lg p-5 md:p-10 ">
+                            <label id='box' className='font-bold text-lg'> Skill Development :</label> Together, we'll create a customized skill development plan that outlines the necessary steps to enhance your skill set. This plan will focus on acquiring new skills, improving existing ones, and staying updated with industry trends.
                         </p>
                     </div>
 
-                    {/* <!--box2--> */}
+                    {/* <!--box2*/} 
                     <div className=" p-1 w-auto md:w-[80%] shadow-lg hover:shadow-gray-500  min-w-min bg-[#E0EBFF]  rounded-3xl mt-5 md:mt-0"
-                          data-aos="zoom-in"
-                          data-aos-easing="ease-out-cubic"
-                          data-aos-duration="1000" >
-                        <p className="text-lg p-5 md:p-10 ">
-                            <label id='box' className='font-bold'>Ongoing Support:</label> Our consultants will be there every step of the way, offering ongoing support and advice as you progress through your skill development journey. We'll provide regular check-ins, monitor your progress, and make adjustments to the plan as needed.
+                        data-aos="zoom-in"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="1000" >
+                        <p className="text-base sm:text-lg p-5 md:p-10 ">
+                            <label id='box' className='font-bold text-lg'>Ongoing Support:</label> Our consultants will be there every step of the way, offering ongoing support and advice as you progress through your skill development journey. We'll provide regular check-ins, monitor your progress, and make adjustments to the plan as needed.
                         </p>
                     </div>
                 </div>
             </section>
             {/* ----------------------------forthsectin---------------- */}
             <section className="p-0 sm:p-0 md:p-5 lg:p-10 bg-[#E0EBFF] mb-5 rounded-3xl mt-5 shadow-lg hover:shadow-gray-500 mx-5"
-            data-aos="fade-up"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000">
+                data-aos="fade-up"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                 <div className="p-5 md:p-0 md:mx-12 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 mt-2">
                     <div className="m-auto md:col-span-2">
-                        <p className="text-xl text-left "><label id='box' className='font-bold' >Future-Proofing:</label>  Our goal is to make you  future-ready. We'll not only help you acquire the   skills you need today but also equip you with the tools and knowledge to adapt to future industry demands.</p>
+                        <p className="text-base sm:text-lg text-left "><label id='box' className='font-bold text-lg' >Future-Proofing:</label>  Our goal is to make you  future-ready. We'll not only help you acquire the   skills you need today but also equip you with the tools and knowledge to adapt to future industry demands.</p>
                     </div>
                     <div className="m-auto mb-0 sm:p-0">
                         <button className="p-2 rounded-lg bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] px-8 md:px-16 text-lg mt-3"
-                          data-aos="zoom-in"
-                          data-aos-easing="ease-out-cubic"
-                          data-aos-duration="2000">Join Now</button>
+                            data-aos="zoom-in"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">Join Now</button>
                     </div>
                 </div>
             </section>
             {/* -----------------------------------------fifthsection------------------------- */}
             <section className="p-0 sm:p-0 md:p-3 lg:p-5  mb-5  mt-5 "
-             data-aos="fade-up"
-             data-aos-easing="ease-out-cubic"
-             data-aos-duration="2000">
-                <div className=' mt-0 p-5 md:p-20  border-[#1b1d38] border-8 '>
-                    <div className=' mt-0'>
+                data-aos="fade-up"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                    <div className=' mt-0 flex-none'>
                         <h1 className="text-3xl font-bold text-center  ">BENEFITS</h1>
                     </div>
+                <div className=' mt-0 p-5 md:p-20 flex flex-wrap justify-center items-center border-[#1b1d38] border-8 '>
                     {/* ---------------------------- */}
                     <div className=' mt-5' >
                         <div className='flex'>
                             <div className="bg-[#00c5ff]  ml-2 p-5  w-10 h-10 rounded-full"> </div>
                             <div className="bg-[#1b1d38]  ml-2 p-2  w-60 h-10 font-bold rounded-md shadow-md text-lg text-white">Confidence and Clarity </div>
                         </div>
-                        <p className='text-lg p-5 ml-10'>
+                        <p className='text-base sm:text-lg p-5 ml-10'>
                             Skill consultancy provides clarity on your <br /> career path and boosts your confidence in <br /> pursuing the right skills.</p>
                     </div>
                     {/* ----------------------------- */}
@@ -146,7 +146,7 @@ function consultancy() {
                             <div className="bg-[#00c5ff]  ml-2 p-5  w-10 h-10 rounded-full"> </div>
                             <div className="bg-[#1b1d38]  ml-2 p-2  w-60 h-10 font-bold rounded-md shadow-md text-lg text-white">Targeted Approach </div>
                         </div>
-                        <p className='text-lg p-5 ml-10'>
+                        <p className='text-base sm:text-lg p-5 ml-10'>
 
                             Our consultants have a deep <br /> understanding of industry trends and can <br /> guide you towards the most relevant and <br /> valuable skills.</p>
                     </div>
@@ -158,7 +158,7 @@ function consultancy() {
                             <div className="bg-[#00c5ff]  ml-2 p-5  w-10 h-10 rounded-full"> </div>
                             <div className="bg-[#1b1d38]  ml-2 p-2  w-60 h-10 font-bold rounded-md shadow-md text-lg text-white"> Time Efficiency </div>
                         </div>
-                        <p className='text-lg p-5 ml-10'>
+                        <p className='text-base sm:text-lg p-5 ml-10'>
 
                             With our expertise, you can avoid wasting <br /> time on irrelevant or outdated skills, <br /> focusing only on what matters most.</p>
                     </div>
@@ -170,7 +170,7 @@ function consultancy() {
                             <div className="bg-[#00c5ff]  ml-2 p-5  w-10 h-10 rounded-full"> </div>
                             <div className="bg-[#1b1d38]  ml-2 p-2  w-60 h-10 font-bold rounded-md shadow-md text-lg text-white"> Competitive Edge </div>
                         </div>
-                        <p className='text-lg p-5 ml-10'>
+                        <p className='text-base sm:text-lg p-5 ml-10'>
                             By staying ahead of the skills curve, you'll <br /> gain a competitive edge in the job market <br /> and stand out to potential employers.</p>
                     </div>
                     {/* ----------------------------- */}
@@ -181,7 +181,7 @@ function consultancy() {
                             <div className="bg-[#00c5ff]  ml-2 p-5  w-10 h-10 rounded-full"> </div>
                             <div className="bg-[#1b1d38]  ml-2 p-2  w-60 h-10 font-bold rounded-md shadow-md text-lg text-white">Lifetime Learning </div>
                         </div>
-                        <p className='text-lg p-5 ml-10'>
+                        <p className='text-base sm:text-lg p-5 ml-10'>
                             The skills you acquire through our <br /> consultancy will benefit you throughout <br /> your career, ensuring long-term <br /> professional success.</p>
                     </div>
                     {/* ----------------------------- */}
@@ -189,25 +189,25 @@ function consultancy() {
             </section>
             {/* --------------------------------------last-section------------------------------- */}
             <section className="p-0 sm:p-0 md:p-5 lg:p-10 bg-[#1b1d38] mb-5 rounded-3xl mx-5"
-            data-aos="fade-up"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000">
+                data-aos="fade-up"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                 <div className=" m-2 mx-5 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 mt-5">
                     <div className="m-auto  mb-0 ">
                         <button className="p-2 rounded-lg bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#349fcf] md:px-8 px-7 text-lg mt-5 md:mt-0"
-                         data-aos="zoom-in"
-                         data-aos-easing="ease-out-cubic"
-                         data-aos-duration="1000">Get Started now!</button>
+                            data-aos="zoom-in"
+                            data-aos-easing="ease-out-cubic"
+                            data-aos-duration="1000">Get Started now!</button>
                     </div>
                     <div className="m-auto md:col-span-2  ml-30">
-                        <p className="p-2 mt-5 md:mt-0 text-lg  font-bold ">
+                        <p className="p-2 mt-5 md:mt-0 text-base sm:text-lg text-center  font-bold ">
                             Ready to take your skills to the next level? Contact us today to schedule a consultation with one of our skill experts. Together, we'll unlock your full potential and set you on the path to a thriving career.</p>
                     </div>
                 </div>
             </section>
 
             {/* -----------------------------------------pricing-section------------------------ */}
-            <section className="p-0 sm:p-0 md:p-0 lg:p-0 mt-10 mb-10"
+            {/* <section className="p-0 sm:p-0 md:p-0 lg:p-0 mt-10 mb-10"
             data-aos="fade-up"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000">
@@ -293,7 +293,278 @@ function consultancy() {
 
 
                 </div>
-            </section>
+            </section> */}
+            {/* <section>
+                <div id="generic_price_table" className="container mx-auto">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="price-heading clearfix">
+                                <h1 className="text-4xl font-bold">Bootstrap Pricing Table</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-md-4">
+                            <div className="generic_content clearfix">
+                                <div className="generic_head_price bg-gray-200 rounded-t-lg">
+                                    <div className="generic_head_content">
+                                        <div className="head_bg"></div>
+                                        <div className="head">
+                                            <span className="text-xl">Basic</span>
+                                        </div>
+                                    </div>
+                                    <div className="generic_price_tag">
+                                        <span className="price text-2xl">
+                                            <span className="sign">$</span>
+                                            <span className="currency">99</span>
+                                            <span className="cent">.99</span>
+                                            <span className="month">/MON</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div className="generic_feature_list">
+                                    <ul>
+                                        <li>
+                                            <span className="text-lg">2GB</span> Bandwidth
+                                        </li>
+                                        <li>
+                                            <span className="text-lg">150GB</span> Storage
+                                        </li>
+                                        <li>
+                                            <span className="text-lg">12</span> Accounts
+                                        </li>
+                                        <li>
+                                            <span className="text-lg">7</span> Host Domain
+                                        </li>
+                                        <li>
+                                            <span className="text-lg">24/7</span> Support
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div className="generic_price_btn">
+                                    <a className="px-4 py-2 bg-blue-500 text-white rounded" href="#">
+                                        Sign up
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="generic_content active clearfix">
+                                <div className="generic_head_price bg-gray-200 rounded-t-lg">
+                                    <div className="generic_head_content">
+                                        <div className="head_bg"></div>
+                                        <div className="head">
+                                            <span className="text-xl">Standard</span>
+                                        </div>
+                                    </div>
+                                    <div className="generic_price_tag">
+                                        <span className="price text-2xl">
+                                            <span className="sign">$</span>
+                                            <span className="currency">199</span>
+                                            <span className="cent">.99</span>
+                                            <span className="month">/MON</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div className="generic_feature_list">
+                                    <ul>
+                                        <li>
+                                            <span className="text-lg">2GB</span> Bandwidth
+                                        </li>
+                                        <li>
+                                            <span className="text-lg">150GB</span> Storage
+                                        </li>
+                                        <li>
+                                            <span className="text-lg">12</span> Accounts
+                                        </li>
+                                        <li>
+                                            <span className="text-lg">7</span> Host Domain
+                                        </li>
+                                        <li>
+                                            <span className="text-lg">24/7</span> Support
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div className="generic_price_btn">
+                                    <a className="px-4 py-2 bg-blue-500 text-white rounded" href="#">
+                                        Sign up
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="generic_content clearfix">
+                                <div className="generic_head_price bg-gray-200 rounded-t-lg">
+                                    <div className="generic_head_content">
+                                        <div className="head_bg"></div>
+                                        <div className="head">
+                                            <span className="text-xl">Unlimited</span>
+                                        </div>
+                                    </div>
+                                    <div className="generic_price_tag">
+                                        <span className="price text-2xl">
+                                            <span className="sign">$</span>
+                                            <span className="currency">299</span>
+                                            <span className="cent">.99</span>
+                                            <span className="month">/MON</span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div className="generic_feature_list">
+                                    <ul>
+                                        <li>
+                                            <span className="text-lg">2GB</span> Bandwidth
+                                        </li>
+                                        <li>
+                                            <span className="text-lg">150GB</span> Storage
+                                        </li>
+                                        <li>
+                                            <span className="text-lg">12</span> Accounts
+                                        </li>
+                                        <li>
+                                            <span className="text-lg">7</span> Host Domain
+                                        </li>
+                                        <li>
+                                            <span className="text-lg">24/7</span> Support
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div className="generic_price_btn">
+                                    <a className="px-4 py-2 bg-blue-500 text-white rounded" href="#1">
+                                        Sign up
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section> */}
+           <section class="bg-white bg-sky-100">
+  <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+      <div class="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
+          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-black">Designed for business teams like yours</h2>
+          <p class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
+      </div>
+      <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
+          {/*Pricing Card */}
+          <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+              <h3 class="mb-4 text-2xl font-semibold">Starter</h3>
+              <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Best option for personal use & for your next project.</p>
+              <div class="flex justify-center items-baseline my-8">
+                  <span class="mr-2 text-5xl font-extrabold">$29</span>
+                  <span class="text-gray-500 dark:text-gray-400">/month</span>
+              </div>
+              {/*List */}
+              <ul role="list" class="mb-8 space-y-4 text-left">
+                  <li class="flex items-center space-x-3">
+                      {/*Icon */}
+                      <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <span>Individual configuration</span>
+                  </li>
+                  <li class="flex items-center space-x-3">
+                      {/*Icon */}
+                      <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <span>No setup, or hidden fees</span>
+                  </li>
+                  <li class="flex items-center space-x-3">
+                      {/*Icon */}
+                      <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <span>Team size: <span class="font-semibold">1 developer</span></span>
+                  </li>
+                  <li class="flex items-center space-x-3">
+                      {/*Icon */}
+                      <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <span>Premium support: <span class="font-semibold">6 months</span></span>
+                  </li>
+                  <li class="flex items-center space-x-3">
+                      {/*Icon */}
+                      <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <span>Free updates: <span class="font-semibold">6 months</span></span>
+                  </li>
+              </ul>
+              <a href="#" class="text-white bg-sky-400 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
+          </div>
+          {/*Pricing Card */}
+          <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+              <h3 class="mb-4 text-2xl font-semibold">Company</h3>
+              <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Relevant for multiple users, extended & premium support.</p>
+              <div class="flex justify-center items-baseline my-8">
+                  <span class="mr-2 text-5xl font-extrabold">$99</span>
+                  <span class="text-gray-500 dark:text-gray-400" >/month</span>
+              </div>
+              {/*List */}
+              <ul role="list" class="mb-8 space-y-4 text-left">
+                  <li class="flex items-center space-x-3">
+                      {/*Icon */}
+                      <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <span>Individual configuration</span>
+                  </li>
+                  <li class="flex items-center space-x-3">
+                      {/*Icon */}
+                      <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <span>No setup, or hidden fees</span>
+                  </li>
+                  <li class="flex items-center space-x-3">
+                      {/*Icon */}
+                      <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <span>Team size: <span class="font-semibold">10 developers</span></span>
+                  </li>
+                  <li class="flex items-center space-x-3">
+                      {/*Icon */}
+                      <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <span>Premium support: <span class="font-semibold">24 months</span></span>
+                  </li>
+                  <li class="flex items-center space-x-3">
+                      {/*Icon */}
+                      <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <span>Free updates: <span class="font-semibold">24 months</span></span>
+                  </li>
+              </ul>
+              <a href="#" class="text-white bg-sky-400 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
+          </div>
+          {/*Pricing Card */}
+          <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+              <h3 class="mb-4 text-2xl font-semibold">Enterprise</h3>
+              <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">Best for large scale uses and extended redistribution rights.</p>
+              <div class="flex justify-center items-baseline my-8">
+                  <span class="mr-2 text-5xl font-extrabold">$499</span>
+                  <span class="text-gray-500 dark:text-gray-400">/month</span>
+              </div>
+              {/*List */}
+              <ul role="list" class="mb-8 space-y-4 text-left">
+                  <li class="flex items-center space-x-3">
+                      {/*Icon */}
+                      <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <span>Individual configuration</span>
+                  </li>
+                  <li class="flex items-center space-x-3">
+                      {/*Icon */}
+                      <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <span>No setup, or hidden fees</span>
+                  </li>
+                  <li class="flex items-center space-x-3">
+                      {/*Icon */}
+                      <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <span>Team size: <span class="font-semibold">100+ developers</span></span>
+                  </li>
+                  <li class="flex items-center space-x-3">
+                      {/*Icon */}
+                      <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <span>Premium support: <span class="font-semibold">36 months</span></span>
+                  </li>
+                  <li class="flex items-center space-x-3">
+                      {/*Icon */}
+                      <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <span>Free updates: <span class="font-semibold">36 months</span></span>
+                  </li>
+              </ul>
+              <a href="#" class="text-white bg-sky-400 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
+          </div>
+      </div>
+  </div>
+</section>
+
         </>
     )
 }
