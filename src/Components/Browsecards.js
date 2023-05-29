@@ -514,8 +514,6 @@ function Browsecards() {
                                         />
                                     </Tooltip>
                                     <Typography className="font-normal m-1">&nbsp; &nbsp;Morris Mccoy</Typography>
-
-
                                 </div>
                                 <div className="mr-2">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">

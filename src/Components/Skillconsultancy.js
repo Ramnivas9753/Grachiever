@@ -128,9 +128,9 @@ function consultancy() {
                     <div className=' mt-0 flex-none'>
                         <h1 className="text-3xl font-bold text-center  ">BENEFITS</h1>
                     </div>
-                <div className=' mt-0 p-5 md:p-20 flex flex-wrap justify-center items-center border-[#1b1d38] border-8 '>
+                <div className=' mt-0 p-5 md:p-10 flex flex-wrap  border-[#1b1d38] border-8 '>
                     {/* ---------------------------- */}
-                    <div className=' mt-5' >
+                    <div className=' mt-1' >
                         <div className='flex'>
                             <div className="bg-[#00c5ff]  ml-2 p-5  w-10 h-10 rounded-full"> </div>
                             <div className="bg-[#1b1d38]  ml-2 p-2  w-60 h-10 font-bold rounded-md shadow-md text-lg text-white">Confidence and Clarity </div>

@@ -23,8 +23,8 @@ const CardDetails = () => {
     };
     return (
 
-        <section className='bg-sky-100 flex justify-center items-center  '>
-            <div className="flex md:flex-row pr-2 sm:p-20 flex-col-reverse">
+        <section className='bg-sky-100 w-full '>
+            <div className="flex md:flex-row  pr-2  sm:p-20 flex-col-reverse">
                 {/* left box */}
                 <div className='flex flex-col w-full'>
                     <div className='bg-white w-full rounded-lg m-8 max-w-[410px] max-h-[660px] p-5'>
@@ -58,8 +58,8 @@ const CardDetails = () => {
                     <div className='bg-white w-full rounded-lg m-8 max-w-[410px] flex flex-col items-center p-1'>
                         <h1 className='text-black text-xl m-2 font-bold '>Reviews</h1>
                         <div className='flex flex-row  gap-2' > <div className=" text-4xl text-yellow-400" >&#9733; &#9733; &#9733; &#9733; &#9734;</div> <p className='text-black text-sm mt-3'>12k reviews</p></div>
-                      
-                        
+
+
                         <div className='flex flex-col sm:flex-row mt-5'>
                             {/* img */}
                             <div className=' flex justify-center flex-col items-center p-3'>
@@ -99,7 +99,6 @@ const CardDetails = () => {
                                 <p className='text-xs sm:text-sm'>I never thought that I will get this quality course for free. I was able to learn something new that I didn't know previously and I recommend learning and gaining basic knowledge about google data analytics in this rapidly growing digital marketing era.</p>
                             </div>
                         </div>
-                        
                         <hr />
                     </div>
                 </div>
