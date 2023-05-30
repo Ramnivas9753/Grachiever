@@ -8,16 +8,16 @@ function consultancy() {
     return (
         <>
             {/* min-h-min */}
-            <section className="p-0 sm:p-0 md:p-0 lg:p-0 mt-12 md:mt-28 mx-5"
+            <section className="p-0 md:p-0 lg:p-0 mt-12 md:mt-28 mx-2 md:mx-5"
                 data-aos="fade-up"
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="2000">
                 <div className=" grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2" >
-                    <div className="mt-20 md:w-[100%] bg-[#1b1d38] rounded-3xl">
+                    <div className="mt-10 md:mt-20 md:w-[100%] bg-[#1b1d38] rounded-3xl order-2 md:order-1">
                         <h1 className="text-3xl md:text-6xl font-bold text-white text-left md:px-24 p-12 mt-8">Tailored Skill <br /> Consultancy for <br /> <span class="text-3xl md:text-6xl text-[#00c5ff]">Future Success</span> </h1>
                     </div>
                     {/* <!--Graph Section*/}
-                    <div className="mt-5 md:mt-0">
+                    <div className="mt-3 md:mt-0 md:order-2 order-1">
                         <img src={first} className='w-[100%] mt-10 rounded-br-3xl z-50 md:-translate-x-20' />
                     </div>
                 </div>
@@ -28,7 +28,7 @@ function consultancy() {
                 data-aos="fade-up"
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="2000">
-                <div className='text-center mt-0'>
+                <div className='text-center mt-0 md:order-1 order-2'>
                     <button className="p-2 rounded-xl bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2  font-bold border-[#349fcf] px-8 text-lg mt-2"
                         data-aos="zoom-in"
                         data-aos-easing="ease-out-cubic"
@@ -44,7 +44,7 @@ function consultancy() {
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="2000">
                 <div className="mt-2 md:mt-0">
-                    <img src={second} className='w-[65%] m-auto' />
+                    <img src={second} className='md:w-[65%] m-auto' />
                 </div>
                 {/* h-auto max-w-full p-10 ml-20 */}
             </section>
@@ -126,14 +126,14 @@ function consultancy() {
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="2000">
                     <div className=' mt-0 flex-none'>
-                        <h1 className="text-3xl font-bold text-center  ">BENEFITS</h1>
+                        <h1 className="text-3xl font-bold text-center ">BENEFITS</h1>
                     </div>
-                <div className=' mt-0 p-5 md:p-10 flex flex-wrap  border-[#1b1d38] border-8 '>
+                <div className=' mt-5 m-1 md:m-0 p-5 md:p-10 flex flex-wrap  border-[#1b1d38] border-8 '>
                     {/* ---------------------------- */}
                     <div className=' mt-1' >
                         <div className='flex'>
-                            <div className="bg-[#00c5ff]  ml-2 p-5  w-10 h-10 rounded-full"> </div>
-                            <div className="bg-[#1b1d38]  ml-2 p-2  w-60 h-10 font-bold rounded-md shadow-md text-lg text-white">Confidence and Clarity </div>
+                            <div className="bg-[#00c5ff]  ml-2 p-5 w-10 h-10 rounded-full"> </div>
+                            <div className="bg-[#1b1d38]  ml-2 p-2  text-sm w-44 md:w-60 h-10 font-bold rounded-md shadow-md md:text-lg text-white">Confidence and Clarity </div>
                         </div>
                         <p className='text-base sm:text-lg p-5 ml-10'>
                             Skill consultancy provides clarity on your <br /> career path and boosts your confidence in <br /> pursuing the right skills.</p>
@@ -144,7 +144,7 @@ function consultancy() {
                     <div className='mt-0'>
                         <div className='flex'>
                             <div className="bg-[#00c5ff]  ml-2 p-5  w-10 h-10 rounded-full"> </div>
-                            <div className="bg-[#1b1d38]  ml-2 p-2  w-60 h-10 font-bold rounded-md shadow-md text-lg text-white">Targeted Approach </div>
+                            <div className="bg-[#1b1d38]  ml-2 p-2   text-sm w-44 md:w-60 h-10 font-bold rounded-md shadow-md md:text-lg text-white">Targeted Approach </div>
                         </div>
                         <p className='text-base sm:text-lg p-5 ml-10'>
 
@@ -156,7 +156,7 @@ function consultancy() {
                     <div className='mt-0'>
                         <div className='flex'>
                             <div className="bg-[#00c5ff]  ml-2 p-5  w-10 h-10 rounded-full"> </div>
-                            <div className="bg-[#1b1d38]  ml-2 p-2  w-60 h-10 font-bold rounded-md shadow-md text-lg text-white"> Time Efficiency </div>
+                            <div className="bg-[#1b1d38]  ml-2 p-2   text-sm w-44 md:w-60 h-10 font-bold rounded-md shadow-md text-lg text-white"> Time Efficiency </div>
                         </div>
                         <p className='text-base sm:text-lg p-5 ml-10'>
 
@@ -168,7 +168,7 @@ function consultancy() {
                     <div className='mt-0'>
                         <div className='flex'>
                             <div className="bg-[#00c5ff]  ml-2 p-5  w-10 h-10 rounded-full"> </div>
-                            <div className="bg-[#1b1d38]  ml-2 p-2  w-60 h-10 font-bold rounded-md shadow-md text-lg text-white"> Competitive Edge </div>
+                            <div className="bg-[#1b1d38]  ml-2 p-2   text-sm w-44 md:w-60 h-10 font-bold rounded-md shadow-md text-lg text-white"> Competitive Edge </div>
                         </div>
                         <p className='text-base sm:text-lg p-5 ml-10'>
                             By staying ahead of the skills curve, you'll <br /> gain a competitive edge in the job market <br /> and stand out to potential employers.</p>
@@ -179,7 +179,7 @@ function consultancy() {
                     <div className='mt-0'>
                         <div className='flex'>
                             <div className="bg-[#00c5ff]  ml-2 p-5  w-10 h-10 rounded-full"> </div>
-                            <div className="bg-[#1b1d38]  ml-2 p-2  w-60 h-10 font-bold rounded-md shadow-md text-lg text-white">Lifetime Learning </div>
+                            <div className="bg-[#1b1d38]  ml-2 p-2   text-sm w-44 md:w-60 h-10 font-bold rounded-md shadow-md text-lg text-white">Lifetime Learning </div>
                         </div>
                         <p className='text-base sm:text-lg p-5 ml-10'>
                             The skills you acquire through our <br /> consultancy will benefit you throughout <br /> your career, ensuring long-term <br /> professional success.</p>
