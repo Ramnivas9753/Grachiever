@@ -628,7 +628,7 @@ function Home () {
        <Z_index_card1 />
   </div>
   <div className='text-center md:mt-[8%] mt-[40%]'>
-    <Link to='BrowseAll'><button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2 rounded-xl px-20 text-lg font-bold"
+    <Link to='BrowseAll'><button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2 rounded-xl px-20 text-lg font-bold mt-10"
       data-aos="zoom-in"
       data-aos-easing="ease-out-cubic"
       data-aos-duration="1000">Browse All</button></Link> 
@@ -652,10 +652,10 @@ function Home () {
           <p className="p-2 mt-5 text-lg md:w-[75%] font-bold text-gray-600">From in-demand skills to future-ready courses, Grachiever makes it simple to discover and enroll in the courses you need to achieve your career goals.</p>
          </div>
         <div className=" m-auto mb-5">
-            <button className="p-2 rounded-lg bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] px-8 text-lg mt-5"
+            <Link to="/BrowseAll"><button className="p-2 rounded-lg bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] px-8 text-lg mt-5"
               data-aos="zoom-in"
               data-aos-easing="ease-out-cubic"
-              data-aos-duration="1000">Start Learning For Free</button>
+              data-aos-duration="1000">Start Learning For Free</button></Link>
         </div>
       </div>
 
@@ -669,7 +669,7 @@ function Home () {
      <div className="m-10">
       <h1 className=" md:text-3xl lg:text-5xl font-bold ">Blog</h1>
       <p className="mt-2 mb-2  font-semibold">Most Recent</p>
-      <button className="p-2 rounded-lg bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] md:px-8 md:-mt-[5%] mr-6 md:float-right text-lg ">Browse Blog</button>
+      <Link to="/blog"><button className="p-2 rounded-lg bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] md:px-8 md:-mt-[5%] mr-6 md:float-right text-lg ">Browse Blog</button></Link>
       <hr />
     </div>
       

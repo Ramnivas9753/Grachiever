@@ -38,7 +38,7 @@ export default function FlipCard() {
       <div className="flip-card-inner">
         <div className="flip-card-front ">
           <RibbonFlag />
-          <button onClick={flipCard} type="button" class="md:px-4 md:py-1.5 absolute top-1 right-0 text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-xs px-3 py-1.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800"><AiOutlineArrowRight/></button>
+          <button onClick={flipCard} type="button" className="md:px-4 md:py-1.5 absolute top-1 right-0 text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-xs px-3 py-1.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-500 dark:focus:ring-blue-800"><AiOutlineArrowRight/></button>
           
           <img src={img1} alt="" />
           <div className="action-btns">
@@ -49,7 +49,7 @@ export default function FlipCard() {
         <div className="flip-card-back">
           <h1 className="font-bold text-black md:text-xl">Audioread</h1>
           <h3 className="text-center mt-3">This tool is verified because it is either an established company or has good social media presence.</h3>
-          <button onClick={save} type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-normal rounded-lg text-xm px-2 py-1.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Back</button>
+          <button onClick={save} type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-normal rounded-lg text-xm px-2 py-1.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Back</button>
           
         </div>
       </div>
@@ -69,7 +69,7 @@ export default function FlipCard() {
       <div className="ml-4 text-yellow-400" >&#9733; &#9733; &#9733; &#9733; &#9734;  (2) </div>
       <div className="flex justify-center mt-2">
         <Link className="flex w-full" to='##'>
-      <button type="button" class="flex justify-center gap-2 ml-2 w-full text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-4 py-2 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Visit <FiExternalLink/></button></Link>
+      <button type="button" className="flex justify-center gap-2 ml-2 w-full text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-4 py-2 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Visit <FiExternalLink/></button></Link>
       
       </div>
       </div>
