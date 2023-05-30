@@ -327,7 +327,7 @@ function Home () {
         <div className="lg:h-full md:h-full mx-5 sm:mx-5 md:mx-5 lg:mx-10 md:order-first order-last"
         >
       
-            <h1 className=" mt-5 text-xl sm:text-3xl font-bold"><span class="text-[#4eb0e1]">Track</span> The Trending<br/> <span class="text-[#4eb0e1]">Skills</span> Over Time</h1>
+            <h1 className=" mt-5 text-xl sm:text-3xl font-bold"><span className="text-[#4eb0e1]">Track</span> The Trending<br/> <span className="text-[#4eb0e1]">Skills</span> Over Time</h1>
             <p className="mt-5 text-sm sm:text-xl">Our Skill Graph feature helps you stay up-to-date with the latest skills in demand. our Skill Graph displays the trending skills over time.</p>
             <p  className="mt-5 text-sm sm:text-xl">allowing you to identify which skills are gaining popularity and which are losing relevance. With this powerful tool, you can make informed decisions about the skills you want to learn or develop, ensuring you stay ahead of the curve in your chosen field.</p>
             <div className='mt-3 sm:mt-10'>
@@ -483,7 +483,7 @@ function Home () {
        data-aos-duration="2000" >
         
 
-        <h1 className='text-center font-semibold text-white text-md sm:text-3xl md:p-0 mb-10'><span class="text-[#4eb0e1]">BOOST</span> YOUR PRODUCTIVITY <br />WITH GRACHIEVER`S TOOLS SERVICE</h1>
+        <h1 className='text-center font-semibold text-white text-md sm:text-3xl md:p-0 mb-10'><span className="text-[#4eb0e1]">BOOST</span> YOUR PRODUCTIVITY <br />WITH GRACHIEVER`S TOOLS SERVICE</h1>
 
        <div className='flex justify-center items-center gap-0 md:gap-20 flex-row mx-auto overflow-auto '></div>
 
@@ -508,7 +508,7 @@ function Home () {
       data-aos-easing="ease-out-cubic"
       data-aos-duration="2000">
       <div className="m-2 h-auto p-2 mt-[]">
-          {/* <h1 className=" md:text-3xl lg:text-5xl mx-0 sm:mx-0 md:mx-20 font-bold my-10">Skill <span class="text-[#4eb0e1]">Consultancy</span></h1> */}
+          {/* <h1 className=" md:text-3xl lg:text-5xl mx-0 sm:mx-0 md:mx-20 font-bold my-10">Skill <span className="text-[#4eb0e1]">Consultancy</span></h1> */}
 
     {/* <!--Skill Consultancy left section--> */}
 
@@ -516,7 +516,7 @@ function Home () {
           <div className="mx-0 sm:mx-5 md:mx-20 lg:mx-20 mb-10 md:order-first order-last"
           >
           
-              <h1 className="font-bold md:text-4xl">Find Your <span class="text-[#4eb0e1]">Dream Career</span> With Grachiever's Skill Consultancy</h1>
+              <h1 className="font-bold md:text-4xl">Find Your <span className="text-[#4eb0e1]">Dream Career</span> With Grachiever's Skill Consultancy</h1>
               <p className="md:text-lg mt-5">Our skilled consultancy service provides various offerings to guide you in selecting the most suitable skills. We help you identify in-demand skills, suggest the best courses to develop those skills, and advise you on future-ready skills that AI cannot replace."</p>
 
                   <li className=" mx-5 mt-5"><strong className='text-black'>Personalized Guidance:</strong> Tailored advice for your unique path.</li>

@@ -18,7 +18,7 @@ function Footer() {
             <form action="">
               <div className="bg-white flex items-center mt-5 rounded-full outline-none">
                 <input type="text" className="py-2.5 px-4 outline-none w-full rounded-full" placeholder="Enter your email" />
-                <buuton type="submit" className="w-14 m-1 h-12 rounded-full bg-[#349fcf] text-white"><FaAngleRight className='text-3xl mx-auto mt-1 h-10 animate-pulse' /></buuton>
+                <button type="submit" className="w-14 m-1 h-12 rounded-full bg-[#349fcf] text-white"><FaAngleRight className='text-3xl mx-auto mt-1 h-10 animate-pulse' /></button>
               </div>
             </form>
           </div>
