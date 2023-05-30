@@ -554,19 +554,24 @@ function Home () {
   
     <div className="text-center m-2 mt-5">
         <select className="mt-5 w-full md:w-64 lg:w-64  h-14 border rounded-xl text-xl p-2  md:m-2 md:font-semibold outline-none">
-            <option>Category</option>
-            <option>Data</option>
-            <option>Digital Marketing</option>
-            <option>A.I.M.L.</option>
-            <option>Video Animation</option>
-            <option>Graphics and Design</option>
+            <option>Career Guidance</option>
+            <option>Skill Assessment</option>
+            <option>Job placement</option>
+            <option>Interview Coaching</option>
+            <option>Personal Branding</option>
+            <option>Networking</option>
+            <option>Industry Insights</option>
+            <option>Professional Development</option>
+            <option>Soft Skills Training</option>
+            <option>Career Transition</option>
         </select>
     
    
         <select className="mt-5 w-full md:w-60 lg:w-60 h-14 border rounded-xl text-xl p-2  md:m-2 md:font-semibold outline-none">
-            <option>Demo Plane</option>
-            <option>Basic Plane</option>
-            <option>Advance Plan</option>
+            <option>Call</option>
+            <option>Virtual Meeting</option>
+            <option>Email</option>
+            <option>Chat</option>
           </select>
           <button className="mt-5 w-full md:w-auto m-auto bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] text-xl rounded-full p-3 md:px-10"
             data-aos="zoom-in"
