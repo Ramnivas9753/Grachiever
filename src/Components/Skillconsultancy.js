@@ -156,7 +156,7 @@ function consultancy() {
                     <div className='mt-0'>
                         <div className='flex'>
                             <div className="bg-[#00c5ff]  ml-2 p-5  w-10 h-10 rounded-full"> </div>
-                            <div className="bg-[#1b1d38]  ml-2 p-2   text-sm w-44 md:w-60 h-10 font-bold rounded-md shadow-md text-lg text-white"> Time Efficiency </div>
+                            <div className="bg-[#1b1d38]  ml-2 p-2   text-sm w-44 md:w-60 h-10 font-bold rounded-md shadow-md md:text-lg text-white"> Time Efficiency </div>
                         </div>
                         <p className='text-base sm:text-lg p-5 ml-10'>
 
@@ -168,7 +168,7 @@ function consultancy() {
                     <div className='mt-0'>
                         <div className='flex'>
                             <div className="bg-[#00c5ff]  ml-2 p-5  w-10 h-10 rounded-full"> </div>
-                            <div className="bg-[#1b1d38]  ml-2 p-2   text-sm w-44 md:w-60 h-10 font-bold rounded-md shadow-md text-lg text-white"> Competitive Edge </div>
+                            <div className="bg-[#1b1d38]  ml-2 p-2   text-sm w-44 md:w-60 h-10 font-bold rounded-md shadow-md md:text-lg text-white"> Competitive Edge </div>
                         </div>
                         <p className='text-base sm:text-lg p-5 ml-10'>
                             By staying ahead of the skills curve, you'll <br /> gain a competitive edge in the job market <br /> and stand out to potential employers.</p>
@@ -179,7 +179,7 @@ function consultancy() {
                     <div className='mt-0'>
                         <div className='flex'>
                             <div className="bg-[#00c5ff]  ml-2 p-5  w-10 h-10 rounded-full"> </div>
-                            <div className="bg-[#1b1d38]  ml-2 p-2   text-sm w-44 md:w-60 h-10 font-bold rounded-md shadow-md text-lg text-white">Lifetime Learning </div>
+                            <div className="bg-[#1b1d38]  ml-2 p-2   text-sm w-44 md:w-60 h-10 font-bold rounded-md shadow-md md:text-lg text-white">Lifetime Learning </div>
                         </div>
                         <p className='text-base sm:text-lg p-5 ml-10'>
                             The skills you acquire through our <br /> consultancy will benefit you throughout <br /> your career, ensuring long-term <br /> professional success.</p>
@@ -440,7 +440,7 @@ function consultancy() {
                 </div>
 
             </section> */}
-           <section className="bg-white bg-sky-100">
+           <section className=" bg-sky-100">
   <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
       <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-black">Designed for business teams like yours</h2>

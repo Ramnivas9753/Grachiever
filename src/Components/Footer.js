@@ -28,7 +28,7 @@ function Footer() {
               <a
                 href="#!"
                 type="button"
-                className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-[#349fcf]"
+                className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-[#349fcf]"
                 data-te-ripple-init
                 data-te-ripple-color="light">
                 <svg
@@ -44,7 +44,7 @@ function Footer() {
               <a
                 href="https://twitter.com/grachievermedia/"
                 type="button"
-                className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-[#349fcf]"
+                className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-[#349fcf]"
                 data-te-ripple-init
                 data-te-ripple-color="light">
                 <svg
@@ -60,7 +60,7 @@ function Footer() {
               <a
                 href="https://instagram.com/grachiever?igshid=ZDdkNTZiNTM="
                 type="button"
-                className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-[#349fcf]"
+                className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition  ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-[#349fcf]"
                 data-te-ripple-init
                 data-te-ripple-color="light">
                 <svg
@@ -75,7 +75,7 @@ function Footer() {
               <a
                 href="https://www.linkedin.com/company/grachiever/"
                 type="button"
-                className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-[#349fcf]"
+                className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-[#349fcf]"
                 data-te-ripple-init
                 data-te-ripple-color="light">
                 <svg
