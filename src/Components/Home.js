@@ -627,7 +627,7 @@ function Home () {
     <h1 className="text-center md:text-5xl">Popular <span className='text-[#00c5ff]'>In-Demand </span> Services</h1>
        <Z_index_card1 />
   </div>
-  <div className='text-center mt-24'>
+  <div className='text-center md:mt-[8%] mt-[40%]'>
     <Link to='BrowseAll'><button className="bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] p-2 rounded-xl px-20 text-lg font-bold"
       data-aos="zoom-in"
       data-aos-easing="ease-out-cubic"
