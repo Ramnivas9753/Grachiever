@@ -225,7 +225,7 @@ const Item = ({ level, image }) => {
   const className = `item level${level}`;
   return (
     <div className={className}>
-      <img src={image} alt="Item Image" className="h-72 w-full h-full" />
+      <img src={image} alt="Item Image" className="w-full h-full" />
       <div className="caption">PROMPT CREATOR</div>
     </div>
   );
