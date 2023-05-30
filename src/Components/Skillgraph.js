@@ -13,7 +13,7 @@ function Skill() {
               data-aos-easing="ease-out-cubic"
               data-aos-duration="2000">
                 <h1 className="text-xl md:text-3xl font-bold text-center p-3 mt-2">
-                    Unleash Your Potential with <span class="text-[#00c5ff]">Skill Graph</span>: <br />
+                    Unleash Your Potential with <span className="text-[#00c5ff]">Skill Graph</span>: <br />
                     Real-Time Insights for Career Growth
                 </h1>
                 <div className="h-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2" >
@@ -57,7 +57,7 @@ function Skill() {
               data-aos-duration="2000">
                 <div className="h-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2" >
                     <div className="lg:h-full md:h-full mx-5 sm:mx-5 md:mx-10 lg:mx-10 mt-20">
-                        <h1 className="text-3xl font-bold text-left p-3 mt-2">Understanding <span class="text-[#00c5ff]">Skill Graph</span> </h1>
+                        <h1 className="text-3xl font-bold text-left p-3 mt-2">Understanding <span className="text-[#00c5ff]">Skill Graph</span> </h1>
                         <p className="mt-5 text-sm sm:text-lg">
                             Skill Graph is a cutting-edge platform that leverages data analytics and artificial intelligence to offer valuable insights into skill trends. It gathers information from various sources, such as job postings, industry reports, and expert analysis, to provide users with up-to-date information on the skills that are in high demand. By understanding the current market needs, professionals can make informed decisions about their skill development journey.</p>
                         <div className=' mt-10'>
@@ -85,7 +85,7 @@ function Skill() {
                         <img src={sgraph} className='p-5 md:pl-10 lg:p-10' />
                     </div>
                     <div className="lg:h-full md:h-full mt-20  mx-5 sm:mx-5 md:mx-10 lg:mx-10">
-                     <h1 className="text-3xl  font-bold  p-0 mr-0 ">Navigating the <span class="text-[#00c5ff]">Professional Skills</span> Landscape </h1>
+                     <h1 className="text-3xl  font-bold  p-0 mr-0 ">Navigating the <span className="text-[#00c5ff]">Professional Skills</span> Landscape </h1>
                         <p className="mt-10 text-sm sm:text-lg">
                             The professional skills landscape is constantly evolving, with new technologies and industry trends emerging regularly. Skill Graph acts as a compass, guiding users through this ever-changing landscape. It offers a user-friendly interface that allows individuals to explore different skill categories and understand their relevance in specific industries.<br /> By identifying the most sought-after skills, Skill Graph helps users prioritize their learning efforts and stay ahead of the competition.</p>
                         <div className='grid mt-10'>
@@ -106,7 +106,7 @@ function Skill() {
               data-aos-duration="2000">
                 <div className="h-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2" >
                     <div className="lg:h-full md:h-full mx-5 sm:mx-5 md:mx-10 lg:mx-10 mt-20">
-                        <h1 className="text-3xl font-bold text-left p-3 mt-2">Tailored Skill <span class="text-[#00c5ff]">Development</span> Plan </h1>
+                        <h1 className="text-3xl font-bold text-left p-3 mt-2">Tailored Skill <span className="text-[#00c5ff]">Development</span> Plan </h1>
                         <p className="mt-5 text-sm sm:text-lg">
 
                             Skill Graph is a cutting-edge platform that leverages data analytics and artificial intelligence to offer valuable insights into skill trends. It gathers information from various sources, such as job postings, industry reports, and expert analysis, to provide users with up-to-date information on the skills that are in high demand. By understanding the current market needs, professionals can make informed decisions about their skill development journey.</p>
@@ -132,7 +132,7 @@ function Skill() {
                     <div className="lg:h-full md:h-full mt-20  mx-5 sm:mx-5 md:mx-10 lg:mx-10"
                     // lg:h-full md:h-full mx-5 sm:mx-10 md:mx-10 lg:mx-10 mt-[-6rem] lg:mt-20
                   >
-                    <h1 className="text-3xl font-bold">Unlocking <span class="text-[#00c5ff]">Opportunities</span> for Career Growth </h1>
+                    <h1 className="text-3xl font-bold">Unlocking <span className="text-[#00c5ff]">Opportunities</span> for Career Growth </h1>
                         <p className="mt-5 text-sm sm:text-lg">
                             With Skill Graph, you not only gain insights into the skills needed for your current role but also discover new opportunities for career growth. By understanding the emerging trends and skills that are highly sought-after, you can identify potential areas where you can expand your expertise and explore new career paths. Skill Graph provides you with a comprehensive overview of the skills that are in high demand across industries, helping you make informed decisions about your professional development.</p>
                     </div>

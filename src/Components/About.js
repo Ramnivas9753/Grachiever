@@ -15,7 +15,7 @@ function About() {
        data-aos-easing="ease-out-cubic"
        data-aos-duration="2000">
         Empowering Your Career Journey: <br />
-        Trust Grachiever for a Brighter <span class="text-[#4eb0e1]">Future</span>
+        Trust Grachiever for a Brighter <span className="text-[#4eb0e1]">Future</span>
       </h1>
       <p className=" text-center mt-5 m-auto p-2"
        data-aos="fade-up"
@@ -50,7 +50,7 @@ function About() {
            data-aos-easing="ease-out-cubic"
            data-aos-duration="2000">
             <h1 className="text-white  md:text-3xl font-bold  p-3 mt-2 md:w-[50%] md:ml-[40%]">
-              Grachiever: Empowering Achievement<br /> through <span class="text-[#4eb0e1]">Job-Ready</span> Digital Skills
+              Grachiever: Empowering Achievement<br /> through <span className="text-[#4eb0e1]">Job-Ready</span> Digital Skills
             </h1>
             <p className=" text-white  p-3 md:w-[50%] mt-5 md:ml-[40%]">
               At Grachiever, we offer a globally scalable solution to address the widespread digital talent shortages impacting growth,
@@ -89,7 +89,7 @@ function About() {
           </div>
           <div className="bg-[#1b1d38]  md:-ml-[55%] lg:h-[480px] md:h-[670px] h-[550px] md:w-auto md:h-96 row-span-2 md:col-span-2 ... rounded-br-3xl rounded-tl-3xl ">
             <h1 className="text-white  md:text-3xl font-bold  p-3 mt-2 md:w-[50%] md:ml-[40%]">
-              Grachiever: Empowering Achievement<br /> through <span class="text-[#4eb0e1]">Job-Ready</span> Digital Skills
+              Grachiever: Empowering Achievement<br /> through <span className="text-[#4eb0e1]">Job-Ready</span> Digital Skills
             </h1>
             <p className=" text-white font-bold  p-3 md:w-[50%] mt-5 md:ml-[40%]">
               At Grachiever, we offer a globally scalable solution to address the widespread digital talent shortages impacting growth, productivity, and innovation. Through collaboration with enterprises and highly motivated individuals, we design customized talent transformation journeys using our advanced Digital Competency Platform.
@@ -105,7 +105,7 @@ function About() {
       <h1 className="md:text-3xl font-bold text-center p-3 mt-5">
         Unlock Your Potential with Grachiever:<br />
         Comprehensive Services for
-        <span class="text-[#4eb0e1]"> Career Advancement</span>
+        <span className="text-[#4eb0e1]"> Career Advancement</span>
       </h1>
       <div className="flex flex-col gap-8 mb-5 p-5"
        data-aos="fade-up"
@@ -163,7 +163,7 @@ function About() {
        data-aos-easing="ease-out-cubic"
        data-aos-duration="2000">
         <div className="bg-[#1b1d38] p-5 text-center sm:text-2xl md:text-3xl lg:text-5xl text-white rounded-3xl m-1">
-          <h1 className="text-white">Accelerate Your Skills Growth with <br /><span class="text-[#4eb0e1]">Grachiever's Services</span></h1>
+          <h1 className="text-white">Accelerate Your Skills Growth with <br /><span className="text-[#4eb0e1]">Grachiever's Services</span></h1>
         </div>
       </section>
 
