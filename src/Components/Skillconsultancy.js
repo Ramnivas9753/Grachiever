@@ -14,7 +14,7 @@ function consultancy() {
                 data-aos-duration="2000">
                 <div className=" grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2" >
                     <div className="mt-10 md:mt-20 md:w-[100%] bg-[#1b1d38] rounded-3xl order-2 md:order-1">
-                        <h1 className="text-3xl md:text-6xl font-bold text-white text-left md:px-24 p-12 mt-8">Tailored Skill <br /> Consultancy for <br /> <span class="text-3xl md:text-6xl text-[#00c5ff]">Future Success</span> </h1>
+                        <h1 className="text-xl sm:text-3xl md:text-6xl font-bold text-white text-left md:px-24 p-12 sm:mt-8">Tailored Skill <br /> Consultancy for <br /> <span class="text-xl sm:text-3xl md:text-6xl text-[#00c5ff]">Future Success</span> </h1>
                     </div>
                     {/* <!--Graph Section*/}
                     <div className="mt-3 md:mt-0 md:order-2 order-1">
@@ -33,7 +33,7 @@ function consultancy() {
                         data-aos="zoom-in"
                         data-aos-easing="ease-out-cubic"
                         data-aos-duration="1000">Take the Next Step</button>
-                    <p className="text-lg p-10 text-left">
+                    <p className="text-base sm:text-lg p-10 text-left">
                         In today's fast-paced and competitive job market, it's crucial to stay ahead of the curve. Employers are constantly seeking candidates with the latest skills and abilities that align with industry trends. At Grachiever, we recognize the challenges professionals face in keeping up with these changes. That's why we've developed Skill Graph – an innovative tool designed to provide real-time insights and recommendations for career growth.
                     </p>
                 </div>
@@ -135,7 +135,7 @@ function consultancy() {
                             <div className="bg-[#00c5ff]  ml-2 p-5 w-10 h-10 rounded-full"> </div>
                             <div className="bg-[#1b1d38]  ml-2 p-2  text-sm w-44 md:w-60 h-10 font-bold rounded-md shadow-md md:text-lg text-white">Confidence and Clarity </div>
                         </div>
-                        <p className='text-base sm:text-lg p-5 ml-10'>
+                        <p className='text-base sm:text-lg p-5 sm:ml-10'>
                             Skill consultancy provides clarity on your <br /> career path and boosts your confidence in <br /> pursuing the right skills.</p>
                     </div>
                     {/* ----------------------------- */}
@@ -146,7 +146,7 @@ function consultancy() {
                             <div className="bg-[#00c5ff]  ml-2 p-5  w-10 h-10 rounded-full"> </div>
                             <div className="bg-[#1b1d38]  ml-2 p-2   text-sm w-44 md:w-60 h-10 font-bold rounded-md shadow-md md:text-lg text-white">Targeted Approach </div>
                         </div>
-                        <p className='text-base sm:text-lg p-5 ml-10'>
+                        <p className='text-base sm:text-lg p-5 sm:ml-10'>
 
                             Our consultants have a deep <br /> understanding of industry trends and can <br /> guide you towards the most relevant and <br /> valuable skills.</p>
                     </div>
@@ -158,7 +158,7 @@ function consultancy() {
                             <div className="bg-[#00c5ff]  ml-2 p-5  w-10 h-10 rounded-full"> </div>
                             <div className="bg-[#1b1d38]  ml-2 p-2   text-sm w-44 md:w-60 h-10 font-bold rounded-md shadow-md md:text-lg text-white"> Time Efficiency </div>
                         </div>
-                        <p className='text-base sm:text-lg p-5 ml-10'>
+                        <p className='text-base sm:text-lg p-5 sm:ml-10'>
 
                             With our expertise, you can avoid wasting <br /> time on irrelevant or outdated skills, <br /> focusing only on what matters most.</p>
                     </div>
@@ -170,7 +170,7 @@ function consultancy() {
                             <div className="bg-[#00c5ff]  ml-2 p-5  w-10 h-10 rounded-full"> </div>
                             <div className="bg-[#1b1d38]  ml-2 p-2   text-sm w-44 md:w-60 h-10 font-bold rounded-md shadow-md md:text-lg text-white"> Competitive Edge </div>
                         </div>
-                        <p className='text-base sm:text-lg p-5 ml-10'>
+                        <p className='text-base sm:text-lg p-5 sm:ml-10'>
                             By staying ahead of the skills curve, you'll <br /> gain a competitive edge in the job market <br /> and stand out to potential employers.</p>
                     </div>
                     {/* ----------------------------- */}
@@ -181,7 +181,7 @@ function consultancy() {
                             <div className="bg-[#00c5ff]  ml-2 p-5  w-10 h-10 rounded-full"> </div>
                             <div className="bg-[#1b1d38]  ml-2 p-2   text-sm w-44 md:w-60 h-10 font-bold rounded-md shadow-md md:text-lg text-white">Lifetime Learning </div>
                         </div>
-                        <p className='text-base sm:text-lg p-5 ml-10'>
+                        <p className='text-base sm:text-lg p-5 sm:ml-10'>
                             The skills you acquire through our <br /> consultancy will benefit you throughout <br /> your career, ensuring long-term <br /> professional success.</p>
                     </div>
                     {/* ----------------------------- */}
@@ -450,7 +450,7 @@ function consultancy() {
            data-aos="fade-up"
            data-aos-easing="ease-out-cubic"
            data-aos-duration="2000">
-          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-black">Designed for business teams like yours</h2>
+          <h2 className="mb-4 text-xl sm:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-black">Designed for business teams like yours</h2>
           <p className="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
       </div>
       <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
