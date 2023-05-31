@@ -440,9 +440,16 @@ function consultancy() {
                 </div>
 
             </section> */}
-           <section className=" bg-sky-100">
-  <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-      <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
+           <section className=" bg-sky-100"
+                data-aos="fade-up"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+  <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6"
+         >
+      <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12"
+           data-aos="fade-up"
+           data-aos-easing="ease-out-cubic"
+           data-aos-duration="2000">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-black">Designed for business teams like yours</h2>
           <p className="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
       </div>
@@ -483,7 +490,10 @@ function consultancy() {
                       <span>Free updates: <span className="font-semibold">6 months</span></span>
                   </li>
               </ul>
-              <a href="#" className="text-white bg-sky-400 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
+              <a href="#" className="text-white bg-sky-400 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900"
+                data-aos="zoom-in"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">Get started</a>
           </div>
           {/*Pricing Card */}
           <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
@@ -521,7 +531,10 @@ function consultancy() {
                       <span>Free updates: <span className="font-semibold">24 months</span></span>
                   </li>
               </ul>
-              <a href="#" className="text-white bg-sky-400 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
+              <a href="#" className="text-white bg-sky-400 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900"
+                data-aos="zoom-in"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">Get started</a>
           </div>
           {/*Pricing Card */}
           <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
@@ -559,7 +572,10 @@ function consultancy() {
                       <span>Free updates: <span className="font-semibold">36 months</span></span>
                   </li>
               </ul>
-              <a href="#" className="text-white bg-sky-400 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900">Get started</a>
+              <a href="#" className="text-white bg-sky-400 hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white  dark:focus:ring-primary-900"
+               data-aos="zoom-in"
+               data-aos-easing="ease-out-cubic"
+               data-aos-duration="2000">Get started</a>
           </div>
       </div>
   </div>

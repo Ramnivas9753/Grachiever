@@ -669,7 +669,10 @@ function Home () {
      <div className="m-10">
       <h1 className=" md:text-3xl lg:text-5xl font-bold ">Blog</h1>
       <p className="mt-2 mb-2  font-semibold">Most Recent</p>
-      <Link to="/blog"><button className="p-2 rounded-lg bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] md:px-8 md:-mt-[5%] mr-6 md:float-right text-lg ">Browse Blog</button></Link>
+      <Link to="/blog"><button className="p-2 rounded-lg bg-[#00c5ff] hover:bg-white text-white hover:text-black border-2 border-[#00c5ff] md:px-8 md:-mt-[5%] mr-6 md:float-right text-lg "
+                  data-aos="zoom-in"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="1000">Browse Blog</button></Link>
       <hr />
     </div>
       
