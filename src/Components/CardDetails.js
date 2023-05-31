@@ -31,7 +31,7 @@ const CardDetails = () => {
                         <img src={img} alt="" />
                         <div className="flex justify-center flex-col mt-2">
                             <Link className="flex w-full" to='/CardDetails'>
-                                <button type="button" class="flex justify-center gap-2 ml-2 w-full text-white bg-sky-400 hover:bg-sky-600 focus:outline-none focus:ring-4 focus:ring-sky-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-sky-500 dark:hover:bg-sky-700 dark:focus:ring-sky-800">Go to class <FiExternalLink /></button></Link>
+                                <button type="button" className="flex justify-center gap-2 ml-2 w-full text-white bg-sky-400 hover:bg-sky-600 focus:outline-none focus:ring-4 focus:ring-sky-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-sky-500 dark:hover:bg-sky-700 dark:focus:ring-sky-800">Go to class <FiExternalLink /></button></Link>
 
                             <div className='flex font-sans cursor-pointer ml-4 m-3 flex-row gap-x-2'> <AiOutlineDollarCircle className='text-black text-xl mt-1' /> <p className='text-black mt-1'>Independent</p> <BsFillQuestionCircleFill className='text-black mt-1.5' />
                             </div>
@@ -115,11 +115,11 @@ const CardDetails = () => {
                         <div className='flex flex-row items-center flex-wrap mt-2 gap-x-2'>
                             <button className=" flex flex-row text-black text-2xl mb-2" onClick={() => setIcon((old) => changeIcon(old))}>{icon === "check" ? <BsBookmark /> : <BsBookmarkCheckFill />} <p className='text-black text-sm mt-1'>7.2k</p> </button>
 
-                            <button type="button" class=" flex  flex-row gap-x-1 text-sky-700 hover:text-white border border-sky-700 hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-sky-300 font-medium rounded-lg text-sm px-5 py-1.5 text-center mr-2 mb-2 dark:border-sky-500 dark:text-sky-500 dark:hover:text-white dark:hover:bg-sky-500 dark:focus:ring-sky-500"><BiBookAdd className='text-xl' />Add to list</button>
+                            <button type="button" className=" flex  flex-row gap-x-1 text-sky-700 hover:text-white border border-sky-700 hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-sky-300 font-medium rounded-lg text-sm px-5 py-1.5 text-center mr-2 mb-2 dark:border-sky-500 dark:text-sky-500 dark:hover:text-white dark:hover:bg-sky-500 dark:focus:ring-sky-500"><BiBookAdd className='text-xl' />Add to list</button>
 
                             <button type="button" className=" flex  flex-row gap-x-1 text-sky-700 hover:text-white border border-sky-700 hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-sky-300 font-medium rounded-lg text-sm px-5 py-1.5 text-center mr-2 mb-2 dark:border-sky-500 dark:text-sky-500 dark:hover:text-white dark:hover:bg-sky-500 dark:focus:ring-sky-500"> <CiCircleChevRight className='text-xl' />Mark complete</button>
 
-                            <button type="button" class="text-white bg-sky-700 hover:bg-sky-800 focus:ring-4 focus:ring-sky-300 font-medium rounded-lg text-sm px-5 py-2 mr-2 mb-2 dark:bg-sky-600 dark:hover:bg-sky-700 focus:outline-none dark:focus:ring-sky-800">Write review</button>
+                            <button type="button" className="text-white bg-sky-700 hover:bg-sky-800 focus:ring-4 focus:ring-sky-300 font-medium rounded-lg text-sm px-5 py-2 mr-2 mb-2 dark:bg-sky-600 dark:hover:bg-sky-700 focus:outline-none dark:focus:ring-sky-800">Write review</button>
                         </div>
                     </div>
 

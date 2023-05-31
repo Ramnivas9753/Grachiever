@@ -18,7 +18,7 @@ function Footer() {
             <form action="">
               <div className="bg-white flex items-center mt-5 rounded-full outline-none">
                 <input type="text" className="py-2.5 px-4 outline-none w-full rounded-full" placeholder="Enter your email" />
-                <buuton type="submit" className="w-14 m-1 h-12 rounded-full bg-[#349fcf] text-white"><FaAngleRight className='text-3xl mx-auto mt-1 h-10 animate-pulse' /></buuton>
+                <button type="submit" className="w-14 m-1 h-12 rounded-full bg-[#349fcf] text-white"><FaAngleRight className='text-3xl mx-auto mt-1 h-10 animate-pulse' /></button>
               </div>
             </form>
           </div>
@@ -28,7 +28,7 @@ function Footer() {
               <a
                 href="#!"
                 type="button"
-                className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-[#349fcf]"
+                className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-[#349fcf]"
                 data-te-ripple-init
                 data-te-ripple-color="light">
                 <svg
@@ -42,9 +42,9 @@ function Footer() {
               </a>
 
               <a
-                href="#!"
+                href="https://twitter.com/grachievermedia/"
                 type="button"
-                className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-[#349fcf]"
+                className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-[#349fcf]"
                 data-te-ripple-init
                 data-te-ripple-color="light">
                 <svg
@@ -60,7 +60,7 @@ function Footer() {
               <a
                 href="https://instagram.com/grachiever?igshid=ZDdkNTZiNTM="
                 type="button"
-                className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-[#349fcf]"
+                className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition  ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-[#349fcf]"
                 data-te-ripple-init
                 data-te-ripple-color="light">
                 <svg
@@ -75,7 +75,7 @@ function Footer() {
               <a
                 href="https://www.linkedin.com/company/grachiever/"
                 type="button"
-                className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-[#349fcf]"
+                className="m-1 h-9 w-9 rounded-full border-2 border-white uppercase leading-normal text-white transition ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 hover:-translate-y-1 hover:scale-110 duration-300 hover:border-[#349fcf]"
                 data-te-ripple-init
                 data-te-ripple-color="light">
                 <svg
@@ -96,28 +96,28 @@ function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 text-white md:mx-10 text-center sm:text-left">
           <div className="p-5  lg:pl-20">
             <h1 className="text-white font-bold text-lg mb-3">About</h1>
-            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">About Us</Link></p>
+            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/about">About Us</Link></p>
             <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">What We offer?</Link></p>
             <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Our services</Link></p>
-            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Contact Us</Link></p>
+            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/contact">Contact Us</Link></p>
           </div>
           <div className="p-5  lg:pl-20">
             <h1 className="text-white font-bold text-lg mb-3">Special</h1>
             <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Grachiever plus</Link></p>
             <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Grachiever for business</Link></p>
-            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Skill graph</Link></p>
-            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Skill Consultancy</Link></p>
+            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/Skillgraph">Skill graph</Link></p>
+            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/skillConsultancy">Skill Consultancy</Link></p>
           </div>
           <div className="p-5 lg:pl-20">
             <h1 className="text-white font-bold text-lg mb-3">Popular</h1>
             <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Course</Link></p>
-            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Skill</Link></p>
-            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Services</Link></p>
-            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Tools</Link></p>
+            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/Skillgraph">Skill</Link></p>
+            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/CardDetails">Services</Link></p>
+            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/CardDetails">Tools</Link></p>
           </div>
           <div className="p-5 lg:pl-20">
             <h1 className="text-white font-bold text-lg mb-3">More</h1>
-            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Blog</Link></p>
+            <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/blog">Blog</Link></p>
             <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Careers</Link> </p>
             <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Help</Link></p>
             <p className="hover:text-[#00c5ff] hover:-translate-y-1 duration-300"><Link to="/">Terms</Link></p>
@@ -128,11 +128,11 @@ function Footer() {
         <div
           className="p-4 text-center text-white">Copyright © 2023 <a className="underline" href="https://tailwind-elements.com/"> Grachiever.</a> All rights reserved.
         </div>
-        <div class='section'>
-        <div class='air air1'></div>
-        <div class='air air2'></div>
-        <div class='air air3'></div>
-        <div class='air air4'></div>
+        <div className='section'>
+        <div className='air air1'></div>
+        <div className='air air2'></div>
+        <div className='air air3'></div>
+        <div className='air air4'></div>
         </div>
       </section>
     </>
